@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="小程序与web开发对比分析注册小程序开发账号 安装开发者工具等 在使用开发工具的过程中 注意 项目名称是唯一的 包括 代码片段 公众号 小游戏   对于初始化的小程序 关注app.json app.js 以及 pages文件夹 app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 配置   添加属性tabBar 可以显示底部固定导航栏：注意list字段中的子项">
+<meta property="og:type" content="article">
+<meta property="og:title" content="     小程序">
+<meta property="og:url" content="http://yoursite.com/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.html">
+<meta property="og:site_name" content="Peiqin">
+<meta property="og:description" content="小程序与web开发对比分析注册小程序开发账号 安装开发者工具等 在使用开发工具的过程中 注意 项目名称是唯一的 包括 代码片段 公众号 小游戏   对于初始化的小程序 关注app.json app.js 以及 pages文件夹 app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 配置   添加属性tabBar 可以显示底部固定导航栏：注意list字段中的子项">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-04-22T16:00:00.000Z">
+<meta property="article:modified_time" content="2019-05-08T09:46:43.000Z">
+<meta property="article:author" content="peiqin">
+<meta property="article:tag" content="work-skill">
+<meta property="article:tag" content="wechat">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>     小程序 | Peiqin</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Peiqin</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">每日更新公众号：众手</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="peiqin">
+      <meta itemprop="description" content="任何东西都会是环环相扣">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Peiqin">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+               小程序
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-04-23 00:00:00" itemprop="dateCreated datePublished" datetime="2019-04-23T00:00:00+08:00">2019-04-23</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-05-08 17:46:43" itemprop="dateModified" datetime="2019-05-08T17:46:43+08:00">2019-05-08</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/skill/" itemprop="url" rel="index"><span itemprop="name">skill</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="post-meta-item leancloud_visitors" data-flag-title="     小程序" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="小程序与web开发对比分析"><a href="#小程序与web开发对比分析" class="headerlink" title="小程序与web开发对比分析"></a>小程序与web开发对比分析</h2><h3 id="注册小程序开发账号-安装开发者工具等"><a href="#注册小程序开发账号-安装开发者工具等" class="headerlink" title="注册小程序开发账号 安装开发者工具等"></a>注册小程序开发账号 安装开发者工具等</h3><ol>
+<li>在使用开发工具的过程中 注意 项目名称是唯一的 包括 代码片段 公众号 小游戏 </li>
+</ol>
+<h3 id="对于初始化的小程序-关注app-json-app-js-以及-pages文件夹"><a href="#对于初始化的小程序-关注app-json-app-js-以及-pages文件夹" class="headerlink" title="对于初始化的小程序 关注app.json app.js 以及 pages文件夹"></a>对于初始化的小程序 关注app.json app.js 以及 pages文件夹</h3><blockquote>
+<p>app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/config.html" target="_blank" rel="noopener">配置</a></p>
+</blockquote>
+<ol>
+<li>添加属性tabBar 可以显示底部固定导航栏：注意list字段中的子项路径（pagePath） 在pages属性中要置顶，必须写在非tabBar页面路径之前 否则tab会显示异常(不显示)</li>
+<li><strong>代码中存在注释</strong> 会引致语法错误 导致页面报错 谨慎使用 </li>
+<li>每个属性的结尾 不能有任何符号</li>
+</ol>
+<blockquote>
+<p>app.js 小程序项目入口文件 项目初始化init  </p>
+</blockquote>
+<blockquote>
+<p>pages文件夹 内放置对应的 单一页面（每个页面文件都基本需要配置 .js .wxml .wxss. .json) </p>
+</blockquote>
+<h3 id="单一页面的生成"><a href="#单一页面的生成" class="headerlink" title="单一页面的生成"></a>单一页面的生成</h3><ul>
+<li><strong>.js</strong> :处理逻辑业务 与web开发类似</li>
+<li><strong>.wxml</strong> :具有模板数据绑定的功能 类似 Vue</li>
+<li><strong>.wxss</strong> :等同css </li>
+<li><strong>.json</strong> :此处添加配置会 将全局中相同的配置覆盖</li>
+</ul>
+<ol>
+<li><strong>.js</strong> : Page({}) 页面实例<strong>必须</strong>正确初始化 否则页面会报错<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">Page(&#123;</span><br><span class="line">    data:&#123;</span><br><span class="line"></span><br><span class="line">        &#125;,</span><br><span class="line">    &#x2F;**</span><br><span class="line">     * 生命周期函数--监听页面加载</span><br><span class="line">     *&#x2F;</span><br><span class="line">    onLoad: function (options) &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure></li>
+<li><strong>.json</strong> : 同上 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<hr>
+<h2 id="与web开发中的html-js-css-对比"><a href="#与web开发中的html-js-css-对比" class="headerlink" title="与web开发中的html js css 对比"></a>与web开发中的html js css 对比</h2><h4 id="由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意"><a href="#由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意" class="headerlink" title="由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:"></a>由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:</h4><h4 id="文档内容较全-初学者-第一天可着重阅读以下整理过后的文档"><a href="#文档内容较全-初学者-第一天可着重阅读以下整理过后的文档" class="headerlink" title="文档内容较全 初学者 第一天可着重阅读以下整理过后的文档"></a>文档内容较全 初学者 第一天可着重阅读以下整理过后的文档</h4><ul>
+<li><p><strong>wxml:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/" target="_blank" rel="noopener">小程序页面的结构</a>   <a href="https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html" target="_blank" rel="noopener">页面导航</a>     <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.switchTab.html" target="_blank" rel="noopener">路由api</a> <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html" target="_blank" rel="noopener">界面交互：例如消息提示框 底部操作菜单等</a></p>
+</li>
+<li><p><strong>.js:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件</a></p>
+</li>
+<li><p><strong>wxss:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html" target="_blank" rel="noopener">wxss</a></p>
+</li>
+</ul>
+<!-- ### 页面之间的跳转 -->
+
+<hr>
+<h2 id="进入小程序项目"><a href="#进入小程序项目" class="headerlink" title="进入小程序项目"></a>进入小程序项目</h2><h3 id="项目拆解"><a href="#项目拆解" class="headerlink" title="项目拆解"></a>项目拆解</h3><blockquote>
+<p>combat-okr项目 文件内应该分为 sever（服务端即Koa框架） client（客户端 即小程序项目）开发时着重各自的开发环境 初学者 避免混淆</p>
+</blockquote>
+<h2 id="1-小程序登录"><a href="#1-小程序登录" class="headerlink" title="1.小程序登录"></a>1.小程序登录</h2><blockquote>
+<p> 本次登录功能分为三部分 客户端（小程序项目） 本地服务端（koa)  微信服务端<br> 登录就是如何处理好 req res 请求和响应的数据接发<br> 区分这两者在不同的服务端的不同语法是关键</p>
+</blockquote>
+<h3 id="三者存在以下关系"><a href="#三者存在以下关系" class="headerlink" title="三者存在以下关系"></a>三者存在以下关系</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">客户端 &lt;&#x3D;&gt; 微信服务端 ／／code 的获取</span><br><span class="line"></span><br><span class="line">客户端 &lt;&#x3D;&gt; 本地服务器 &lt;&#x3D;&gt; 微信服务端 ／／</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>code : 由客服端直接向微信服务端 发起请求所得（<strong>wx.login()</strong>)</li>
+<li>获取openId等数据: 由本地服作为中转，向第三方服务器 发起请求</li>
+<li>操作数据</li>
+</ol>
+<h3 id="主要讲解-数据在-三者中的-获取方式-存储方式"><a href="#主要讲解-数据在-三者中的-获取方式-存储方式" class="headerlink" title="主要讲解 数据在 三者中的 获取方式 存储方式"></a>主要讲解 数据在 三者中的 获取方式 存储方式</h3><p>客户端： 这里是小程序项目的文件 为实际操作的目录<br>        主要是运用到小程序的API（请求语法/存取语法）</p>
+<p>本地服： koa的中 ctx的理解和其API</p>
+<h3 id="关于客户端请求-wx-login-amp-amp-wx-request-的分析"><a href="#关于客户端请求-wx-login-amp-amp-wx-request-的分析" class="headerlink" title="关于客户端请求 wx.login()&amp;&amp; wx.request 的分析"></a>关于客户端请求 <strong>wx.login()&amp;&amp; wx.request</strong> 的分析</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">wx.login(&#123;</span><br><span class="line">  success(res) &#123;</span><br><span class="line">    if (res.code) &#123;</span><br><span class="line">      &#x2F;&#x2F; 发起网络请求</span><br><span class="line">      wx.request(&#123;</span><br><span class="line">        url: &#39;https:&#x2F;&#x2F;test.com&#x2F;onLogin&#39;,</span><br><span class="line">        data: &#123;</span><br><span class="line">          code: res.code</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      console.log(&#39;登录失败！&#39; + res.errMsg)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>要有一个强硬的逻辑：发起请求 就必须 想到  响应 </p>
+</li>
+<li><p>去查找 发起者 和 接收者 的语法， 如上面是 小程序客户端向 本地服务（如koa)发起的请求  </p>
+<p>那么接下来 就是想  本地服 如何 响应客户端的请求(数据怎么传递)</p>
+</li>
+<li><p>发请求的目的是要拿到什么数据？</p>
+</li>
+<li><p>本地服 在满足客服端的请求 是否需要向第三方或者 数据库 ？</p>
+</li>
+</ul>
+<blockquote>
+<p>带着以上的思路,找出服务端之间的请求和响应 的数据传递所运用的语法 就能很好的处理各种类型的客户端（前台） 服务端（后台） 之间的交互工作</p>
+</blockquote>
+<h3 id="目前用作前台类型有：-原生（html）-vue-小程序"><a href="#目前用作前台类型有：-原生（html）-vue-小程序" class="headerlink" title="目前用作前台类型有： 原生（html） vue 小程序"></a>目前用作前台类型有： 原生（html） vue 小程序</h3><h3 id="充当服务端角色类型有：-原生（ajax-是一种写法）-express-koa"><a href="#充当服务端角色类型有：-原生（ajax-是一种写法）-express-koa" class="headerlink" title="充当服务端角色类型有： 原生（ajax:是一种写法）  express koa."></a>充当服务端角色类型有： 原生（ajax:是一种写法）  express koa.</h3><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ol>
+<li>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</li>
+</ol>
+<h3 id="数据库操作和页面渲染数据"><a href="#数据库操作和页面渲染数据" class="headerlink" title="数据库操作和页面渲染数据"></a>数据库操作和页面渲染数据</h3><h6 id="杂记："><a href="#杂记：" class="headerlink" title="杂记："></a>杂记：</h6><ol>
+<li>client 请求类型为（Get 或 Put )，通过 API 访问serever ，server (Koa框架 )通过ctx.request.body 获取到 client中 data字段中定义的对象（键值对）</li>
+<li>client 请求类型为（Post )，通过 API 访问serever ，server (Koa框架 )：<strong>需要引入第三方库koa-bodyparser</strong> ctx.request.body 获取到 client中 data字段中定义的对象（键值对）</li>
+<li>交互逻辑简述 稍后补充<ol>
+<li>Client view中</li>
+</ol>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/work-skill/" rel="tag"># work-skill</a>
+              <a href="/tags/wechat/" rel="tag"># wechat</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/04/19/2019-04-14-hexo%E5%89%8D%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A1%86%E6%9E%B6/" rel="prev" title="     Hexo技术博客">
+      <i class="fa fa-chevron-left"></i>      Hexo技术博客
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/" rel="next" title="     mysql连接出错">
+           mysql连接出错 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序与web开发对比分析"><span class="nav-number">1.</span> <span class="nav-text">小程序与web开发对比分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注册小程序开发账号-安装开发者工具等"><span class="nav-number">1.1.</span> <span class="nav-text">注册小程序开发账号 安装开发者工具等</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对于初始化的小程序-关注app-json-app-js-以及-pages文件夹"><span class="nav-number">1.2.</span> <span class="nav-text">对于初始化的小程序 关注app.json app.js 以及 pages文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#单一页面的生成"><span class="nav-number">1.3.</span> <span class="nav-text">单一页面的生成</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#与web开发中的html-js-css-对比"><span class="nav-number">2.</span> <span class="nav-text">与web开发中的html js css 对比</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意"><span class="nav-number">2.0.1.</span> <span class="nav-text">由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#文档内容较全-初学者-第一天可着重阅读以下整理过后的文档"><span class="nav-number">2.0.2.</span> <span class="nav-text">文档内容较全 初学者 第一天可着重阅读以下整理过后的文档</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进入小程序项目"><span class="nav-number">3.</span> <span class="nav-text">进入小程序项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#项目拆解"><span class="nav-number">3.1.</span> <span class="nav-text">项目拆解</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-小程序登录"><span class="nav-number">4.</span> <span class="nav-text">1.小程序登录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三者存在以下关系"><span class="nav-number">4.1.</span> <span class="nav-text">三者存在以下关系</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#主要讲解-数据在-三者中的-获取方式-存储方式"><span class="nav-number">4.2.</span> <span class="nav-text">主要讲解 数据在 三者中的 获取方式 存储方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关于客户端请求-wx-login-amp-amp-wx-request-的分析"><span class="nav-number">4.3.</span> <span class="nav-text">关于客户端请求 wx.login()&amp;&amp; wx.request 的分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#目前用作前台类型有：-原生（html）-vue-小程序"><span class="nav-number">4.4.</span> <span class="nav-text">目前用作前台类型有： 原生（html） vue 小程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#充当服务端角色类型有：-原生（ajax-是一种写法）-express-koa"><span class="nav-number">4.5.</span> <span class="nav-text">充当服务端角色类型有： 原生（ajax:是一种写法）  express koa.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#"><span class="nav-number">4.6.</span> <span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#注意事项"><span class="nav-number">4.6.1.</span> <span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据库操作和页面渲染数据"><span class="nav-number">4.7.</span> <span class="nav-text">数据库操作和页面渲染数据</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#杂记："><span class="nav-number">4.7.0.0.1.</span> <span class="nav-text">杂记：</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">peiqin</p>
+  <div class="site-description" itemprop="description">任何东西都会是环环相扣</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">24</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">peiqin</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">43k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">39 分钟</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'fpupK04X0TovxqxBgXa0pk7a-gzGzoHsz',
+      appKey     : '5ffeQdQDuDVEeI0EMpomu4AV',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
