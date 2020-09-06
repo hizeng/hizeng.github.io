@@ -56,6 +56,24 @@
       </tags>
   </entry>
   <entry>
+    <title>     bootstrap 笔记</title>
+    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
+    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
+<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
+<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
+<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
+<p><code>list-inline</code> :li标签 水平排列</p>
+<p><code>tabal-striped</code>:斑马线样式表单</p>
+<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
+]]></content>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>     安装使用git</title>
     <url>/2015/10/24/2015-09-20-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8git/</url>
     <content><![CDATA[<p>#git的配置及操作小结</p>
@@ -82,24 +100,6 @@
 ]]></content>
       <tags>
         <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     bootstrap 笔记</title>
-    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
-    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
-<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
-<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
-<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
-<p><code>list-inline</code> :li标签 水平排列</p>
-<p><code>tabal-striped</code>:斑马线样式表单</p>
-<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
-]]></content>
-      <tags>
-        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -517,55 +517,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     mysql连接出错</title>
-    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
-    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
-<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
-<p><strong>问题描述:</strong></p>
-<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
-<p><strong>解决办法：</strong></p>
-<p><strong>第一步：</strong></p>
-<p>打开terminal 输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
-
-<p><strong>第二步:</strong></p>
-<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
-<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
-<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
-<p><strong>问题分析</strong></p>
-<ol>
-<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
-修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
-</ol>
-<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
-<p><strong>*重点</strong> </p>
-<p>关于两者之间切换问题 和 注意事项</p>
-<p>开启本地mysql 步骤</p>
-<ol>
-<li>检查 xampp mysql database 的status 设置为stopped</li>
-<li>去控制面板或者终端 启动本地mysql server </li>
-</ol>
-<p>开启xmapp mysql </p>
-<ol>
-<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
-</ol>
-<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
-
-<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
-<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
-<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
-<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>   Mac工作流工具推介</title>
     <url>/2019/05/05/2019-05-05-mac%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</url>
     <content><![CDATA[<h1 id="Mac-工作流"><a href="#Mac-工作流" class="headerlink" title="Mac 工作流"></a>Mac 工作流</h1><h2 id="掌握workflows后你会发现你一直在浪费你的Mac"><a href="#掌握workflows后你会发现你一直在浪费你的Mac" class="headerlink" title="掌握workflows后你会发现你一直在浪费你的Mac"></a>掌握workflows后你会发现你一直在浪费你的Mac</h2><a id="more"></a>
@@ -602,15 +553,14 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>   Vue</title>
-    <url>/2019/05/05/2019-05-08-Vue/</url>
+    <title> </title>
+    <url>/2019/05/08/2019-05-08-%E6%96%87%E7%AB%A0%E7%9A%84%E6%A8%A1%E7%89%88/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>skill</category>
       </categories>
       <tags>
         <tag>work-skill</tag>
-        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
@@ -648,7 +598,7 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>      Markdown公众号代码编辑问题</title>
+    <title>      Markdown公众号代码编辑</title>
     <url>/2020/05/07/2020-05-07-markdown%E5%85%AC%E4%BC%97%E5%8F%B7/</url>
     <content><![CDATA[<h4 id="公众号编辑代码块"><a href="#公众号编辑代码块" class="headerlink" title="公众号编辑代码块"></a>公众号编辑代码块</h4><ol>
 <li><p>使用typora编辑文字+代码 。编辑完后，目的复制markdown格式的内容 <code>command+/</code></p>
@@ -771,6 +721,55 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>     mysql连接出错</title>
+    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
+    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
+<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
+<p><strong>问题描述:</strong></p>
+<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
+<p><strong>解决办法：</strong></p>
+<p><strong>第一步：</strong></p>
+<p>打开terminal 输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
+
+<p><strong>第二步:</strong></p>
+<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
+<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
+<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
+<p><strong>问题分析</strong></p>
+<ol>
+<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
+修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
+</ol>
+<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
+<p><strong>*重点</strong> </p>
+<p>关于两者之间切换问题 和 注意事项</p>
+<p>开启本地mysql 步骤</p>
+<ol>
+<li>检查 xampp mysql database 的status 设置为stopped</li>
+<li>去控制面板或者终端 启动本地mysql server </li>
+</ol>
+<p>开启xmapp mysql </p>
+<ol>
+<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
+</ol>
+<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
+
+<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
+<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
+<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
+<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>wechat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于情绪的认知</title>
     <url>/2020/09/03/2020-09-03-%E5%85%B3%E4%BA%8E%E6%83%85%E7%BB%AA%E7%9A%84%E8%AE%A4%E7%9F%A5/</url>
     <content><![CDATA[<p><strong>由于公众号不支持长期维护同一篇文章，不便于修改。并且在同一篇文章的基础上，不能够新增内容。所以，这个技术博客要重新用起来，因为，技术的知识总结，迟迟没有更新，导致浪费了地球的资源，深感愧疚。</strong></p>
@@ -802,6 +801,17 @@ data:请求所携带的参数；
       <categories>
         <category>life</category>
       </categories>
+  </entry>
+  <entry>
+    <title> </title>
+    <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
   </entry>
   <entry>
     <title>      关于笔记</title>
