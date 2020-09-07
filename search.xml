@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>     潜伏在雷锋身上的幸福</title>
-    <url>/2011/03/28/2011-03-28-%E6%BD%9C%E4%BC%8F%E5%9C%A8%E9%9B%B7%E9%94%8B%E8%BA%AB%E4%B8%8A%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
-    <content><![CDATA[<h1 id="潜伏在雷锋身上的幸福"><a href="#潜伏在雷锋身上的幸福" class="headerlink" title="潜伏在雷锋身上的幸福"></a>潜伏在雷锋身上的幸福</h1><p>三月正是春意黯然的花香季节，乐于助人的雷锋便在不经意间与此搭上了关系。学习“雷锋”— 一种乐于助人的精神，也许你们抱着这样的精神，到生活中实践起来，大爱就会飘扬于四海，幸福就会弥漫在人间。</p>
-<p>“雷锋”在我的认知范围内，它是两个可以用来号召，号召那些热爱助人与那些不那么热心助人的中国人去干一些挺有意义的活动的超实用的文字。但是，我看不到幸福会在活动过后便像受精卵那样顺利成人。可能它在子宫中无声地夭折了。如此，避孕式的行为—“只享受高潮，不需要结果”。但是，站在盼望人们能够拥有幸福的角度，我宁愿用真心真意地去为幸福的不流产而不使避孕工具。也许，幸福的人继续幸福，不幸福的人继续躲藏在黑暗的那一角落，蜷缩着……</p>
-<p>从另一角度去量度，将追求幸福的行为以“学雷锋”命名，并且将它摆放在如此生机满布大地的初春季节，实在勇气可嘉。也不难地知晓其含义：幸福需要在生命最璀璨时追逐。因而，我也深深地感受到那种对幸福抱着热爱的美好信仰。我陶醉了。不由地我向内心发出了一个普遍人会提出的疑问：能否让“雷锋”生活在每个人的生命中的每一天。但是，我的脑部的某个区域—大脑皮层，迅速般做出解答了，通过突触前膜，突出间隙，突触后膜，树突等一系列的生物学专用名词，总结出了一个结论：这并不可能。 结果对我有点打击，但无畏地我会拿出勇气去追逐幸福，将“学雷锋”进行到底。因为，“学雷锋”是具有意义的行为，尽管有点儿违背阿迪达斯的广告词“Nothing is impossible”,但无关痛痒，它毕竟是广告词。</p>
-<p>因此，我恍然大悟：雷锋身上潜伏着幸福。也弄懂那样的不可能缘故：幸福需要追逐。</p>
-<p>虽然，我并不了解雷锋先生在古时候做了些什么，但时代赋予”雷锋“的涵义，我却清楚地认识到：以一颗助人为乐，与人为善，以集体利益高于个人利益的舍己为人精神来融入日常生活中的点点滴滴，去让生活在这个国度的我们更幸福一点。</p>
-<p>为此那么崇尚朴实的“雷锋”精神，我必须，必需对外宣扬其重要性，不应该有贬斥。即使，有众多不理想的无奈。一方水土养活百样人，而百样人又不约而同地参与到“学雷锋”的活动当中，难免会有幸福上的分歧。</p>
-<p>雷锋只是一个名字承载了一些东西罢了。</p>
-<p>潜伏在雷锋身上的幸福是可以寻找的，中国人！</p>
+    <title>     macdown的使用方法总结</title>
+    <url>/2017/09/13/2015-09-13-hellomarkdown/</url>
+    <content><![CDATA[<h1 id="Hello-markdown"><a href="#Hello-markdown" class="headerlink" title="Hello markdown"></a>Hello markdown</h1><p>前言 :<br>  这是利用 macdown 编辑文本内容的测试。以下会总结一下，编辑技巧和要点：</p>
+<h2 id="符号："><a href="#符号：" class="headerlink" title="符号："></a>符号：</h2><p>1.”&gt;” 段落竖状分隔线。</p>
+<p>2.”#”为段落分级符号，数量代表级数，”##” 代表二级，依次递增共六级。</p>
+<p>3.”–”段落分隔线 级数递减就会出现。</p>
+<p>没完 后续补上……</p>
+<h2 id="操作："><a href="#操作：" class="headerlink" title="操作："></a>操作：</h2><p>1.每一级段落，需要顶最右边编辑。</p>
+<p>2.同级间换行，需要return键 ，空出一行。</p>
+<p>没完 后续补上……</p>
 ]]></content>
       <categories>
-        <category>point</category>
+        <category>blog</category>
       </categories>
       <tags>
-        <tag>life-point</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -37,22 +37,22 @@
       </tags>
   </entry>
   <entry>
-    <title>     macdown的使用方法总结</title>
-    <url>/2017/09/13/2015-09-13-hellomarkdown/</url>
-    <content><![CDATA[<h1 id="Hello-markdown"><a href="#Hello-markdown" class="headerlink" title="Hello markdown"></a>Hello markdown</h1><p>前言 :<br>  这是利用 macdown 编辑文本内容的测试。以下会总结一下，编辑技巧和要点：</p>
-<h2 id="符号："><a href="#符号：" class="headerlink" title="符号："></a>符号：</h2><p>1.”&gt;” 段落竖状分隔线。</p>
-<p>2.”#”为段落分级符号，数量代表级数，”##” 代表二级，依次递增共六级。</p>
-<p>3.”–”段落分隔线 级数递减就会出现。</p>
-<p>没完 后续补上……</p>
-<h2 id="操作："><a href="#操作：" class="headerlink" title="操作："></a>操作：</h2><p>1.每一级段落，需要顶最右边编辑。</p>
-<p>2.同级间换行，需要return键 ，空出一行。</p>
-<p>没完 后续补上……</p>
+    <title>     潜伏在雷锋身上的幸福</title>
+    <url>/2011/03/28/2011-03-28-%E6%BD%9C%E4%BC%8F%E5%9C%A8%E9%9B%B7%E9%94%8B%E8%BA%AB%E4%B8%8A%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
+    <content><![CDATA[<h1 id="潜伏在雷锋身上的幸福"><a href="#潜伏在雷锋身上的幸福" class="headerlink" title="潜伏在雷锋身上的幸福"></a>潜伏在雷锋身上的幸福</h1><p>三月正是春意黯然的花香季节，乐于助人的雷锋便在不经意间与此搭上了关系。学习“雷锋”— 一种乐于助人的精神，也许你们抱着这样的精神，到生活中实践起来，大爱就会飘扬于四海，幸福就会弥漫在人间。</p>
+<p>“雷锋”在我的认知范围内，它是两个可以用来号召，号召那些热爱助人与那些不那么热心助人的中国人去干一些挺有意义的活动的超实用的文字。但是，我看不到幸福会在活动过后便像受精卵那样顺利成人。可能它在子宫中无声地夭折了。如此，避孕式的行为—“只享受高潮，不需要结果”。但是，站在盼望人们能够拥有幸福的角度，我宁愿用真心真意地去为幸福的不流产而不使避孕工具。也许，幸福的人继续幸福，不幸福的人继续躲藏在黑暗的那一角落，蜷缩着……</p>
+<p>从另一角度去量度，将追求幸福的行为以“学雷锋”命名，并且将它摆放在如此生机满布大地的初春季节，实在勇气可嘉。也不难地知晓其含义：幸福需要在生命最璀璨时追逐。因而，我也深深地感受到那种对幸福抱着热爱的美好信仰。我陶醉了。不由地我向内心发出了一个普遍人会提出的疑问：能否让“雷锋”生活在每个人的生命中的每一天。但是，我的脑部的某个区域—大脑皮层，迅速般做出解答了，通过突触前膜，突出间隙，突触后膜，树突等一系列的生物学专用名词，总结出了一个结论：这并不可能。 结果对我有点打击，但无畏地我会拿出勇气去追逐幸福，将“学雷锋”进行到底。因为，“学雷锋”是具有意义的行为，尽管有点儿违背阿迪达斯的广告词“Nothing is impossible”,但无关痛痒，它毕竟是广告词。</p>
+<p>因此，我恍然大悟：雷锋身上潜伏着幸福。也弄懂那样的不可能缘故：幸福需要追逐。</p>
+<p>虽然，我并不了解雷锋先生在古时候做了些什么，但时代赋予”雷锋“的涵义，我却清楚地认识到：以一颗助人为乐，与人为善，以集体利益高于个人利益的舍己为人精神来融入日常生活中的点点滴滴，去让生活在这个国度的我们更幸福一点。</p>
+<p>为此那么崇尚朴实的“雷锋”精神，我必须，必需对外宣扬其重要性，不应该有贬斥。即使，有众多不理想的无奈。一方水土养活百样人，而百样人又不约而同地参与到“学雷锋”的活动当中，难免会有幸福上的分歧。</p>
+<p>雷锋只是一个名字承载了一些东西罢了。</p>
+<p>潜伏在雷锋身上的幸福是可以寻找的，中国人！</p>
 ]]></content>
       <categories>
-        <category>blog</category>
+        <category>point</category>
       </categories>
       <tags>
-        <tag>blog</tag>
+        <tag>life-point</tag>
       </tags>
   </entry>
   <entry>
@@ -74,49 +74,32 @@
       </tags>
   </entry>
   <entry>
-    <title>     vue axios 封装理解</title>
-    <url>/2019/04/11/2016-04-10-vue%E5%B0%81%E8%A3%85%E7%90%86%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="封装的思路"><a href="#封装的思路" class="headerlink" title="封装的思路"></a>封装的思路</h1><h3 id="垃圾总结-阅读者可忽略"><a href="#垃圾总结-阅读者可忽略" class="headerlink" title="垃圾总结 阅读者可忽略"></a>垃圾总结 阅读者可忽略</h3><blockquote>
-<p>封装之前 要完成一次数据请求的过程：</p>
-</blockquote>
-<ol>
-<li><p>在vue的原型上 定义axios对象 给 vue实例调用：</p>
-</li>
-<li><p>view 页面触发事件<br>this.axios.get(请求的访问服务器地址的路由,{请求的数据})</p>
-</li>
-<li><p>router api:<br>创建生成访问服务器的地址（router.get(url,methods) methdos:controller中的方法 用来操作数据库的方法）</p>
-</li>
-<li><p>constoller 调用kenx.js</p>
-</li>
-</ol>
-<p>导致：在每个页面 都直接调用 vue实例上axios对象；</p>
-<h2 id="实现封装："><a href="#实现封装：" class="headerlink" title="实现封装："></a>实现封装：</h2><p><code>this.axios.get(methods)(url,data)):
-Methods:axios对象的方法；
-URL：访问服务器的地址；
-data:请求所携带的参数；
-将上面三者提取出来 （pageOBJ.Methods(require.methods,data);</code></p>
-<hr>
-<pre><code>本次项目对封装的误解原因： router api 路径 只要请求类型不一样路径相同不受影响 
-
-试想一下  如果每次进行请求操作 路径都不相同 那么 封装路径 就变得毫无意义了  
-
-请求所有客户： /api/user
-请求修改客户：/api/user/edit/:id
-删除单个客户：/api/user/del/:id
-
-竟然封装的核心是提取公共部分，减少重复代码，和 便于 扩展 和维护代码 
-
-那么 api 的路劲 必然是 统一的 /api/user
-
-对于代码的封装 应该从 要封装的（执行过程开始到结束） 代码执行最后最尾最都督的位置 为突破口 
-然后 慢慢 回退 利用模块的思想 
-
-我中有你 一层一层嵌套  a&lt;b&lt;c </code></pre>]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
+    <title>     安装使用git</title>
+    <url>/2015/10/24/2015-09-20-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8git/</url>
+    <content><![CDATA[<p>#git的配置及操作小结</p>
+<h2 id="安装git："><a href="#安装git：" class="headerlink" title="安装git："></a>安装git：</h2><p>最简单直接官网下载 本地解压安装git<br>其他方法 后补…</p>
+<h2 id="git常用的基本操作指令："><a href="#git常用的基本操作指令：" class="headerlink" title="git常用的基本操作指令："></a>git常用的基本操作指令：</h2><p>终端 进入新建的本地文件位置 $ cd … $git init<br>接着切换界面 正常去修改文件夹的内容 …<br>然后 返回 终端操作git<br>###以下是重要操作思路 </p>
+<a id="more"></a>
+<h4 id="git-add-git-add-你的文件-后缀"><a href="#git-add-git-add-你的文件-后缀" class="headerlink" title="git add : git add 你的文件.后缀"></a>git add : git add 你的文件.后缀</h4><h4 id="git-commit-git-commit-m-“引号内是你自己操作描叙”"><a href="#git-commit-git-commit-m-“引号内是你自己操作描叙”" class="headerlink" title="git commit :git commit -m “引号内是你自己操作描叙”"></a>git commit :git commit -m “引号内是你自己操作描叙”</h4><p>git add 是将 “记录的修改——人” 放在一个空间 我把它叫候车区</p>
+<p>git commit 是 将 上面 候车区 的 人 统一装车（推送到我们的master主分支）<br>####接下来如何推送到远程库？</p>
+<h3 id="推送到远程库-以GitHub为例子："><a href="#推送到远程库-以GitHub为例子：" class="headerlink" title="推送到远程库 以GitHub为例子："></a>推送到远程库 以GitHub为例子：</h3><p>(首先要在 GitHub配置 SSH钥匙 在终端操作）</p>
+<p>首次使用git 需要事先添加 用户名 和邮箱：</p>
+<p> <code>$ git config --global user.name &quot;引号这里输入你的账号名字&quot;</code><br>  <code>$ git config --global user.email &quot;引号这里输入你的邮箱&quot;</code></p>
+<p> 在终端获取SSH钥匙 命令：<br> <code>$ ssh-keygen -t rsa -C &quot;你的git的用户邮箱&quot;</code>  就凭感觉enter 下去<br> 接着<code>$cd ~/.ssh</code>  ——<code>$ls</code>——<code>$cat id_rsa.pub</code> </p>
+<p>下面出现你眼前的就是SSH 钥匙的公匙 复制 到GitHub设置SSH钥匙的页面 去 add 就好。</p>
+<p>最后回到终端 输入推送的命令：</p>
+<p><code>$git remote add origin git@github.com:github账号/仓库名.git</code>.</p>
+<h3 id="经验之谈："><a href="#经验之谈：" class="headerlink" title="经验之谈："></a>经验之谈：</h3><p><strong>001.</strong>  项目远程库与本地工作区的同步问题：在主远程库同步更新至本地工作区<br><code>$git fetch -all</code>—-&gt; <code>$git reset -hard origin/master</code><br>或者如果你在另外一个分支上：<code>git reset --hard origin/&lt;branch_name&gt;</code>.</p>
+<h4 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h4><p>git fetch 从远程下载最新的文件，而不尝试合并或修改任何内容。</p>
+<p>然后，git reset将主分支重置为您刚刚获取的内容。该–hard选项会更改您的工作树中的所有文件以匹配其中的文件origin/master</p>
+<p> [*]：值得注意的是，可以通过master在重置之前创建一个分支来维护当前的本地提交：</p>
+<p><code>git checkout master</code></p>
+<p><code>git branch new-branch-to-save-current-commits</code></p>
+<p><code>git fetch --all</code></p>
+<p><code>git reset --hard origin/master</code><br>之后，所有的旧提交将被保留new-branch-to-save-current-commits。未提交的更改（甚至分段）将丢失。确保把你需要的任何东西藏起来。</p>
+]]></content>
       <tags>
-        <tag>work-skill - vue</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -241,6 +224,52 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>     vue axios 封装理解</title>
+    <url>/2019/04/11/2016-04-10-vue%E5%B0%81%E8%A3%85%E7%90%86%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="封装的思路"><a href="#封装的思路" class="headerlink" title="封装的思路"></a>封装的思路</h1><h3 id="垃圾总结-阅读者可忽略"><a href="#垃圾总结-阅读者可忽略" class="headerlink" title="垃圾总结 阅读者可忽略"></a>垃圾总结 阅读者可忽略</h3><blockquote>
+<p>封装之前 要完成一次数据请求的过程：</p>
+</blockquote>
+<ol>
+<li><p>在vue的原型上 定义axios对象 给 vue实例调用：</p>
+</li>
+<li><p>view 页面触发事件<br>this.axios.get(请求的访问服务器地址的路由,{请求的数据})</p>
+</li>
+<li><p>router api:<br>创建生成访问服务器的地址（router.get(url,methods) methdos:controller中的方法 用来操作数据库的方法）</p>
+</li>
+<li><p>constoller 调用kenx.js</p>
+</li>
+</ol>
+<p>导致：在每个页面 都直接调用 vue实例上axios对象；</p>
+<h2 id="实现封装："><a href="#实现封装：" class="headerlink" title="实现封装："></a>实现封装：</h2><p><code>this.axios.get(methods)(url,data)):
+Methods:axios对象的方法；
+URL：访问服务器的地址；
+data:请求所携带的参数；
+将上面三者提取出来 （pageOBJ.Methods(require.methods,data);</code></p>
+<hr>
+<pre><code>本次项目对封装的误解原因： router api 路径 只要请求类型不一样路径相同不受影响 
+
+试想一下  如果每次进行请求操作 路径都不相同 那么 封装路径 就变得毫无意义了  
+
+请求所有客户： /api/user
+请求修改客户：/api/user/edit/:id
+删除单个客户：/api/user/del/:id
+
+竟然封装的核心是提取公共部分，减少重复代码，和 便于 扩展 和维护代码 
+
+那么 api 的路劲 必然是 统一的 /api/user
+
+对于代码的封装 应该从 要封装的（执行过程开始到结束） 代码执行最后最尾最都督的位置 为突破口 
+然后 慢慢 回退 利用模块的思想 
+
+我中有你 一层一层嵌套  a&lt;b&lt;c </code></pre>]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill - vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>     落地页分析</title>
     <url>/2019/04/12/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<h1 id="关于落地页分析小结-应付版"><a href="#关于落地页分析小结-应付版" class="headerlink" title="关于落地页分析小结 (应付版)"></a>关于落地页分析小结 (应付版)</h1><blockquote>
@@ -263,6 +292,149 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-point</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     小程序</title>
+    <url>/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<h2 id="小程序与web开发对比分析"><a href="#小程序与web开发对比分析" class="headerlink" title="小程序与web开发对比分析"></a>小程序与web开发对比分析</h2><h3 id="注册小程序开发账号-安装开发者工具等"><a href="#注册小程序开发账号-安装开发者工具等" class="headerlink" title="注册小程序开发账号 安装开发者工具等"></a>注册小程序开发账号 安装开发者工具等</h3><ol>
+<li>在使用开发工具的过程中 注意 项目名称是唯一的 包括 代码片段 公众号 小游戏 </li>
+</ol>
+<h3 id="对于初始化的小程序-关注app-json-app-js-以及-pages文件夹"><a href="#对于初始化的小程序-关注app-json-app-js-以及-pages文件夹" class="headerlink" title="对于初始化的小程序 关注app.json app.js 以及 pages文件夹"></a>对于初始化的小程序 关注app.json app.js 以及 pages文件夹</h3><blockquote>
+<p>app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/config.html" target="_blank" rel="noopener">配置</a></p>
+</blockquote>
+<ol>
+<li>添加属性tabBar 可以显示底部固定导航栏：注意list字段中的子项路径（pagePath） 在pages属性中要置顶，必须写在非tabBar页面路径之前 否则tab会显示异常(不显示)</li>
+<li><strong>代码中存在注释</strong> 会引致语法错误 导致页面报错 谨慎使用 </li>
+<li>每个属性的结尾 不能有任何符号</li>
+</ol>
+<blockquote>
+<p>app.js 小程序项目入口文件 项目初始化init  </p>
+</blockquote>
+<blockquote>
+<p>pages文件夹 内放置对应的 单一页面（每个页面文件都基本需要配置 .js .wxml .wxss. .json) </p>
+</blockquote>
+<h3 id="单一页面的生成"><a href="#单一页面的生成" class="headerlink" title="单一页面的生成"></a>单一页面的生成</h3><ul>
+<li><strong>.js</strong> :处理逻辑业务 与web开发类似</li>
+<li><strong>.wxml</strong> :具有模板数据绑定的功能 类似 Vue</li>
+<li><strong>.wxss</strong> :等同css </li>
+<li><strong>.json</strong> :此处添加配置会 将全局中相同的配置覆盖</li>
+</ul>
+<ol>
+<li><strong>.js</strong> : Page({}) 页面实例<strong>必须</strong>正确初始化 否则页面会报错<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Page(&#123;</span><br><span class="line">    data:&#123;</span><br><span class="line"></span><br><span class="line">        &#125;,</span><br><span class="line">    &#x2F;**</span><br><span class="line">     * 生命周期函数--监听页面加载</span><br><span class="line">     *&#x2F;</span><br><span class="line">    onLoad: function (options) &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure></li>
+<li><strong>.json</strong> : 同上 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<hr>
+<h2 id="与web开发中的html-js-css-对比"><a href="#与web开发中的html-js-css-对比" class="headerlink" title="与web开发中的html js css 对比"></a>与web开发中的html js css 对比</h2><h4 id="由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意"><a href="#由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意" class="headerlink" title="由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:"></a>由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:</h4><h4 id="文档内容较全-初学者-第一天可着重阅读以下整理过后的文档"><a href="#文档内容较全-初学者-第一天可着重阅读以下整理过后的文档" class="headerlink" title="文档内容较全 初学者 第一天可着重阅读以下整理过后的文档"></a>文档内容较全 初学者 第一天可着重阅读以下整理过后的文档</h4><ul>
+<li><p><strong>wxml:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/" target="_blank" rel="noopener">小程序页面的结构</a>   <a href="https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html" target="_blank" rel="noopener">页面导航</a>     <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.switchTab.html" target="_blank" rel="noopener">路由api</a> <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html" target="_blank" rel="noopener">界面交互：例如消息提示框 底部操作菜单等</a></p>
+</li>
+<li><p><strong>.js:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件</a></p>
+</li>
+<li><p><strong>wxss:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html" target="_blank" rel="noopener">wxss</a></p>
+</li>
+</ul>
+<!-- ### 页面之间的跳转 -->
+
+<hr>
+<h2 id="进入小程序项目"><a href="#进入小程序项目" class="headerlink" title="进入小程序项目"></a>进入小程序项目</h2><h3 id="项目拆解"><a href="#项目拆解" class="headerlink" title="项目拆解"></a>项目拆解</h3><blockquote>
+<p>combat-okr项目 文件内应该分为 sever（服务端即Koa框架） client（客户端 即小程序项目）开发时着重各自的开发环境 初学者 避免混淆</p>
+</blockquote>
+<h2 id="1-小程序登录"><a href="#1-小程序登录" class="headerlink" title="1.小程序登录"></a>1.小程序登录</h2><blockquote>
+<p> 本次登录功能分为三部分 客户端（小程序项目） 本地服务端（koa)  微信服务端<br> 登录就是如何处理好 req res 请求和响应的数据接发<br> 区分这两者在不同的服务端的不同语法是关键</p>
+</blockquote>
+<h3 id="三者存在以下关系"><a href="#三者存在以下关系" class="headerlink" title="三者存在以下关系"></a>三者存在以下关系</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">客户端 &lt;&#x3D;&gt; 微信服务端 ／／code 的获取</span><br><span class="line"></span><br><span class="line">客户端 &lt;&#x3D;&gt; 本地服务器 &lt;&#x3D;&gt; 微信服务端 ／／</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>code : 由客服端直接向微信服务端 发起请求所得（<strong>wx.login()</strong>)</li>
+<li>获取openId等数据: 由本地服作为中转，向第三方服务器 发起请求</li>
+<li>操作数据</li>
+</ol>
+<h3 id="主要讲解-数据在-三者中的-获取方式-存储方式"><a href="#主要讲解-数据在-三者中的-获取方式-存储方式" class="headerlink" title="主要讲解 数据在 三者中的 获取方式 存储方式"></a>主要讲解 数据在 三者中的 获取方式 存储方式</h3><p>客户端： 这里是小程序项目的文件 为实际操作的目录<br>        主要是运用到小程序的API（请求语法/存取语法）</p>
+<p>本地服： koa的中 ctx的理解和其API</p>
+<h3 id="关于客户端请求-wx-login-amp-amp-wx-request-的分析"><a href="#关于客户端请求-wx-login-amp-amp-wx-request-的分析" class="headerlink" title="关于客户端请求 wx.login()&amp;&amp; wx.request 的分析"></a>关于客户端请求 <strong>wx.login()&amp;&amp; wx.request</strong> 的分析</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">wx.login(&#123;</span><br><span class="line">  success(res) &#123;</span><br><span class="line">    if (res.code) &#123;</span><br><span class="line">      &#x2F;&#x2F; 发起网络请求</span><br><span class="line">      wx.request(&#123;</span><br><span class="line">        url: &#39;https:&#x2F;&#x2F;test.com&#x2F;onLogin&#39;,</span><br><span class="line">        data: &#123;</span><br><span class="line">          code: res.code</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      console.log(&#39;登录失败！&#39; + res.errMsg)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>要有一个强硬的逻辑：发起请求 就必须 想到  响应 </p>
+</li>
+<li><p>去查找 发起者 和 接收者 的语法， 如上面是 小程序客户端向 本地服务（如koa)发起的请求  </p>
+<p>那么接下来 就是想  本地服 如何 响应客户端的请求(数据怎么传递)</p>
+</li>
+<li><p>发请求的目的是要拿到什么数据？</p>
+</li>
+<li><p>本地服 在满足客服端的请求 是否需要向第三方或者 数据库 ？</p>
+</li>
+</ul>
+<blockquote>
+<p>带着以上的思路,找出服务端之间的请求和响应 的数据传递所运用的语法 就能很好的处理各种类型的客户端（前台） 服务端（后台） 之间的交互工作</p>
+</blockquote>
+<h3 id="目前用作前台类型有：-原生（html）-vue-小程序"><a href="#目前用作前台类型有：-原生（html）-vue-小程序" class="headerlink" title="目前用作前台类型有： 原生（html） vue 小程序"></a>目前用作前台类型有： 原生（html） vue 小程序</h3><h3 id="充当服务端角色类型有：-原生（ajax-是一种写法）-express-koa"><a href="#充当服务端角色类型有：-原生（ajax-是一种写法）-express-koa" class="headerlink" title="充当服务端角色类型有： 原生（ajax:是一种写法）  express koa."></a>充当服务端角色类型有： 原生（ajax:是一种写法）  express koa.</h3><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ol>
+<li>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</li>
+</ol>
+<h3 id="数据库操作和页面渲染数据"><a href="#数据库操作和页面渲染数据" class="headerlink" title="数据库操作和页面渲染数据"></a>数据库操作和页面渲染数据</h3><h6 id="杂记："><a href="#杂记：" class="headerlink" title="杂记："></a>杂记：</h6><ol>
+<li>client 请求类型为（Get 或 Put )，通过 API 访问serever ，server (Koa框架 )通过ctx.request.body 获取到 client中 data字段中定义的对象（键值对）</li>
+<li>client 请求类型为（Post )，通过 API 访问serever ，server (Koa框架 )：<strong>需要引入第三方库koa-bodyparser</strong> ctx.request.body 获取到 client中 data字段中定义的对象（键值对）</li>
+<li>交互逻辑简述 稍后补充<ol>
+<li>Client view中</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>wechat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     mysql连接出错</title>
+    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
+    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
+<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
+<p><strong>问题描述:</strong></p>
+<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
+<p><strong>解决办法：</strong></p>
+<p><strong>第一步：</strong></p>
+<p>打开terminal 输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
+
+<p><strong>第二步:</strong></p>
+<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
+<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
+<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
+<p><strong>问题分析</strong></p>
+<ol>
+<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
+修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
+</ol>
+<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
+<p><strong>*重点</strong> </p>
+<p>关于两者之间切换问题 和 注意事项</p>
+<p>开启本地mysql 步骤</p>
+<ol>
+<li>检查 xampp mysql database 的status 设置为stopped</li>
+<li>去控制面板或者终端 启动本地mysql server </li>
+</ol>
+<p>开启xmapp mysql </p>
+<ol>
+<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
+</ol>
+<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
+
+<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
+<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
+<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
+<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>wechat</tag>
       </tags>
   </entry>
   <entry>
@@ -394,129 +566,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     小程序</title>
-    <url>/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
-    <content><![CDATA[<h2 id="小程序与web开发对比分析"><a href="#小程序与web开发对比分析" class="headerlink" title="小程序与web开发对比分析"></a>小程序与web开发对比分析</h2><h3 id="注册小程序开发账号-安装开发者工具等"><a href="#注册小程序开发账号-安装开发者工具等" class="headerlink" title="注册小程序开发账号 安装开发者工具等"></a>注册小程序开发账号 安装开发者工具等</h3><ol>
-<li>在使用开发工具的过程中 注意 项目名称是唯一的 包括 代码片段 公众号 小游戏 </li>
-</ol>
-<h3 id="对于初始化的小程序-关注app-json-app-js-以及-pages文件夹"><a href="#对于初始化的小程序-关注app-json-app-js-以及-pages文件夹" class="headerlink" title="对于初始化的小程序 关注app.json app.js 以及 pages文件夹"></a>对于初始化的小程序 关注app.json app.js 以及 pages文件夹</h3><blockquote>
-<p>app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/config.html" target="_blank" rel="noopener">配置</a></p>
-</blockquote>
-<ol>
-<li>添加属性tabBar 可以显示底部固定导航栏：注意list字段中的子项路径（pagePath） 在pages属性中要置顶，必须写在非tabBar页面路径之前 否则tab会显示异常(不显示)</li>
-<li><strong>代码中存在注释</strong> 会引致语法错误 导致页面报错 谨慎使用 </li>
-<li>每个属性的结尾 不能有任何符号</li>
-</ol>
-<blockquote>
-<p>app.js 小程序项目入口文件 项目初始化init  </p>
-</blockquote>
-<blockquote>
-<p>pages文件夹 内放置对应的 单一页面（每个页面文件都基本需要配置 .js .wxml .wxss. .json) </p>
-</blockquote>
-<h3 id="单一页面的生成"><a href="#单一页面的生成" class="headerlink" title="单一页面的生成"></a>单一页面的生成</h3><ul>
-<li><strong>.js</strong> :处理逻辑业务 与web开发类似</li>
-<li><strong>.wxml</strong> :具有模板数据绑定的功能 类似 Vue</li>
-<li><strong>.wxss</strong> :等同css </li>
-<li><strong>.json</strong> :此处添加配置会 将全局中相同的配置覆盖</li>
-</ul>
-<ol>
-<li><strong>.js</strong> : Page({}) 页面实例<strong>必须</strong>正确初始化 否则页面会报错<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Page(&#123;</span><br><span class="line">    data:&#123;</span><br><span class="line"></span><br><span class="line">        &#125;,</span><br><span class="line">    &#x2F;**</span><br><span class="line">     * 生命周期函数--监听页面加载</span><br><span class="line">     *&#x2F;</span><br><span class="line">    onLoad: function (options) &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure></li>
-<li><strong>.json</strong> : 同上 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<hr>
-<h2 id="与web开发中的html-js-css-对比"><a href="#与web开发中的html-js-css-对比" class="headerlink" title="与web开发中的html js css 对比"></a>与web开发中的html js css 对比</h2><h4 id="由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意"><a href="#由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意" class="headerlink" title="由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:"></a>由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:</h4><h4 id="文档内容较全-初学者-第一天可着重阅读以下整理过后的文档"><a href="#文档内容较全-初学者-第一天可着重阅读以下整理过后的文档" class="headerlink" title="文档内容较全 初学者 第一天可着重阅读以下整理过后的文档"></a>文档内容较全 初学者 第一天可着重阅读以下整理过后的文档</h4><ul>
-<li><p><strong>wxml:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/" target="_blank" rel="noopener">小程序页面的结构</a>   <a href="https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html" target="_blank" rel="noopener">页面导航</a>     <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.switchTab.html" target="_blank" rel="noopener">路由api</a> <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html" target="_blank" rel="noopener">界面交互：例如消息提示框 底部操作菜单等</a></p>
-</li>
-<li><p><strong>.js:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件</a></p>
-</li>
-<li><p><strong>wxss:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html" target="_blank" rel="noopener">wxss</a></p>
-</li>
-</ul>
-<!-- ### 页面之间的跳转 -->
-
-<hr>
-<h2 id="进入小程序项目"><a href="#进入小程序项目" class="headerlink" title="进入小程序项目"></a>进入小程序项目</h2><h3 id="项目拆解"><a href="#项目拆解" class="headerlink" title="项目拆解"></a>项目拆解</h3><blockquote>
-<p>combat-okr项目 文件内应该分为 sever（服务端即Koa框架） client（客户端 即小程序项目）开发时着重各自的开发环境 初学者 避免混淆</p>
-</blockquote>
-<h2 id="1-小程序登录"><a href="#1-小程序登录" class="headerlink" title="1.小程序登录"></a>1.小程序登录</h2><blockquote>
-<p> 本次登录功能分为三部分 客户端（小程序项目） 本地服务端（koa)  微信服务端<br> 登录就是如何处理好 req res 请求和响应的数据接发<br> 区分这两者在不同的服务端的不同语法是关键</p>
-</blockquote>
-<h3 id="三者存在以下关系"><a href="#三者存在以下关系" class="headerlink" title="三者存在以下关系"></a>三者存在以下关系</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">客户端 &lt;&#x3D;&gt; 微信服务端 ／／code 的获取</span><br><span class="line"></span><br><span class="line">客户端 &lt;&#x3D;&gt; 本地服务器 &lt;&#x3D;&gt; 微信服务端 ／／</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>code : 由客服端直接向微信服务端 发起请求所得（<strong>wx.login()</strong>)</li>
-<li>获取openId等数据: 由本地服作为中转，向第三方服务器 发起请求</li>
-<li>操作数据</li>
-</ol>
-<h3 id="主要讲解-数据在-三者中的-获取方式-存储方式"><a href="#主要讲解-数据在-三者中的-获取方式-存储方式" class="headerlink" title="主要讲解 数据在 三者中的 获取方式 存储方式"></a>主要讲解 数据在 三者中的 获取方式 存储方式</h3><p>客户端： 这里是小程序项目的文件 为实际操作的目录<br>        主要是运用到小程序的API（请求语法/存取语法）</p>
-<p>本地服： koa的中 ctx的理解和其API</p>
-<h3 id="关于客户端请求-wx-login-amp-amp-wx-request-的分析"><a href="#关于客户端请求-wx-login-amp-amp-wx-request-的分析" class="headerlink" title="关于客户端请求 wx.login()&amp;&amp; wx.request 的分析"></a>关于客户端请求 <strong>wx.login()&amp;&amp; wx.request</strong> 的分析</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">wx.login(&#123;</span><br><span class="line">  success(res) &#123;</span><br><span class="line">    if (res.code) &#123;</span><br><span class="line">      &#x2F;&#x2F; 发起网络请求</span><br><span class="line">      wx.request(&#123;</span><br><span class="line">        url: &#39;https:&#x2F;&#x2F;test.com&#x2F;onLogin&#39;,</span><br><span class="line">        data: &#123;</span><br><span class="line">          code: res.code</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      console.log(&#39;登录失败！&#39; + res.errMsg)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>要有一个强硬的逻辑：发起请求 就必须 想到  响应 </p>
-</li>
-<li><p>去查找 发起者 和 接收者 的语法， 如上面是 小程序客户端向 本地服务（如koa)发起的请求  </p>
-<p>那么接下来 就是想  本地服 如何 响应客户端的请求(数据怎么传递)</p>
-</li>
-<li><p>发请求的目的是要拿到什么数据？</p>
-</li>
-<li><p>本地服 在满足客服端的请求 是否需要向第三方或者 数据库 ？</p>
-</li>
-</ul>
-<blockquote>
-<p>带着以上的思路,找出服务端之间的请求和响应 的数据传递所运用的语法 就能很好的处理各种类型的客户端（前台） 服务端（后台） 之间的交互工作</p>
-</blockquote>
-<h3 id="目前用作前台类型有：-原生（html）-vue-小程序"><a href="#目前用作前台类型有：-原生（html）-vue-小程序" class="headerlink" title="目前用作前台类型有： 原生（html） vue 小程序"></a>目前用作前台类型有： 原生（html） vue 小程序</h3><h3 id="充当服务端角色类型有：-原生（ajax-是一种写法）-express-koa"><a href="#充当服务端角色类型有：-原生（ajax-是一种写法）-express-koa" class="headerlink" title="充当服务端角色类型有： 原生（ajax:是一种写法）  express koa."></a>充当服务端角色类型有： 原生（ajax:是一种写法）  express koa.</h3><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ol>
-<li>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</li>
-</ol>
-<h3 id="数据库操作和页面渲染数据"><a href="#数据库操作和页面渲染数据" class="headerlink" title="数据库操作和页面渲染数据"></a>数据库操作和页面渲染数据</h3><h6 id="杂记："><a href="#杂记：" class="headerlink" title="杂记："></a>杂记：</h6><ol>
-<li>client 请求类型为（Get 或 Put )，通过 API 访问serever ，server (Koa框架 )通过ctx.request.body 获取到 client中 data字段中定义的对象（键值对）</li>
-<li>client 请求类型为（Post )，通过 API 访问serever ，server (Koa框架 )：<strong>需要引入第三方库koa-bodyparser</strong> ctx.request.body 获取到 client中 data字段中定义的对象（键值对）</li>
-<li>交互逻辑简述 稍后补充<ol>
-<li>Client view中</li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     安装使用git</title>
-    <url>/2015/10/24/2015-09-20-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8git/</url>
-    <content><![CDATA[<p>#git的配置及操作小结</p>
-<h2 id="安装git："><a href="#安装git：" class="headerlink" title="安装git："></a>安装git：</h2><p>最简单直接官网下载 本地解压安装git<br>其他方法 后补…</p>
-<h2 id="git常用的基本操作指令："><a href="#git常用的基本操作指令：" class="headerlink" title="git常用的基本操作指令："></a>git常用的基本操作指令：</h2><p>终端 进入新建的本地文件位置 $ cd … $git init<br>接着切换界面 正常去修改文件夹的内容 …<br>然后 返回 终端操作git<br>###以下是重要操作思路 </p>
-<a id="more"></a>
-<h4 id="git-add-git-add-你的文件-后缀"><a href="#git-add-git-add-你的文件-后缀" class="headerlink" title="git add : git add 你的文件.后缀"></a>git add : git add 你的文件.后缀</h4><h4 id="git-commit-git-commit-m-“引号内是你自己操作描叙”"><a href="#git-commit-git-commit-m-“引号内是你自己操作描叙”" class="headerlink" title="git commit :git commit -m “引号内是你自己操作描叙”"></a>git commit :git commit -m “引号内是你自己操作描叙”</h4><p>git add 是将 “记录的修改——人” 放在一个空间 我把它叫候车区</p>
-<p>git commit 是 将 上面 候车区 的 人 统一装车（推送到我们的master主分支）<br>####接下来如何推送到远程库？</p>
-<h3 id="推送到远程库-以GitHub为例子："><a href="#推送到远程库-以GitHub为例子：" class="headerlink" title="推送到远程库 以GitHub为例子："></a>推送到远程库 以GitHub为例子：</h3><p>(首先要在 GitHub配置 SSH钥匙 在终端操作）</p>
-<p>首次使用git 需要事先添加 用户名 和邮箱：</p>
-<p> <code>$ git config --global user.name &quot;引号这里输入你的账号名字&quot;</code><br>  <code>$ git config --global user.email &quot;引号这里输入你的邮箱&quot;</code></p>
-<p> 在终端获取SSH钥匙 命令：<br> <code>$ ssh-keygen -t rsa -C &quot;你的git的用户邮箱&quot;</code>  就凭感觉enter 下去<br> 接着<code>$cd ~/.ssh</code>  ——<code>$ls</code>——<code>$cat id_rsa.pub</code> </p>
-<p>下面出现你眼前的就是SSH 钥匙的公匙 复制 到GitHub设置SSH钥匙的页面 去 add 就好。</p>
-<p>最后回到终端 输入推送的命令：</p>
-<p><code>$git remote add origin git@github.com:github账号/仓库名.git</code>.</p>
-<h3 id="经验之谈："><a href="#经验之谈：" class="headerlink" title="经验之谈："></a>经验之谈：</h3><p><strong>001.</strong>  项目远程库与本地工作区的同步问题：在主远程库同步更新至本地工作区<br><code>$git fetch -all</code>—-&gt; <code>$git reset -hard origin/master</code><br>或者如果你在另外一个分支上：<code>git reset --hard origin/&lt;branch_name&gt;</code>.</p>
-<h4 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h4><p>git fetch 从远程下载最新的文件，而不尝试合并或修改任何内容。</p>
-<p>然后，git reset将主分支重置为您刚刚获取的内容。该–hard选项会更改您的工作树中的所有文件以匹配其中的文件origin/master</p>
-<p> [*]：值得注意的是，可以通过master在重置之前创建一个分支来维护当前的本地提交：</p>
-<p><code>git checkout master</code></p>
-<p><code>git branch new-branch-to-save-current-commits</code></p>
-<p><code>git fetch --all</code></p>
-<p><code>git reset --hard origin/master</code><br>之后，所有的旧提交将被保留new-branch-to-save-current-commits。未提交的更改（甚至分段）将丢失。确保把你需要的任何东西藏起来。</p>
-]]></content>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>   Mac工作流工具推介</title>
     <url>/2019/05/05/2019-05-05-mac%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</url>
     <content><![CDATA[<h1 id="Mac-工作流"><a href="#Mac-工作流" class="headerlink" title="Mac 工作流"></a>Mac 工作流</h1><h2 id="掌握workflows后你会发现你一直在浪费你的Mac"><a href="#掌握workflows后你会发现你一直在浪费你的Mac" class="headerlink" title="掌握workflows后你会发现你一直在浪费你的Mac"></a>掌握workflows后你会发现你一直在浪费你的Mac</h2><a id="more"></a>
@@ -564,17 +613,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>   </title>
-    <url>/2020/04/25/2020-04-25-beta%E6%96%87%E7%AB%A0vue%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>      编程学习践行建议</title>
     <url>/2020/05/04/2020-05-04-%E5%AD%A6%E4%B9%A0%E8%B7%B5%E8%A1%8C%E5%BB%BA%E8%AE%AE/</url>
     <content><![CDATA[<p>编程与写作很类似，首先都是多学多看，多思考，然后就是多动手实践 <a id="more"></a></p>
@@ -598,55 +636,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     mysql连接出错</title>
-    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
-    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
-<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
-<p><strong>问题描述:</strong></p>
-<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
-<p><strong>解决办法：</strong></p>
-<p><strong>第一步：</strong></p>
-<p>打开terminal 输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
-
-<p><strong>第二步:</strong></p>
-<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
-<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
-<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
-<p><strong>问题分析</strong></p>
-<ol>
-<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
-修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
-</ol>
-<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
-<p><strong>*重点</strong> </p>
-<p>关于两者之间切换问题 和 注意事项</p>
-<p>开启本地mysql 步骤</p>
-<ol>
-<li>检查 xampp mysql database 的status 设置为stopped</li>
-<li>去控制面板或者终端 启动本地mysql server </li>
-</ol>
-<p>开启xmapp mysql </p>
-<ol>
-<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
-</ol>
-<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
-
-<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
-<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
-<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
-<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>      Markdown公众号代码编辑</title>
     <url>/2020/05/07/2020-05-07-markdown%E5%85%AC%E4%BC%97%E5%8F%B7/</url>
     <content><![CDATA[<h4 id="公众号编辑代码块"><a href="#公众号编辑代码块" class="headerlink" title="公众号编辑代码块"></a>公众号编辑代码块</h4><ol>
@@ -667,6 +656,17 @@ data:请求所携带的参数；
 </ol>
 <p>一句话总结：一键转换后，剪切自己，粘贴自己。</p>
 ]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>   </title>
+    <url>/2020/04/25/2020-04-25-beta%E6%96%87%E7%AB%A0vue%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
       <categories>
         <category>skill</category>
       </categories>
@@ -736,51 +736,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>关于情绪的认知</title>
-    <url>/2020/09/03/2020-09-03-%E5%85%B3%E4%BA%8E%E6%83%85%E7%BB%AA%E7%9A%84%E8%AE%A4%E7%9F%A5/</url>
-    <content><![CDATA[<p><strong>由于公众号不支持长期维护同一篇文章，不便于修改。并且在同一篇文章的基础上，不能够新增内容。所以，这个技术博客要重新用起来，因为，技术的知识总结，迟迟没有更新，导致浪费了地球的资源，深感愧疚。</strong></p>
-<h3 id="情绪是何物？"><a href="#情绪是何物？" class="headerlink" title="情绪是何物？"></a>情绪是何物？</h3><p>根据维基百科的解释是：</p>
-<blockquote>
-<p><strong>情绪</strong>（又称<strong>情感</strong>），是对一系列<a href="https://zh.wikipedia.org/wiki/主觀" target="_blank" rel="noopener">主观</a>认知经验的通称，是多种<a href="https://zh.wikipedia.org/wiki/感覺" target="_blank" rel="noopener">感觉</a>、<a href="https://zh.wikipedia.org/wiki/思想" target="_blank" rel="noopener">思想</a>和<a href="https://zh.wikipedia.org/wiki/行为" target="_blank" rel="noopener">行为</a>综合产生的<a href="https://zh.wikipedia.org/wiki/心理" target="_blank" rel="noopener">心理</a>和<a href="https://zh.wikipedia.org/wiki/生理" target="_blank" rel="noopener">生理</a>状态。最普遍、通俗的情绪有喜、<a href="https://zh.wikipedia.org/wiki/憤怒" target="_blank" rel="noopener">怒</a>、哀、惊、恐、<a href="https://zh.wikipedia.org/wiki/爱" target="_blank" rel="noopener">爱</a>等，也有一些细腻微妙的情绪如<a href="https://zh.wikipedia.org/wiki/嫉妒" target="_blank" rel="noopener">嫉妒</a>、<a href="https://zh.wikipedia.org/w/index.php?title=惭愧&action=edit&redlink=1" target="_blank" rel="noopener">惭愧</a>、<a href="https://zh.wikipedia.org/wiki/羞耻" target="_blank" rel="noopener">羞耻</a>、<a href="https://zh.wikipedia.org/w/index.php?title=自豪&action=edit&redlink=1" target="_blank" rel="noopener">自豪</a>等。情绪常和<a href="https://zh.wikipedia.org/wiki/心情" target="_blank" rel="noopener">心情</a>、<a href="https://zh.wikipedia.org/wiki/性格" target="_blank" rel="noopener">性格</a>、脾气、<a href="https://zh.wikipedia.org/wiki/目的" target="_blank" rel="noopener">目的</a>等因素互相作用，也受到<a href="https://zh.wikipedia.org/wiki/荷尔蒙" target="_blank" rel="noopener">荷尔蒙</a>和<a href="https://zh.wikipedia.org/wiki/神经递质" target="_blank" rel="noopener">神经递质</a>影响。无论正面还是负面的情绪，都会引发人们行动的<a href="https://zh.wikipedia.org/wiki/动机" target="_blank" rel="noopener">动机</a>。尽管一些情绪引发的行为看上去没有经过<a href="https://zh.wikipedia.org/wiki/思考" target="_blank" rel="noopener">思考</a>，但实际上<a href="https://zh.wikipedia.org/wiki/意识" target="_blank" rel="noopener">意识</a>和思考是产生情绪重要的一环。</p>
-</blockquote>
-<h3 id="如何控制情绪？"><a href="#如何控制情绪？" class="headerlink" title="如何控制情绪？"></a>如何控制情绪？</h3><p>从医学院教授学生的角度分析：</p>
-<p>医学院常教给学生用五种方法控制情绪：</p>
-<ul>
-<li>把可能激发情绪的事情转化为抽象的事物。比如把身体接触看做执行一系列常规操作。</li>
-<li>关注正面意义。比如思考一套不成功的治疗能让我们学到什么。</li>
-<li>把患者的事情留给患者，不要带进自己的生活。</li>
-<li>保持乐观，常开玩笑。</li>
-<li>避免不必要的接触。尽量少看、少碰患者。</li>
-</ul>
-<h3 id="情绪具体可以有哪些？"><a href="#情绪具体可以有哪些？" class="headerlink" title="情绪具体可以有哪些？"></a>情绪具体可以有哪些？</h3><p>2017年，加州大学伯克利分校的研究人员Alan Cowen和Dacher Keltner基于2185部短片，发现了27种情绪：钦佩，崇拜，审美欣赏，娱乐，愤怒，焦虑，敬畏，尴尬，无聊厌倦，镇定，困惑，轻蔑鄙视，渴望，失望厌恶，同情移情，痛苦，进取，兴奋，妒忌，刺激，恐惧，惊栗，内疚，喜悦快乐，怀旧，胜利，骄傲，解脱，浪漫，悲伤，满足，性欲，惊喜</p>
-<p>为了生存，人类必须探索环境（好奇）、吐出不小心吃的异物（恶心）、建立社会关系（信任）、避免伤害（恐惧）、繁衍（爱）、战斗（愤怒）、寻求帮助（哭泣）、重复做对自己有利的事（欢乐）。在原始人类的日常生活中，情绪可以让人类自动趋利避害，做出更利于生存的选择。<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-22" target="_blank" rel="noopener">[22]</a> 尽管愤怒看起来没什么好处，但在原始<a href="https://zh.wikipedia.org/wiki/部落" target="_blank" rel="noopener">部落</a>里，可以让一个人被人害怕并建立起威望。<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-Gaulin_6-2" target="_blank" rel="noopener">[2]</a>羞耻和骄傲可以促使一个人维护自己的<a href="https://zh.wikipedia.org/wiki/社會地位" target="_blank" rel="noopener">社会地位</a>。<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-Gaulin_6-2" target="_blank" rel="noopener">[2]</a><a href="https://zh.wikipedia.org/wiki/情绪#cite_note-23" target="_blank" rel="noopener">[23]</a></p>
-<p>在社会生活上，情绪帮助我们：<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-24" target="_blank" rel="noopener">[24]</a></p>
-<ul>
-<li>与其他人交流感情（如婴儿不会说话也能成功交流）。</li>
-<li>影响其他人对我们的态度。</li>
-<li>表示善意（如不是出于喜悦，只是礼貌性的微笑）。</li>
-</ul>
-<h3 id="从大脑神经分析情绪："><a href="#从大脑神经分析情绪：" class="headerlink" title="从大脑神经分析情绪："></a>从大脑神经分析情绪：</h3><p>因为，学习认知人类大脑的运转，是非常之有意义的</p>
-<p>当代<a href="https://zh.wikipedia.org/wiki/神经心理学" target="_blank" rel="noopener">神经心理学</a>主要着重<a href="https://zh.wikipedia.org/wiki/大脑皮质" target="_blank" rel="noopener">大脑皮质</a>与情绪的关系。Hemispheric-asymmetry hypotheses则推测是因为右脑是专门处理情绪<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-41" target="_blank" rel="noopener">[41]</a>。透过观察出一些病人因为前右脑损伤而无法制造是语言上的<a href="https://zh.wikipedia.org/wiki/韵律_(语言学)" target="_blank" rel="noopener">韵律</a>，而后右脑损伤患者则失去理解语言上的<a href="https://zh.wikipedia.org/wiki/韵律_(语言学)" target="_blank" rel="noopener">韵律</a>的能力<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-42" target="_blank" rel="noopener">[42]</a>。而<a href="https://zh.wikipedia.org/w/index.php?title=Affective_neuroscience&action=edit&redlink=1" target="_blank" rel="noopener">Valence hypothesis</a>则左右脑都负责处理情绪，只是左脑多处理正面情绪、社交功能，而右脑则关于生存方面的情绪。也同时解释为何有些人对压力有不同的反应，因为个体间左右脑不对称情绪处理<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-43" target="_blank" rel="noopener">[43]</a>。而Vertical integration models则透过惧怕制约(fear conditioning)认为<a href="https://zh.wikipedia.org/w/index.php?title=Ventromedial_prefrontal_cortex&action=edit&redlink=1" target="_blank" rel="noopener">vmPFC</a>脑部抑制惧怕感觉，而<a href="https://zh.wikipedia.org/wiki/杏仁核" target="_blank" rel="noopener">杏仁核</a>则整合大脑皮质及皮质下的讯号<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-44" target="_blank" rel="noopener">[44]</a>，<a href="https://zh.wikipedia.org/wiki/海马体" target="_blank" rel="noopener">海马体</a>则负责联系（记忆）惧怕感觉与刺激物。而<a href="https://zh.wikipedia.org/w/index.php?title=Somatic_marker_hypothesis&action=edit&redlink=1" target="_blank" rel="noopener">Somatic marker hypothesis</a>则研究情绪是决策时角色。透过<a href="https://zh.wikipedia.org/w/index.php?title=Iowa_gambling_task&action=edit&redlink=1" target="_blank" rel="noopener">Iowa gambling task</a>发现<a href="https://zh.wikipedia.org/w/index.php?title=Ventromedial_prefrontal_cortex&action=edit&redlink=1" target="_blank" rel="noopener">vmPFC</a>损伤病人比起正常人用更危险的策略（更高风险）</p>
-<p>以上的内容，主要是对情绪有个初步的认知，并且用专业人士的方式去控制情绪。多次阅读这篇文章，必定会对你的生活和工作，有很大的帮助。</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>      关于笔记</title>
-    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>    我想说</title>
     <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
     <content><![CDATA[<blockquote>
@@ -798,22 +753,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     最重要是动起来</title>
-    <url>/2020/04/16/%E6%9C%80%E9%87%8D%E8%A6%81%E6%98%AF%E5%8A%A8%E8%B5%B7%E6%9D%A5/</url>
-    <content><![CDATA[<p> 在日常生活和工作当中经常会遇到问题。而的问题的种类有许多，面对各种的问题我们都会有对应的办法去解 <a id="more"></a>决。同时，对应的问题的解决方法也有多种。它们有些是简单，有些是困难。现在说明一种情况：面对问题久攻不下的情况。<br> 何谓久攻不下，从时间的角度来看，就是花了很长时间查阅别人的遇到相同或类似的情况，模仿，复制别人的解决方法。这时候，可能就是一种利用检索，搜索，询问的方式去解决问题。之所以会造成久攻不下的情况，多数是缺乏运气，因为没有从根本上去理解问题。<br> 为何会会用这种方式去解决问题，因为，要从根本上去解决，是需要花很多的精力和基础知识。这样的做法就是耗费更多的时间。</p>
-<p>以下是续写，说明一下。</p>
-<p>最近看了一本关于学习的书，觉得内容值得借鉴学习。<br>内容的小结已经发布在个人的公众号上面，由于没有完善，只有总结了上半部分。便不公开。<br>讲述是一种关于整体性学习的理论方法，深深地使盲目学习的自己注入了强心针。目前的自己拥有三个平台去发布内容。第一个是 此博客，第二个是个人维护的个人网站，第三个是个人的公众号。<br>此博客，被定位为技术笔记总结，以及工作上的经历心得。<br>以前不写，都是因为太在意美化界面，和写作的便捷上的纠结。结果，错失了许多记录的心得和内容，如此次打字记录之前，还在思考是否用typora还是直接在sublime上写mardown的语法，想了想，为何不直接选择工具-typora去提高写作的效率。而且，灵感会被一秒钟的时间冲散，所以赶紧写下来是最重要的事情。以后要谨记。<br>以后在学习上面，认真的投入实在的时间，是非常的少的。总是有种傻念，觉得简单，觉得很容易就可以补回来，结果证明这是一件非常愚昧无知的事情。<br>记得尚未进入此行业之前，自己就一直有个写作的习惯，后来却丢得一干二净。</p>
-<p>那么，这时候的记录是什么呢。<br>就是，不要怕你记录的知识是多么的简单，别人阅读起来觉得你自己原来这么一般的。<br>写吧，毕竟写下来才是自己的，以后还可以迭代的嘛。</p>
-<p>下午根据该书的方法，从新快速阅读了一篇vue的文档，接下来还会阅读vue的底层原理相关的知识，扎实地把基础知识落实到位。之后最做总结。</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>观点</tag>
       </tags>
   </entry>
   <entry>
@@ -848,6 +787,67 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>      关于笔记</title>
+    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于情绪的认知</title>
+    <url>/2020/09/03/2020-09-03-%E5%85%B3%E4%BA%8E%E6%83%85%E7%BB%AA%E7%9A%84%E8%AE%A4%E7%9F%A5/</url>
+    <content><![CDATA[<p><strong>由于公众号不支持长期维护同一篇文章，不便于修改。并且在同一篇文章的基础上，不能够新增内容。所以，这个技术博客要重新用起来，因为，技术的知识总结，迟迟没有更新，导致浪费了地球的资源，深感愧疚。</strong></p>
+<h3 id="情绪是何物？"><a href="#情绪是何物？" class="headerlink" title="情绪是何物？"></a>情绪是何物？</h3><p>根据维基百科的解释是：</p>
+<blockquote>
+<p><strong>情绪</strong>（又称<strong>情感</strong>），是对一系列<a href="https://zh.wikipedia.org/wiki/主觀" target="_blank" rel="noopener">主观</a>认知经验的通称，是多种<a href="https://zh.wikipedia.org/wiki/感覺" target="_blank" rel="noopener">感觉</a>、<a href="https://zh.wikipedia.org/wiki/思想" target="_blank" rel="noopener">思想</a>和<a href="https://zh.wikipedia.org/wiki/行为" target="_blank" rel="noopener">行为</a>综合产生的<a href="https://zh.wikipedia.org/wiki/心理" target="_blank" rel="noopener">心理</a>和<a href="https://zh.wikipedia.org/wiki/生理" target="_blank" rel="noopener">生理</a>状态。最普遍、通俗的情绪有喜、<a href="https://zh.wikipedia.org/wiki/憤怒" target="_blank" rel="noopener">怒</a>、哀、惊、恐、<a href="https://zh.wikipedia.org/wiki/爱" target="_blank" rel="noopener">爱</a>等，也有一些细腻微妙的情绪如<a href="https://zh.wikipedia.org/wiki/嫉妒" target="_blank" rel="noopener">嫉妒</a>、<a href="https://zh.wikipedia.org/w/index.php?title=惭愧&action=edit&redlink=1" target="_blank" rel="noopener">惭愧</a>、<a href="https://zh.wikipedia.org/wiki/羞耻" target="_blank" rel="noopener">羞耻</a>、<a href="https://zh.wikipedia.org/w/index.php?title=自豪&action=edit&redlink=1" target="_blank" rel="noopener">自豪</a>等。情绪常和<a href="https://zh.wikipedia.org/wiki/心情" target="_blank" rel="noopener">心情</a>、<a href="https://zh.wikipedia.org/wiki/性格" target="_blank" rel="noopener">性格</a>、脾气、<a href="https://zh.wikipedia.org/wiki/目的" target="_blank" rel="noopener">目的</a>等因素互相作用，也受到<a href="https://zh.wikipedia.org/wiki/荷尔蒙" target="_blank" rel="noopener">荷尔蒙</a>和<a href="https://zh.wikipedia.org/wiki/神经递质" target="_blank" rel="noopener">神经递质</a>影响。无论正面还是负面的情绪，都会引发人们行动的<a href="https://zh.wikipedia.org/wiki/动机" target="_blank" rel="noopener">动机</a>。尽管一些情绪引发的行为看上去没有经过<a href="https://zh.wikipedia.org/wiki/思考" target="_blank" rel="noopener">思考</a>，但实际上<a href="https://zh.wikipedia.org/wiki/意识" target="_blank" rel="noopener">意识</a>和思考是产生情绪重要的一环。</p>
+</blockquote>
+<h3 id="如何控制情绪？"><a href="#如何控制情绪？" class="headerlink" title="如何控制情绪？"></a>如何控制情绪？</h3><p>从医学院教授学生的角度分析：</p>
+<p>医学院常教给学生用五种方法控制情绪：</p>
+<ul>
+<li>把可能激发情绪的事情转化为抽象的事物。比如把身体接触看做执行一系列常规操作。</li>
+<li>关注正面意义。比如思考一套不成功的治疗能让我们学到什么。</li>
+<li>把患者的事情留给患者，不要带进自己的生活。</li>
+<li>保持乐观，常开玩笑。</li>
+<li>避免不必要的接触。尽量少看、少碰患者。</li>
+</ul>
+<h3 id="情绪具体可以有哪些？"><a href="#情绪具体可以有哪些？" class="headerlink" title="情绪具体可以有哪些？"></a>情绪具体可以有哪些？</h3><p>2017年，加州大学伯克利分校的研究人员Alan Cowen和Dacher Keltner基于2185部短片，发现了27种情绪：钦佩，崇拜，审美欣赏，娱乐，愤怒，焦虑，敬畏，尴尬，无聊厌倦，镇定，困惑，轻蔑鄙视，渴望，失望厌恶，同情移情，痛苦，进取，兴奋，妒忌，刺激，恐惧，惊栗，内疚，喜悦快乐，怀旧，胜利，骄傲，解脱，浪漫，悲伤，满足，性欲，惊喜</p>
+<p>为了生存，人类必须探索环境（好奇）、吐出不小心吃的异物（恶心）、建立社会关系（信任）、避免伤害（恐惧）、繁衍（爱）、战斗（愤怒）、寻求帮助（哭泣）、重复做对自己有利的事（欢乐）。在原始人类的日常生活中，情绪可以让人类自动趋利避害，做出更利于生存的选择。<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-22" target="_blank" rel="noopener">[22]</a> 尽管愤怒看起来没什么好处，但在原始<a href="https://zh.wikipedia.org/wiki/部落" target="_blank" rel="noopener">部落</a>里，可以让一个人被人害怕并建立起威望。<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-Gaulin_6-2" target="_blank" rel="noopener">[2]</a>羞耻和骄傲可以促使一个人维护自己的<a href="https://zh.wikipedia.org/wiki/社會地位" target="_blank" rel="noopener">社会地位</a>。<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-Gaulin_6-2" target="_blank" rel="noopener">[2]</a><a href="https://zh.wikipedia.org/wiki/情绪#cite_note-23" target="_blank" rel="noopener">[23]</a></p>
+<p>在社会生活上，情绪帮助我们：<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-24" target="_blank" rel="noopener">[24]</a></p>
+<ul>
+<li>与其他人交流感情（如婴儿不会说话也能成功交流）。</li>
+<li>影响其他人对我们的态度。</li>
+<li>表示善意（如不是出于喜悦，只是礼貌性的微笑）。</li>
+</ul>
+<h3 id="从大脑神经分析情绪："><a href="#从大脑神经分析情绪：" class="headerlink" title="从大脑神经分析情绪："></a>从大脑神经分析情绪：</h3><p>因为，学习认知人类大脑的运转，是非常之有意义的</p>
+<p>当代<a href="https://zh.wikipedia.org/wiki/神经心理学" target="_blank" rel="noopener">神经心理学</a>主要着重<a href="https://zh.wikipedia.org/wiki/大脑皮质" target="_blank" rel="noopener">大脑皮质</a>与情绪的关系。Hemispheric-asymmetry hypotheses则推测是因为右脑是专门处理情绪<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-41" target="_blank" rel="noopener">[41]</a>。透过观察出一些病人因为前右脑损伤而无法制造是语言上的<a href="https://zh.wikipedia.org/wiki/韵律_(语言学)" target="_blank" rel="noopener">韵律</a>，而后右脑损伤患者则失去理解语言上的<a href="https://zh.wikipedia.org/wiki/韵律_(语言学)" target="_blank" rel="noopener">韵律</a>的能力<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-42" target="_blank" rel="noopener">[42]</a>。而<a href="https://zh.wikipedia.org/w/index.php?title=Affective_neuroscience&action=edit&redlink=1" target="_blank" rel="noopener">Valence hypothesis</a>则左右脑都负责处理情绪，只是左脑多处理正面情绪、社交功能，而右脑则关于生存方面的情绪。也同时解释为何有些人对压力有不同的反应，因为个体间左右脑不对称情绪处理<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-43" target="_blank" rel="noopener">[43]</a>。而Vertical integration models则透过惧怕制约(fear conditioning)认为<a href="https://zh.wikipedia.org/w/index.php?title=Ventromedial_prefrontal_cortex&action=edit&redlink=1" target="_blank" rel="noopener">vmPFC</a>脑部抑制惧怕感觉，而<a href="https://zh.wikipedia.org/wiki/杏仁核" target="_blank" rel="noopener">杏仁核</a>则整合大脑皮质及皮质下的讯号<a href="https://zh.wikipedia.org/wiki/情绪#cite_note-44" target="_blank" rel="noopener">[44]</a>，<a href="https://zh.wikipedia.org/wiki/海马体" target="_blank" rel="noopener">海马体</a>则负责联系（记忆）惧怕感觉与刺激物。而<a href="https://zh.wikipedia.org/w/index.php?title=Somatic_marker_hypothesis&action=edit&redlink=1" target="_blank" rel="noopener">Somatic marker hypothesis</a>则研究情绪是决策时角色。透过<a href="https://zh.wikipedia.org/w/index.php?title=Iowa_gambling_task&action=edit&redlink=1" target="_blank" rel="noopener">Iowa gambling task</a>发现<a href="https://zh.wikipedia.org/w/index.php?title=Ventromedial_prefrontal_cortex&action=edit&redlink=1" target="_blank" rel="noopener">vmPFC</a>损伤病人比起正常人用更危险的策略（更高风险）</p>
+<p>以上的内容，主要是对情绪有个初步的认知，并且用专业人士的方式去控制情绪。多次阅读这篇文章，必定会对你的生活和工作，有很大的帮助。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>     最重要是动起来</title>
+    <url>/2020/04/16/%E6%9C%80%E9%87%8D%E8%A6%81%E6%98%AF%E5%8A%A8%E8%B5%B7%E6%9D%A5/</url>
+    <content><![CDATA[<p> 在日常生活和工作当中经常会遇到问题。而的问题的种类有许多，面对各种的问题我们都会有对应的办法去解 <a id="more"></a>决。同时，对应的问题的解决方法也有多种。它们有些是简单，有些是困难。现在说明一种情况：面对问题久攻不下的情况。<br> 何谓久攻不下，从时间的角度来看，就是花了很长时间查阅别人的遇到相同或类似的情况，模仿，复制别人的解决方法。这时候，可能就是一种利用检索，搜索，询问的方式去解决问题。之所以会造成久攻不下的情况，多数是缺乏运气，因为没有从根本上去理解问题。<br> 为何会会用这种方式去解决问题，因为，要从根本上去解决，是需要花很多的精力和基础知识。这样的做法就是耗费更多的时间。</p>
+<p>以下是续写，说明一下。</p>
+<p>最近看了一本关于学习的书，觉得内容值得借鉴学习。<br>内容的小结已经发布在个人的公众号上面，由于没有完善，只有总结了上半部分。便不公开。<br>讲述是一种关于整体性学习的理论方法，深深地使盲目学习的自己注入了强心针。目前的自己拥有三个平台去发布内容。第一个是 此博客，第二个是个人维护的个人网站，第三个是个人的公众号。<br>此博客，被定位为技术笔记总结，以及工作上的经历心得。<br>以前不写，都是因为太在意美化界面，和写作的便捷上的纠结。结果，错失了许多记录的心得和内容，如此次打字记录之前，还在思考是否用typora还是直接在sublime上写mardown的语法，想了想，为何不直接选择工具-typora去提高写作的效率。而且，灵感会被一秒钟的时间冲散，所以赶紧写下来是最重要的事情。以后要谨记。<br>以后在学习上面，认真的投入实在的时间，是非常的少的。总是有种傻念，觉得简单，觉得很容易就可以补回来，结果证明这是一件非常愚昧无知的事情。<br>记得尚未进入此行业之前，自己就一直有个写作的习惯，后来却丢得一干二净。</p>
+<p>那么，这时候的记录是什么呢。<br>就是，不要怕你记录的知识是多么的简单，别人阅读起来觉得你自己原来这么一般的。<br>写吧，毕竟写下来才是自己的，以后还可以迭代的嘛。</p>
+<p>下午根据该书的方法，从新快速阅读了一篇vue的文档，接下来还会阅读vue的底层原理相关的知识，扎实地把基础知识落实到位。之后最做总结。</p>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>观点</tag>
       </tags>
   </entry>
   <entry>
