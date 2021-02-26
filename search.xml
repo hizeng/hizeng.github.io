@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>     B的0706有点不一样了</title>
-    <url>/2011/07/06/2011-07-06-B%E7%9A%840706%E6%9C%89%E7%82%B9%E4%B8%8D%E4%B8%80%E6%A0%B7/</url>
-    <content><![CDATA[<h1 id="B的0706有点不一样了"><a href="#B的0706有点不一样了" class="headerlink" title="B的0706有点不一样了"></a>B的0706有点不一样了</h1><p>我的眼睛将外面的建筑物扫视一个小回 零下A度合后，发觉在她身体内外活动着的人们，包括那几只英文字母动物，他们的内心都带有着澎湃的激情。但是，这一切都掩饰得平淡而充实。我每天都要面对人们，人们每天都会做出按照自我思考而来的活动，因此我们有了不经意的生活交集。至于有无必要，就由个人去做结论了。</p>
-<p>生活的历炼不多，没有口才上反驳斥骂的经验，只能用微笑与弱者言语保护自己。与此同时做到了缓解他人心理上宣泄的欲望，减轻了自己一部分本应与其分担宣泄的压力。但是，我希望用前者来解决。</p>
-<p>那天，我与A动物有了不经意的生活交集。今天，我与B动物有了不经意的生活交集。将她们用同样的方式写在同一个二维空间里面，以至来彰显她们的共同性。巧合，你我会习惯地忽略，不给予太多的思索。然而，重复，你我会刻意地保留，添加自我的逻辑分析。我用上述保护自己的方式，重复保护了自己。所以，我思考了两起事件的缘由。我对其进行了相关的反问——她们的背后究竟是何种物质，或者是精神力量在支撑着她们泼话不是错的观点？相反，又是什么化学物质在驱使我分泌出勇气去安抚她们的情绪？</p>
-<p>B动物，被我的直接性提问（跨级提问）影响了。也打破了以往一惯平静的生活，也许，她不会认为这是工作生活上的乐趣，便执着地将其重命名为烦扰。她不希望她的生活出现半点的不一样，也许过久的乏味而导致她的麻木。所以，我毫不犹豫地安抚其本人。希望能够化解她的怒气……从B身上，我明白到跨级提问的严重性——她位置会略显多余。但是，毕竟她是她，我是我。也许，我会在不久将来赞同她的观点，或者，会一如既往地否决她的重命名。</p>
-<p>A动物，她在助人的过程中也宣泄一种怒气，我猜想她在接受任务的过程中接触了前者的不满。然而，化身为演员。在唯一观众——我的面前演绎了一翻……相对于B，对与A我有种难为情，毕竟我有着一种迟来的罪过。</p>
-<p>我想说：我是一名学生。但是，众多的AB就活生生地参与着你我的生活。</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>life-point</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>     潜伏在雷锋身上的幸福</title>
     <url>/2011/03/28/2011-03-28-%E6%BD%9C%E4%BC%8F%E5%9C%A8%E9%9B%B7%E9%94%8B%E8%BA%AB%E4%B8%8A%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
     <content><![CDATA[<h1 id="潜伏在雷锋身上的幸福"><a href="#潜伏在雷锋身上的幸福" class="headerlink" title="潜伏在雷锋身上的幸福"></a>潜伏在雷锋身上的幸福</h1><p>三月正是春意黯然的花香季节，乐于助人的雷锋便在不经意间与此搭上了关系。学习“雷锋”— 一种乐于助人的精神，也许你们抱着这样的精神，到生活中实践起来，大爱就会飘扬于四海，幸福就会弥漫在人间。</p>
@@ -37,21 +20,20 @@
       </tags>
   </entry>
   <entry>
-    <title>     bootstrap 笔记</title>
-    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
-    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
-<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
-<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
-<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
-<p><code>list-inline</code> :li标签 水平排列</p>
-<p><code>tabal-striped</code>:斑马线样式表单</p>
-<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
+    <title>     B的0706有点不一样了</title>
+    <url>/2011/07/06/2011-07-06-B%E7%9A%840706%E6%9C%89%E7%82%B9%E4%B8%8D%E4%B8%80%E6%A0%B7/</url>
+    <content><![CDATA[<h1 id="B的0706有点不一样了"><a href="#B的0706有点不一样了" class="headerlink" title="B的0706有点不一样了"></a>B的0706有点不一样了</h1><p>我的眼睛将外面的建筑物扫视一个小回 零下A度合后，发觉在她身体内外活动着的人们，包括那几只英文字母动物，他们的内心都带有着澎湃的激情。但是，这一切都掩饰得平淡而充实。我每天都要面对人们，人们每天都会做出按照自我思考而来的活动，因此我们有了不经意的生活交集。至于有无必要，就由个人去做结论了。</p>
+<p>生活的历炼不多，没有口才上反驳斥骂的经验，只能用微笑与弱者言语保护自己。与此同时做到了缓解他人心理上宣泄的欲望，减轻了自己一部分本应与其分担宣泄的压力。但是，我希望用前者来解决。</p>
+<p>那天，我与A动物有了不经意的生活交集。今天，我与B动物有了不经意的生活交集。将她们用同样的方式写在同一个二维空间里面，以至来彰显她们的共同性。巧合，你我会习惯地忽略，不给予太多的思索。然而，重复，你我会刻意地保留，添加自我的逻辑分析。我用上述保护自己的方式，重复保护了自己。所以，我思考了两起事件的缘由。我对其进行了相关的反问——她们的背后究竟是何种物质，或者是精神力量在支撑着她们泼话不是错的观点？相反，又是什么化学物质在驱使我分泌出勇气去安抚她们的情绪？</p>
+<p>B动物，被我的直接性提问（跨级提问）影响了。也打破了以往一惯平静的生活，也许，她不会认为这是工作生活上的乐趣，便执着地将其重命名为烦扰。她不希望她的生活出现半点的不一样，也许过久的乏味而导致她的麻木。所以，我毫不犹豫地安抚其本人。希望能够化解她的怒气……从B身上，我明白到跨级提问的严重性——她位置会略显多余。但是，毕竟她是她，我是我。也许，我会在不久将来赞同她的观点，或者，会一如既往地否决她的重命名。</p>
+<p>A动物，她在助人的过程中也宣泄一种怒气，我猜想她在接受任务的过程中接触了前者的不满。然而，化身为演员。在唯一观众——我的面前演绎了一翻……相对于B，对与A我有种难为情，毕竟我有着一种迟来的罪过。</p>
+<p>我想说：我是一名学生。但是，众多的AB就活生生地参与着你我的生活。</p>
 ]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
       <tags>
-        <tag>css</tag>
+        <tag>life-point</tag>
       </tags>
   </entry>
   <entry>
@@ -71,6 +53,24 @@
       </categories>
       <tags>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     bootstrap 笔记</title>
+    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
+    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
+<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
+<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
+<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
+<p><code>list-inline</code> :li标签 水平排列</p>
+<p><code>tabal-striped</code>:斑马线样式表单</p>
+<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
+]]></content>
+      <tags>
+        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -149,6 +149,49 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>    页面模板渲染数据</title>
+    <url>/2019/04/13/2019-03-13-%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="逻辑混乱-阅读者可忽略"><a href="#逻辑混乱-阅读者可忽略" class="headerlink" title="逻辑混乱 阅读者可忽略"></a>逻辑混乱 阅读者可忽略</h2><h2 id="1-采用nunjucks第三方模板库渲染数据"><a href="#1-采用nunjucks第三方模板库渲染数据" class="headerlink" title="1.采用nunjucks第三方模板库渲染数据"></a>1.采用nunjucks第三方模板库渲染数据</h2><blockquote>
+<p>结合继承的思想 我们引入模板引擎 进行页面开发 同时 引擎是拥有 数据绑定 的功能<br>这个功能在开发中起到很大的作用 </p>
+</blockquote>
+<p>在项目根目录下 npm install nunjucks –save 下载；</p>
+<p>在app.js 引入nunjucks模板库  var nunjuck = require(‘nunjucks’)</p>
+<p>并配置模板引擎：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">app.set(<span class="string">'view engine'</span>, <span class="string">'tpl'</span>);</span><br><span class="line"></span><br><span class="line">  nunjucks.configure(<span class="string">'views'</span>,&#123;</span><br><span class="line">      autoescape:<span class="literal">true</span>,</span><br><span class="line">      express:app,</span><br><span class="line">      watch:<span class="literal">true</span></span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-路由Router"><a href="#2-路由Router" class="headerlink" title="2.路由Router"></a>2.路由Router</h2><blockquote>
+<p>随着对页面进行操作，页面会发生变化。那么页面之间的跳转如何实现？数据如何在跳转中进行加载？</p>
+</blockquote>
+<p>引入 var router = express.Router();</p>
+<p>页面中跳转的URL： /user/edit 对应路由中配置的路径  router.get(‘/user/edit’,methods);</p>
+<p>路由请求中调用的方法（methods）：是控制跳转至URL后 需要对页面数据交换 进行的操作</p>
+<p>遵行MVC模型，将其定义在根目录下 file://Controllers 而负责页面跳转路由,则定义在根目录下 file://Router; </p>
+<p>关于Router，补充与一点，专门与服务器 请求数据的 我们独立分开成两个文件 将其命名api.js 而页面跳转<br>则命名为index.js  目的是 严谨代码逻辑，体现模块化的功能 下面Controllers Model 也有所体现。</p>
+<h2 id="3-控制器Controllers-与-模块器Model"><a href="#3-控制器Controllers-与-模块器Model" class="headerlink" title="3.控制器Controllers 与 模块器Model"></a>3.控制器Controllers 与 模块器Model</h2><p>Controllers: 在里面定义 methods: async function(req,res,next){<br>调用封装后的Model里面定义的读取数据库的方法}</p>
+<p>在方法里面 调用到Model的方法时 使用 await (async await的理解 后续补上)</p>
+<p>res.locals.protype = value;</p>
+<p>res.locals 是express中 对于单次请求响应的周期内 所使用的数据  </p>
+<p>app.locals 则针对于 全局的 常量 来使用 </p>
+<p>value 就是 Model 与数据库 连接后 所获取得到的数据。 </p>
+<p>##本内容关注的是页面的渲染 只关注 从数据库获取数据#</p>
+<p>res.render(‘index’) 服务器发出响应 要求 客户渲染模板的方法 事先在 app.js 中配置好模板引擎 可忽略 模板文件的后缀</p>
+<p>index完整的信息是 ‘路径/index.tpl’</p>
+<h2 id="4-模板调用数据"><a href="#4-模板调用数据" class="headerlink" title="4.模板调用数据"></a>4.模板调用数据</h2><p>上面操作中：res.locals.protype =value;</p>
+<p>protype 对应tpl文件中的使用语法如下</p>
+<p>加载数据 </p>
+<p>####以上就是数据渲染到模板的流程</p>
+<blockquote>
+<p>深化请继续阅读<br>nunjuck.js 模版语法<br>  express.js request respones router 的API</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>     Github代码提交和日常协同开发</title>
     <url>/2019/04/12/2019-04-12-%E5%8D%8F%E5%90%8C%E5%BC%80%E5%8F%91/</url>
     <content><![CDATA[<h1 id="Github代码提交-和-日常协同开发（远程仓：Github"><a href="#Github代码提交-和-日常协同开发（远程仓：Github" class="headerlink" title="Github代码提交 和 日常协同开发（远程仓：Github)"></a>Github代码提交 和 日常协同开发（远程仓：Github)</h1><h2 id="情况一：新建空仓库-（新建空仓库-不勾选自动生成Readme-md"><a href="#情况一：新建空仓库-（新建空仓库-不勾选自动生成Readme-md" class="headerlink" title="情况一：新建空仓库 （新建空仓库 不勾选自动生成Readme.md)"></a>情况一：新建空仓库 （<strong><em>新建空仓库 不勾选自动生成Readme.md</em></strong>)</h2><p>1.cd项目文件（初始化项目）<br>git init<br>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:你的账户/仓库名.git<br>git add .<br>git commit -m “nihao”<br>git push -u origin master （首次提交）<br>git push （之后提交）</p>
@@ -224,49 +267,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>    页面模板渲染数据</title>
-    <url>/2019/04/13/2019-03-13-%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="逻辑混乱-阅读者可忽略"><a href="#逻辑混乱-阅读者可忽略" class="headerlink" title="逻辑混乱 阅读者可忽略"></a>逻辑混乱 阅读者可忽略</h2><h2 id="1-采用nunjucks第三方模板库渲染数据"><a href="#1-采用nunjucks第三方模板库渲染数据" class="headerlink" title="1.采用nunjucks第三方模板库渲染数据"></a>1.采用nunjucks第三方模板库渲染数据</h2><blockquote>
-<p>结合继承的思想 我们引入模板引擎 进行页面开发 同时 引擎是拥有 数据绑定 的功能<br>这个功能在开发中起到很大的作用 </p>
-</blockquote>
-<p>在项目根目录下 npm install nunjucks –save 下载；</p>
-<p>在app.js 引入nunjucks模板库  var nunjuck = require(‘nunjucks’)</p>
-<p>并配置模板引擎：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">app.set(<span class="string">'view engine'</span>, <span class="string">'tpl'</span>);</span><br><span class="line"></span><br><span class="line">  nunjucks.configure(<span class="string">'views'</span>,&#123;</span><br><span class="line">      autoescape:<span class="literal">true</span>,</span><br><span class="line">      express:app,</span><br><span class="line">      watch:<span class="literal">true</span></span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-路由Router"><a href="#2-路由Router" class="headerlink" title="2.路由Router"></a>2.路由Router</h2><blockquote>
-<p>随着对页面进行操作，页面会发生变化。那么页面之间的跳转如何实现？数据如何在跳转中进行加载？</p>
-</blockquote>
-<p>引入 var router = express.Router();</p>
-<p>页面中跳转的URL： /user/edit 对应路由中配置的路径  router.get(‘/user/edit’,methods);</p>
-<p>路由请求中调用的方法（methods）：是控制跳转至URL后 需要对页面数据交换 进行的操作</p>
-<p>遵行MVC模型，将其定义在根目录下 file://Controllers 而负责页面跳转路由,则定义在根目录下 file://Router; </p>
-<p>关于Router，补充与一点，专门与服务器 请求数据的 我们独立分开成两个文件 将其命名api.js 而页面跳转<br>则命名为index.js  目的是 严谨代码逻辑，体现模块化的功能 下面Controllers Model 也有所体现。</p>
-<h2 id="3-控制器Controllers-与-模块器Model"><a href="#3-控制器Controllers-与-模块器Model" class="headerlink" title="3.控制器Controllers 与 模块器Model"></a>3.控制器Controllers 与 模块器Model</h2><p>Controllers: 在里面定义 methods: async function(req,res,next){<br>调用封装后的Model里面定义的读取数据库的方法}</p>
-<p>在方法里面 调用到Model的方法时 使用 await (async await的理解 后续补上)</p>
-<p>res.locals.protype = value;</p>
-<p>res.locals 是express中 对于单次请求响应的周期内 所使用的数据  </p>
-<p>app.locals 则针对于 全局的 常量 来使用 </p>
-<p>value 就是 Model 与数据库 连接后 所获取得到的数据。 </p>
-<p>##本内容关注的是页面的渲染 只关注 从数据库获取数据#</p>
-<p>res.render(‘index’) 服务器发出响应 要求 客户渲染模板的方法 事先在 app.js 中配置好模板引擎 可忽略 模板文件的后缀</p>
-<p>index完整的信息是 ‘路径/index.tpl’</p>
-<h2 id="4-模板调用数据"><a href="#4-模板调用数据" class="headerlink" title="4.模板调用数据"></a>4.模板调用数据</h2><p>上面操作中：res.locals.protype =value;</p>
-<p>protype 对应tpl文件中的使用语法如下</p>
-<p>加载数据 </p>
-<p>####以上就是数据渲染到模板的流程</p>
-<blockquote>
-<p>深化请继续阅读<br>nunjuck.js 模版语法<br>  express.js request respones router 的API</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
       </tags>
   </entry>
   <entry>
@@ -386,91 +386,6 @@ data:请求所携带的参数；
       <tags>
         <tag>work-skill</tag>
         <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     mysql连接出错</title>
-    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
-    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
-<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
-<p><strong>问题描述:</strong></p>
-<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
-<p><strong>解决办法：</strong></p>
-<p><strong>第一步：</strong></p>
-<p>打开terminal 输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
-
-<p><strong>第二步:</strong></p>
-<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
-<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
-<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
-<p><strong>问题分析</strong></p>
-<ol>
-<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
-修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
-</ol>
-<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
-<p><strong>*重点</strong> </p>
-<p>关于两者之间切换问题 和 注意事项</p>
-<p>开启本地mysql 步骤</p>
-<ol>
-<li>检查 xampp mysql database 的status 设置为stopped</li>
-<li>去控制面板或者终端 启动本地mysql server </li>
-</ol>
-<p>开启xmapp mysql </p>
-<ol>
-<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
-</ol>
-<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
-
-<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
-<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
-<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
-<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>   Mac工作流工具推介</title>
-    <url>/2019/05/05/2019-05-05-mac%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</url>
-    <content><![CDATA[<h1 id="Mac-工作流"><a href="#Mac-工作流" class="headerlink" title="Mac 工作流"></a>Mac 工作流</h1><h2 id="掌握workflows后你会发现你一直在浪费你的Mac"><a href="#掌握workflows后你会发现你一直在浪费你的Mac" class="headerlink" title="掌握workflows后你会发现你一直在浪费你的Mac"></a>掌握workflows后你会发现你一直在浪费你的Mac</h2><a id="more"></a>
-<blockquote>
-<p>工欲善其事必先利其器! </p>
-</blockquote>
-<p><a href="http://louiszhai.github.io/2018/05/31/alfred/" target="_blank" rel="noopener">Alfred神器使用手册</a> <strong>极大的减少了程序之间的切换成本和重复按键成本</strong></p>
-<ul>
-<li>链接目前有问题:偶尔会打不开 </li>
-<li>Alfred （带有Workflows功能的破解版本 找我要，workflows 是Alfred的核心 ）</li>
-</ul>
-<p><a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="noopener">mac键盘快捷键</a><strong>：熟悉你的电脑是基本操作</strong></p>
-<p><a href="https://support.google.com/chrome/answer/157179?hl=zh-Hans" target="_blank" rel="noopener">谷歌浏览器快捷键</a><strong>:熟练运用浏览器快捷键 可以提升你的气质</strong></p>
-<p><a href="https://www.typora.io/" target="_blank" rel="noopener">markdown编辑器</a> <strong>:可以提高3倍你书写文档的速度，让你乐意总结思路</strong> </p>
-<p><a href="http://www.irradiatedsoftware.com/sizeup/" target="_blank" rel="noopener">sizeup分屏神器</a>:分屏提高你的工作视野 让你的视野集中在同一眼底下 所有所有的一切都是为了让你专注思考你的代码</p>
-<h6 id="对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处"><a href="#对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处" class="headerlink" title="对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处"></a>对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处</h6><p><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" target="_blank" rel="noopener">翻译插件</a> <a href="https://github.com/crimx/ext-saladict/wiki/Instructions#wiki-content" target="_blank" rel="noopener">注意事项</a><strong>:比谷歌翻译还优秀的翻译插件（此插件包含谷歌翻译）</strong></p>
-<p><a href="https://github.com/zhaoolee/ChromeAppHeroes" target="_blank" rel="noopener">谷粒插件英雄榜</a><strong>:优秀的插件都在这里</strong></p>
-<p><a href="https://www.typingclub.com/" target="_blank" rel="noopener">打字练习工具</a><strong>:实测一个月打字速度提高2倍，编码思路更加顺畅（记住指键相对应的位置，前期慢也要保证正确率）</strong></p>
-<h4 id="前端开发者安装谷歌插件："><a href="#前端开发者安装谷歌插件：" class="headerlink" title="前端开发者安装谷歌插件："></a>前端开发者安装谷歌插件：</h4><ul>
-<li><p>Page Ruler 桌面尺子 测试浏览器界面的尺寸</p>
-</li>
-<li><p>WhatRuns 检测该网页应用的技术栈 同步了解主流开发技术</p>
-</li>
-<li><p>PageSpeed Insights 检测网页性能 </p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>workflow</tag>
       </tags>
   </entry>
   <entry>
@@ -602,8 +517,104 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>     mysql连接出错</title>
+    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
+    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
+<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
+<p><strong>问题描述:</strong></p>
+<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
+<p><strong>解决办法：</strong></p>
+<p><strong>第一步：</strong></p>
+<p>打开terminal 输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
+
+<p><strong>第二步:</strong></p>
+<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
+<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
+<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
+<p><strong>问题分析</strong></p>
+<ol>
+<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
+修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
+</ol>
+<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
+<p><strong>*重点</strong> </p>
+<p>关于两者之间切换问题 和 注意事项</p>
+<p>开启本地mysql 步骤</p>
+<ol>
+<li>检查 xampp mysql database 的status 设置为stopped</li>
+<li>去控制面板或者终端 启动本地mysql server </li>
+</ol>
+<p>开启xmapp mysql </p>
+<ol>
+<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
+</ol>
+<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
+
+<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
+<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
+<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
+<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>wechat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>   Mac工作流工具推介</title>
+    <url>/2019/05/05/2019-05-05-mac%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<h1 id="Mac-工作流"><a href="#Mac-工作流" class="headerlink" title="Mac 工作流"></a>Mac 工作流</h1><h2 id="掌握workflows后你会发现你一直在浪费你的Mac"><a href="#掌握workflows后你会发现你一直在浪费你的Mac" class="headerlink" title="掌握workflows后你会发现你一直在浪费你的Mac"></a>掌握workflows后你会发现你一直在浪费你的Mac</h2><a id="more"></a>
+<blockquote>
+<p>工欲善其事必先利其器! </p>
+</blockquote>
+<p><a href="http://louiszhai.github.io/2018/05/31/alfred/" target="_blank" rel="noopener">Alfred神器使用手册</a> <strong>极大的减少了程序之间的切换成本和重复按键成本</strong></p>
+<ul>
+<li>链接目前有问题:偶尔会打不开 </li>
+<li>Alfred （带有Workflows功能的破解版本 找我要，workflows 是Alfred的核心 ）</li>
+</ul>
+<p><a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="noopener">mac键盘快捷键</a><strong>：熟悉你的电脑是基本操作</strong></p>
+<p><a href="https://support.google.com/chrome/answer/157179?hl=zh-Hans" target="_blank" rel="noopener">谷歌浏览器快捷键</a><strong>:熟练运用浏览器快捷键 可以提升你的气质</strong></p>
+<p><a href="https://www.typora.io/" target="_blank" rel="noopener">markdown编辑器</a> <strong>:可以提高3倍你书写文档的速度，让你乐意总结思路</strong> </p>
+<p><a href="http://www.irradiatedsoftware.com/sizeup/" target="_blank" rel="noopener">sizeup分屏神器</a>:分屏提高你的工作视野 让你的视野集中在同一眼底下 所有所有的一切都是为了让你专注思考你的代码</p>
+<h6 id="对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处"><a href="#对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处" class="headerlink" title="对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处"></a>对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处</h6><p><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" target="_blank" rel="noopener">翻译插件</a> <a href="https://github.com/crimx/ext-saladict/wiki/Instructions#wiki-content" target="_blank" rel="noopener">注意事项</a><strong>:比谷歌翻译还优秀的翻译插件（此插件包含谷歌翻译）</strong></p>
+<p><a href="https://github.com/zhaoolee/ChromeAppHeroes" target="_blank" rel="noopener">谷粒插件英雄榜</a><strong>:优秀的插件都在这里</strong></p>
+<p><a href="https://www.typingclub.com/" target="_blank" rel="noopener">打字练习工具</a><strong>:实测一个月打字速度提高2倍，编码思路更加顺畅（记住指键相对应的位置，前期慢也要保证正确率）</strong></p>
+<h4 id="前端开发者安装谷歌插件："><a href="#前端开发者安装谷歌插件：" class="headerlink" title="前端开发者安装谷歌插件："></a>前端开发者安装谷歌插件：</h4><ul>
+<li><p>Page Ruler 桌面尺子 测试浏览器界面的尺寸</p>
+</li>
+<li><p>WhatRuns 检测该网页应用的技术栈 同步了解主流开发技术</p>
+</li>
+<li><p>PageSpeed Insights 检测网页性能 </p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>workflow</tag>
+      </tags>
+  </entry>
+  <entry>
     <title> </title>
     <url>/2019/05/08/2019-05-08-%E6%96%87%E7%AB%A0%E7%9A%84%E6%A8%A1%E7%89%88/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>   </title>
+    <url>/2020/04/25/2020-04-25-beta%E6%96%87%E7%AB%A0vue%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>skill</category>
@@ -628,17 +639,6 @@ data:请求所携带的参数；
 <p>以上建议出自知识星球，灰狐。</p>
 <h4 id="个人心得（会不断迭代）："><a href="#个人心得（会不断迭代）：" class="headerlink" title="个人心得（会不断迭代）："></a>个人心得（会不断迭代）：</h4><p>1.对于学习某样新的技术，最佳方案是阅读开发者提供的技术文档，而英文作者的便以英文原版的是优先的阅读对象。对于某些高手总结的学习资料，就为参考辅助。</p>
 ]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>   </title>
-    <url>/2020/04/25/2020-04-25-beta%E6%96%87%E7%AB%A0vue%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
       <categories>
         <category>skill</category>
       </categories>
@@ -919,6 +919,105 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>    大脑神经认知科学系列002</title>
+    <url>/2020/09/27/2020-09-27%E5%A4%A7%E8%84%91%E7%A5%9E%E7%BB%8F%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6%E7%B3%BB%E5%88%97-2/</url>
+    <content><![CDATA[<blockquote>
+<p>本想继续写半小时的1000字文章，但是，有太多事要写，或者说，不知道如何选择写什么。昨晚看到一篇非常有意义关于大脑神经认知科学的文章，这也是自己在今后会特别注重的一个知识领域。所以，便多用了一点时间，对它进行翻译。</p>
+</blockquote>
+<h4 id="我们人类发明了互联网，我们能够承担其带来的后果吗？"><a href="#我们人类发明了互联网，我们能够承担其带来的后果吗？" class="headerlink" title="我们人类发明了互联网，我们能够承担其带来的后果吗？"></a>我们人类发明了互联网，我们能够承担其带来的后果吗？</h4><p>认知神经学家亚当 · 加扎利说，在我们的基础上，“人类是寻求信息的生物。”这可能就是问题所在。虽然互联网和智能设备给了我们前所未有的途径来获取我们渴望的数据，但我们似乎对这些技术带来的洪水束手无策。</p>
+<p>尼尔森市场研究集团(Nielsen market-research group)最近的一项调查显示，美国人平均每天花在电脑和移动设备上的时间接近4个小时，其中将近四分之一的时间花在社交媒体上。虽然所有这些像素注视的好处很多，但坏处可能是可怕的。在公共场合，网络过滤器产生的泡沫强化了我们的先入之见，放大了我们的愤怒。</p>
+<p>有些时候，拇指敲击屏幕的声音已经取代了晚餐时间的谈话。教授们面对的教室里全是用 app 聊天的僵尸。2017年的一项研究发现，在职的智能手机时间每周给公司造成的生产力损失高达150亿美元。开车时发短信导致每年超过30万起交通事故。每年有数百人因为在发短信的时候撞到东西而住院。随着我们的设备变得越来越智能，越来越有效率，越来越多的连接，它们似乎经常让我们变得更笨，更分心，更分裂。</p>
+<p>越来越多的研究表明，这个难题源于刻在我们 DNA 中的一个特征: 我们无与伦比的对知识的渴望。加州大学旧金山分校的神经科学家亚当 · 加扎利说: “这是一种古老的驱动力，它导致了我们与周围世界互动的各种复杂性。”他也是《分心的思想: 高科技世界中的古代大脑》一书的合著者。</p>
+<p>他与其他专家认为，我们目前的困境涉及我们对信息的巨大需求和我们有限的注意力之间的差距。为了弄清楚我们是如何走到这一步的ーー或许还要找到一条出路ーー理解我们是如何获得大脑的至关重要。</p>
+<h4 id="大脑类比计算机的cup"><a href="#大脑类比计算机的cup" class="headerlink" title="大脑类比计算机的cup"></a>大脑类比计算机的cup</h4><p>西雅图艾伦脑科学研究所的神经科学家克里斯托夫 · 科赫称人类大脑是“已知宇宙中最复杂的物体”我们大脑中的计算机包含大约860亿个处理单元，被称为神经元，它们编织成一个由数百万亿个连接或突触组成的分布式网络。在一生中，它可以存储大约10亿比特的数据: 是国会图书馆信息量的5万倍。它可以创作小说和交响曲，可以计算出如何将宇宙飞船送到太阳系之外，还可以发明电子大脑，这些电子大脑的能力在某些方面超过了它自己。</p>
+<p>然而，这个奇迹的起源却极其卑微。大约700万年前，人类——我们灵长类家族的分支——开始了向直立行走的漫长过渡。两足行走，也就是用两条腿走路，使我们的双手能够自由地制造和操作工具。它还使我们能够走更远的路，这是我们走出非洲森林和热带稀树草原的关键。佛罗里达州立大学(Florida State University)人类学教授、圣达菲高级研究学院(Santa Fe’s School for Advanced Research)专门研究大脑进化的高级学者迪安 · 福尔克(Dean Falk)指出: “如果你观察非人类的灵长类动物，就好像它们的下面还有一双手。”。“当我们的脚变成了负重的工具时，一切都被踢开了ーー没有双关语的意思。”</p>
+<p>这种影响并不是立竿见影的。300多万年前，可能是第一个完全两足人类的南方古猿阿法种的脑壳，只比黑猩猩的大一点点。但是直到智人至少在30万年前出现的时候，脑容量已经翻了三倍。我们的大脑与身体的比例是其他哺乳动物的六倍，而且我们大脑皮层(大脑的外层，负责认知)的神经元比地球上任何其他生物的神经元都密集。</p>
+<p>近年来，科学家已经发现了二十多种基因变化，这些变化可能帮助我们的大脑不仅变得更大，而且具有无可比拟的能力。威斯康星大学麦迪逊分校的古人类学家 John Hawks 说: “这不仅仅是一次质的飞跃。“从新陈代谢调节到神经元形成，再到发育时间，许多适应性因素都在发挥作用。”例如，一段名为 HARE5的基因调控 DNA 片段在黑猩猩和人类之间略有不同; 当杜克大学(Duke University)的一个研究小组将这两种 DNA 片段同时植入小鼠胚胎时，那些获得人类类型的胚胎发育出的大脑要大12% 。与此同时，NOTCH2基因的突变增加了神经干细胞的产量，并延迟了它们向皮层神经元的成熟，这可能是我们的大脑比其他灵长类动物长得更长的部分原因。在许多物种中，FOXP2基因对语言交流至关重要，但在人类和我们最近的类人猿亲戚中，FOXP2基因因两个碱基对而分化。我们的基因突变可以解释为什么我们能说话而黑猩猩不能。</p>
+<p>我们的大脑也受到外部力量的影响，这增加了更聪明的人类遗传基因的几率。专家们争论哪些因素最重要。福尔克假设失去抓握的脚是至关重要的: 当婴儿不再像非人类灵长类动物那样依附在母亲身上时，从远处抚慰他们的需要导致了语言的发展，这彻底改变了我们的神经组织。其他研究人员认为，饮食的变化，如吃肉或烹饪食物，使我们能够以较短的消化道，这释放了更多的能量，传输给我们的大脑。还有一些人认为我们大脑的进化是由于社会复杂性的增加或环境挑战的加剧。</p>
+<p>可以肯定的是，我们的神经硬件是在与今天完全不同的条件下形成的。几千年来，我们不得不时刻警惕危险的掠食者、敌对的氏族、潜在的食物来源和庇护所ーー仅此而已。正如麦吉尔大学的神经系统科学家 Daniel j. Levitin 在他的书《有组织的大脑》中所说: “我们的大脑进化到一次只关注一件事情。”</p>
+<p>我们的数字设备，从设计上来说，使得这几乎不可能。</p>
+<h4 id="科技vs大脑"><a href="#科技vs大脑" class="headerlink" title="科技vs大脑"></a>科技vs大脑</h4><p>大脑中能够让我们制定详细计划并贯彻执行的那部分—- 可以说是让我们成为最具人性的那部分—- 是脑前额叶外皮。这个区域在智人中只比黑猩猩或大猩猩稍大一点，但是它与其他脑区的联系更广泛和复杂。尽管有这个先进的网络，我们的计划能力远远强于我们专注于一个特定任务的能力。</p>
+<p>其中一个原因是，像所有动物一样，我们进化到当我们感觉到危险时立即转移注意力: 可能预示着一个接近的捕食者的折断的树枝，树后的阴影可能预示着一个敌人。我们以目标为导向，或者自上而下的思维活动，在这些自下而上的新奇和显著的力量面前几乎没有机会，这些刺激是意想不到的、突然的或戏剧性的，或者唤起了重要经历的记忆。</p>
+<p>“许多技术设备使用自下而上的刺激来吸引我们的注意力，从我们的目标，如嗡嗡声、振动和闪光，” Gazzaley 说。此外，即使当它们处于静默模式时，我们的设备也以无限的、立即可用的信息吸引着我们。可以随时获取的数据可能是新闻(我们最不喜欢的政客的最新失态)、事实(我们最喜欢的演员的从影记录)、社交(我们自拍得到的赞成票数) ，或者仅仅是纯粹的乐趣(有舵雪橇上的土豚视频)。但是所有这些都激发了我们对知识的渴望。</p>
+<p>这种冲动并不是我们所特有的。在高等灵长类动物中，脑部扫描显示，最初为觅食而开发的神经回路也控制着高级认知行为。即使是猕猴对新信息的反应也和它们对水果或水等原始奖励的反应一样。当动物在丛林中发现一个成熟的芒果，或者在实验室中解决了一个问题时，被称为多巴胺能系统的脑细胞就会活跃起来，产生愉悦感。这些细胞还与帮助获得奖励的大脑回路建立持久的联系。当这些回路被激活时，通过触发积极的感觉，这个系统促进了学习。</p>
+<p>当然，人类比其他任何动物都更贪婪地搜寻数据。而且，像大多数觅食者一样，我们遵循优化搜索的本能策略。研究寻求营养的动物的行为生态学家已经开发出各种模型来预测它们可能的行为过程。其中之一，边际价值定理(MVT) ，适用于在食物被发现的地区的觅食者，与资源贫乏的地区之间。例如，根据一个评估呆在原地的成本和收益的公式，MVT 可以预测松鼠何时会停止在一棵树上采集橡子，转而采集下一棵树上的橡子ーー每分钟采集的坚果数量与旅行所需的时间等等。Gazzaley 认为数字领域也是一个类似的环境，其中的补丁是信息的来源ーー网站、智能手机、电子邮件程序。他相信一个类似 mvt 的公式可能会控制我们的在线搜索: 每个数据补丁提供的报酬递减都是随着时间的推移，当我们用尽那里的可用信息，或者当我们开始担心更好的数据可能在其他地方获得。</p>
+<p>下一个数据补丁的召唤可能会让我们从 Facebook 跳到 Twitter、谷歌(Google)再到 YouTube; 它还会干扰目标的实现——赶上工作截止日期、在课堂上集中注意力、与心爱的人面对面交流。它以两种基本的方式做到了这一点，加扎利说。一种是分心，他将其定义为“我们要么在外部环境中遇到，要么在自己头脑中产生的与目标无关的信息片段”我们试图忽略手机的信号和嗡嗡声(或者我们害怕错过它们所代表的数据) ，结果却发现我们的注意力被这种努力削弱了。</p>
+<p>另一个目标杀手是干扰: 我们从自上而下的活动中休息一下，以满足我们的信息饥渴。这种情况通常被称为多任务处理，听起来好像我们在同时完成几件事情ーー编写季度报告、回复客户电子邮件、密切关注娱乐明星的失态行为、偷看影视剧。事实上，这意味着我们一事无成。</p>
+<p>“在我们想做的和我们实际能够做的之间存在着冲突，”加扎利说。“(我们的注意力)每从一个任务转移到另一个任务上，都有代价。”例如，一项研究发现，IT 工作者在被打断后恢复一个项目平均需要25分钟。除了使效率大打折扣之外，这样的杂耍还会导致高度的压力、挫折和疲劳。</p>
+<p>它还会对工作记忆造成严重破坏，而工作记忆是一种让我们在大脑中保存一些关键数据的功能，这些数据只够我们将它们应用到一项任务中。多项研究表明，“媒体多任务处理”(用于在数字数据源之间切换的科学术语)过载了这个思维空间，使我们不那么专注，更容易出错。例如，2012年，加拿大研究人员发现，笔记本电脑的多任务处理不仅阻碍了用户的课堂学习，也阻碍了坐在附近的学生的课堂学习。重度多任务处理与认知控制能力下降、前扣带皮层冲动性增强和容量减少有关，前扣带皮层是大脑中与错误检测和情绪调节相关的区域。</p>
+<h4 id="我们vs他们"><a href="#我们vs他们" class="headerlink" title="我们vs他们"></a>我们vs他们</h4><p>情绪调节是科技对我们古老大脑的另一个破坏性影响的核心: 部落倾向的加剧。我们的远古祖先生活在小型的游牧群体中，这是人类历史上大部分时期的基本社会单位。古人类学家霍克斯说: “争夺资源和空间的族群并不总是那么和平。”。“我们就是这个过程的产物。”</p>
+<p>如今，许多分析人士认为，部落主义在世界范围内民族主义运动的复苏和美国政治两极分化的急剧加剧中得到了体现，这两种趋势在网络上都有突出表现。2015年发表在《美国政治科学杂志》(American Journal of Political Science)上的一项研究发现，党派归属已经成为共和党人和民主党人身份的一个基本组成部分。社交媒体促使我们公开表达自己的激情和信念，它助长了作者所说的“党派偏好对非政治领域和迄今为止的个人领域的逐渐侵蚀”</p>
+<p>我们天生擅长区分“我们”和“他们”当我们与团队内的成员互动时，多巴胺的释放会给我们带来一阵快感，而团队外的成员可能会引发消极的反应。在网上获得“赞”只会加强这种体验。</p>
+<p>我们退回到部落模式也可能是对网络点燃的数据爆炸的反应。2018年，心理学家托马斯 · 希尔斯在《心理科学展望》杂志上回顾了一系列关于信息增殖的早期研究。他发现，数字媒介极端主义和极化的高涨可能是认知超负荷的反应。他认为，在这场冲击中，我们依靠根深蒂固的偏见来决定哪些数据值得我们关注。其结果是: 群体思维、回音室和阴谋论。希尔斯说: “找到与我已经相信的信息一致的信息，会让我成为内部团队中更好的成员。”。“我可以告诉我的盟友，‘看，这就是我们是正确的证据! ”’</p>
+<p>在某些情况下，对自己部落的偏爱会激发看到另一个部落受苦的欲望。哈佛大学心理学家 Mina Cikara 说: “并不是所有的群体都是一样的。”她研究的是让一个群体从另一个群体的痛苦中获得快乐的因素，这种反应被称为幸灾乐祸。“比如说，美国人对加拿大人的反应，不会像对待伊朗人那样。”她解释说，造成这种恶意的因素是“这个组织在反对我们，他们有能力实施威胁。”例如，当湖人队和火箭队的球迷看到他们的对手球队没有得分，即使是对第三支球队，他们的腹侧纹状体活动增强，这是一个与奖励反应相关的大脑区域。</p>
+<h4 id="现在vs未来"><a href="#现在vs未来" class="headerlink" title="现在vs未来"></a>现在vs未来</h4><p>别指望硅谷的老板们会重新设计他们的盈利产品，以减少对我们老式神经线路的剥削。“妖怪已经从瓶子里跑出来了，”加扎利说。“把它放回去不是一个现实的计划。”</p>
+<p>然而，我们可以进化。希尔斯认为，对抗数字部落主义最可靠的方法就是警惕偏见，拥抱批判性思维，并鼓励其他人也这样做。对于 Gazzaley 来说，他提供了各种各样的策略，让我们的大脑不那么容易受到干扰和干扰，并且改变我们的行为以抵制科技的诱惑(参见“驯服我们的科技”侧栏)。“通过养成更健康的习惯，我们可以改善我们与科技的关系，”他说。“我们是非常适应环境的物种。我想我们会没事的。”</p>
+<p>面对科技的认知超载，人类通过依赖进化形成的偏见来决定什么是值得关注的，英国华威大学的心理学教授 Thomas t. Hills 说。这些倾向可能帮助我们的祖先生存下来，但他们并不总是我们今天的最大利益，希尔斯说。他指出了四种助长数字部落主义的“认知选择”。</p>
+<p><strong>选择信念一致信息</strong></p>
+<p>也被称为确认偏见，它使我们倾向于选择与我们已有想法一致的数据。在史前时期，这可能会让人们把暴风雨视为萨满巫师对天气的控制力的证据ーー这种解释加强了社会凝聚力，即使它是错误的。今天，确认偏差可能会导致更多的后果性错误，比如将寒流视为气候变化是一场骗局的证据。</p>
+<p><strong>选择负面信息</strong></p>
+<p>这种倾向，也被称为消极偏见，促使我们的祖先的大脑优先警惕掠食者，而不是其他类型，威胁性较小的注意力。今天，它可能会让我们把坏消息看得比好消息更重要ーー例如，比起显示整个团体遵纪守法的数据，我们更认真地对待一个团体外成员犯下的一起骇人听闻的罪行。</p>
+<p><strong>选择预测信息</strong></p>
+<p>人们常说的模式识别偏见，帮助我们在混乱中辨别秩序。注意到大型猎物往往在第一场夏季雨后到达热带草原，可能会给早期人类带来进化上的优势。然而，今天，对模式的偏爱可以让我们发现根本不存在的阴谋。</p>
+<p><strong>社交信息的选择</strong></p>
+<p>这种“群体偏见”促使我们在不确定的环境中随大流。回到过去，“如果你部落里的其他人都跑向河流，他们可能有一个很好的理由，”希尔斯说。但是，如果你所在的 Reddit 社区的每个人都说一位著名的政治家正在一家披萨店的地下室经营一个儿童性交易集团，那么，在你下定决心之前，最好先访问一下事实核查网站。</p>
+<h4 id="驯服我们的技术"><a href="#驯服我们的技术" class="headerlink" title="驯服我们的技术"></a>驯服我们的技术</h4><p>神经科学家亚当 · 加扎利提出了两种基本的方法来保护我们的大脑免受科技带来的负面影响: 增强我们的神经回路功能，以及改变我们的日常行为。虽然有些策略可以被任何人掌握，但其他的仍然处于试验阶段。</p>
+<h5 id="抵制诱惑"><a href="#抵制诱惑" class="headerlink" title="抵制诱惑"></a>抵制诱惑</h5><p>这些方法旨在提高我们的大脑忽略干扰和从干扰中恢复的能力。</p>
+<ul>
+<li>教育。研究人员正在开发各种各样的课堂课程，旨在加强认知控制能力——即使在具有挑战性的条件下也能坚持完成任务的能力。</li>
+<li>神经反馈。这项技术于20世纪60年代引入，教导从业者在脑机接口的帮助下控制脑电波。一些小型研究已经将这种方法与注意力和工作记忆的改善联系起来，并成功地用于治疗诸如多动症和焦虑症等疾病。</li>
+<li>越来越多的研究表明，户外活动可以帮助恢复疲惫的大脑。</li>
+<li>认知练习。临床试验表明，一些心理练习，包括专门设计的电子游戏，可以提高注意力和抵抗分心。然而，商业化的“脑力游戏”的有效性证据仍然很粗略。</li>
+<li>多项研究表明，冥想可以提高注意力、记忆力和处理速度。</li>
+<li>大量的研究表明，有氧运动可以提高大脑的灵活性和适应能力。</li>
+</ul>
+<h5 id="日常进化"><a href="#日常进化" class="headerlink" title="日常进化"></a>日常进化</h5><p>这些以证据为基础的行为调整通过限制科技的吸引力和可获得性来减少科技的诱惑。</p>
+<ul>
+<li>在开车的时候，和乘客聊天，听有声读物或者听音乐(这些都比打电话或者发短信少一些干扰)。与朋友、家人和同事设定一个期望: 除非真的有紧急情况，否则在路上不要使用手机。</li>
+<li>在工作的时候，把你自己限制在一个屏幕上，把所有不重要的工作材料放在你的桌子上。决定完成一项任务需要哪些程序或应用程序，并关闭所有其他程序。避免使用标签页; 当你完成一个网站，关闭它。关闭电子邮件，只在指定时间检查电子信件和社交媒体。各种各样的应用程序可以阻止访问网站，防止你作弊。静音你的智能手机; 如果你仍然感觉到拉力，把它移到另一个房间。经常休息以重新启动你的大脑; 去散散步或者只是盯着太空做白日梦。</li>
+<li>和朋友或家人出去玩的时候，要求在场的每个人都关掉手机。如果太多了，可以尝试使用“技术休息” ，允许每个人每15分钟查看一下手机。确定某些区域为无设备区ーー特别是餐桌和卧室。但是，加扎利说，一起看电视或玩电子游戏，实际上可以建立亲密关系。</li>
+</ul>
+<p><strong>以上内容翻译改编自亚当 · 加扎利和拉里 · d · 罗森合著的《心烦意乱: 高科技世界中的古代大脑》</strong></p>
+]]></content>
+      <categories>
+        <category>brain</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>        睡眠不足，多梦的原因分析和解决方式</title>
+    <url>/2020/11/08/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
+<blockquote>
+<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
+</blockquote>
+<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
+<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
+<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
+<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
+<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
+<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
+<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
+<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
+<blockquote>
+<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
+</blockquote>
+<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
+<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
+<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
+<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
+<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>    计算机理论知识概念001</title>
     <url>/2020/09/27/2020-09-28%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E5%88%97-1/</url>
     <content><![CDATA[<blockquote>
@@ -1058,105 +1157,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>    大脑神经认知科学系列002</title>
-    <url>/2020/09/27/2020-09-27%E5%A4%A7%E8%84%91%E7%A5%9E%E7%BB%8F%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6%E7%B3%BB%E5%88%97-2/</url>
-    <content><![CDATA[<blockquote>
-<p>本想继续写半小时的1000字文章，但是，有太多事要写，或者说，不知道如何选择写什么。昨晚看到一篇非常有意义关于大脑神经认知科学的文章，这也是自己在今后会特别注重的一个知识领域。所以，便多用了一点时间，对它进行翻译。</p>
-</blockquote>
-<h4 id="我们人类发明了互联网，我们能够承担其带来的后果吗？"><a href="#我们人类发明了互联网，我们能够承担其带来的后果吗？" class="headerlink" title="我们人类发明了互联网，我们能够承担其带来的后果吗？"></a>我们人类发明了互联网，我们能够承担其带来的后果吗？</h4><p>认知神经学家亚当 · 加扎利说，在我们的基础上，“人类是寻求信息的生物。”这可能就是问题所在。虽然互联网和智能设备给了我们前所未有的途径来获取我们渴望的数据，但我们似乎对这些技术带来的洪水束手无策。</p>
-<p>尼尔森市场研究集团(Nielsen market-research group)最近的一项调查显示，美国人平均每天花在电脑和移动设备上的时间接近4个小时，其中将近四分之一的时间花在社交媒体上。虽然所有这些像素注视的好处很多，但坏处可能是可怕的。在公共场合，网络过滤器产生的泡沫强化了我们的先入之见，放大了我们的愤怒。</p>
-<p>有些时候，拇指敲击屏幕的声音已经取代了晚餐时间的谈话。教授们面对的教室里全是用 app 聊天的僵尸。2017年的一项研究发现，在职的智能手机时间每周给公司造成的生产力损失高达150亿美元。开车时发短信导致每年超过30万起交通事故。每年有数百人因为在发短信的时候撞到东西而住院。随着我们的设备变得越来越智能，越来越有效率，越来越多的连接，它们似乎经常让我们变得更笨，更分心，更分裂。</p>
-<p>越来越多的研究表明，这个难题源于刻在我们 DNA 中的一个特征: 我们无与伦比的对知识的渴望。加州大学旧金山分校的神经科学家亚当 · 加扎利说: “这是一种古老的驱动力，它导致了我们与周围世界互动的各种复杂性。”他也是《分心的思想: 高科技世界中的古代大脑》一书的合著者。</p>
-<p>他与其他专家认为，我们目前的困境涉及我们对信息的巨大需求和我们有限的注意力之间的差距。为了弄清楚我们是如何走到这一步的ーー或许还要找到一条出路ーー理解我们是如何获得大脑的至关重要。</p>
-<h4 id="大脑类比计算机的cup"><a href="#大脑类比计算机的cup" class="headerlink" title="大脑类比计算机的cup"></a>大脑类比计算机的cup</h4><p>西雅图艾伦脑科学研究所的神经科学家克里斯托夫 · 科赫称人类大脑是“已知宇宙中最复杂的物体”我们大脑中的计算机包含大约860亿个处理单元，被称为神经元，它们编织成一个由数百万亿个连接或突触组成的分布式网络。在一生中，它可以存储大约10亿比特的数据: 是国会图书馆信息量的5万倍。它可以创作小说和交响曲，可以计算出如何将宇宙飞船送到太阳系之外，还可以发明电子大脑，这些电子大脑的能力在某些方面超过了它自己。</p>
-<p>然而，这个奇迹的起源却极其卑微。大约700万年前，人类——我们灵长类家族的分支——开始了向直立行走的漫长过渡。两足行走，也就是用两条腿走路，使我们的双手能够自由地制造和操作工具。它还使我们能够走更远的路，这是我们走出非洲森林和热带稀树草原的关键。佛罗里达州立大学(Florida State University)人类学教授、圣达菲高级研究学院(Santa Fe’s School for Advanced Research)专门研究大脑进化的高级学者迪安 · 福尔克(Dean Falk)指出: “如果你观察非人类的灵长类动物，就好像它们的下面还有一双手。”。“当我们的脚变成了负重的工具时，一切都被踢开了ーー没有双关语的意思。”</p>
-<p>这种影响并不是立竿见影的。300多万年前，可能是第一个完全两足人类的南方古猿阿法种的脑壳，只比黑猩猩的大一点点。但是直到智人至少在30万年前出现的时候，脑容量已经翻了三倍。我们的大脑与身体的比例是其他哺乳动物的六倍，而且我们大脑皮层(大脑的外层，负责认知)的神经元比地球上任何其他生物的神经元都密集。</p>
-<p>近年来，科学家已经发现了二十多种基因变化，这些变化可能帮助我们的大脑不仅变得更大，而且具有无可比拟的能力。威斯康星大学麦迪逊分校的古人类学家 John Hawks 说: “这不仅仅是一次质的飞跃。“从新陈代谢调节到神经元形成，再到发育时间，许多适应性因素都在发挥作用。”例如，一段名为 HARE5的基因调控 DNA 片段在黑猩猩和人类之间略有不同; 当杜克大学(Duke University)的一个研究小组将这两种 DNA 片段同时植入小鼠胚胎时，那些获得人类类型的胚胎发育出的大脑要大12% 。与此同时，NOTCH2基因的突变增加了神经干细胞的产量，并延迟了它们向皮层神经元的成熟，这可能是我们的大脑比其他灵长类动物长得更长的部分原因。在许多物种中，FOXP2基因对语言交流至关重要，但在人类和我们最近的类人猿亲戚中，FOXP2基因因两个碱基对而分化。我们的基因突变可以解释为什么我们能说话而黑猩猩不能。</p>
-<p>我们的大脑也受到外部力量的影响，这增加了更聪明的人类遗传基因的几率。专家们争论哪些因素最重要。福尔克假设失去抓握的脚是至关重要的: 当婴儿不再像非人类灵长类动物那样依附在母亲身上时，从远处抚慰他们的需要导致了语言的发展，这彻底改变了我们的神经组织。其他研究人员认为，饮食的变化，如吃肉或烹饪食物，使我们能够以较短的消化道，这释放了更多的能量，传输给我们的大脑。还有一些人认为我们大脑的进化是由于社会复杂性的增加或环境挑战的加剧。</p>
-<p>可以肯定的是，我们的神经硬件是在与今天完全不同的条件下形成的。几千年来，我们不得不时刻警惕危险的掠食者、敌对的氏族、潜在的食物来源和庇护所ーー仅此而已。正如麦吉尔大学的神经系统科学家 Daniel j. Levitin 在他的书《有组织的大脑》中所说: “我们的大脑进化到一次只关注一件事情。”</p>
-<p>我们的数字设备，从设计上来说，使得这几乎不可能。</p>
-<h4 id="科技vs大脑"><a href="#科技vs大脑" class="headerlink" title="科技vs大脑"></a>科技vs大脑</h4><p>大脑中能够让我们制定详细计划并贯彻执行的那部分—- 可以说是让我们成为最具人性的那部分—- 是脑前额叶外皮。这个区域在智人中只比黑猩猩或大猩猩稍大一点，但是它与其他脑区的联系更广泛和复杂。尽管有这个先进的网络，我们的计划能力远远强于我们专注于一个特定任务的能力。</p>
-<p>其中一个原因是，像所有动物一样，我们进化到当我们感觉到危险时立即转移注意力: 可能预示着一个接近的捕食者的折断的树枝，树后的阴影可能预示着一个敌人。我们以目标为导向，或者自上而下的思维活动，在这些自下而上的新奇和显著的力量面前几乎没有机会，这些刺激是意想不到的、突然的或戏剧性的，或者唤起了重要经历的记忆。</p>
-<p>“许多技术设备使用自下而上的刺激来吸引我们的注意力，从我们的目标，如嗡嗡声、振动和闪光，” Gazzaley 说。此外，即使当它们处于静默模式时，我们的设备也以无限的、立即可用的信息吸引着我们。可以随时获取的数据可能是新闻(我们最不喜欢的政客的最新失态)、事实(我们最喜欢的演员的从影记录)、社交(我们自拍得到的赞成票数) ，或者仅仅是纯粹的乐趣(有舵雪橇上的土豚视频)。但是所有这些都激发了我们对知识的渴望。</p>
-<p>这种冲动并不是我们所特有的。在高等灵长类动物中，脑部扫描显示，最初为觅食而开发的神经回路也控制着高级认知行为。即使是猕猴对新信息的反应也和它们对水果或水等原始奖励的反应一样。当动物在丛林中发现一个成熟的芒果，或者在实验室中解决了一个问题时，被称为多巴胺能系统的脑细胞就会活跃起来，产生愉悦感。这些细胞还与帮助获得奖励的大脑回路建立持久的联系。当这些回路被激活时，通过触发积极的感觉，这个系统促进了学习。</p>
-<p>当然，人类比其他任何动物都更贪婪地搜寻数据。而且，像大多数觅食者一样，我们遵循优化搜索的本能策略。研究寻求营养的动物的行为生态学家已经开发出各种模型来预测它们可能的行为过程。其中之一，边际价值定理(MVT) ，适用于在食物被发现的地区的觅食者，与资源贫乏的地区之间。例如，根据一个评估呆在原地的成本和收益的公式，MVT 可以预测松鼠何时会停止在一棵树上采集橡子，转而采集下一棵树上的橡子ーー每分钟采集的坚果数量与旅行所需的时间等等。Gazzaley 认为数字领域也是一个类似的环境，其中的补丁是信息的来源ーー网站、智能手机、电子邮件程序。他相信一个类似 mvt 的公式可能会控制我们的在线搜索: 每个数据补丁提供的报酬递减都是随着时间的推移，当我们用尽那里的可用信息，或者当我们开始担心更好的数据可能在其他地方获得。</p>
-<p>下一个数据补丁的召唤可能会让我们从 Facebook 跳到 Twitter、谷歌(Google)再到 YouTube; 它还会干扰目标的实现——赶上工作截止日期、在课堂上集中注意力、与心爱的人面对面交流。它以两种基本的方式做到了这一点，加扎利说。一种是分心，他将其定义为“我们要么在外部环境中遇到，要么在自己头脑中产生的与目标无关的信息片段”我们试图忽略手机的信号和嗡嗡声(或者我们害怕错过它们所代表的数据) ，结果却发现我们的注意力被这种努力削弱了。</p>
-<p>另一个目标杀手是干扰: 我们从自上而下的活动中休息一下，以满足我们的信息饥渴。这种情况通常被称为多任务处理，听起来好像我们在同时完成几件事情ーー编写季度报告、回复客户电子邮件、密切关注娱乐明星的失态行为、偷看影视剧。事实上，这意味着我们一事无成。</p>
-<p>“在我们想做的和我们实际能够做的之间存在着冲突，”加扎利说。“(我们的注意力)每从一个任务转移到另一个任务上，都有代价。”例如，一项研究发现，IT 工作者在被打断后恢复一个项目平均需要25分钟。除了使效率大打折扣之外，这样的杂耍还会导致高度的压力、挫折和疲劳。</p>
-<p>它还会对工作记忆造成严重破坏，而工作记忆是一种让我们在大脑中保存一些关键数据的功能，这些数据只够我们将它们应用到一项任务中。多项研究表明，“媒体多任务处理”(用于在数字数据源之间切换的科学术语)过载了这个思维空间，使我们不那么专注，更容易出错。例如，2012年，加拿大研究人员发现，笔记本电脑的多任务处理不仅阻碍了用户的课堂学习，也阻碍了坐在附近的学生的课堂学习。重度多任务处理与认知控制能力下降、前扣带皮层冲动性增强和容量减少有关，前扣带皮层是大脑中与错误检测和情绪调节相关的区域。</p>
-<h4 id="我们vs他们"><a href="#我们vs他们" class="headerlink" title="我们vs他们"></a>我们vs他们</h4><p>情绪调节是科技对我们古老大脑的另一个破坏性影响的核心: 部落倾向的加剧。我们的远古祖先生活在小型的游牧群体中，这是人类历史上大部分时期的基本社会单位。古人类学家霍克斯说: “争夺资源和空间的族群并不总是那么和平。”。“我们就是这个过程的产物。”</p>
-<p>如今，许多分析人士认为，部落主义在世界范围内民族主义运动的复苏和美国政治两极分化的急剧加剧中得到了体现，这两种趋势在网络上都有突出表现。2015年发表在《美国政治科学杂志》(American Journal of Political Science)上的一项研究发现，党派归属已经成为共和党人和民主党人身份的一个基本组成部分。社交媒体促使我们公开表达自己的激情和信念，它助长了作者所说的“党派偏好对非政治领域和迄今为止的个人领域的逐渐侵蚀”</p>
-<p>我们天生擅长区分“我们”和“他们”当我们与团队内的成员互动时，多巴胺的释放会给我们带来一阵快感，而团队外的成员可能会引发消极的反应。在网上获得“赞”只会加强这种体验。</p>
-<p>我们退回到部落模式也可能是对网络点燃的数据爆炸的反应。2018年，心理学家托马斯 · 希尔斯在《心理科学展望》杂志上回顾了一系列关于信息增殖的早期研究。他发现，数字媒介极端主义和极化的高涨可能是认知超负荷的反应。他认为，在这场冲击中，我们依靠根深蒂固的偏见来决定哪些数据值得我们关注。其结果是: 群体思维、回音室和阴谋论。希尔斯说: “找到与我已经相信的信息一致的信息，会让我成为内部团队中更好的成员。”。“我可以告诉我的盟友，‘看，这就是我们是正确的证据! ”’</p>
-<p>在某些情况下，对自己部落的偏爱会激发看到另一个部落受苦的欲望。哈佛大学心理学家 Mina Cikara 说: “并不是所有的群体都是一样的。”她研究的是让一个群体从另一个群体的痛苦中获得快乐的因素，这种反应被称为幸灾乐祸。“比如说，美国人对加拿大人的反应，不会像对待伊朗人那样。”她解释说，造成这种恶意的因素是“这个组织在反对我们，他们有能力实施威胁。”例如，当湖人队和火箭队的球迷看到他们的对手球队没有得分，即使是对第三支球队，他们的腹侧纹状体活动增强，这是一个与奖励反应相关的大脑区域。</p>
-<h4 id="现在vs未来"><a href="#现在vs未来" class="headerlink" title="现在vs未来"></a>现在vs未来</h4><p>别指望硅谷的老板们会重新设计他们的盈利产品，以减少对我们老式神经线路的剥削。“妖怪已经从瓶子里跑出来了，”加扎利说。“把它放回去不是一个现实的计划。”</p>
-<p>然而，我们可以进化。希尔斯认为，对抗数字部落主义最可靠的方法就是警惕偏见，拥抱批判性思维，并鼓励其他人也这样做。对于 Gazzaley 来说，他提供了各种各样的策略，让我们的大脑不那么容易受到干扰和干扰，并且改变我们的行为以抵制科技的诱惑(参见“驯服我们的科技”侧栏)。“通过养成更健康的习惯，我们可以改善我们与科技的关系，”他说。“我们是非常适应环境的物种。我想我们会没事的。”</p>
-<p>面对科技的认知超载，人类通过依赖进化形成的偏见来决定什么是值得关注的，英国华威大学的心理学教授 Thomas t. Hills 说。这些倾向可能帮助我们的祖先生存下来，但他们并不总是我们今天的最大利益，希尔斯说。他指出了四种助长数字部落主义的“认知选择”。</p>
-<p><strong>选择信念一致信息</strong></p>
-<p>也被称为确认偏见，它使我们倾向于选择与我们已有想法一致的数据。在史前时期，这可能会让人们把暴风雨视为萨满巫师对天气的控制力的证据ーー这种解释加强了社会凝聚力，即使它是错误的。今天，确认偏差可能会导致更多的后果性错误，比如将寒流视为气候变化是一场骗局的证据。</p>
-<p><strong>选择负面信息</strong></p>
-<p>这种倾向，也被称为消极偏见，促使我们的祖先的大脑优先警惕掠食者，而不是其他类型，威胁性较小的注意力。今天，它可能会让我们把坏消息看得比好消息更重要ーー例如，比起显示整个团体遵纪守法的数据，我们更认真地对待一个团体外成员犯下的一起骇人听闻的罪行。</p>
-<p><strong>选择预测信息</strong></p>
-<p>人们常说的模式识别偏见，帮助我们在混乱中辨别秩序。注意到大型猎物往往在第一场夏季雨后到达热带草原，可能会给早期人类带来进化上的优势。然而，今天，对模式的偏爱可以让我们发现根本不存在的阴谋。</p>
-<p><strong>社交信息的选择</strong></p>
-<p>这种“群体偏见”促使我们在不确定的环境中随大流。回到过去，“如果你部落里的其他人都跑向河流，他们可能有一个很好的理由，”希尔斯说。但是，如果你所在的 Reddit 社区的每个人都说一位著名的政治家正在一家披萨店的地下室经营一个儿童性交易集团，那么，在你下定决心之前，最好先访问一下事实核查网站。</p>
-<h4 id="驯服我们的技术"><a href="#驯服我们的技术" class="headerlink" title="驯服我们的技术"></a>驯服我们的技术</h4><p>神经科学家亚当 · 加扎利提出了两种基本的方法来保护我们的大脑免受科技带来的负面影响: 增强我们的神经回路功能，以及改变我们的日常行为。虽然有些策略可以被任何人掌握，但其他的仍然处于试验阶段。</p>
-<h5 id="抵制诱惑"><a href="#抵制诱惑" class="headerlink" title="抵制诱惑"></a>抵制诱惑</h5><p>这些方法旨在提高我们的大脑忽略干扰和从干扰中恢复的能力。</p>
-<ul>
-<li>教育。研究人员正在开发各种各样的课堂课程，旨在加强认知控制能力——即使在具有挑战性的条件下也能坚持完成任务的能力。</li>
-<li>神经反馈。这项技术于20世纪60年代引入，教导从业者在脑机接口的帮助下控制脑电波。一些小型研究已经将这种方法与注意力和工作记忆的改善联系起来，并成功地用于治疗诸如多动症和焦虑症等疾病。</li>
-<li>越来越多的研究表明，户外活动可以帮助恢复疲惫的大脑。</li>
-<li>认知练习。临床试验表明，一些心理练习，包括专门设计的电子游戏，可以提高注意力和抵抗分心。然而，商业化的“脑力游戏”的有效性证据仍然很粗略。</li>
-<li>多项研究表明，冥想可以提高注意力、记忆力和处理速度。</li>
-<li>大量的研究表明，有氧运动可以提高大脑的灵活性和适应能力。</li>
-</ul>
-<h5 id="日常进化"><a href="#日常进化" class="headerlink" title="日常进化"></a>日常进化</h5><p>这些以证据为基础的行为调整通过限制科技的吸引力和可获得性来减少科技的诱惑。</p>
-<ul>
-<li>在开车的时候，和乘客聊天，听有声读物或者听音乐(这些都比打电话或者发短信少一些干扰)。与朋友、家人和同事设定一个期望: 除非真的有紧急情况，否则在路上不要使用手机。</li>
-<li>在工作的时候，把你自己限制在一个屏幕上，把所有不重要的工作材料放在你的桌子上。决定完成一项任务需要哪些程序或应用程序，并关闭所有其他程序。避免使用标签页; 当你完成一个网站，关闭它。关闭电子邮件，只在指定时间检查电子信件和社交媒体。各种各样的应用程序可以阻止访问网站，防止你作弊。静音你的智能手机; 如果你仍然感觉到拉力，把它移到另一个房间。经常休息以重新启动你的大脑; 去散散步或者只是盯着太空做白日梦。</li>
-<li>和朋友或家人出去玩的时候，要求在场的每个人都关掉手机。如果太多了，可以尝试使用“技术休息” ，允许每个人每15分钟查看一下手机。确定某些区域为无设备区ーー特别是餐桌和卧室。但是，加扎利说，一起看电视或玩电子游戏，实际上可以建立亲密关系。</li>
-</ul>
-<p><strong>以上内容翻译改编自亚当 · 加扎利和拉里 · d · 罗森合著的《心烦意乱: 高科技世界中的古代大脑》</strong></p>
-]]></content>
-      <categories>
-        <category>brain</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        睡眠不足，多梦的原因分析和解决方式</title>
-    <url>/2020/11/08/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97/</url>
-    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
-<blockquote>
-<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
-</blockquote>
-<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
-<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
-<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
-<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
-<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
-<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
-<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
-<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
-<blockquote>
-<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
-</blockquote>
-<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
-<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
-<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
-<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
-<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
