@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>     B的0706有点不一样了</title>
+    <url>/2011/07/06/2011-07-06-B%E7%9A%840706%E6%9C%89%E7%82%B9%E4%B8%8D%E4%B8%80%E6%A0%B7/</url>
+    <content><![CDATA[<h1 id="B的0706有点不一样了"><a href="#B的0706有点不一样了" class="headerlink" title="B的0706有点不一样了"></a>B的0706有点不一样了</h1><p>我的眼睛将外面的建筑物扫视一个小回 零下A度合后，发觉在她身体内外活动着的人们，包括那几只英文字母动物，他们的内心都带有着澎湃的激情。但是，这一切都掩饰得平淡而充实。我每天都要面对人们，人们每天都会做出按照自我思考而来的活动，因此我们有了不经意的生活交集。至于有无必要，就由个人去做结论了。</p>
+<p>生活的历炼不多，没有口才上反驳斥骂的经验，只能用微笑与弱者言语保护自己。与此同时做到了缓解他人心理上宣泄的欲望，减轻了自己一部分本应与其分担宣泄的压力。但是，我希望用前者来解决。</p>
+<p>那天，我与A动物有了不经意的生活交集。今天，我与B动物有了不经意的生活交集。将她们用同样的方式写在同一个二维空间里面，以至来彰显她们的共同性。巧合，你我会习惯地忽略，不给予太多的思索。然而，重复，你我会刻意地保留，添加自我的逻辑分析。我用上述保护自己的方式，重复保护了自己。所以，我思考了两起事件的缘由。我对其进行了相关的反问——她们的背后究竟是何种物质，或者是精神力量在支撑着她们泼话不是错的观点？相反，又是什么化学物质在驱使我分泌出勇气去安抚她们的情绪？</p>
+<p>B动物，被我的直接性提问（跨级提问）影响了。也打破了以往一惯平静的生活，也许，她不会认为这是工作生活上的乐趣，便执着地将其重命名为烦扰。她不希望她的生活出现半点的不一样，也许过久的乏味而导致她的麻木。所以，我毫不犹豫地安抚其本人。希望能够化解她的怒气……从B身上，我明白到跨级提问的严重性——她位置会略显多余。但是，毕竟她是她，我是我。也许，我会在不久将来赞同她的观点，或者，会一如既往地否决她的重命名。</p>
+<p>A动物，她在助人的过程中也宣泄一种怒气，我猜想她在接受任务的过程中接触了前者的不满。然而，化身为演员。在唯一观众——我的面前演绎了一翻……相对于B，对与A我有种难为情，毕竟我有着一种迟来的罪过。</p>
+<p>我想说：我是一名学生。但是，众多的AB就活生生地参与着你我的生活。</p>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>life-point</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     bootstrap 笔记</title>
+    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
+    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
+<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
+<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
+<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
+<p><code>list-inline</code> :li标签 水平排列</p>
+<p><code>tabal-striped</code>:斑马线样式表单</p>
+<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
+]]></content>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>     潜伏在雷锋身上的幸福</title>
     <url>/2011/03/28/2011-03-28-%E6%BD%9C%E4%BC%8F%E5%9C%A8%E9%9B%B7%E9%94%8B%E8%BA%AB%E4%B8%8A%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
     <content><![CDATA[<h1 id="潜伏在雷锋身上的幸福"><a href="#潜伏在雷锋身上的幸福" class="headerlink" title="潜伏在雷锋身上的幸福"></a>潜伏在雷锋身上的幸福</h1><p>三月正是春意黯然的花香季节，乐于助人的雷锋便在不经意间与此搭上了关系。学习“雷锋”— 一种乐于助人的精神，也许你们抱着这样的精神，到生活中实践起来，大爱就会飘扬于四海，幸福就会弥漫在人间。</p>
@@ -11,23 +46,6 @@
 <p>为此那么崇尚朴实的“雷锋”精神，我必须，必需对外宣扬其重要性，不应该有贬斥。即使，有众多不理想的无奈。一方水土养活百样人，而百样人又不约而同地参与到“学雷锋”的活动当中，难免会有幸福上的分歧。</p>
 <p>雷锋只是一个名字承载了一些东西罢了。</p>
 <p>潜伏在雷锋身上的幸福是可以寻找的，中国人！</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>life-point</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     B的0706有点不一样了</title>
-    <url>/2011/07/06/2011-07-06-B%E7%9A%840706%E6%9C%89%E7%82%B9%E4%B8%8D%E4%B8%80%E6%A0%B7/</url>
-    <content><![CDATA[<h1 id="B的0706有点不一样了"><a href="#B的0706有点不一样了" class="headerlink" title="B的0706有点不一样了"></a>B的0706有点不一样了</h1><p>我的眼睛将外面的建筑物扫视一个小回 零下A度合后，发觉在她身体内外活动着的人们，包括那几只英文字母动物，他们的内心都带有着澎湃的激情。但是，这一切都掩饰得平淡而充实。我每天都要面对人们，人们每天都会做出按照自我思考而来的活动，因此我们有了不经意的生活交集。至于有无必要，就由个人去做结论了。</p>
-<p>生活的历炼不多，没有口才上反驳斥骂的经验，只能用微笑与弱者言语保护自己。与此同时做到了缓解他人心理上宣泄的欲望，减轻了自己一部分本应与其分担宣泄的压力。但是，我希望用前者来解决。</p>
-<p>那天，我与A动物有了不经意的生活交集。今天，我与B动物有了不经意的生活交集。将她们用同样的方式写在同一个二维空间里面，以至来彰显她们的共同性。巧合，你我会习惯地忽略，不给予太多的思索。然而，重复，你我会刻意地保留，添加自我的逻辑分析。我用上述保护自己的方式，重复保护了自己。所以，我思考了两起事件的缘由。我对其进行了相关的反问——她们的背后究竟是何种物质，或者是精神力量在支撑着她们泼话不是错的观点？相反，又是什么化学物质在驱使我分泌出勇气去安抚她们的情绪？</p>
-<p>B动物，被我的直接性提问（跨级提问）影响了。也打破了以往一惯平静的生活，也许，她不会认为这是工作生活上的乐趣，便执着地将其重命名为烦扰。她不希望她的生活出现半点的不一样，也许过久的乏味而导致她的麻木。所以，我毫不犹豫地安抚其本人。希望能够化解她的怒气……从B身上，我明白到跨级提问的严重性——她位置会略显多余。但是，毕竟她是她，我是我。也许，我会在不久将来赞同她的观点，或者，会一如既往地否决她的重命名。</p>
-<p>A动物，她在助人的过程中也宣泄一种怒气，我猜想她在接受任务的过程中接触了前者的不满。然而，化身为演员。在唯一观众——我的面前演绎了一翻……相对于B，对与A我有种难为情，毕竟我有着一种迟来的罪过。</p>
-<p>我想说：我是一名学生。但是，众多的AB就活生生地参与着你我的生活。</p>
 ]]></content>
       <categories>
         <category>point</category>
@@ -53,24 +71,6 @@
       </categories>
       <tags>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     bootstrap 笔记</title>
-    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
-    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
-<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
-<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
-<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
-<p><code>list-inline</code> :li标签 水平排列</p>
-<p><code>tabal-striped</code>:斑马线样式表单</p>
-<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
-]]></content>
-      <tags>
-        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -149,46 +149,28 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>    页面模板渲染数据</title>
-    <url>/2019/04/13/2019-03-13-%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="逻辑混乱-阅读者可忽略"><a href="#逻辑混乱-阅读者可忽略" class="headerlink" title="逻辑混乱 阅读者可忽略"></a>逻辑混乱 阅读者可忽略</h2><h2 id="1-采用nunjucks第三方模板库渲染数据"><a href="#1-采用nunjucks第三方模板库渲染数据" class="headerlink" title="1.采用nunjucks第三方模板库渲染数据"></a>1.采用nunjucks第三方模板库渲染数据</h2><blockquote>
-<p>结合继承的思想 我们引入模板引擎 进行页面开发 同时 引擎是拥有 数据绑定 的功能<br>这个功能在开发中起到很大的作用 </p>
+    <title>     落地页分析</title>
+    <url>/2019/04/12/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<h1 id="关于落地页分析小结-应付版"><a href="#关于落地页分析小结-应付版" class="headerlink" title="关于落地页分析小结 (应付版)"></a>关于落地页分析小结 (应付版)</h1><blockquote>
+<p>针对人群:!1-3年的前端开发工程师 学习的条件：时间！时间！时间！和一个学习连续性<br>以自我的经历为认知：这个阶段的职员，能保证上班时间内完成工作就已经算是 自身能力和身边的同事都是较为出色的<br>自身能力出色 公司项目优秀且盈利 同事又是积极向上 技术过硬 想必 并非这个课程的目标对象<br>然而我觉得 目标对象是： 好学！ 不安于现状！所处的工作环境不理想（工作氛围，自身工作内容）但是能快速完成工作,力求改变 而又 束手无策的 普通程序员 或是 自学中的 在校大学生。（本身工作内容简单，或是公司对职员的定位问题，需要包工头，泥水师傅，和搬砖）</p>
 </blockquote>
-<p>在项目根目录下 npm install nunjucks –save 下载；</p>
-<p>在app.js 引入nunjucks模板库  var nunjuck = require(‘nunjucks’)</p>
-<p>并配置模板引擎：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">app.set(<span class="string">'view engine'</span>, <span class="string">'tpl'</span>);</span><br><span class="line"></span><br><span class="line">  nunjucks.configure(<span class="string">'views'</span>,&#123;</span><br><span class="line">      autoescape:<span class="literal">true</span>,</span><br><span class="line">      express:app,</span><br><span class="line">      watch:<span class="literal">true</span></span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-路由Router"><a href="#2-路由Router" class="headerlink" title="2.路由Router"></a>2.路由Router</h2><blockquote>
-<p>随着对页面进行操作，页面会发生变化。那么页面之间的跳转如何实现？数据如何在跳转中进行加载？</p>
+<h2 id="针对这类群体再简单分析一下："><a href="#针对这类群体再简单分析一下：" class="headerlink" title="针对这类群体再简单分析一下："></a>针对这类群体再简单分析一下：</h2><blockquote>
+<p>状况：目前在职程序员的现状（个人单方面见解）有可能是这样： 自我提升空间 很受（工作内容，同事的指引）影响和限制.刚进行业，激情 好奇心的驱使 会使 普通程序员 处于饥饿状态下 有什么 吃什么 导致 消化不良 容易跑遍 而又十分困惑（包括没进入社会的在校大学生）都有个共通点,我应该 “学什么，怎么学，是否工作所需？”</p>
 </blockquote>
-<p>引入 var router = express.Router();</p>
-<p>页面中跳转的URL： /user/edit 对应路由中配置的路径  router.get(‘/user/edit’,methods);</p>
-<p>路由请求中调用的方法（methods）：是控制跳转至URL后 需要对页面数据交换 进行的操作</p>
-<p>遵行MVC模型，将其定义在根目录下 file://Controllers 而负责页面跳转路由,则定义在根目录下 file://Router; </p>
-<p>关于Router，补充与一点，专门与服务器 请求数据的 我们独立分开成两个文件 将其命名api.js 而页面跳转<br>则命名为index.js  目的是 严谨代码逻辑，体现模块化的功能 下面Controllers Model 也有所体现。</p>
-<h2 id="3-控制器Controllers-与-模块器Model"><a href="#3-控制器Controllers-与-模块器Model" class="headerlink" title="3.控制器Controllers 与 模块器Model"></a>3.控制器Controllers 与 模块器Model</h2><p>Controllers: 在里面定义 methods: async function(req,res,next){<br>调用封装后的Model里面定义的读取数据库的方法}</p>
-<p>在方法里面 调用到Model的方法时 使用 await (async await的理解 后续补上)</p>
-<p>res.locals.protype = value;</p>
-<p>res.locals 是express中 对于单次请求响应的周期内 所使用的数据  </p>
-<p>app.locals 则针对于 全局的 常量 来使用 </p>
-<p>value 就是 Model 与数据库 连接后 所获取得到的数据。 </p>
-<p>##本内容关注的是页面的渲染 只关注 从数据库获取数据#</p>
-<p>res.render(‘index’) 服务器发出响应 要求 客户渲染模板的方法 事先在 app.js 中配置好模板引擎 可忽略 模板文件的后缀</p>
-<p>index完整的信息是 ‘路径/index.tpl’</p>
-<h2 id="4-模板调用数据"><a href="#4-模板调用数据" class="headerlink" title="4.模板调用数据"></a>4.模板调用数据</h2><p>上面操作中：res.locals.protype =value;</p>
-<p>protype 对应tpl文件中的使用语法如下</p>
-<p>加载数据 </p>
-<p>####以上就是数据渲染到模板的流程</p>
-<blockquote>
-<p>深化请继续阅读<br>nunjuck.js 模版语法<br>  express.js request respones router 的API</p>
-</blockquote>
+<h2 id="回归本次话题："><a href="#回归本次话题：" class="headerlink" title="回归本次话题："></a>回归本次话题：</h2><ol>
+<li>课程的吸引力度： 内容描叙符合工作所需，</li>
+<li>举一反三提示不足：应该尝试提示列举单元项目的横向性，如除了课程的案例以外的相似实例供参考。<br>（并不是 所有人的悟性和理解能力 都较高，应该方向性引导一下,避免为了完成任务而完成任务）</li>
+<li>我比较喜欢看单元项目的任务拆解分析（文字部分）我觉得 那应该是开发者的思路和开发的步骤 是精华。我会    花多滴时间去揣摩 为何他要这么设计任务，和 步骤。 </li>
+<li>关于请求问题的流程的建议（鉴于试学群的积极性交流问题而提出）：<br>试学群少有问题提出，按道理应该会有疑问（排除学习时间少 和 自身能够 解决大部分问题者）<br>突发奇想 ：因为线上课程，不如弄个老师学员的匿名问答功能 把问题丢到一个池里面 我觉得应该可以提高学员和学员之间，学员和老师之间 的 互动交流  </li>
+<li>市面上估计也应该有同类型的 课程 ，但是 职场上依然存在很多同学付出了时间和金钱 达不到预期， 工作几年以后 技术还是渣渣 ，工作其实也不就是实战啊，但是为何还是会出现不理想的结果 我觉得课程 结合本项目的教学理念 融入  如何教你科学工作 别让落后的开发思维误导   如何识别技术渣渣同事 等等为突破口 哈哈~</li>
+<li>超时提交了 怕耽误  本想写多 写着写着 感觉又有点跑题 就这样吧 ~</li>
+</ol>
 ]]></content>
       <categories>
-        <category>skill</category>
+        <category>point</category>
       </categories>
       <tags>
-        <tag>work-skill</tag>
+        <tag>work-point</tag>
       </tags>
   </entry>
   <entry>
@@ -270,28 +252,46 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     落地页分析</title>
-    <url>/2019/04/12/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[<h1 id="关于落地页分析小结-应付版"><a href="#关于落地页分析小结-应付版" class="headerlink" title="关于落地页分析小结 (应付版)"></a>关于落地页分析小结 (应付版)</h1><blockquote>
-<p>针对人群:!1-3年的前端开发工程师 学习的条件：时间！时间！时间！和一个学习连续性<br>以自我的经历为认知：这个阶段的职员，能保证上班时间内完成工作就已经算是 自身能力和身边的同事都是较为出色的<br>自身能力出色 公司项目优秀且盈利 同事又是积极向上 技术过硬 想必 并非这个课程的目标对象<br>然而我觉得 目标对象是： 好学！ 不安于现状！所处的工作环境不理想（工作氛围，自身工作内容）但是能快速完成工作,力求改变 而又 束手无策的 普通程序员 或是 自学中的 在校大学生。（本身工作内容简单，或是公司对职员的定位问题，需要包工头，泥水师傅，和搬砖）</p>
+    <title>    页面模板渲染数据</title>
+    <url>/2019/04/13/2019-03-13-%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="逻辑混乱-阅读者可忽略"><a href="#逻辑混乱-阅读者可忽略" class="headerlink" title="逻辑混乱 阅读者可忽略"></a>逻辑混乱 阅读者可忽略</h2><h2 id="1-采用nunjucks第三方模板库渲染数据"><a href="#1-采用nunjucks第三方模板库渲染数据" class="headerlink" title="1.采用nunjucks第三方模板库渲染数据"></a>1.采用nunjucks第三方模板库渲染数据</h2><blockquote>
+<p>结合继承的思想 我们引入模板引擎 进行页面开发 同时 引擎是拥有 数据绑定 的功能<br>这个功能在开发中起到很大的作用 </p>
 </blockquote>
-<h2 id="针对这类群体再简单分析一下："><a href="#针对这类群体再简单分析一下：" class="headerlink" title="针对这类群体再简单分析一下："></a>针对这类群体再简单分析一下：</h2><blockquote>
-<p>状况：目前在职程序员的现状（个人单方面见解）有可能是这样： 自我提升空间 很受（工作内容，同事的指引）影响和限制.刚进行业，激情 好奇心的驱使 会使 普通程序员 处于饥饿状态下 有什么 吃什么 导致 消化不良 容易跑遍 而又十分困惑（包括没进入社会的在校大学生）都有个共通点,我应该 “学什么，怎么学，是否工作所需？”</p>
+<p>在项目根目录下 npm install nunjucks –save 下载；</p>
+<p>在app.js 引入nunjucks模板库  var nunjuck = require(‘nunjucks’)</p>
+<p>并配置模板引擎：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">app.set(<span class="string">'view engine'</span>, <span class="string">'tpl'</span>);</span><br><span class="line"></span><br><span class="line">  nunjucks.configure(<span class="string">'views'</span>,&#123;</span><br><span class="line">      autoescape:<span class="literal">true</span>,</span><br><span class="line">      express:app,</span><br><span class="line">      watch:<span class="literal">true</span></span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-路由Router"><a href="#2-路由Router" class="headerlink" title="2.路由Router"></a>2.路由Router</h2><blockquote>
+<p>随着对页面进行操作，页面会发生变化。那么页面之间的跳转如何实现？数据如何在跳转中进行加载？</p>
 </blockquote>
-<h2 id="回归本次话题："><a href="#回归本次话题：" class="headerlink" title="回归本次话题："></a>回归本次话题：</h2><ol>
-<li>课程的吸引力度： 内容描叙符合工作所需，</li>
-<li>举一反三提示不足：应该尝试提示列举单元项目的横向性，如除了课程的案例以外的相似实例供参考。<br>（并不是 所有人的悟性和理解能力 都较高，应该方向性引导一下,避免为了完成任务而完成任务）</li>
-<li>我比较喜欢看单元项目的任务拆解分析（文字部分）我觉得 那应该是开发者的思路和开发的步骤 是精华。我会    花多滴时间去揣摩 为何他要这么设计任务，和 步骤。 </li>
-<li>关于请求问题的流程的建议（鉴于试学群的积极性交流问题而提出）：<br>试学群少有问题提出，按道理应该会有疑问（排除学习时间少 和 自身能够 解决大部分问题者）<br>突发奇想 ：因为线上课程，不如弄个老师学员的匿名问答功能 把问题丢到一个池里面 我觉得应该可以提高学员和学员之间，学员和老师之间 的 互动交流  </li>
-<li>市面上估计也应该有同类型的 课程 ，但是 职场上依然存在很多同学付出了时间和金钱 达不到预期， 工作几年以后 技术还是渣渣 ，工作其实也不就是实战啊，但是为何还是会出现不理想的结果 我觉得课程 结合本项目的教学理念 融入  如何教你科学工作 别让落后的开发思维误导   如何识别技术渣渣同事 等等为突破口 哈哈~</li>
-<li>超时提交了 怕耽误  本想写多 写着写着 感觉又有点跑题 就这样吧 ~</li>
-</ol>
+<p>引入 var router = express.Router();</p>
+<p>页面中跳转的URL： /user/edit 对应路由中配置的路径  router.get(‘/user/edit’,methods);</p>
+<p>路由请求中调用的方法（methods）：是控制跳转至URL后 需要对页面数据交换 进行的操作</p>
+<p>遵行MVC模型，将其定义在根目录下 file://Controllers 而负责页面跳转路由,则定义在根目录下 file://Router; </p>
+<p>关于Router，补充与一点，专门与服务器 请求数据的 我们独立分开成两个文件 将其命名api.js 而页面跳转<br>则命名为index.js  目的是 严谨代码逻辑，体现模块化的功能 下面Controllers Model 也有所体现。</p>
+<h2 id="3-控制器Controllers-与-模块器Model"><a href="#3-控制器Controllers-与-模块器Model" class="headerlink" title="3.控制器Controllers 与 模块器Model"></a>3.控制器Controllers 与 模块器Model</h2><p>Controllers: 在里面定义 methods: async function(req,res,next){<br>调用封装后的Model里面定义的读取数据库的方法}</p>
+<p>在方法里面 调用到Model的方法时 使用 await (async await的理解 后续补上)</p>
+<p>res.locals.protype = value;</p>
+<p>res.locals 是express中 对于单次请求响应的周期内 所使用的数据  </p>
+<p>app.locals 则针对于 全局的 常量 来使用 </p>
+<p>value 就是 Model 与数据库 连接后 所获取得到的数据。 </p>
+<p>##本内容关注的是页面的渲染 只关注 从数据库获取数据#</p>
+<p>res.render(‘index’) 服务器发出响应 要求 客户渲染模板的方法 事先在 app.js 中配置好模板引擎 可忽略 模板文件的后缀</p>
+<p>index完整的信息是 ‘路径/index.tpl’</p>
+<h2 id="4-模板调用数据"><a href="#4-模板调用数据" class="headerlink" title="4.模板调用数据"></a>4.模板调用数据</h2><p>上面操作中：res.locals.protype =value;</p>
+<p>protype 对应tpl文件中的使用语法如下</p>
+<p>加载数据 </p>
+<p>####以上就是数据渲染到模板的流程</p>
+<blockquote>
+<p>深化请继续阅读<br>nunjuck.js 模版语法<br>  express.js request respones router 的API</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>point</category>
+        <category>skill</category>
       </categories>
       <tags>
-        <tag>work-point</tag>
+        <tag>work-skill</tag>
       </tags>
   </entry>
   <entry>
@@ -386,6 +386,136 @@ data:请求所携带的参数；
       <tags>
         <tag>work-skill</tag>
         <tag>wechat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>   Mac工作流工具推介</title>
+    <url>/2019/05/05/2019-05-05-mac%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<h1 id="Mac-工作流"><a href="#Mac-工作流" class="headerlink" title="Mac 工作流"></a>Mac 工作流</h1><h2 id="掌握workflows后你会发现你一直在浪费你的Mac"><a href="#掌握workflows后你会发现你一直在浪费你的Mac" class="headerlink" title="掌握workflows后你会发现你一直在浪费你的Mac"></a>掌握workflows后你会发现你一直在浪费你的Mac</h2><a id="more"></a>
+<blockquote>
+<p>工欲善其事必先利其器! </p>
+</blockquote>
+<p><a href="http://louiszhai.github.io/2018/05/31/alfred/" target="_blank" rel="noopener">Alfred神器使用手册</a> <strong>极大的减少了程序之间的切换成本和重复按键成本</strong></p>
+<ul>
+<li>链接目前有问题:偶尔会打不开 </li>
+<li>Alfred （带有Workflows功能的破解版本 找我要，workflows 是Alfred的核心 ）</li>
+</ul>
+<p><a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="noopener">mac键盘快捷键</a><strong>：熟悉你的电脑是基本操作</strong></p>
+<p><a href="https://support.google.com/chrome/answer/157179?hl=zh-Hans" target="_blank" rel="noopener">谷歌浏览器快捷键</a><strong>:熟练运用浏览器快捷键 可以提升你的气质</strong></p>
+<p><a href="https://www.typora.io/" target="_blank" rel="noopener">markdown编辑器</a> <strong>:可以提高3倍你书写文档的速度，让你乐意总结思路</strong> </p>
+<p><a href="http://www.irradiatedsoftware.com/sizeup/" target="_blank" rel="noopener">sizeup分屏神器</a>:分屏提高你的工作视野 让你的视野集中在同一眼底下 所有所有的一切都是为了让你专注思考你的代码</p>
+<h6 id="对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处"><a href="#对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处" class="headerlink" title="对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处"></a>对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处</h6><p><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" target="_blank" rel="noopener">翻译插件</a> <a href="https://github.com/crimx/ext-saladict/wiki/Instructions#wiki-content" target="_blank" rel="noopener">注意事项</a><strong>:比谷歌翻译还优秀的翻译插件（此插件包含谷歌翻译）</strong></p>
+<p><a href="https://github.com/zhaoolee/ChromeAppHeroes" target="_blank" rel="noopener">谷粒插件英雄榜</a><strong>:优秀的插件都在这里</strong></p>
+<p><a href="https://www.typingclub.com/" target="_blank" rel="noopener">打字练习工具</a><strong>:实测一个月打字速度提高2倍，编码思路更加顺畅（记住指键相对应的位置，前期慢也要保证正确率）</strong></p>
+<h4 id="前端开发者安装谷歌插件："><a href="#前端开发者安装谷歌插件：" class="headerlink" title="前端开发者安装谷歌插件："></a>前端开发者安装谷歌插件：</h4><ul>
+<li><p>Page Ruler 桌面尺子 测试浏览器界面的尺寸</p>
+</li>
+<li><p>WhatRuns 检测该网页应用的技术栈 同步了解主流开发技术</p>
+</li>
+<li><p>PageSpeed Insights 检测网页性能 </p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>workflow</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     mysql连接出错</title>
+    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
+    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
+<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
+<p><strong>问题描述:</strong></p>
+<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
+<p><strong>解决办法：</strong></p>
+<p><strong>第一步：</strong></p>
+<p>打开terminal 输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
+
+<p><strong>第二步:</strong></p>
+<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
+<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
+<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
+<p><strong>问题分析</strong></p>
+<ol>
+<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
+修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
+</ol>
+<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
+<p><strong>*重点</strong> </p>
+<p>关于两者之间切换问题 和 注意事项</p>
+<p>开启本地mysql 步骤</p>
+<ol>
+<li>检查 xampp mysql database 的status 设置为stopped</li>
+<li>去控制面板或者终端 启动本地mysql server </li>
+</ol>
+<p>开启xmapp mysql </p>
+<ol>
+<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
+</ol>
+<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
+
+<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
+<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
+<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
+<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>wechat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title> </title>
+    <url>/2019/05/08/2019-05-08-%E6%96%87%E7%AB%A0%E7%9A%84%E6%A8%A1%E7%89%88/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>      编程学习践行建议</title>
+    <url>/2020/05/04/2020-05-04-%E5%AD%A6%E4%B9%A0%E8%B7%B5%E8%A1%8C%E5%BB%BA%E8%AE%AE/</url>
+    <content><![CDATA[<p>编程与写作很类似，首先都是多学多看，多思考，然后就是多动手实践 <a id="more"></a></p>
+<p>简单讲：</p>
+<p>1.学习模仿+实验实践</p>
+<p>学习和模仿大牛和值得学习的朋友，找到适合自己的方式方法，多多动手，不论测试，demo，还是项目，产品</p>
+<p>2.清晰架构+完善细节</p>
+<p>软件如建筑，首先要有个号的架构设计，它的整体骨架是清晰和稳固的，这点可参考通用的主流框架和架构模型，然后添砖加瓦，模块化，打磨细节，持续迭代，更多可重用。</p>
+<p>3.分析复盘+最佳实践</p>
+<p>分析已完成的产品项目，还存在哪些缺陷不足，经验收获是什么，不断积累沉淀，逐渐形成最佳实践，指导之后的产品项目。</p>
+<p>总之，多学习，多思考，多动手，多复盘</p>
+<p>github 是程序员学习和实践的宝库。</p>
+<p>以上建议出自知识星球，灰狐。</p>
+<h4 id="个人心得（会不断迭代）："><a href="#个人心得（会不断迭代）：" class="headerlink" title="个人心得（会不断迭代）："></a>个人心得（会不断迭代）：</h4><p>1.对于学习某样新的技术，最佳方案是阅读开发者提供的技术文档，而英文作者的便以英文原版的是优先的阅读对象。对于某些高手总结的学习资料，就为参考辅助。</p>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>   </title>
+    <url>/2020/04/25/2020-04-25-beta%E6%96%87%E7%AB%A0vue%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
       </tags>
   </entry>
   <entry>
@@ -517,127 +647,27 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     mysql连接出错</title>
-    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
-    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
-<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
-<p><strong>问题描述:</strong></p>
-<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
-<p><strong>解决办法：</strong></p>
-<p><strong>第一步：</strong></p>
-<p>打开terminal 输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
-
-<p><strong>第二步:</strong></p>
-<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
-<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
-<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
-<p><strong>问题分析</strong></p>
-<ol>
-<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
-修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
-</ol>
-<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
-<p><strong>*重点</strong> </p>
-<p>关于两者之间切换问题 和 注意事项</p>
-<p>开启本地mysql 步骤</p>
-<ol>
-<li>检查 xampp mysql database 的status 设置为stopped</li>
-<li>去控制面板或者终端 启动本地mysql server </li>
-</ol>
-<p>开启xmapp mysql </p>
-<ol>
-<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
-</ol>
-<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
-
-<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
-<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
-<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
-<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>   Mac工作流工具推介</title>
-    <url>/2019/05/05/2019-05-05-mac%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</url>
-    <content><![CDATA[<h1 id="Mac-工作流"><a href="#Mac-工作流" class="headerlink" title="Mac 工作流"></a>Mac 工作流</h1><h2 id="掌握workflows后你会发现你一直在浪费你的Mac"><a href="#掌握workflows后你会发现你一直在浪费你的Mac" class="headerlink" title="掌握workflows后你会发现你一直在浪费你的Mac"></a>掌握workflows后你会发现你一直在浪费你的Mac</h2><a id="more"></a>
-<blockquote>
-<p>工欲善其事必先利其器! </p>
+    <title>      js理解</title>
+    <url>/2020/05/08/2020-05-08-js%E5%8E%9F%E5%9E%8B%E7%90%86%E8%A7%A3/</url>
+    <content><![CDATA[<blockquote>
+<p>记录是给自己看得，没打算在大平台上推广，否则会非常有压力，结果就导致没有下笔的可能性</p>
 </blockquote>
-<p><a href="http://louiszhai.github.io/2018/05/31/alfred/" target="_blank" rel="noopener">Alfred神器使用手册</a> <strong>极大的减少了程序之间的切换成本和重复按键成本</strong></p>
-<ul>
-<li>链接目前有问题:偶尔会打不开 </li>
-<li>Alfred （带有Workflows功能的破解版本 找我要，workflows 是Alfred的核心 ）</li>
-</ul>
-<p><a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="noopener">mac键盘快捷键</a><strong>：熟悉你的电脑是基本操作</strong></p>
-<p><a href="https://support.google.com/chrome/answer/157179?hl=zh-Hans" target="_blank" rel="noopener">谷歌浏览器快捷键</a><strong>:熟练运用浏览器快捷键 可以提升你的气质</strong></p>
-<p><a href="https://www.typora.io/" target="_blank" rel="noopener">markdown编辑器</a> <strong>:可以提高3倍你书写文档的速度，让你乐意总结思路</strong> </p>
-<p><a href="http://www.irradiatedsoftware.com/sizeup/" target="_blank" rel="noopener">sizeup分屏神器</a>:分屏提高你的工作视野 让你的视野集中在同一眼底下 所有所有的一切都是为了让你专注思考你的代码</p>
-<h6 id="对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处"><a href="#对于一般markdown-视图阅览编辑：-编辑的同时-只是阅览-并非在阅览的文章中编辑，对于书写文档的书写速度来说-是毫无帮助-一般的视图阅览是辅助编辑为主-让你的书写更加流畅-着重文字内容的质量才是这款编辑的有用之处" class="headerlink" title="对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处"></a>对于一般markdown 视图阅览编辑： 编辑的同时 只是阅览 并非在阅览的文章中编辑，对于书写文档的书写速度来说 是毫无帮助 一般的视图阅览是辅助编辑为主 让你的书写更加流畅 着重文字内容的质量才是这款编辑的有用之处</h6><p><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg" target="_blank" rel="noopener">翻译插件</a> <a href="https://github.com/crimx/ext-saladict/wiki/Instructions#wiki-content" target="_blank" rel="noopener">注意事项</a><strong>:比谷歌翻译还优秀的翻译插件（此插件包含谷歌翻译）</strong></p>
-<p><a href="https://github.com/zhaoolee/ChromeAppHeroes" target="_blank" rel="noopener">谷粒插件英雄榜</a><strong>:优秀的插件都在这里</strong></p>
-<p><a href="https://www.typingclub.com/" target="_blank" rel="noopener">打字练习工具</a><strong>:实测一个月打字速度提高2倍，编码思路更加顺畅（记住指键相对应的位置，前期慢也要保证正确率）</strong></p>
-<h4 id="前端开发者安装谷歌插件："><a href="#前端开发者安装谷歌插件：" class="headerlink" title="前端开发者安装谷歌插件："></a>前端开发者安装谷歌插件：</h4><ul>
-<li><p>Page Ruler 桌面尺子 测试浏览器界面的尺寸</p>
-</li>
-<li><p>WhatRuns 检测该网页应用的技术栈 同步了解主流开发技术</p>
-</li>
-<li><p>PageSpeed Insights 检测网页性能 </p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>workflow</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title> </title>
-    <url>/2019/05/08/2019-05-08-%E6%96%87%E7%AB%A0%E7%9A%84%E6%A8%A1%E7%89%88/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>   </title>
-    <url>/2020/04/25/2020-04-25-beta%E6%96%87%E7%AB%A0vue%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>      编程学习践行建议</title>
-    <url>/2020/05/04/2020-05-04-%E5%AD%A6%E4%B9%A0%E8%B7%B5%E8%A1%8C%E5%BB%BA%E8%AE%AE/</url>
-    <content><![CDATA[<p>编程与写作很类似，首先都是多学多看，多思考，然后就是多动手实践 <a id="more"></a></p>
-<p>简单讲：</p>
-<p>1.学习模仿+实验实践</p>
-<p>学习和模仿大牛和值得学习的朋友，找到适合自己的方式方法，多多动手，不论测试，demo，还是项目，产品</p>
-<p>2.清晰架构+完善细节</p>
-<p>软件如建筑，首先要有个号的架构设计，它的整体骨架是清晰和稳固的，这点可参考通用的主流框架和架构模型，然后添砖加瓦，模块化，打磨细节，持续迭代，更多可重用。</p>
-<p>3.分析复盘+最佳实践</p>
-<p>分析已完成的产品项目，还存在哪些缺陷不足，经验收获是什么，不断积累沉淀，逐渐形成最佳实践，指导之后的产品项目。</p>
-<p>总之，多学习，多思考，多动手，多复盘</p>
-<p>github 是程序员学习和实践的宝库。</p>
-<p>以上建议出自知识星球，灰狐。</p>
-<h4 id="个人心得（会不断迭代）："><a href="#个人心得（会不断迭代）：" class="headerlink" title="个人心得（会不断迭代）："></a>个人心得（会不断迭代）：</h4><p>1.对于学习某样新的技术，最佳方案是阅读开发者提供的技术文档，而英文作者的便以英文原版的是优先的阅读对象。对于某些高手总结的学习资料，就为参考辅助。</p>
+<h4 id="js的重点"><a href="#js的重点" class="headerlink" title="js的重点"></a>js的重点</h4><p>核心：原型链</p>
+<p>图表绘制出来的关系通常是非常有助于学习，不过对于这个东西，没理解清楚就看图会越看越乱。</p>
+<p>概念描述：</p>
+<ol>
+<li>去读懂，js的数据类型。</li>
+<li>用函数去窥探</li>
+<li>构造函数，原型，原型对象，constructor,- - proto- -与[[prototype]],实例，实例对象这几个描述就是混乱的根源</li>
+</ol>
+<blockquote>
+<p>抽象一下，链条是不具有数据信息，只是一个链接指向的左右</p>
+</blockquote>
+<p>其实，<strong>构造函数</strong>，是一个函数的名字。 <strong>constructor</strong>是描述构造函数的一个属性，就是一个名字。同理，<strong>原型</strong>也是一个属性，<strong>原型对象</strong>是属性的值是一个对象的意思。</p>
+<p>原型链就看 constructor，原型对象，实例（- - proto- -） 。这三个</p>
+<blockquote>
+<p>要有关系，而且又保证自身不被随意遂改。那肯定要用自身的其他东西去做嫁接。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>skill</category>
@@ -675,27 +705,28 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>      js理解</title>
-    <url>/2020/05/08/2020-05-08-js%E5%8E%9F%E5%9E%8B%E7%90%86%E8%A7%A3/</url>
+    <title>egret游戏项目</title>
+    <url>/2020/07/08/2020-07-08-egret%E6%B8%B8%E6%88%8F%E9%A1%B9%E7%9B%AE%E5%88%86%E6%9E%901/</url>
     <content><![CDATA[<blockquote>
-<p>记录是给自己看得，没打算在大平台上推广，否则会非常有压力，结果就导致没有下笔的可能性</p>
+<p>这里的内容，主要是针对某一中型游戏项目为蓝本，尝试从多方面的角度去分析项目的细节问题。</p>
 </blockquote>
-<h4 id="js的重点"><a href="#js的重点" class="headerlink" title="js的重点"></a>js的重点</h4><p>核心：原型链</p>
-<p>图表绘制出来的关系通常是非常有助于学习，不过对于这个东西，没理解清楚就看图会越看越乱。</p>
-<p>概念描述：</p>
-<ol>
-<li>去读懂，js的数据类型。</li>
-<li>用函数去窥探</li>
-<li>构造函数，原型，原型对象，constructor,- - proto- -与[[prototype]],实例，实例对象这几个描述就是混乱的根源</li>
-</ol>
+<p>应该由哪里开始分析才是最合适的呢？或者说，是否结合web开发的项目去做比较，去总结两者之间的差异性和共同点。那么，就按照这样的思路去展开讨论。</p>
+<p>在此，我想引用，《架构整洁之道》中的一段说话，将自己的思维带进这个计算机知识领域。</p>
 <blockquote>
-<p>抽象一下，链条是不具有数据信息，只是一个链接指向的左右</p>
+<p>我们现在都是用Java,c#,Rudy语言编程程序，并且大量采用面向对象的编程方式。这没错，但是最终产生的代码仍然只是顺序结构，分支结构，循环结构的组合，这方面和20世界60年代的程序是一模一样。 </p>
+<p>即是，软件架构规则和其他变量（硬件性能，编程语言）完全无关。</p>
+<p>-</p>
 </blockquote>
-<p>其实，<strong>构造函数</strong>，是一个函数的名字。 <strong>constructor</strong>是描述构造函数的一个属性，就是一个名字。同理，<strong>原型</strong>也是一个属性，<strong>原型对象</strong>是属性的值是一个对象的意思。</p>
-<p>原型链就看 constructor，原型对象，实例（- - proto- -） 。这三个</p>
-<blockquote>
-<p>要有关系，而且又保证自身不被随意遂改。那肯定要用自身的其他东西去做嫁接。</p>
-</blockquote>
+<p>引用这段话的目的是什么？主要是想说明：分析不同项目，都可以从软件架构规则为基础，围绕它去发掘项目的整体全貌。</p>
+<p><strong>若果只是，懂得实际项目的代码，分析其每一个部分的具体功能，相信我要花的时间会很多，并非是短期内摸清楚，所以，这里只能结合大体上的知识概念，慢慢地由模糊到清晰，整体上到细节上，遵从这个学习过程，去不断完善知识技能点，最终达到对于任何单一的项目的完全掌握</strong></p>
+<p>说是这么简单，但是，该由哪里作为突破口，这里是不太清晰。也就只能，把自己目前的见解，作为分析的起点。</p>
+<h5 id="关于项目的运行"><a href="#关于项目的运行" class="headerlink" title="关于项目的运行"></a>关于项目的运行</h5><p>1.程序是怎么跑起来？</p>
+<p>从软件开发者的角度看，我们必须抓住，硬件的几个关键部件。<strong>cup，内存，I/O控制芯片</strong>。而跟目前工作中，最为核心的部分是内存。<u>内存的概念这里不讨论，而许多文档对于内存的描叙又有很多不同的描述方式，如主存，运存等等，但必须要理解</u>，内存，这里应该是指寄存器。</p>
+<p>但是，这些，跟egret项目分析，似乎又没有一眼看出能有什么关系？是否，描叙显得有些莫名其妙，甚至是多余的呢？对于，程序的运行，这些都是核心，目前还不能用自己的言语，较好的描叙出来。</p>
+<p>之于程序的运行，首先提出一个概念，运行环境。是的，程序，我们都可以把它整体上看做,最终被cup识别的机器代码。也可以成为指令集，当然是用高级程序语言通过一系列的转换，编译的过程。</p>
+<p>那么，egretH5游戏项目的运行环境是什么呢？而H5，egret,两者身上我们可以发现出什么有价值的知识，方便去认识此类项目。</p>
+<p>egret ,是一个游戏引擎，作用是提高游戏开发者的工作效率。</p>
+<h5 id="关于项目的通信"><a href="#关于项目的通信" class="headerlink" title="关于项目的通信"></a>关于项目的通信</h5><p><strong>关于项目的性能</strong></p>
 ]]></content>
       <categories>
         <category>skill</category>
@@ -739,37 +770,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>egret游戏项目</title>
-    <url>/2020/07/08/2020-07-08-egret%E6%B8%B8%E6%88%8F%E9%A1%B9%E7%9B%AE%E5%88%86%E6%9E%901/</url>
-    <content><![CDATA[<blockquote>
-<p>这里的内容，主要是针对某一中型游戏项目为蓝本，尝试从多方面的角度去分析项目的细节问题。</p>
-</blockquote>
-<p>应该由哪里开始分析才是最合适的呢？或者说，是否结合web开发的项目去做比较，去总结两者之间的差异性和共同点。那么，就按照这样的思路去展开讨论。</p>
-<p>在此，我想引用，《架构整洁之道》中的一段说话，将自己的思维带进这个计算机知识领域。</p>
-<blockquote>
-<p>我们现在都是用Java,c#,Rudy语言编程程序，并且大量采用面向对象的编程方式。这没错，但是最终产生的代码仍然只是顺序结构，分支结构，循环结构的组合，这方面和20世界60年代的程序是一模一样。 </p>
-<p>即是，软件架构规则和其他变量（硬件性能，编程语言）完全无关。</p>
-<p>-</p>
-</blockquote>
-<p>引用这段话的目的是什么？主要是想说明：分析不同项目，都可以从软件架构规则为基础，围绕它去发掘项目的整体全貌。</p>
-<p><strong>若果只是，懂得实际项目的代码，分析其每一个部分的具体功能，相信我要花的时间会很多，并非是短期内摸清楚，所以，这里只能结合大体上的知识概念，慢慢地由模糊到清晰，整体上到细节上，遵从这个学习过程，去不断完善知识技能点，最终达到对于任何单一的项目的完全掌握</strong></p>
-<p>说是这么简单，但是，该由哪里作为突破口，这里是不太清晰。也就只能，把自己目前的见解，作为分析的起点。</p>
-<h5 id="关于项目的运行"><a href="#关于项目的运行" class="headerlink" title="关于项目的运行"></a>关于项目的运行</h5><p>1.程序是怎么跑起来？</p>
-<p>从软件开发者的角度看，我们必须抓住，硬件的几个关键部件。<strong>cup，内存，I/O控制芯片</strong>。而跟目前工作中，最为核心的部分是内存。<u>内存的概念这里不讨论，而许多文档对于内存的描叙又有很多不同的描述方式，如主存，运存等等，但必须要理解</u>，内存，这里应该是指寄存器。</p>
-<p>但是，这些，跟egret项目分析，似乎又没有一眼看出能有什么关系？是否，描叙显得有些莫名其妙，甚至是多余的呢？对于，程序的运行，这些都是核心，目前还不能用自己的言语，较好的描叙出来。</p>
-<p>之于程序的运行，首先提出一个概念，运行环境。是的，程序，我们都可以把它整体上看做,最终被cup识别的机器代码。也可以成为指令集，当然是用高级程序语言通过一系列的转换，编译的过程。</p>
-<p>那么，egretH5游戏项目的运行环境是什么呢？而H5，egret,两者身上我们可以发现出什么有价值的知识，方便去认识此类项目。</p>
-<p>egret ,是一个游戏引擎，作用是提高游戏开发者的工作效率。</p>
-<h5 id="关于项目的通信"><a href="#关于项目的通信" class="headerlink" title="关于项目的通信"></a>关于项目的通信</h5><p><strong>关于项目的性能</strong></p>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于情绪的认知</title>
     <url>/2020/09/03/2020-09-03-%E5%85%B3%E4%BA%8E%E6%83%85%E7%BB%AA%E7%9A%84%E8%AE%A4%E7%9F%A5/</url>
     <content><![CDATA[<p><strong>由于公众号不支持长期维护同一篇文章，不便于修改。并且在同一篇文章的基础上，不能够新增内容。所以，这个技术博客要重新用起来，因为，技术的知识总结，迟迟没有更新，导致浪费了地球的资源，深感愧疚。</strong></p>
@@ -801,26 +801,6 @@ data:请求所携带的参数；
       <categories>
         <category>life</category>
       </categories>
-  </entry>
-  <entry>
-    <title>    我想说</title>
-    <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
-</blockquote>
-<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
-<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
-<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
-<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
-<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
-<p>等待更新……</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
   </entry>
   <entry>
     <title>      大脑神经科学系列001</title>
@@ -987,6 +967,53 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>    我想说</title>
+    <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
+</blockquote>
+<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
+<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
+<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
+<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
+<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
+<p>等待更新……</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>        回南天的周末</title>
+    <url>/2021/03/06/2021-03-06%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E5%91%A8%E6%9C%AB/</url>
+    <content><![CDATA[<blockquote>
+<p>今天为文章加入了图床，目的是丰富一下文章的内容，增添文章的信息。</p>
+</blockquote>
+<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
+<p>外面的天气是与下图相反的，希望能够将这一天记录为温暖的。</p>
+<p><strong>在雨天思考了几个问题：</strong></p>
+<p><strong>1.如果在日常生活工作中遇到久久不能解决的问题，就应该要立马换个方法。</strong></p>
+<p>当你设定了一个目标，或者完成一个没遇到过的问题。在解决的过程中，会遇到很多解决问题本身以外的干扰。例如，有很多的方法提供给自己选择，这些方法可能也会过时。我提出一个建议，当遇到这样的场景的时候，接受它，是这样的，面对未知不要带着着急心态。</p>
+<p>但是，这不是解决问题，分析问题的一个很好的办法。如何是好？利用第一原理这个思维是个好的办法。什么是第一原理，可自行去了解。</p>
+<p>回到思考的问题，遇到行不通，是要立马换个方式去解决。这样的思维方式，是应该内化成自己的条件反射。时间是不会停止来等你的。不要认为，这是很少见，我认为这是一个大概率出现在每个人身上的。所以，生命很多时候，就是在这样被消耗着。</p>
+<p>雨下一会就会停，而问题也同样最终消失。有区别的是，问题可能会被解决，也有可能被自己放弃。</p>
+<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去监视一下，自身有什么事，是让这样的情况出现的。</strong></p>
+<p>例如，自己在写这篇文章的时候，是很困的。写作的思路是较为之混乱。说明，自己的作息出现了严重的问题。没有正确的睡眠规律导致的问题。所以，对此就要去解决它，让自己的睡眠得到保证，才能避免它的出现。</p>
+<p>先看看图床加载效果，待会在续写。。。</p>
+<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实。</strong></p>
+<p><img src="http://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>        睡眠不足，多梦的原因分析和解决方式</title>
     <url>/2020/11/08/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97/</url>
     <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
@@ -1015,6 +1042,38 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>        我的博客</title>
+    <url>/2021/03/05/2021-03-04%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>自己写下内容需要传播出去吗？</p>
+<p>昨晚凌晨时分看到了一篇文章，内容是说某为少年在读书时期就开始自建网站，通过网站的博文评论和外界保持过一段交流的时光。后来，因为生活，学习，工作等诸多不便因素影响之下，导致停更。直到，最近这位少年，参加了一个名为“十年之约”关于持续维护网站博文更新的活动。</p>
+<p>对此自己也十分感概和激动。</p>
+<p>在公众号也发表过许多文章，但是后来深知自己的目的不太可能实现，从结果上面来看是没有任何交流的评论。那么，就是与自己的初衷完全相反。因此，改为练习自己写作的兴趣。希望可以在半小时内写下1000字的文章。后来，这一目标是达到了，慢慢又开始追求文章的质量。便开始了，漫长的阅读之路。直到现在，这条路，也并不是十分地顺利。原因，无它，多数跟普通的大多数的懒和种种生活工作原因，令到自己沉醉于外界的声音之中，忽略了自己的内心深处的想法。</p>
+<p>虽然，后来没有在其他地方发表，但是依然在坚持写下自己的内心里面的声音，可能目的不是十分明确，又或者是一种减压。在别人眼里，我的行为似乎会是一种浪费时间的表现。从自身实际上来看，这其他对于自己从中获得帮助也并不大。但是，自己是很喜欢和别人交流的想法，一直都没有磨灭。毕竟世界之大，很多事物自己都是没有亲身经历，闻所未闻。短短的人生，如果能够结识很多有趣的人，交流彼此的认知。我相信，人生定必更加有趣。</p>
+<p>有时候，在阅读新闻，和主流平台所传播出来的声音，是杂而乱。当然，是有优质的内容。但是，在海量的信息面前，是非常难获得的。看着看着，就仿佛有种孤独的感觉。也令到自己越来越觉得，我能否实现自己的小小目标。通过一个平台，和有趣的人交流。哪怕，是闲谈几句，或者是经验之谈。能够让自己在学识上有帮扶的，那就是最好不过的一大乐事了。可惜，这一点要做好，仅仅靠谦虚好学，是远远不够的。</p>
+<p>那么，还需要自身的能力，背景，人脉，等等的提升，才会能够引起别人的注视。在提升的过程中，孤独前行的时候依然会消耗着时间。我眼看自己的年龄日渐增长，也令自己感觉到开始慢慢地淹没在人潮之中，按照既定的规律，是会慢慢走向消亡。</p>
+<p>在着急的同时，又有了点对未来的期盼。继续为生存的同时，分掉一部分的勇气，继续向外界发出信息。希望，能收获到外界的一些回响。</p>
+<p>即将迈入黄金十年的阶段，希望十年后，自己回看这篇文章的时候，会是满怀欢喜和喜悦的泪水。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>      关于笔记</title>
+    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
       </tags>
   </entry>
   <entry>
@@ -1157,18 +1216,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>      关于笔记</title>
-    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
       </tags>
   </entry>
   <entry>
@@ -1376,53 +1423,6 @@ data:请求所携带的参数；
       <tags>
         <tag>work-skill</tag>
         <tag>华为</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        我的博客</title>
-    <url>/2021/03/05/2021-03-04%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>自己写下内容需要传播出去吗？</p>
-<p>昨晚凌晨时分看到了一篇文章，内容是说某为少年在读书时期就开始自建网站，通过网站的博文评论和外界保持过一段交流的时光。后来，因为生活，学习，工作等诸多不便因素影响之下，导致停更。直到，最近这位少年，参加了一个名为“十年之约”关于持续维护网站博文更新的活动。</p>
-<p>对此自己也十分感概和激动。</p>
-<p>在公众号也发表过许多文章，但是后来深知自己的目的不太可能实现，从结果上面来看是没有任何交流的评论。那么，就是与自己的初衷完全相反。因此，改为练习自己写作的兴趣。希望可以在半小时内写下1000字的文章。后来，这一目标是达到了，慢慢又开始追求文章的质量。便开始了，漫长的阅读之路。直到现在，这条路，也并不是十分地顺利。原因，无它，多数跟普通的大多数的懒和种种生活工作原因，令到自己沉醉于外界的声音之中，忽略了自己的内心深处的想法。</p>
-<p>虽然，后来没有在其他地方发表，但是依然在坚持写下自己的内心里面的声音，可能目的不是十分明确，又或者是一种减压。在别人眼里，我的行为似乎会是一种浪费时间的表现。从自身实际上来看，这其他对于自己从中获得帮助也并不大。但是，自己是很喜欢和别人交流的想法，一直都没有磨灭。毕竟世界之大，很多事物自己都是没有亲身经历，闻所未闻。短短的人生，如果能够结识很多有趣的人，交流彼此的认知。我相信，人生定必更加有趣。</p>
-<p>有时候，在阅读新闻，和主流平台所传播出来的声音，是杂而乱。当然，是有优质的内容。但是，在海量的信息面前，是非常难获得的。看着看着，就仿佛有种孤独的感觉。也令到自己越来越觉得，我能否实现自己的小小目标。通过一个平台，和有趣的人交流。哪怕，是闲谈几句，或者是经验之谈。能够让自己在学识上有帮扶的，那就是最好不过的一大乐事了。可惜，这一点要做好，仅仅靠谦虚好学，是远远不够的。</p>
-<p>那么，还需要自身的能力，背景，人脉，等等的提升，才会能够引起别人的注视。在提升的过程中，孤独前行的时候依然会消耗着时间。我眼看自己的年龄日渐增长，也令自己感觉到开始慢慢地淹没在人潮之中，按照既定的规律，是会慢慢走向消亡。</p>
-<p>在着急的同时，又有了点对未来的期盼。继续为生存的同时，分掉一部分的勇气，继续向外界发出信息。希望，能收获到外界的一些回响。</p>
-<p>即将迈入黄金十年的阶段，希望十年后，自己回看这篇文章的时候，会是满怀欢喜和喜悦的泪水。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        回南天的周末</title>
-    <url>/2021/03/06/2021-03-06%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E5%91%A8%E6%9C%AB/</url>
-    <content><![CDATA[<blockquote>
-<p>今天为文章加入了图床，目的是丰富一下文章的内容，增添文章的信息。</p>
-</blockquote>
-<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
-<p>外面的天气是与下图相反的，希望能够将这一天记录为温暖的。</p>
-<p><strong>在雨天思考了几个问题：</strong></p>
-<p><strong>1.如果在日常生活工作中遇到久久不能解决的问题，就应该要立马换个方法。</strong></p>
-<p>当你设定了一个目标，或者完成一个没遇到过的问题。在解决的过程中，会遇到很多解决问题本身以外的干扰。例如，有很多的方法提供给自己选择，这些方法可能也会过时。我提出一个建议，当遇到这样的场景的时候，接受它，是这样的，面对未知不要带着着急心态。</p>
-<p>但是，这不是解决问题，分析问题的一个很好的办法。如何是好？利用第一原理这个思维是个好的办法。什么是第一原理，可自行去了解。</p>
-<p>回到思考的问题，遇到行不通，是要立马换个方式去解决。这样的思维方式，是应该内化成自己的条件反射。时间是不会停止来等你的。不要认为，这是很少见，我认为这是一个大概率出现在每个人身上的。所以，生命很多时候，就是在这样被消耗着。</p>
-<p>雨下一会就会停，而问题也同样最终消失。有区别的是，问题可能会被解决，也有可能被自己放弃。</p>
-<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去监视一下，自身有什么事，是让这样的情况出现的。</strong></p>
-<p>例如，自己在写这篇文章的时候，是很困的。写作的思路是较为之混乱。说明，自己的作息出现了严重的问题。没有正确的睡眠规律导致的问题。所以，对此就要去解决它，让自己的睡眠得到保证，才能避免它的出现。</p>
-<p>先看看图床加载效果，待会在续写。。。</p>
-<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实。</strong></p>
-<p><img src="http://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
 </search>
