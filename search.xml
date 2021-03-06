@@ -423,55 +423,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     mysql连接出错</title>
-    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
-    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
-<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
-<p><strong>问题描述:</strong></p>
-<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
-<p><strong>解决办法：</strong></p>
-<p><strong>第一步：</strong></p>
-<p>打开terminal 输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
-
-<p><strong>第二步:</strong></p>
-<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
-<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
-<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
-<p><strong>问题分析</strong></p>
-<ol>
-<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
-修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
-</ol>
-<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
-<p><strong>*重点</strong> </p>
-<p>关于两者之间切换问题 和 注意事项</p>
-<p>开启本地mysql 步骤</p>
-<ol>
-<li>检查 xampp mysql database 的status 设置为stopped</li>
-<li>去控制面板或者终端 启动本地mysql server </li>
-</ol>
-<p>开启xmapp mysql </p>
-<ol>
-<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
-</ol>
-<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
-
-<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
-<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
-<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
-<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>     小程序</title>
     <url>/2019/04/23/2019-04-23-%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
     <content><![CDATA[<h2 id="小程序与web开发对比分析"><a href="#小程序与web开发对比分析" class="headerlink" title="小程序与web开发对比分析"></a>小程序与web开发对比分析</h2><h3 id="注册小程序开发账号-安装开发者工具等"><a href="#注册小程序开发账号-安装开发者工具等" class="headerlink" title="注册小程序开发账号 安装开发者工具等"></a>注册小程序开发账号 安装开发者工具等</h3><ol>
@@ -566,6 +517,55 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>     mysql连接出错</title>
+    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
+    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
+<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
+<p><strong>问题描述:</strong></p>
+<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
+<p><strong>解决办法：</strong></p>
+<p><strong>第一步：</strong></p>
+<p>打开terminal 输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
+
+<p><strong>第二步:</strong></p>
+<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
+<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
+<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
+<p><strong>问题分析</strong></p>
+<ol>
+<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
+修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
+</ol>
+<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
+<p><strong>*重点</strong> </p>
+<p>关于两者之间切换问题 和 注意事项</p>
+<p>开启本地mysql 步骤</p>
+<ol>
+<li>检查 xampp mysql database 的status 设置为stopped</li>
+<li>去控制面板或者终端 启动本地mysql server </li>
+</ol>
+<p>开启xmapp mysql </p>
+<ol>
+<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
+</ol>
+<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
+
+<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
+<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
+<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
+<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>wechat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>   Mac工作流工具推介</title>
     <url>/2019/05/05/2019-05-05-mac%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/</url>
     <content><![CDATA[<h1 id="Mac-工作流"><a href="#Mac-工作流" class="headerlink" title="Mac 工作流"></a>Mac 工作流</h1><h2 id="掌握workflows后你会发现你一直在浪费你的Mac"><a href="#掌握workflows后你会发现你一直在浪费你的Mac" class="headerlink" title="掌握workflows后你会发现你一直在浪费你的Mac"></a>掌握workflows后你会发现你一直在浪费你的Mac</h2><a id="more"></a>
@@ -647,34 +647,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>      Markdown公众号代码编辑</title>
-    <url>/2020/05/07/2020-05-07-markdown%E5%85%AC%E4%BC%97%E5%8F%B7/</url>
-    <content><![CDATA[<h4 id="公众号编辑代码块"><a href="#公众号编辑代码块" class="headerlink" title="公众号编辑代码块"></a>公众号编辑代码块</h4><ol>
-<li><p>使用typora编辑文字+代码 。编辑完后，目的复制markdown格式的内容 <code>command+/</code></p>
-</li>
-<li><p>在谷歌浏览器使用插件markdown here 。然后将1复制的内容，<code>command+v</code>至公众号在线编辑中，一键转换。</p>
-<blockquote>
-<p>问题来了：微信的pujie编辑器对我使用的这种方法不友好。导致，一键转化直接按保存，预览会导致代码块走样，不会换行。</p>
-</blockquote>
-</li>
-<li><p>利用一个小巧劲，就可以解决：</p>
-<ul>
-<li>一键转换后 不要保存，也不要预览，不要急着群发。</li>
-<li>直接<code>command+a</code>,<code>command+x</code>,<code>command+v</code>:就是剪切全部，再复制一次</li>
-<li>做完这步，就可以保存，代码块的样式就不会走样。完美</li>
-</ul>
-</li>
-</ol>
-<p>一句话总结：一键转换后，剪切自己，粘贴自己。</p>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>      js理解</title>
     <url>/2020/05/08/2020-05-08-js%E5%8E%9F%E5%9E%8B%E7%90%86%E8%A7%A3/</url>
     <content><![CDATA[<blockquote>
@@ -696,6 +668,34 @@ data:请求所携带的参数；
 <blockquote>
 <p>要有关系，而且又保证自身不被随意遂改。那肯定要用自身的其他东西去做嫁接。</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>      Markdown公众号代码编辑</title>
+    <url>/2020/05/07/2020-05-07-markdown%E5%85%AC%E4%BC%97%E5%8F%B7/</url>
+    <content><![CDATA[<h4 id="公众号编辑代码块"><a href="#公众号编辑代码块" class="headerlink" title="公众号编辑代码块"></a>公众号编辑代码块</h4><ol>
+<li><p>使用typora编辑文字+代码 。编辑完后，目的复制markdown格式的内容 <code>command+/</code></p>
+</li>
+<li><p>在谷歌浏览器使用插件markdown here 。然后将1复制的内容，<code>command+v</code>至公众号在线编辑中，一键转换。</p>
+<blockquote>
+<p>问题来了：微信的pujie编辑器对我使用的这种方法不友好。导致，一键转化直接按保存，预览会导致代码块走样，不会换行。</p>
+</blockquote>
+</li>
+<li><p>利用一个小巧劲，就可以解决：</p>
+<ul>
+<li>一键转换后 不要保存，也不要预览，不要急着群发。</li>
+<li>直接<code>command+a</code>,<code>command+x</code>,<code>command+v</code>:就是剪切全部，再复制一次</li>
+<li>做完这步，就可以保存，代码块的样式就不会走样。完美</li>
+</ul>
+</li>
+</ol>
+<p>一句话总结：一键转换后，剪切自己，粘贴自己。</p>
 ]]></content>
       <categories>
         <category>skill</category>
@@ -770,26 +770,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>    我想说</title>
-    <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
-</blockquote>
-<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
-<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
-<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
-<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
-<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
-<p>等待更新……</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于情绪的认知</title>
     <url>/2020/09/03/2020-09-03-%E5%85%B3%E4%BA%8E%E6%83%85%E7%BB%AA%E7%9A%84%E8%AE%A4%E7%9F%A5/</url>
     <content><![CDATA[<p><strong>由于公众号不支持长期维护同一篇文章，不便于修改。并且在同一篇文章的基础上，不能够新增内容。所以，这个技术博客要重新用起来，因为，技术的知识总结，迟迟没有更新，导致浪费了地球的资源，深感愧疚。</strong></p>
@@ -821,6 +801,26 @@ data:请求所携带的参数；
       <categories>
         <category>life</category>
       </categories>
+  </entry>
+  <entry>
+    <title>    我想说</title>
+    <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
+</blockquote>
+<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
+<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
+<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
+<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
+<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
+<p>等待更新……</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
   </entry>
   <entry>
     <title>      大脑神经科学系列001</title>
@@ -919,6 +919,37 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>        睡眠不足，多梦的原因分析和解决方式</title>
+    <url>/2020/11/08/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
+<blockquote>
+<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
+</blockquote>
+<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
+<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
+<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
+<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
+<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
+<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
+<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
+<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
+<blockquote>
+<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
+</blockquote>
+<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
+<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
+<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
+<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
+<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>    大脑神经认知科学系列002</title>
     <url>/2020/09/27/2020-09-27%E5%A4%A7%E8%84%91%E7%A5%9E%E7%BB%8F%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6%E7%B3%BB%E5%88%97-2/</url>
     <content><![CDATA[<blockquote>
@@ -984,34 +1015,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        回南天的周末</title>
-    <url>/2021/03/06/2021-03-06%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E5%91%A8%E6%9C%AB/</url>
-    <content><![CDATA[<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
-<p>外面的天气是与下图相反的，希望能够将这一天记录为温暖的。</p>
-<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
-<p><strong>在雨天思考了几个问题：</strong></p>
-<p><strong>1.如果在日常生活工作中遇到久久不能解决的问题，就应该要立马换个方法。</strong></p>
-<p>当你设定了一个目标，或者完成一个没遇到过的问题。在解决的过程中，会遇到很多解决问题本身以外的干扰。例如，有很多的方法提供给自己选择，这些方法可能也会过时。我提出一个建议，当遇到这样的场景的时候，接受它，是这样的，面对未知不要带着着急心态。</p>
-<p>但是，这不是解决问题，分析问题的一个很好的办法。如何是好？利用第一原理这个思维是个好的办法。什么是第一原理，可自行去了解。</p>
-<p>回到思考的问题，遇到行不通，是要立马换个方式去解决。这样的思维方式，是应该内化成自己的条件反射。时间是不会停止来等你的。不要认为，这是很少见，我认为这是一个大概率出现在每个人身上的。所以，生命很多时候，就是在这样被消耗着。</p>
-<p>雨下一会就会停，而问题也同样最终消失。有区别的是，问题可能会被解决，也有可能被自己放弃。</p>
-<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去检视一下自身有什么原因是让这样的情况出现的。</strong></p>
-<p>例如，自己在写这篇文章的时候，是很困的。写作的思路是较为之混乱。说明，自己的作息出现了严重的问题。没有正确的睡眠规律导致的问题。所以，对此就要去解决它，让自己的睡眠得到保证，才能避免它的出现。</p>
-<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实的时候，触手无策。</strong></p>
-<p>那天我错过了3次为地铁卡充值的机会。</p>
-<p>当时，我使用余额不足的它，滴进站内后，发现了在线充值系统竟然罕有地出了维护。但是我没有重新出站，补充。最后一次使用的时候，我已经发现了它的余额不足。然后，我进站的时候也没有意识要提前充了才进站。结果在出站补卡的过程耗费了时间，导致了上班迟到。</p>
-<p>这样的生活小片段，说明了我没有确保做某事前的基本条件成立，这是反映了自己一个思维上不够严谨的问题。</p>
-<p>图床刚才是遇到了小问题，以往自己是没有办法去继续下去的，但是之前看了某些书 ，明白到问题是需要拆解分析的，把未知的概念了解之后，一个一个地，一步一步地就很大可能解决掉。</p>
-<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG27985.jpeg" alt="WechatIMG27985"></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1157,18 +1160,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>      关于笔记</title>
-    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>        我的博客</title>
     <url>/2021/03/05/2021-03-04%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>自己写下内容需要传播出去吗？</p>
@@ -1189,34 +1180,43 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>        睡眠不足，多梦的原因分析和解决方式</title>
-    <url>/2020/11/08/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97/</url>
-    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
-<blockquote>
-<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
-</blockquote>
-<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
-<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
-<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
-<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
-<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
-<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
-<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
-<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
-<blockquote>
-<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
-</blockquote>
-<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
-<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
-<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
-<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
-<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
+    <title>        回南天的周末</title>
+    <url>/2021/03/06/2021-03-06%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E5%91%A8%E6%9C%AB/</url>
+    <content><![CDATA[<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
+<p>外面的天气是与下图相反的，希望能够将这一天记录为温暖的。</p>
+<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
+<p><strong>在雨天思考了几个问题：</strong></p>
+<p><strong>1.如果在日常生活工作中遇到久久不能解决的问题，就应该要立马换个方法。</strong></p>
+<p>当你设定了一个目标，或者完成一个没遇到过的问题。在解决的过程中，会遇到很多解决问题本身以外的干扰。例如，有很多的方法提供给自己选择，这些方法可能也会过时。我提出一个建议，当遇到这样的场景的时候，接受它，是这样的，面对未知不要带着着急心态。</p>
+<p>但是，这不是解决问题，分析问题的一个很好的办法。如何是好？利用第一原理这个思维是个好的办法。什么是第一原理，可自行去了解。</p>
+<p>回到思考的问题，遇到行不通，是要立马换个方式去解决。这样的思维方式，是应该内化成自己的条件反射。时间是不会停止来等你的。不要认为，这是很少见，我认为这是一个大概率出现在每个人身上的。所以，生命很多时候，就是在这样被消耗着。</p>
+<p>雨下一会就会停，而问题也同样最终消失。有区别的是，问题可能会被解决，也有可能被自己放弃。</p>
+<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去检视一下自身有什么原因是让这样的情况出现的。</strong></p>
+<p>例如，自己在写这篇文章的时候，是很困的。写作的思路是较为之混乱。说明，自己的作息出现了严重的问题。没有正确的睡眠规律导致的问题。所以，对此就要去解决它，让自己的睡眠得到保证，才能避免它的出现。</p>
+<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实的时候，触手无策。</strong></p>
+<p>那天我错过了3次为地铁卡充值的机会。</p>
+<p>当时，我使用余额不足的它，滴进站内后，发现了在线充值系统竟然罕有地出了维护。但是我没有重新出站，补充。最后一次使用的时候，我已经发现了它的余额不足。然后，我进站的时候也没有意识要提前充了才进站。结果在出站补卡的过程耗费了时间，导致了上班迟到。</p>
+<p>这样的生活小片段，说明了我没有确保做某事前的基本条件成立，这是反映了自己一个思维上不够严谨的问题。</p>
+<p>图床刚才是遇到了小问题，以往自己是没有办法去继续下去的，但是之前看了某些书 ，明白到问题是需要拆解分析的，把未知的概念了解之后，一个一个地，一步一步地就很大可能解决掉。</p>
+<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG27985.jpeg" alt="WechatIMG27985"></p>
 ]]></content>
       <categories>
         <category>生活</category>
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>      关于笔记</title>
+    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
       </tags>
   </entry>
   <entry>
