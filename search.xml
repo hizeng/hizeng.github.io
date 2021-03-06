@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>     B的0706有点不一样了</title>
-    <url>/2011/07/06/2011-07-06-B%E7%9A%840706%E6%9C%89%E7%82%B9%E4%B8%8D%E4%B8%80%E6%A0%B7/</url>
-    <content><![CDATA[<h1 id="B的0706有点不一样了"><a href="#B的0706有点不一样了" class="headerlink" title="B的0706有点不一样了"></a>B的0706有点不一样了</h1><p>我的眼睛将外面的建筑物扫视一个小回 零下A度合后，发觉在她身体内外活动着的人们，包括那几只英文字母动物，他们的内心都带有着澎湃的激情。但是，这一切都掩饰得平淡而充实。我每天都要面对人们，人们每天都会做出按照自我思考而来的活动，因此我们有了不经意的生活交集。至于有无必要，就由个人去做结论了。</p>
-<p>生活的历炼不多，没有口才上反驳斥骂的经验，只能用微笑与弱者言语保护自己。与此同时做到了缓解他人心理上宣泄的欲望，减轻了自己一部分本应与其分担宣泄的压力。但是，我希望用前者来解决。</p>
-<p>那天，我与A动物有了不经意的生活交集。今天，我与B动物有了不经意的生活交集。将她们用同样的方式写在同一个二维空间里面，以至来彰显她们的共同性。巧合，你我会习惯地忽略，不给予太多的思索。然而，重复，你我会刻意地保留，添加自我的逻辑分析。我用上述保护自己的方式，重复保护了自己。所以，我思考了两起事件的缘由。我对其进行了相关的反问——她们的背后究竟是何种物质，或者是精神力量在支撑着她们泼话不是错的观点？相反，又是什么化学物质在驱使我分泌出勇气去安抚她们的情绪？</p>
-<p>B动物，被我的直接性提问（跨级提问）影响了。也打破了以往一惯平静的生活，也许，她不会认为这是工作生活上的乐趣，便执着地将其重命名为烦扰。她不希望她的生活出现半点的不一样，也许过久的乏味而导致她的麻木。所以，我毫不犹豫地安抚其本人。希望能够化解她的怒气……从B身上，我明白到跨级提问的严重性——她位置会略显多余。但是，毕竟她是她，我是我。也许，我会在不久将来赞同她的观点，或者，会一如既往地否决她的重命名。</p>
-<p>A动物，她在助人的过程中也宣泄一种怒气，我猜想她在接受任务的过程中接触了前者的不满。然而，化身为演员。在唯一观众——我的面前演绎了一翻……相对于B，对与A我有种难为情，毕竟我有着一种迟来的罪过。</p>
-<p>我想说：我是一名学生。但是，众多的AB就活生生地参与着你我的生活。</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>life-point</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     bootstrap 笔记</title>
-    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
-    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
-<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
-<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
-<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
-<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
-<p><code>list-inline</code> :li标签 水平排列</p>
-<p><code>tabal-striped</code>:斑马线样式表单</p>
-<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
-]]></content>
-      <tags>
-        <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>     潜伏在雷锋身上的幸福</title>
     <url>/2011/03/28/2011-03-28-%E6%BD%9C%E4%BC%8F%E5%9C%A8%E9%9B%B7%E9%94%8B%E8%BA%AB%E4%B8%8A%E7%9A%84%E5%B9%B8%E7%A6%8F/</url>
     <content><![CDATA[<h1 id="潜伏在雷锋身上的幸福"><a href="#潜伏在雷锋身上的幸福" class="headerlink" title="潜伏在雷锋身上的幸福"></a>潜伏在雷锋身上的幸福</h1><p>三月正是春意黯然的花香季节，乐于助人的雷锋便在不经意间与此搭上了关系。学习“雷锋”— 一种乐于助人的精神，也许你们抱着这样的精神，到生活中实践起来，大爱就会飘扬于四海，幸福就会弥漫在人间。</p>
@@ -46,6 +11,23 @@
 <p>为此那么崇尚朴实的“雷锋”精神，我必须，必需对外宣扬其重要性，不应该有贬斥。即使，有众多不理想的无奈。一方水土养活百样人，而百样人又不约而同地参与到“学雷锋”的活动当中，难免会有幸福上的分歧。</p>
 <p>雷锋只是一个名字承载了一些东西罢了。</p>
 <p>潜伏在雷锋身上的幸福是可以寻找的，中国人！</p>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>life-point</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     B的0706有点不一样了</title>
+    <url>/2011/07/06/2011-07-06-B%E7%9A%840706%E6%9C%89%E7%82%B9%E4%B8%8D%E4%B8%80%E6%A0%B7/</url>
+    <content><![CDATA[<h1 id="B的0706有点不一样了"><a href="#B的0706有点不一样了" class="headerlink" title="B的0706有点不一样了"></a>B的0706有点不一样了</h1><p>我的眼睛将外面的建筑物扫视一个小回 零下A度合后，发觉在她身体内外活动着的人们，包括那几只英文字母动物，他们的内心都带有着澎湃的激情。但是，这一切都掩饰得平淡而充实。我每天都要面对人们，人们每天都会做出按照自我思考而来的活动，因此我们有了不经意的生活交集。至于有无必要，就由个人去做结论了。</p>
+<p>生活的历炼不多，没有口才上反驳斥骂的经验，只能用微笑与弱者言语保护自己。与此同时做到了缓解他人心理上宣泄的欲望，减轻了自己一部分本应与其分担宣泄的压力。但是，我希望用前者来解决。</p>
+<p>那天，我与A动物有了不经意的生活交集。今天，我与B动物有了不经意的生活交集。将她们用同样的方式写在同一个二维空间里面，以至来彰显她们的共同性。巧合，你我会习惯地忽略，不给予太多的思索。然而，重复，你我会刻意地保留，添加自我的逻辑分析。我用上述保护自己的方式，重复保护了自己。所以，我思考了两起事件的缘由。我对其进行了相关的反问——她们的背后究竟是何种物质，或者是精神力量在支撑着她们泼话不是错的观点？相反，又是什么化学物质在驱使我分泌出勇气去安抚她们的情绪？</p>
+<p>B动物，被我的直接性提问（跨级提问）影响了。也打破了以往一惯平静的生活，也许，她不会认为这是工作生活上的乐趣，便执着地将其重命名为烦扰。她不希望她的生活出现半点的不一样，也许过久的乏味而导致她的麻木。所以，我毫不犹豫地安抚其本人。希望能够化解她的怒气……从B身上，我明白到跨级提问的严重性——她位置会略显多余。但是，毕竟她是她，我是我。也许，我会在不久将来赞同她的观点，或者，会一如既往地否决她的重命名。</p>
+<p>A动物，她在助人的过程中也宣泄一种怒气，我猜想她在接受任务的过程中接触了前者的不满。然而，化身为演员。在唯一观众——我的面前演绎了一翻……相对于B，对与A我有种难为情，毕竟我有着一种迟来的罪过。</p>
+<p>我想说：我是一名学生。但是，众多的AB就活生生地参与着你我的生活。</p>
 ]]></content>
       <categories>
         <category>point</category>
@@ -71,6 +53,24 @@
       </categories>
       <tags>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     bootstrap 笔记</title>
+    <url>/2015/11/24/2015-09-18-Bootstrap/</url>
+    <content><![CDATA[<h1 id="前言：bootstrap-是基于jQery搭建的css框架。"><a href="#前言：bootstrap-是基于jQery搭建的css框架。" class="headerlink" title="前言：bootstrap 是基于jQery搭建的css框架。"></a>前言：bootstrap 是基于jQery搭建的css框架。</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="HTML头部注入"><a href="#HTML头部注入" class="headerlink" title="HTML头部注入"></a>HTML头部注入</h3><a id="more"></a>
+<p>在IE运行最新的渲染模式:<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edag&quot;&gt;</code></p>
+<p>初始化移动浏览显示:<br><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; initial=scale=1&quot;&gt;</code></p>
+<p>bootstrap模板为使IE6、7、8版本（IE9以下版本）浏览器兼容html5新增的标签，引入下面代码文件即可:<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>同理为使IE6、7、8版本浏览器兼容css3样式，引入下面代码：<br><code>&lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>###HTML body底部依次注入<br><code>&lt;scirpt&gt;...js/jquery.mim.js&lt;/script&gt;</code><br><code>&lt;script&gt;...js/bootstrap.min.js&gt;&lt;/script&gt;</code><br>##常用的类</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>#####<code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;-&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;``&lt;ul&gt;&lt;li&gt;&lt;ol&gt;</code><br><code>dl-horizontal</code>:大于 784px 文本水平居中</p>
+<p><code>list-inline</code> :li标签 水平排列</p>
+<p><code>tabal-striped</code>:斑马线样式表单</p>
+<p>list-unstyled（没有样式）  （必须添加）table table-bordered（边框表格）、table-hover（鼠标经过高亮）、table-condensed(紧凑）table-responsive(div 父类中添加<br>）<br>###表单</p>
+]]></content>
+      <tags>
+        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -146,6 +146,49 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill - vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>    页面模板渲染数据</title>
+    <url>/2019/04/13/2019-03-13-%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="逻辑混乱-阅读者可忽略"><a href="#逻辑混乱-阅读者可忽略" class="headerlink" title="逻辑混乱 阅读者可忽略"></a>逻辑混乱 阅读者可忽略</h2><h2 id="1-采用nunjucks第三方模板库渲染数据"><a href="#1-采用nunjucks第三方模板库渲染数据" class="headerlink" title="1.采用nunjucks第三方模板库渲染数据"></a>1.采用nunjucks第三方模板库渲染数据</h2><blockquote>
+<p>结合继承的思想 我们引入模板引擎 进行页面开发 同时 引擎是拥有 数据绑定 的功能<br>这个功能在开发中起到很大的作用 </p>
+</blockquote>
+<p>在项目根目录下 npm install nunjucks –save 下载；</p>
+<p>在app.js 引入nunjucks模板库  var nunjuck = require(‘nunjucks’)</p>
+<p>并配置模板引擎：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">app.set(<span class="string">'view engine'</span>, <span class="string">'tpl'</span>);</span><br><span class="line"></span><br><span class="line">  nunjucks.configure(<span class="string">'views'</span>,&#123;</span><br><span class="line">      autoescape:<span class="literal">true</span>,</span><br><span class="line">      express:app,</span><br><span class="line">      watch:<span class="literal">true</span></span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-路由Router"><a href="#2-路由Router" class="headerlink" title="2.路由Router"></a>2.路由Router</h2><blockquote>
+<p>随着对页面进行操作，页面会发生变化。那么页面之间的跳转如何实现？数据如何在跳转中进行加载？</p>
+</blockquote>
+<p>引入 var router = express.Router();</p>
+<p>页面中跳转的URL： /user/edit 对应路由中配置的路径  router.get(‘/user/edit’,methods);</p>
+<p>路由请求中调用的方法（methods）：是控制跳转至URL后 需要对页面数据交换 进行的操作</p>
+<p>遵行MVC模型，将其定义在根目录下 file://Controllers 而负责页面跳转路由,则定义在根目录下 file://Router; </p>
+<p>关于Router，补充与一点，专门与服务器 请求数据的 我们独立分开成两个文件 将其命名api.js 而页面跳转<br>则命名为index.js  目的是 严谨代码逻辑，体现模块化的功能 下面Controllers Model 也有所体现。</p>
+<h2 id="3-控制器Controllers-与-模块器Model"><a href="#3-控制器Controllers-与-模块器Model" class="headerlink" title="3.控制器Controllers 与 模块器Model"></a>3.控制器Controllers 与 模块器Model</h2><p>Controllers: 在里面定义 methods: async function(req,res,next){<br>调用封装后的Model里面定义的读取数据库的方法}</p>
+<p>在方法里面 调用到Model的方法时 使用 await (async await的理解 后续补上)</p>
+<p>res.locals.protype = value;</p>
+<p>res.locals 是express中 对于单次请求响应的周期内 所使用的数据  </p>
+<p>app.locals 则针对于 全局的 常量 来使用 </p>
+<p>value 就是 Model 与数据库 连接后 所获取得到的数据。 </p>
+<p>##本内容关注的是页面的渲染 只关注 从数据库获取数据#</p>
+<p>res.render(‘index’) 服务器发出响应 要求 客户渲染模板的方法 事先在 app.js 中配置好模板引擎 可忽略 模板文件的后缀</p>
+<p>index完整的信息是 ‘路径/index.tpl’</p>
+<h2 id="4-模板调用数据"><a href="#4-模板调用数据" class="headerlink" title="4.模板调用数据"></a>4.模板调用数据</h2><p>上面操作中：res.locals.protype =value;</p>
+<p>protype 对应tpl文件中的使用语法如下</p>
+<p>加载数据 </p>
+<p>####以上就是数据渲染到模板的流程</p>
+<blockquote>
+<p>深化请继续阅读<br>nunjuck.js 模版语法<br>  express.js request respones router 的API</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
       </tags>
   </entry>
   <entry>
@@ -252,46 +295,180 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>    页面模板渲染数据</title>
-    <url>/2019/04/13/2019-03-13-%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="逻辑混乱-阅读者可忽略"><a href="#逻辑混乱-阅读者可忽略" class="headerlink" title="逻辑混乱 阅读者可忽略"></a>逻辑混乱 阅读者可忽略</h2><h2 id="1-采用nunjucks第三方模板库渲染数据"><a href="#1-采用nunjucks第三方模板库渲染数据" class="headerlink" title="1.采用nunjucks第三方模板库渲染数据"></a>1.采用nunjucks第三方模板库渲染数据</h2><blockquote>
-<p>结合继承的思想 我们引入模板引擎 进行页面开发 同时 引擎是拥有 数据绑定 的功能<br>这个功能在开发中起到很大的作用 </p>
+    <title>     Hexo技术博客</title>
+    <url>/2019/04/19/2019-04-14-hexo%E5%89%8D%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<h1 id="搭建快速发布文章的技术博客"><a href="#搭建快速发布文章的技术博客" class="headerlink" title="搭建快速发布文章的技术博客"></a>搭建快速发布文章的技术博客</h1><blockquote>
+<p>基于GitHub Page 和 hexo 博客框架 </p>
 </blockquote>
-<p>在项目根目录下 npm install nunjucks –save 下载；</p>
-<p>在app.js 引入nunjucks模板库  var nunjuck = require(‘nunjucks’)</p>
-<p>并配置模板引擎：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">app.set(<span class="string">'view engine'</span>, <span class="string">'tpl'</span>);</span><br><span class="line"></span><br><span class="line">  nunjucks.configure(<span class="string">'views'</span>,&#123;</span><br><span class="line">      autoescape:<span class="literal">true</span>,</span><br><span class="line">      express:app,</span><br><span class="line">      watch:<span class="literal">true</span></span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-路由Router"><a href="#2-路由Router" class="headerlink" title="2.路由Router"></a>2.路由Router</h2><blockquote>
-<p>随着对页面进行操作，页面会发生变化。那么页面之间的跳转如何实现？数据如何在跳转中进行加载？</p>
+<h2 id="应用的知识：hexo-Github"><a href="#应用的知识：hexo-Github" class="headerlink" title="应用的知识：hexo + Github"></a>应用的知识：hexo + Github</h2><h3 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a>搭建步骤：</h3><h3 id="Github-github-page"><a href="#Github-github-page" class="headerlink" title="Github:github page"></a>Github:github page</h3><blockquote>
+<p>生成 Github Page </p>
 </blockquote>
-<p>引入 var router = express.Router();</p>
-<p>页面中跳转的URL： /user/edit 对应路由中配置的路径  router.get(‘/user/edit’,methods);</p>
-<p>路由请求中调用的方法（methods）：是控制跳转至URL后 需要对页面数据交换 进行的操作</p>
-<p>遵行MVC模型，将其定义在根目录下 file://Controllers 而负责页面跳转路由,则定义在根目录下 file://Router; </p>
-<p>关于Router，补充与一点，专门与服务器 请求数据的 我们独立分开成两个文件 将其命名api.js 而页面跳转<br>则命名为index.js  目的是 严谨代码逻辑，体现模块化的功能 下面Controllers Model 也有所体现。</p>
-<h2 id="3-控制器Controllers-与-模块器Model"><a href="#3-控制器Controllers-与-模块器Model" class="headerlink" title="3.控制器Controllers 与 模块器Model"></a>3.控制器Controllers 与 模块器Model</h2><p>Controllers: 在里面定义 methods: async function(req,res,next){<br>调用封装后的Model里面定义的读取数据库的方法}</p>
-<p>在方法里面 调用到Model的方法时 使用 await (async await的理解 后续补上)</p>
-<p>res.locals.protype = value;</p>
-<p>res.locals 是express中 对于单次请求响应的周期内 所使用的数据  </p>
-<p>app.locals 则针对于 全局的 常量 来使用 </p>
-<p>value 就是 Model 与数据库 连接后 所获取得到的数据。 </p>
-<p>##本内容关注的是页面的渲染 只关注 从数据库获取数据#</p>
-<p>res.render(‘index’) 服务器发出响应 要求 客户渲染模板的方法 事先在 app.js 中配置好模板引擎 可忽略 模板文件的后缀</p>
-<p>index完整的信息是 ‘路径/index.tpl’</p>
-<h2 id="4-模板调用数据"><a href="#4-模板调用数据" class="headerlink" title="4.模板调用数据"></a>4.模板调用数据</h2><p>上面操作中：res.locals.protype =value;</p>
-<p>protype 对应tpl文件中的使用语法如下</p>
-<p>加载数据 </p>
-<p>####以上就是数据渲染到模板的流程</p>
+<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo:"></a>hexo:</h3><p><strong>1.安装hexo</strong></p>
 <blockquote>
-<p>深化请继续阅读<br>nunjuck.js 模版语法<br>  express.js request respones router 的API</p>
+<p>npm install -g hexo-cli (全局安装)</p>
 </blockquote>
+<p><strong>2.cd到你的工作目录 （blog是你的hexo项目文件夹名字）</strong></p>
+<blockquote>
+<p> hexo init blog</p>
+</blockquote>
+<p><strong>3.为了简化流程 就直接先更换网站的主题</strong></p>
+<blockquote>
+<p> $ cd blog<br> $ git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a> themes/next 旧版地址<br> $ git clone <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a> themes/next 新版地址</p>
+</blockquote>
+<blockquote>
+<p>修改next主题样式 ：在主题文件夹next的配置文件scheme字段中修改</p>
+</blockquote>
+<p><strong>4.cd _config.yml 全局配置文件 修改theme属性</strong></p>
+<blockquote>
+<p>  theme:next</p>
+</blockquote>
+<p><strong>5.本地跑起hexo</strong></p>
+<blockquote>
+<p> $ hexo g  打包项目（没上线前可不执行）</p>
+</blockquote>
+<blockquote>
+<p> $ hexo s  启动本地web服务器</p>
+</blockquote>
+<p><strong>6.打开 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 检查是否成功</strong></p>
+<h2 id="推送到Github"><a href="#推送到Github" class="headerlink" title="推送到Github"></a>推送到Github</h2><p><strong>7.修改hexo项目的根目录，根目录，根目录， 下的全局配置文件_config.yml</strong><br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;hizeng&#x2F;hizeng.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br><strong>8.为一键部署做准备 安装git hexo 发布插件</strong></p>
+<blockquote>
+<p>$ npm install hexo-deployer-git –save(<strong><em>页面显示问题</em></strong>save前面是两个-)</p>
+</blockquote>
+<p><strong>9.上线</strong></p>
+<blockquote>
+<p>$ hexo clean 清理缓存<br>$ hexo g     打包项目<br>$ hexo d     一键部署</p>
+</blockquote>
+<p><strong>10.发布文章</strong></p>
+<blockquote>
+<p> 采用md语法编写文章 原因简单易上手操作<br> 由于hexo打包（hexo g) 时候 会编译成 对应的html css js 等线上部署的文章<br> 那么 我们要对文章 和 项目的主题  进行相关的配置</p>
+</blockquote>
+<p><strong>10.1文章</strong></p>
+<blockquote>
+<p>进入根目录的souce文件下的_posts里 新增md文件xxx.md<br>文章最顶部插入以下代码 之后发布都 把这段代码加上<br><strong><em>这是YAML的语法 相关语法可以阅读教程<a href="http://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank" rel="noopener">yaml</a></em></strong></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout:     post                    # 使用的布局（不需要改）</span><br><span class="line">title:      零基础教你搭建技术博客   # 标题 </span><br><span class="line">subtitle:                         #副标题</span><br><span class="line">date:       2019-04-19             # 时间</span><br><span class="line">author:     lishujun                # 作者</span><br><span class="line"> # header-img: img&#x2F;post-bg-2015.jpg    这篇文章标题背景图片</span><br><span class="line">catalog: true                       # 是否归档</span><br><span class="line">categories: skill                   #分类</span><br><span class="line">tags:                                   </span><br><span class="line">     - work-skill                      #标签  </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p><strong>10.2项目主题</strong></p>
+<blockquote>
+<p>进入项目<strong>主题文件themes</strong> 目录下的_confiy.yml 文件 中menu注释部分 按下面的依次打开<br>目的为菜单栏的按钮 添加链接</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line">  archives: &#x2F;archives&#x2F; || archive</span><br></pre></td></tr></table></figure>
+
+<p><strong>10.3日常发布</strong></p>
+<blockquote>
+<p>在_post文件夹中添加xxx.md文章后 只需要执行以下命令<br><strong>记得添加10.2中的代码片段 不然没标题和日期等等信息</strong> </p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g </span><br><span class="line">$ hexo s (本地预览，可不执行)</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>11.0关于域名配置</strong></p>
+<h2 id="购买域名-阿里云"><a href="#购买域名-阿里云" class="headerlink" title="购买域名(阿里云)"></a>购买域名(阿里云)</h2><h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><ol>
+<li><p>$ ping hizeng.github.io 得到一个IP后 记得ctrl+c 退出命令</p>
+</li>
+<li><p>修改你的域名解析记录，添加一个A记录，用得到的IP</p>
+</li>
+<li><p>登录<a href="http://github.com&gt;进入项目&gt;Settings&gt;Custom" target="_blank" rel="noopener">http://github.com&gt;进入项目&gt;Settings&gt;Custom</a> domain&gt;输入你的域名&gt;Save。</p>
+</li>
+</ol>
+<h2 id="hexo项目中添加-CNAME-文件"><a href="#hexo项目中添加-CNAME-文件" class="headerlink" title="hexo项目中添加 CNAME 文件"></a>hexo项目中添加 CNAME 文件</h2><p><strong>添加你的域名</strong></p>
+<blockquote>
+<p> 因为在下次 hexo d 部署的过程中 会把根目录下的CNAME 覆盖删除了 因为hexo并不会自动生成 CNAME 文件<br> 有两种方法可以解决</p>
+</blockquote>
+<ol>
+<li>我们就需要这个 CNAME 工具hexo-generator-cname，这时会自动在 public 里生成一个 CNAME 文件，把你的域名加进去再部署一下吧！</li>
+<li>在根目录下<strong>sourse</strong>文件中添加 （我采用的是第二种）</li>
+</ol>
+<p><strong>11.1 同一域名下挂载第二hexo博客</strong></p>
+<blockquote>
+<p>在全局配置文件中_config.yml 修改<br>如果您的网站放在子目录中，请将网址设置为”<a href="http://yoursite.com/child">http://yoursite.com/child</a> “，将root设置为”/child/“</p>
+</blockquote>
+<h2 id="12-拓展功能"><a href="#12-拓展功能" class="headerlink" title="12.拓展功能"></a>12.拓展功能</h2><p><strong>12.1 添加动画效果</strong></p>
+<blockquote>
+<p>在根目录下操作<br>$ npm install –save hexo-helper-live2d （安装时间比较长）</p>
+</blockquote>
+<blockquote>
+<p>安装模板 在根目录下操作(例子是一只白猫 黑猫是hijiki)</p>
+</blockquote>
+<p>$ npm install live2d-widget-model-tororo</p>
+<blockquote>
+<p>开源作者 提供了10多个 模板 可以在下方 hexo-helper-live-2d 中查阅 对应名字可以在<br>这里阅览<a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">模板</a></p>
+</blockquote>
+<blockquote>
+<p>cd <strong>_config.yml</strong> 添加配置如下</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Live2D</span></span><br><span class="line"><span class="comment">## https://github.com/xiazeyu/live2d-widget.js</span></span><br><span class="line"><span class="comment">## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init</span></span><br><span class="line"><span class="attr">live2d:</span></span><br><span class="line">  <span class="attr">model:</span></span><br><span class="line">    <span class="attr">use:</span> <span class="string">live2d-widget-model-tororo</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">hHeadPos:</span> <span class="number">0.5</span></span><br><span class="line">    <span class="attr">vHeadPos:</span> <span class="number">0.618</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">superSample:</span> <span class="number">2</span></span><br><span class="line">    <span class="attr">width:</span> <span class="number">150</span></span><br><span class="line">    <span class="attr">height:</span> <span class="number">300</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">    <span class="attr">hOffset:</span> <span class="number">0</span></span><br><span class="line">    <span class="attr">vOffset:</span> <span class="number">-20</span></span><br><span class="line">  <span class="attr">mobile:</span></span><br><span class="line">    <span class="attr">show:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">0.5</span></span><br><span class="line">  <span class="attr">react:</span></span><br><span class="line">    <span class="attr">opacityDefault:</span> <span class="number">0.7</span></span><br><span class="line">    <span class="attr">opacityOnHover:</span> <span class="number">0.2</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>12.2 草稿功能</strong></p>
+<p>草稿相当于很多博客都有的“私密文章”功能。使用如下命令创建：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> draft <span class="string">"new draft"</span></span><br></pre></td></tr></table></figure>
+
+<p>会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p>
+<p>如果你希望强行预览草稿，更改配置文件（_config.yml）：<br><code>render_drafts: true</code><br>或者如下方式启动server：<br><code>$ hexo server --drafts</code></p>
+<p>下面这条命令可以把草稿变成文章，或者页面：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="string">`$ hexo publish [layout] &lt;filename&gt;`</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>12.3小结next主题插件</strong></p>
+<blockquote>
+<p>使用插件： 全局安装依赖（npm install –save hexo-helper-live2d ）到 package.json<br>全局配置： 在_config.yml 中根据对应的插件文档 进行配置<br>其他功能大家可以根据 next文档去尝试配置</p>
+</blockquote>
+<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo文档</a><br><a href="https://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">nexT主题文档</a><br><a href="https://www.markdown.cn/" target="_blank" rel="noopener">markdown文档</a><br><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank" rel="noopener">hexo-helper-live-2d</a></p>
+<p><strong>延伸拓展</strong><br><a href="https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/" target="_blank" rel="noopener">浏览器工作原理</a><br><a href="https://juejin.im/entry/58c63c5061ff4b005d9f7a62" target="_blank" rel="noopener">Hexo源码设计模式</a></p>
 ]]></content>
       <categories>
         <category>skill</category>
       </categories>
       <tags>
         <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     mysql连接出错</title>
+    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
+    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
+<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
+<p><strong>问题描述:</strong></p>
+<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
+<p><strong>解决办法：</strong></p>
+<p><strong>第一步：</strong></p>
+<p>打开terminal 输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
+
+<p><strong>第二步:</strong></p>
+<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
+<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
+<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
+<p><strong>问题分析</strong></p>
+<ol>
+<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
+修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
+</ol>
+<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
+<p><strong>*重点</strong> </p>
+<p>关于两者之间切换问题 和 注意事项</p>
+<p>开启本地mysql 步骤</p>
+<ol>
+<li>检查 xampp mysql database 的status 设置为stopped</li>
+<li>去控制面板或者终端 启动本地mysql server </li>
+</ol>
+<p>开启xmapp mysql </p>
+<ol>
+<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
+</ol>
+<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
+
+<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
+<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
+<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
+<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>work-skill</tag>
+        <tag>wechat</tag>
       </tags>
   </entry>
   <entry>
@@ -425,55 +602,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     mysql连接出错</title>
-    <url>/2019/04/25/2019-04-25-mysql%E8%BF%9E%E6%8E%A5%E5%87%BA%E9%94%99xampp/</url>
-    <content><![CDATA[<h3 id="连接mysql数据库出错"><a href="#连接mysql数据库出错" class="headerlink" title="连接mysql数据库出错"></a>连接mysql数据库出错</h3><blockquote>
-<h5 id="本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境"><a href="#本次案例是开发者-同时在本地安装了mysql-和-xampp-集成了mysql等的本地开发环境" class="headerlink" title="本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)"></a>本次案例是开发者 同时在本地安装了mysql 和 xampp(集成了mysql等的本地开发环境)</h5></blockquote>
-<p><strong>问题描述:</strong></p>
-<p><strong>开发者 系统更新后 使用sequel pro 连接xampp中的MySQL数据库 失败</strong><br><strong>xampp mysql database runing 绿灯显示正常！！！</strong></p>
-<p><strong>解决办法：</strong></p>
-<p><strong>第一步：</strong></p>
-<p>打开terminal 输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br></pre></td></tr></table></figure>
-
-<p><strong>第二步:</strong></p>
-<p>更改xampp中访问MySQL的端口（3306=》3366） </p>
-<p>进入xampp Manage Servers 控制面板,点击Configure  修改port的值 </p>
-<p>或者 进入 my.cnf 文件中[client] [mysqld]中 port值 和 php.ini 中 mysqli.default_port= 3366 </p>
-<p><strong>问题分析</strong></p>
-<ol>
-<li>在sequel pro 中配置如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">host: 127.0.0.1</span><br><span class="line">user: root</span><br><span class="line">passward: 默认空</span><br><span class="line">databade: 不填</span><br><span class="line">port:3366(已经修改)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Unable to connect to host 127.0.0.1, or the request timed out.</span><br><span class="line"></span><br><span class="line">Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds).</span><br><span class="line"></span><br><span class="line">MySQL said: Can&#39;t connect to MySQL server on &#39;127.0.0.1&#39; (61)</span><br></pre></td></tr></table></figure>
-修改port是避免xmapp中连接mysql的端口与本地连接mysql端口冲突</li>
-</ol>
-<p>回头小结： 由于本地mysql登录需要密码 那么如果不更改xampp中mysql默认的3306 在不输入密码的情况下 且 xampp mysql sever start . sequel pro 会自动选择连接xmapp中的数据库.(强烈建议修改端口，以免产生不必要的损失)</p>
-<p><strong>*重点</strong> </p>
-<p>关于两者之间切换问题 和 注意事项</p>
-<p>开启本地mysql 步骤</p>
-<ol>
-<li>检查 xampp mysql database 的status 设置为stopped</li>
-<li>去控制面板或者终端 启动本地mysql server </li>
-</ol>
-<p>开启xmapp mysql </p>
-<ol>
-<li>进入xmapp 按钮操作 start ，如果本地已经能够正常访问 且 xmpapp mysql server 成功跑起 就直接在sq中自由切换两者 </li>
-</ol>
-<p><strong>想自由切换两者 可以在活动监视器查看是否存在有两个mysald的进程</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$ sudo &#x2F;Applications&#x2F;XAMPP&#x2F;bin&#x2F;mysql.server start</span><br><span class="line">Starting MySQL</span><br><span class="line">.2019-04-25 21:51:41 28258 mysqld_safe Logging to &#39;&#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql&#x2F;cengpeiqindeMacBook-Pro.local.err&#39;.</span><br><span class="line">2019-04-25 21:51:41 28258 mysqld_safe Starting mysqld daemon with databases from &#x2F;Applications&#x2F;XAMPP&#x2F;xamppfiles&#x2F;var&#x2F;mysql</span><br><span class="line"> SUCCESS!</span><br><span class="line">cengpeiqindeMacBook-Pro:~ cengpeiqin$</span><br></pre></td></tr></table></figure>
-
-<h6 id="关于本地mysql-控制面版"><a href="#关于本地mysql-控制面版" class="headerlink" title="关于本地mysql 控制面版"></a>关于本地mysql 控制面版</h6><h6 id="如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示"><a href="#如果-在xampp-开启的情况下-点击stop-就可以终止-这时候控制面板会出现异常显示" class="headerlink" title="如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示"></a>如果 在xampp 开启的情况下  点击stop 就可以终止 这时候控制面板会出现异常显示</h6><h6 id="（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）"><a href="#（stop-server后，控制面板会继续亮绿灯-可以在活动监视器观察情况，是否真正退出myaqld进程）" class="headerlink" title="（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）"></a>（stop server后，控制面板会继续亮绿灯,可以在活动监视器观察情况，是否真正退出myaqld进程）</h6><h6 id="或者在-活动监视器-中退出mysqld"><a href="#或者在-活动监视器-中退出mysqld" class="headerlink" title="或者在 活动监视器 中退出mysqld"></a>或者在 活动监视器 中退出mysqld</h6><p>结语： 在开发前 必须把环境搭好 在开发过程中重点关注开发  </p>
-<h6 id="数据库日常注意事项"><a href="#数据库日常注意事项" class="headerlink" title="数据库日常注意事项"></a><strong>数据库日常注意事项</strong></h6><ol>
-<li><p>小程序的数据库表中字段命名：user-id user-name 在小程序的列表渲染中 会读取不到改字段的属性 用userID 取代</p>
-<p>2.mac下使用sequel pro <a href="https://sequelpro.com/test-builds" target="_blank" rel="noopener">test-builds</a>（银色图片），解决了sequel pro（黄色图标）的不知明问题。</p>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>work-skill</tag>
-        <tag>wechat</tag>
-      </tags>
-  </entry>
-  <entry>
     <title> </title>
     <url>/2019/05/08/2019-05-08-%E6%96%87%E7%AB%A0%E7%9A%84%E6%A8%A1%E7%89%88/</url>
     <content><![CDATA[]]></content>
@@ -519,125 +647,25 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     Hexo技术博客</title>
-    <url>/2019/04/19/2019-04-14-hexo%E5%89%8D%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A1%86%E6%9E%B6/</url>
-    <content><![CDATA[<h1 id="搭建快速发布文章的技术博客"><a href="#搭建快速发布文章的技术博客" class="headerlink" title="搭建快速发布文章的技术博客"></a>搭建快速发布文章的技术博客</h1><blockquote>
-<p>基于GitHub Page 和 hexo 博客框架 </p>
-</blockquote>
-<h2 id="应用的知识：hexo-Github"><a href="#应用的知识：hexo-Github" class="headerlink" title="应用的知识：hexo + Github"></a>应用的知识：hexo + Github</h2><h3 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a>搭建步骤：</h3><h3 id="Github-github-page"><a href="#Github-github-page" class="headerlink" title="Github:github page"></a>Github:github page</h3><blockquote>
-<p>生成 Github Page </p>
-</blockquote>
-<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo:"></a>hexo:</h3><p><strong>1.安装hexo</strong></p>
-<blockquote>
-<p>npm install -g hexo-cli (全局安装)</p>
-</blockquote>
-<p><strong>2.cd到你的工作目录 （blog是你的hexo项目文件夹名字）</strong></p>
-<blockquote>
-<p> hexo init blog</p>
-</blockquote>
-<p><strong>3.为了简化流程 就直接先更换网站的主题</strong></p>
-<blockquote>
-<p> $ cd blog<br> $ git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a> themes/next 旧版地址<br> $ git clone <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a> themes/next 新版地址</p>
-</blockquote>
-<blockquote>
-<p>修改next主题样式 ：在主题文件夹next的配置文件scheme字段中修改</p>
-</blockquote>
-<p><strong>4.cd _config.yml 全局配置文件 修改theme属性</strong></p>
-<blockquote>
-<p>  theme:next</p>
-</blockquote>
-<p><strong>5.本地跑起hexo</strong></p>
-<blockquote>
-<p> $ hexo g  打包项目（没上线前可不执行）</p>
-</blockquote>
-<blockquote>
-<p> $ hexo s  启动本地web服务器</p>
-</blockquote>
-<p><strong>6.打开 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 检查是否成功</strong></p>
-<h2 id="推送到Github"><a href="#推送到Github" class="headerlink" title="推送到Github"></a>推送到Github</h2><p><strong>7.修改hexo项目的根目录，根目录，根目录， 下的全局配置文件_config.yml</strong><br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;hizeng&#x2F;hizeng.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br><strong>8.为一键部署做准备 安装git hexo 发布插件</strong></p>
-<blockquote>
-<p>$ npm install hexo-deployer-git –save(<strong><em>页面显示问题</em></strong>save前面是两个-)</p>
-</blockquote>
-<p><strong>9.上线</strong></p>
-<blockquote>
-<p>$ hexo clean 清理缓存<br>$ hexo g     打包项目<br>$ hexo d     一键部署</p>
-</blockquote>
-<p><strong>10.发布文章</strong></p>
-<blockquote>
-<p> 采用md语法编写文章 原因简单易上手操作<br> 由于hexo打包（hexo g) 时候 会编译成 对应的html css js 等线上部署的文章<br> 那么 我们要对文章 和 项目的主题  进行相关的配置</p>
-</blockquote>
-<p><strong>10.1文章</strong></p>
-<blockquote>
-<p>进入根目录的souce文件下的_posts里 新增md文件xxx.md<br>文章最顶部插入以下代码 之后发布都 把这段代码加上<br><strong><em>这是YAML的语法 相关语法可以阅读教程<a href="http://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank" rel="noopener">yaml</a></em></strong></p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout:     post                    # 使用的布局（不需要改）</span><br><span class="line">title:      零基础教你搭建技术博客   # 标题 </span><br><span class="line">subtitle:                         #副标题</span><br><span class="line">date:       2019-04-19             # 时间</span><br><span class="line">author:     lishujun                # 作者</span><br><span class="line"> # header-img: img&#x2F;post-bg-2015.jpg    这篇文章标题背景图片</span><br><span class="line">catalog: true                       # 是否归档</span><br><span class="line">categories: skill                   #分类</span><br><span class="line">tags:                                   </span><br><span class="line">     - work-skill                      #标签  </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p><strong>10.2项目主题</strong></p>
-<blockquote>
-<p>进入项目<strong>主题文件themes</strong> 目录下的_confiy.yml 文件 中menu注释部分 按下面的依次打开<br>目的为菜单栏的按钮 添加链接</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line">  archives: &#x2F;archives&#x2F; || archive</span><br></pre></td></tr></table></figure>
-
-<p><strong>10.3日常发布</strong></p>
-<blockquote>
-<p>在_post文件夹中添加xxx.md文章后 只需要执行以下命令<br><strong>记得添加10.2中的代码片段 不然没标题和日期等等信息</strong> </p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g </span><br><span class="line">$ hexo s (本地预览，可不执行)</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>11.0关于域名配置</strong></p>
-<h2 id="购买域名-阿里云"><a href="#购买域名-阿里云" class="headerlink" title="购买域名(阿里云)"></a>购买域名(阿里云)</h2><h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><ol>
-<li><p>$ ping hizeng.github.io 得到一个IP后 记得ctrl+c 退出命令</p>
+    <title>      Markdown公众号代码编辑</title>
+    <url>/2020/05/07/2020-05-07-markdown%E5%85%AC%E4%BC%97%E5%8F%B7/</url>
+    <content><![CDATA[<h4 id="公众号编辑代码块"><a href="#公众号编辑代码块" class="headerlink" title="公众号编辑代码块"></a>公众号编辑代码块</h4><ol>
+<li><p>使用typora编辑文字+代码 。编辑完后，目的复制markdown格式的内容 <code>command+/</code></p>
 </li>
-<li><p>修改你的域名解析记录，添加一个A记录，用得到的IP</p>
+<li><p>在谷歌浏览器使用插件markdown here 。然后将1复制的内容，<code>command+v</code>至公众号在线编辑中，一键转换。</p>
+<blockquote>
+<p>问题来了：微信的pujie编辑器对我使用的这种方法不友好。导致，一键转化直接按保存，预览会导致代码块走样，不会换行。</p>
+</blockquote>
 </li>
-<li><p>登录<a href="http://github.com&gt;进入项目&gt;Settings&gt;Custom" target="_blank" rel="noopener">http://github.com&gt;进入项目&gt;Settings&gt;Custom</a> domain&gt;输入你的域名&gt;Save。</p>
+<li><p>利用一个小巧劲，就可以解决：</p>
+<ul>
+<li>一键转换后 不要保存，也不要预览，不要急着群发。</li>
+<li>直接<code>command+a</code>,<code>command+x</code>,<code>command+v</code>:就是剪切全部，再复制一次</li>
+<li>做完这步，就可以保存，代码块的样式就不会走样。完美</li>
+</ul>
 </li>
 </ol>
-<h2 id="hexo项目中添加-CNAME-文件"><a href="#hexo项目中添加-CNAME-文件" class="headerlink" title="hexo项目中添加 CNAME 文件"></a>hexo项目中添加 CNAME 文件</h2><p><strong>添加你的域名</strong></p>
-<blockquote>
-<p> 因为在下次 hexo d 部署的过程中 会把根目录下的CNAME 覆盖删除了 因为hexo并不会自动生成 CNAME 文件<br> 有两种方法可以解决</p>
-</blockquote>
-<ol>
-<li>我们就需要这个 CNAME 工具hexo-generator-cname，这时会自动在 public 里生成一个 CNAME 文件，把你的域名加进去再部署一下吧！</li>
-<li>在根目录下<strong>sourse</strong>文件中添加 （我采用的是第二种）</li>
-</ol>
-<p><strong>11.1 同一域名下挂载第二hexo博客</strong></p>
-<blockquote>
-<p>在全局配置文件中_config.yml 修改<br>如果您的网站放在子目录中，请将网址设置为”<a href="http://yoursite.com/child">http://yoursite.com/child</a> “，将root设置为”/child/“</p>
-</blockquote>
-<h2 id="12-拓展功能"><a href="#12-拓展功能" class="headerlink" title="12.拓展功能"></a>12.拓展功能</h2><p><strong>12.1 添加动画效果</strong></p>
-<blockquote>
-<p>在根目录下操作<br>$ npm install –save hexo-helper-live2d （安装时间比较长）</p>
-</blockquote>
-<blockquote>
-<p>安装模板 在根目录下操作(例子是一只白猫 黑猫是hijiki)</p>
-</blockquote>
-<p>$ npm install live2d-widget-model-tororo</p>
-<blockquote>
-<p>开源作者 提供了10多个 模板 可以在下方 hexo-helper-live-2d 中查阅 对应名字可以在<br>这里阅览<a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">模板</a></p>
-</blockquote>
-<blockquote>
-<p>cd <strong>_config.yml</strong> 添加配置如下</p>
-</blockquote>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Live2D</span></span><br><span class="line"><span class="comment">## https://github.com/xiazeyu/live2d-widget.js</span></span><br><span class="line"><span class="comment">## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init</span></span><br><span class="line"><span class="attr">live2d:</span></span><br><span class="line">  <span class="attr">model:</span></span><br><span class="line">    <span class="attr">use:</span> <span class="string">live2d-widget-model-tororo</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">hHeadPos:</span> <span class="number">0.5</span></span><br><span class="line">    <span class="attr">vHeadPos:</span> <span class="number">0.618</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">superSample:</span> <span class="number">2</span></span><br><span class="line">    <span class="attr">width:</span> <span class="number">150</span></span><br><span class="line">    <span class="attr">height:</span> <span class="number">300</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">    <span class="attr">hOffset:</span> <span class="number">0</span></span><br><span class="line">    <span class="attr">vOffset:</span> <span class="number">-20</span></span><br><span class="line">  <span class="attr">mobile:</span></span><br><span class="line">    <span class="attr">show:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">0.5</span></span><br><span class="line">  <span class="attr">react:</span></span><br><span class="line">    <span class="attr">opacityDefault:</span> <span class="number">0.7</span></span><br><span class="line">    <span class="attr">opacityOnHover:</span> <span class="number">0.2</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>12.2 草稿功能</strong></p>
-<p>草稿相当于很多博客都有的“私密文章”功能。使用如下命令创建：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> draft <span class="string">"new draft"</span></span><br></pre></td></tr></table></figure>
-
-<p>会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p>
-<p>如果你希望强行预览草稿，更改配置文件（_config.yml）：<br><code>render_drafts: true</code><br>或者如下方式启动server：<br><code>$ hexo server --drafts</code></p>
-<p>下面这条命令可以把草稿变成文章，或者页面：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="string">`$ hexo publish [layout] &lt;filename&gt;`</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>12.3小结next主题插件</strong></p>
-<blockquote>
-<p>使用插件： 全局安装依赖（npm install –save hexo-helper-live2d ）到 package.json<br>全局配置： 在_config.yml 中根据对应的插件文档 进行配置<br>其他功能大家可以根据 next文档去尝试配置</p>
-</blockquote>
-<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo文档</a><br><a href="https://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">nexT主题文档</a><br><a href="https://www.markdown.cn/" target="_blank" rel="noopener">markdown文档</a><br><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank" rel="noopener">hexo-helper-live-2d</a></p>
-<p><strong>延伸拓展</strong><br><a href="https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/" target="_blank" rel="noopener">浏览器工作原理</a><br><a href="https://juejin.im/entry/58c63c5061ff4b005d9f7a62" target="_blank" rel="noopener">Hexo源码设计模式</a></p>
+<p>一句话总结：一键转换后，剪切自己，粘贴自己。</p>
 ]]></content>
       <categories>
         <category>skill</category>
@@ -677,25 +705,31 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>      Markdown公众号代码编辑</title>
-    <url>/2020/05/07/2020-05-07-markdown%E5%85%AC%E4%BC%97%E5%8F%B7/</url>
-    <content><![CDATA[<h4 id="公众号编辑代码块"><a href="#公众号编辑代码块" class="headerlink" title="公众号编辑代码块"></a>公众号编辑代码块</h4><ol>
-<li><p>使用typora编辑文字+代码 。编辑完后，目的复制markdown格式的内容 <code>command+/</code></p>
-</li>
-<li><p>在谷歌浏览器使用插件markdown here 。然后将1复制的内容，<code>command+v</code>至公众号在线编辑中，一键转换。</p>
-<blockquote>
-<p>问题来了：微信的pujie编辑器对我使用的这种方法不友好。导致，一键转化直接按保存，预览会导致代码块走样，不会换行。</p>
+    <title>      快速工作</title>
+    <url>/2020/05/09/2020-05-09-%E5%BF%AB%E9%80%9F%E5%B7%A5%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>在开发的过程中，由许多不必要的操作，会打乱工作的集中程度，会影响思考核心问题<br>为此，总结一些技巧性的东西</p>
 </blockquote>
-</li>
-<li><p>利用一个小巧劲，就可以解决：</p>
-<ul>
-<li>一键转换后 不要保存，也不要预览，不要急着群发。</li>
-<li>直接<code>command+a</code>,<code>command+x</code>,<code>command+v</code>:就是剪切全部，再复制一次</li>
-<li>做完这步，就可以保存，代码块的样式就不会走样。完美</li>
-</ul>
-</li>
+<h3 id="由无到有-开始计时"><a href="#由无到有-开始计时" class="headerlink" title="由无到有 开始计时"></a>由无到有 开始计时</h3><blockquote>
+<p>由一个全栈的角度去开发一个项目进行 会慢慢迭代后续的所知</p>
+</blockquote>
+<h4 id="基本操作："><a href="#基本操作：" class="headerlink" title="基本操作："></a>基本操作：</h4><blockquote>
+<p>就是工作的姿势</p>
+</blockquote>
+<p>编辑器 浏览器 终端 显示器 键盘</p>
+<h5 id="编辑器：主流为sublimeText3-Vscode"><a href="#编辑器：主流为sublimeText3-Vscode" class="headerlink" title="编辑器：主流为sublimeText3  Vscode"></a>编辑器：主流为sublimeText3  Vscode</h5><h6 id="注重快捷键的使用，还有就是新建文件的默认模版的快速生成"><a href="#注重快捷键的使用，还有就是新建文件的默认模版的快速生成" class="headerlink" title="注重快捷键的使用，还有就是新建文件的默认模版的快速生成"></a>注重快捷键的使用，还有就是新建文件的默认模版的快速生成</h6><h5 id="终端：iterm2-oh-my-zsh"><a href="#终端：iterm2-oh-my-zsh" class="headerlink" title="终端：iterm2 + oh-my-zsh"></a>终端：iterm2 + oh-my-zsh</h5><h6 id="注重快速打开编辑器-，跳转系统文件的目录，cd时候的代码补全，文件的增删"><a href="#注重快速打开编辑器-，跳转系统文件的目录，cd时候的代码补全，文件的增删" class="headerlink" title="注重快速打开编辑器 ，跳转系统文件的目录，cd时候的代码补全，文件的增删"></a>注重快速打开编辑器 ，跳转系统文件的目录，cd时候的代码补全，文件的增删</h6><h5 id="浏览器，显示器，键盘：Sizeup-Alfred"><a href="#浏览器，显示器，键盘：Sizeup-Alfred" class="headerlink" title="浏览器，显示器，键盘：Sizeup  Alfred"></a>浏览器，显示器，键盘：Sizeup  Alfred</h5><h6 id="注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性"><a href="#注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性" class="headerlink" title="注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性"></a>注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性</h6><p>想起最近的一个纪录片，那个主角认为，在取舍之间，要舍弃一些繁枝末节，目的要让整个大局，是往前走。想想也是，对于编程来说，在没达到一定水准的时候，要让项目跑起来为首要的目标。</p>
+<h4 id="工具的使用："><a href="#工具的使用：" class="headerlink" title="工具的使用："></a>工具的使用：</h4><p>工具的定义就是，辅助的。是提高效率的，是帮助你去解决某样问题的。</p>
+<p>所以，工具的好坏，是由是否对自己的工作有帮助，解决问题的效率所决定。千万不要，为用工具而用工具。</p>
+<h4 id="开始："><a href="#开始：" class="headerlink" title="开始："></a>开始：</h4><blockquote>
+<p>针对自己而言的开始</p>
+</blockquote>
+<p>对于一个项目，由零开始，到开发者手上。沟通，跟负责想法的人。跟同事沟通，目的都是要知道，这个项目到底是舍，是干什么的？但是这里往往是个大问题，很多因素，和工作投入程度，效率，通常就在这里遇到了很大的麻烦。也是，自己深感痛恶的地方。</p>
+<h5 id="页面的构成"><a href="#页面的构成" class="headerlink" title="页面的构成"></a>页面的构成</h5><p>ps切图，页面的主体框架，样式的制作。这是立业之基本。而一些，框架，最终的目的，是帮助我们更好的开发，也就是集多层面的东西（项目制作中的多个环节），由于针对性不同，知识不全面，用起来就会不那么愉快。</p>
+<p>所以，基于目的去选择，去学习，去开发，是非常重要的一个前提。</p>
+<h4 id="资源整理："><a href="#资源整理：" class="headerlink" title="资源整理："></a>资源整理：</h4><p>把编程开发，比喻成煮一道菜。那么，在烹饪的过程，我们需要准备好食材，调味料，锅具，餐具。所以，我们在开发的过程，同样地需要做好开发的 准备：</p>
+<ol>
+<li>食材：图片资源，文案资源，</li>
 </ol>
-<p>一句话总结：一键转换后，剪切自己，粘贴自己。</p>
 ]]></content>
       <categories>
         <category>skill</category>
@@ -736,34 +770,20 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>      快速工作</title>
-    <url>/2020/05/09/2020-05-09-%E5%BF%AB%E9%80%9F%E5%B7%A5%E4%BD%9C/</url>
+    <title>    我想说</title>
+    <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
     <content><![CDATA[<blockquote>
-<p>在开发的过程中，由许多不必要的操作，会打乱工作的集中程度，会影响思考核心问题<br>为此，总结一些技巧性的东西</p>
+<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
 </blockquote>
-<h3 id="由无到有-开始计时"><a href="#由无到有-开始计时" class="headerlink" title="由无到有 开始计时"></a>由无到有 开始计时</h3><blockquote>
-<p>由一个全栈的角度去开发一个项目进行 会慢慢迭代后续的所知</p>
-</blockquote>
-<h4 id="基本操作："><a href="#基本操作：" class="headerlink" title="基本操作："></a>基本操作：</h4><blockquote>
-<p>就是工作的姿势</p>
-</blockquote>
-<p>编辑器 浏览器 终端 显示器 键盘</p>
-<h5 id="编辑器：主流为sublimeText3-Vscode"><a href="#编辑器：主流为sublimeText3-Vscode" class="headerlink" title="编辑器：主流为sublimeText3  Vscode"></a>编辑器：主流为sublimeText3  Vscode</h5><h6 id="注重快捷键的使用，还有就是新建文件的默认模版的快速生成"><a href="#注重快捷键的使用，还有就是新建文件的默认模版的快速生成" class="headerlink" title="注重快捷键的使用，还有就是新建文件的默认模版的快速生成"></a>注重快捷键的使用，还有就是新建文件的默认模版的快速生成</h6><h5 id="终端：iterm2-oh-my-zsh"><a href="#终端：iterm2-oh-my-zsh" class="headerlink" title="终端：iterm2 + oh-my-zsh"></a>终端：iterm2 + oh-my-zsh</h5><h6 id="注重快速打开编辑器-，跳转系统文件的目录，cd时候的代码补全，文件的增删"><a href="#注重快速打开编辑器-，跳转系统文件的目录，cd时候的代码补全，文件的增删" class="headerlink" title="注重快速打开编辑器 ，跳转系统文件的目录，cd时候的代码补全，文件的增删"></a>注重快速打开编辑器 ，跳转系统文件的目录，cd时候的代码补全，文件的增删</h6><h5 id="浏览器，显示器，键盘：Sizeup-Alfred"><a href="#浏览器，显示器，键盘：Sizeup-Alfred" class="headerlink" title="浏览器，显示器，键盘：Sizeup  Alfred"></a>浏览器，显示器，键盘：Sizeup  Alfred</h5><h6 id="注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性"><a href="#注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性" class="headerlink" title="注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性"></a>注重快速切换眼前看到的操作界面，和阅读舒服，目的增加开发的条理性</h6><p>想起最近的一个纪录片，那个主角认为，在取舍之间，要舍弃一些繁枝末节，目的要让整个大局，是往前走。想想也是，对于编程来说，在没达到一定水准的时候，要让项目跑起来为首要的目标。</p>
-<h4 id="工具的使用："><a href="#工具的使用：" class="headerlink" title="工具的使用："></a>工具的使用：</h4><p>工具的定义就是，辅助的。是提高效率的，是帮助你去解决某样问题的。</p>
-<p>所以，工具的好坏，是由是否对自己的工作有帮助，解决问题的效率所决定。千万不要，为用工具而用工具。</p>
-<h4 id="开始："><a href="#开始：" class="headerlink" title="开始："></a>开始：</h4><blockquote>
-<p>针对自己而言的开始</p>
-</blockquote>
-<p>对于一个项目，由零开始，到开发者手上。沟通，跟负责想法的人。跟同事沟通，目的都是要知道，这个项目到底是舍，是干什么的？但是这里往往是个大问题，很多因素，和工作投入程度，效率，通常就在这里遇到了很大的麻烦。也是，自己深感痛恶的地方。</p>
-<h5 id="页面的构成"><a href="#页面的构成" class="headerlink" title="页面的构成"></a>页面的构成</h5><p>ps切图，页面的主体框架，样式的制作。这是立业之基本。而一些，框架，最终的目的，是帮助我们更好的开发，也就是集多层面的东西（项目制作中的多个环节），由于针对性不同，知识不全面，用起来就会不那么愉快。</p>
-<p>所以，基于目的去选择，去学习，去开发，是非常重要的一个前提。</p>
-<h4 id="资源整理："><a href="#资源整理：" class="headerlink" title="资源整理："></a>资源整理：</h4><p>把编程开发，比喻成煮一道菜。那么，在烹饪的过程，我们需要准备好食材，调味料，锅具，餐具。所以，我们在开发的过程，同样地需要做好开发的 准备：</p>
-<ol>
-<li>食材：图片资源，文案资源，</li>
-</ol>
+<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
+<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
+<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
+<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
+<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
+<p>等待更新……</p>
 ]]></content>
       <categories>
-        <category>skill</category>
+        <category>life</category>
       </categories>
       <tags>
         <tag>work-skill</tag>
@@ -967,113 +987,31 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>    我想说</title>
-    <url>/2020/09/06/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
-</blockquote>
-<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
-<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
-<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
-<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
-<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
-<p>等待更新……</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>        回南天的周末</title>
     <url>/2021/03/06/2021-03-06%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E5%91%A8%E6%9C%AB/</url>
-    <content><![CDATA[<blockquote>
-<p>今天为文章加入了图床，目的是丰富一下文章的内容，增添文章的信息。</p>
-</blockquote>
-<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
+    <content><![CDATA[<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
 <p>外面的天气是与下图相反的，希望能够将这一天记录为温暖的。</p>
+<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
 <p><strong>在雨天思考了几个问题：</strong></p>
 <p><strong>1.如果在日常生活工作中遇到久久不能解决的问题，就应该要立马换个方法。</strong></p>
 <p>当你设定了一个目标，或者完成一个没遇到过的问题。在解决的过程中，会遇到很多解决问题本身以外的干扰。例如，有很多的方法提供给自己选择，这些方法可能也会过时。我提出一个建议，当遇到这样的场景的时候，接受它，是这样的，面对未知不要带着着急心态。</p>
 <p>但是，这不是解决问题，分析问题的一个很好的办法。如何是好？利用第一原理这个思维是个好的办法。什么是第一原理，可自行去了解。</p>
 <p>回到思考的问题，遇到行不通，是要立马换个方式去解决。这样的思维方式，是应该内化成自己的条件反射。时间是不会停止来等你的。不要认为，这是很少见，我认为这是一个大概率出现在每个人身上的。所以，生命很多时候，就是在这样被消耗着。</p>
 <p>雨下一会就会停，而问题也同样最终消失。有区别的是，问题可能会被解决，也有可能被自己放弃。</p>
-<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去监视一下，自身有什么事，是让这样的情况出现的。</strong></p>
+<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去检视一下自身有什么原因是让这样的情况出现的。</strong></p>
 <p>例如，自己在写这篇文章的时候，是很困的。写作的思路是较为之混乱。说明，自己的作息出现了严重的问题。没有正确的睡眠规律导致的问题。所以，对此就要去解决它，让自己的睡眠得到保证，才能避免它的出现。</p>
-<p>先看看图床加载效果，待会在续写。。。</p>
-<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实。</strong></p>
-<p><img src="http://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
+<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实的时候，触手无策。</strong></p>
+<p>那天我错过了3次为地铁卡充值的机会。</p>
+<p>当时，我使用余额不足的它，滴进站内后，发现了在线充值系统竟然罕有地出了维护。但是我没有重新出站，补充。最后一次使用的时候，我已经发现了它的余额不足。然后，我进站的时候也没有意识要提前充了才进站。结果在出站补卡的过程耗费了时间，导致了上班迟到。</p>
+<p>这样的生活小片段，说明了我没有确保做某事前的基本条件成立，这是反映了自己一个思维上不够严谨的问题。</p>
+<p>图床刚才是遇到了小问题，以往自己是没有办法去继续下去的，但是之前看了某些书 ，明白到问题是需要拆解分析的，把未知的概念了解之后，一个一个地，一步一步地就很大可能解决掉。</p>
+<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG27985.jpeg" alt="WechatIMG27985"></p>
 ]]></content>
       <categories>
         <category>生活</category>
       </categories>
       <tags>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        睡眠不足，多梦的原因分析和解决方式</title>
-    <url>/2020/11/08/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97/</url>
-    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
-<blockquote>
-<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
-</blockquote>
-<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
-<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
-<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
-<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
-<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
-<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
-<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
-<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
-<blockquote>
-<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
-</blockquote>
-<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
-<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
-<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
-<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
-<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        我的博客</title>
-    <url>/2021/03/05/2021-03-04%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>自己写下内容需要传播出去吗？</p>
-<p>昨晚凌晨时分看到了一篇文章，内容是说某为少年在读书时期就开始自建网站，通过网站的博文评论和外界保持过一段交流的时光。后来，因为生活，学习，工作等诸多不便因素影响之下，导致停更。直到，最近这位少年，参加了一个名为“十年之约”关于持续维护网站博文更新的活动。</p>
-<p>对此自己也十分感概和激动。</p>
-<p>在公众号也发表过许多文章，但是后来深知自己的目的不太可能实现，从结果上面来看是没有任何交流的评论。那么，就是与自己的初衷完全相反。因此，改为练习自己写作的兴趣。希望可以在半小时内写下1000字的文章。后来，这一目标是达到了，慢慢又开始追求文章的质量。便开始了，漫长的阅读之路。直到现在，这条路，也并不是十分地顺利。原因，无它，多数跟普通的大多数的懒和种种生活工作原因，令到自己沉醉于外界的声音之中，忽略了自己的内心深处的想法。</p>
-<p>虽然，后来没有在其他地方发表，但是依然在坚持写下自己的内心里面的声音，可能目的不是十分明确，又或者是一种减压。在别人眼里，我的行为似乎会是一种浪费时间的表现。从自身实际上来看，这其他对于自己从中获得帮助也并不大。但是，自己是很喜欢和别人交流的想法，一直都没有磨灭。毕竟世界之大，很多事物自己都是没有亲身经历，闻所未闻。短短的人生，如果能够结识很多有趣的人，交流彼此的认知。我相信，人生定必更加有趣。</p>
-<p>有时候，在阅读新闻，和主流平台所传播出来的声音，是杂而乱。当然，是有优质的内容。但是，在海量的信息面前，是非常难获得的。看着看着，就仿佛有种孤独的感觉。也令到自己越来越觉得，我能否实现自己的小小目标。通过一个平台，和有趣的人交流。哪怕，是闲谈几句，或者是经验之谈。能够让自己在学识上有帮扶的，那就是最好不过的一大乐事了。可惜，这一点要做好，仅仅靠谦虚好学，是远远不够的。</p>
-<p>那么，还需要自身的能力，背景，人脉，等等的提升，才会能够引起别人的注视。在提升的过程中，孤独前行的时候依然会消耗着时间。我眼看自己的年龄日渐增长，也令自己感觉到开始慢慢地淹没在人潮之中，按照既定的规律，是会慢慢走向消亡。</p>
-<p>在着急的同时，又有了点对未来的期盼。继续为生存的同时，分掉一部分的勇气，继续向外界发出信息。希望，能收获到外界的一些回响。</p>
-<p>即将迈入黄金十年的阶段，希望十年后，自己回看这篇文章的时候，会是满怀欢喜和喜悦的泪水。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>      关于笔记</title>
-    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
       </tags>
   </entry>
   <entry>
@@ -1216,6 +1154,69 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>      关于笔记</title>
+    <url>/2020/04/13/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>        我的博客</title>
+    <url>/2021/03/05/2021-03-04%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>自己写下内容需要传播出去吗？</p>
+<p>昨晚凌晨时分看到了一篇文章，内容是说某为少年在读书时期就开始自建网站，通过网站的博文评论和外界保持过一段交流的时光。后来，因为生活，学习，工作等诸多不便因素影响之下，导致停更。直到，最近这位少年，参加了一个名为“十年之约”关于持续维护网站博文更新的活动。</p>
+<p>对此自己也十分感概和激动。</p>
+<p>在公众号也发表过许多文章，但是后来深知自己的目的不太可能实现，从结果上面来看是没有任何交流的评论。那么，就是与自己的初衷完全相反。因此，改为练习自己写作的兴趣。希望可以在半小时内写下1000字的文章。后来，这一目标是达到了，慢慢又开始追求文章的质量。便开始了，漫长的阅读之路。直到现在，这条路，也并不是十分地顺利。原因，无它，多数跟普通的大多数的懒和种种生活工作原因，令到自己沉醉于外界的声音之中，忽略了自己的内心深处的想法。</p>
+<p>虽然，后来没有在其他地方发表，但是依然在坚持写下自己的内心里面的声音，可能目的不是十分明确，又或者是一种减压。在别人眼里，我的行为似乎会是一种浪费时间的表现。从自身实际上来看，这其他对于自己从中获得帮助也并不大。但是，自己是很喜欢和别人交流的想法，一直都没有磨灭。毕竟世界之大，很多事物自己都是没有亲身经历，闻所未闻。短短的人生，如果能够结识很多有趣的人，交流彼此的认知。我相信，人生定必更加有趣。</p>
+<p>有时候，在阅读新闻，和主流平台所传播出来的声音，是杂而乱。当然，是有优质的内容。但是，在海量的信息面前，是非常难获得的。看着看着，就仿佛有种孤独的感觉。也令到自己越来越觉得，我能否实现自己的小小目标。通过一个平台，和有趣的人交流。哪怕，是闲谈几句，或者是经验之谈。能够让自己在学识上有帮扶的，那就是最好不过的一大乐事了。可惜，这一点要做好，仅仅靠谦虚好学，是远远不够的。</p>
+<p>那么，还需要自身的能力，背景，人脉，等等的提升，才会能够引起别人的注视。在提升的过程中，孤独前行的时候依然会消耗着时间。我眼看自己的年龄日渐增长，也令自己感觉到开始慢慢地淹没在人潮之中，按照既定的规律，是会慢慢走向消亡。</p>
+<p>在着急的同时，又有了点对未来的期盼。继续为生存的同时，分掉一部分的勇气，继续向外界发出信息。希望，能收获到外界的一些回响。</p>
+<p>即将迈入黄金十年的阶段，希望十年后，自己回看这篇文章的时候，会是满怀欢喜和喜悦的泪水。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>        睡眠不足，多梦的原因分析和解决方式</title>
+    <url>/2020/11/08/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
+<blockquote>
+<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
+</blockquote>
+<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
+<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
+<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
+<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
+<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
+<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
+<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
+<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
+<blockquote>
+<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
+</blockquote>
+<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
+<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
+<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
+<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
+<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
