@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="WJCLPu5kECTfs2XrfhcTu15AGInPi2xpqoUFQhUwLuc">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -17,7 +18,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="公众号编辑代码块 使用typora编辑文字+代码 。编辑完后，目的复制markdown格式的内容 command+&#x2F;  在谷歌浏览器使用插件markdown here 。然后将1复制的内容，command+v至公众号在线编辑中，一键转换。  问题来了：微信的pujie编辑器对我使用的这种方法不友好。导致，一键转化直接按保存，预览会导致代码块走样，不会换行。   利用一个小巧劲，就可以解决：  一键">
@@ -318,12 +319,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020-05-04-%E5%AD%A6%E4%B9%A0%E8%B7%B5%E8%A1%8C%E5%BB%BA%E8%AE%AE.html" rel="prev" title="      编程学习践行建议">
-      <i class="fa fa-chevron-left"></i>       编程学习践行建议
+    <a href="/2020-05-08-js%E5%8E%9F%E5%9E%8B%E7%90%86%E8%A7%A3.html" rel="prev" title="      js理解">
+      <i class="fa fa-chevron-left"></i>       js理解
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020-05-08-js%E5%8E%9F%E5%9E%8B%E7%90%86%E8%A7%A3.html" rel="next" title="      js理解">
-            js理解 <i class="fa fa-chevron-right"></i>
+    <a href="/2020-05-04-%E5%AD%A6%E4%B9%A0%E8%B7%B5%E8%A1%8C%E5%BB%BA%E8%AE%AE.html" rel="next" title="      编程学习践行建议">
+            编程学习践行建议 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -548,7 +549,7 @@
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
     var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
+    var guest = 'nick';
     guest = guest.split(',').filter(item => {
       return GUEST.includes(item);
     });
@@ -558,7 +559,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       notify     : false,
       appId      : 'fpupK04X0TovxqxBgXa0pk7a-gzGzoHsz',
       appKey     : '5ffeQdQDuDVEeI0EMpomu4AV',
-      placeholder: "随便输入昵称就可以评论了",
+      placeholder: "随意输入昵称就可以评论了",
       avatar     : 'hide',
       meta       : guest,
       pageSize   : '10' || 10,

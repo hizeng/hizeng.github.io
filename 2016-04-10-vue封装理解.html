@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="WJCLPu5kECTfs2XrfhcTu15AGInPi2xpqoUFQhUwLuc">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -17,7 +18,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="封装的思路垃圾总结 阅读者可忽略 封装之前 要完成一次数据请求的过程：   在vue的原型上 定义axios对象 给 vue实例调用：  view 页面触发事件this.axios.get(请求的访问服务器地址的路由,{请求的数据})  router api:创建生成访问服务器的地址（router.get(url,methods) methdos:controller中的方法 用来操作数据库的方法">
@@ -336,12 +337,12 @@ data:请求所携带的参数；
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2015-09-13-hellomarkdown.html" rel="prev" title="     macdown的使用方法总结">
-      <i class="fa fa-chevron-left"></i>      macdown的使用方法总结
+    <a href="/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90.html" rel="prev" title="     落地页分析">
+      <i class="fa fa-chevron-left"></i>      落地页分析
     </a></div>
       <div class="post-nav-item">
-    <a href="/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90.html" rel="next" title="     落地页分析">
-           落地页分析 <i class="fa fa-chevron-right"></i>
+    <a href="/2015-09-13-hellomarkdown.html" rel="next" title="     macdown的使用方法总结">
+           macdown的使用方法总结 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -566,7 +567,7 @@ data:请求所携带的参数；
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
     var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
+    var guest = 'nick';
     guest = guest.split(',').filter(item => {
       return GUEST.includes(item);
     });
@@ -576,7 +577,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       notify     : false,
       appId      : 'fpupK04X0TovxqxBgXa0pk7a-gzGzoHsz',
       appKey     : '5ffeQdQDuDVEeI0EMpomu4AV',
-      placeholder: "随便输入昵称就可以评论了",
+      placeholder: "随意输入昵称就可以评论了",
       avatar     : 'hide',
       meta       : guest,
       pageSize   : '10' || 10,
