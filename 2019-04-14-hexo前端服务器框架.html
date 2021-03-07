@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
   <meta name="google-site-verification" content="WJCLPu5kECTfs2XrfhcTu15AGInPi2xpqoUFQhUwLuc">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -18,7 +20,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"jennyjun.top","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"jennyjun.top","root":"/","scheme":"Pisces","version":"7.8.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="搭建快速发布文章的技术博客 基于GitHub Page 和 hexo 博客框架   应用的知识：hexo + Github搭建步骤：Github:github page 生成 Github Page   hexo:1.安装hexo  npm install -g hexo-cli (全局安装)  2.cd到你的工作目录 （blog是你的hexo项目文件夹名字）   hexo init blog">
@@ -300,7 +302,7 @@
 </blockquote>
 <p><strong>3.为了简化流程 就直接先更换网站的主题</strong></p>
 <blockquote>
-<p> $ cd blog<br> $ git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a> themes/next 旧版地址<br> $ git clone <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a> themes/next 新版地址</p>
+<p> $ cd blog<br> $ git clone <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpc3NuYW4vaGV4by10aGVtZS1uZXh0">https://github.com/iissnan/hexo-theme-next<i class="fa fa-external-link-alt"></i></span> themes/next 旧版地址<br> $ git clone <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0">https://github.com/theme-next/hexo-theme-next<i class="fa fa-external-link-alt"></i></span> themes/next 新版地址</p>
 </blockquote>
 <blockquote>
 <p>修改next主题样式 ：在主题文件夹next的配置文件scheme字段中修改</p>
@@ -316,7 +318,7 @@
 <blockquote>
 <p> $ hexo s  启动本地web服务器</p>
 </blockquote>
-<p><strong>6.打开 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 检查是否成功</strong></p>
+<p><strong>6.打开 <span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo0MDAwLw==">http://localhost:4000/<i class="fa fa-external-link-alt"></i></span> 检查是否成功</strong></p>
 <h2 id="推送到Github"><a href="#推送到Github" class="headerlink" title="推送到Github"></a>推送到Github</h2><p><strong>7.修改hexo项目的根目录，根目录，根目录， 下的全局配置文件_config.yml</strong><br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;hizeng&#x2F;hizeng.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br><strong>8.为一键部署做准备 安装git hexo 发布插件</strong></p>
 <blockquote>
 <p>$ npm install hexo-deployer-git –save(<strong><em>页面显示问题</em></strong>save前面是两个-)</p>
@@ -331,7 +333,7 @@
 </blockquote>
 <p><strong>10.1文章</strong></p>
 <blockquote>
-<p>进入根目录的souce文件下的_posts里 新增md文件xxx.md<br>文章最顶部插入以下代码 之后发布都 把这段代码加上<br><strong><em>这是YAML的语法 相关语法可以阅读教程<a href="http://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank" rel="noopener">yaml</a></em></strong></p>
+<p>进入根目录的souce文件下的_posts里 新增md文件xxx.md<br>文章最顶部插入以下代码 之后发布都 把这段代码加上<br><strong><em>这是YAML的语法 相关语法可以阅读教程<span class="exturl" data-url="aHR0cDovL3d3dy5ydWFueWlmZW5nLmNvbS9ibG9nLzIwMTYvMDcveWFtbC5odG1s">yaml<i class="fa fa-external-link-alt"></i></span></em></strong></p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout:     post                    # 使用的布局（不需要改）</span><br><span class="line">title:      零基础教你搭建技术博客   # 标题 </span><br><span class="line">subtitle:                         #副标题</span><br><span class="line">date:       2019-04-19             # 时间</span><br><span class="line">author:     lishujun                # 作者</span><br><span class="line"> # header-img: img&#x2F;post-bg-2015.jpg    这篇文章标题背景图片</span><br><span class="line">catalog: true                       # 是否归档</span><br><span class="line">categories: skill                   #分类</span><br><span class="line">tags:                                   </span><br><span class="line">     - work-skill                      #标签  </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
@@ -355,7 +357,7 @@
 </li>
 <li><p>修改你的域名解析记录，添加一个A记录，用得到的IP</p>
 </li>
-<li><p>登录<a href="http://github.com&gt;进入项目&gt;Settings&gt;Custom" target="_blank" rel="noopener">http://github.com&gt;进入项目&gt;Settings&gt;Custom</a> domain&gt;输入你的域名&gt;Save。</p>
+<li><p>登录<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20mZ3Q76L+b5YWl6aG555uuJmd0O1NldHRpbmdzJmd0O0N1c3RvbQ==">http://github.com&gt;进入项目&gt;Settings&gt;Custom<i class="fa fa-external-link-alt"></i></span> domain&gt;输入你的域名&gt;Save。</p>
 </li>
 </ol>
 <h2 id="hexo项目中添加-CNAME-文件"><a href="#hexo项目中添加-CNAME-文件" class="headerlink" title="hexo项目中添加 CNAME 文件"></a>hexo项目中添加 CNAME 文件</h2><p><strong>添加你的域名</strong></p>
@@ -368,7 +370,7 @@
 </ol>
 <p><strong>11.1 同一域名下挂载第二hexo博客</strong></p>
 <blockquote>
-<p>在全局配置文件中_config.yml 修改<br>如果您的网站放在子目录中，请将网址设置为”<a href="http://yoursite.com/child" target="_blank" rel="noopener">http://yoursite.com/child</a> “，将root设置为”/child/“</p>
+<p>在全局配置文件中_config.yml 修改<br>如果您的网站放在子目录中，请将网址设置为”<span class="exturl" data-url="aHR0cDovL3lvdXJzaXRlLmNvbS9jaGlsZA==">http://yoursite.com/child<i class="fa fa-external-link-alt"></i></span> “，将root设置为”/child/“</p>
 </blockquote>
 <h2 id="12-拓展功能"><a href="#12-拓展功能" class="headerlink" title="12.拓展功能"></a>12.拓展功能</h2><p><strong>12.1 添加动画效果</strong></p>
 <blockquote>
@@ -379,7 +381,7 @@
 </blockquote>
 <p>$ npm install live2d-widget-model-tororo</p>
 <blockquote>
-<p>开源作者 提供了10多个 模板 可以在下方 hexo-helper-live-2d 中查阅 对应名字可以在<br>这里阅览<a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">模板</a></p>
+<p>开源作者 提供了10多个 模板 可以在下方 hexo-helper-live-2d 中查阅 对应名字可以在<br>这里阅览<span class="exturl" data-url="aHR0cHM6Ly9odWFqaTgudG9wL3Bvc3QvbGl2ZTJkLXBsdWdpbi0yLjAv">模板<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <blockquote>
 <p>cd <strong>_config.yml</strong> 添加配置如下</p>
@@ -399,8 +401,8 @@
 <blockquote>
 <p>使用插件： 全局安装依赖（npm install –save hexo-helper-live2d ）到 package.json<br>全局配置： 在_config.yml 中根据对应的插件文档 进行配置<br>其他功能大家可以根据 next文档去尝试配置</p>
 </blockquote>
-<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo文档</a><br><a href="https://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">nexT主题文档</a><br><a href="https://www.markdown.cn/" target="_blank" rel="noopener">markdown文档</a><br><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank" rel="noopener">hexo-helper-live-2d</a></p>
-<p><strong>延伸拓展</strong><br><a href="https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/" target="_blank" rel="noopener">浏览器工作原理</a><br><a href="https://juejin.im/entry/58c63c5061ff4b005d9f7a62" target="_blank" rel="noopener">Hexo源码设计模式</a></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3Mv">hexo文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0Lmlpc3NuYW4uY29tL2dldHRpbmctc3RhcnRlZC5odG1s">nexT主题文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd24uY24v">markdown文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0VZSE4vaGV4by1oZWxwZXItbGl2ZTJkL2Jsb2IvbWFzdGVyL1JFQURNRS56aC1DTi5tZA==">hexo-helper-live-2d<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>延伸拓展</strong><br><span class="exturl" data-url="aHR0cHM6Ly93d3cuaHRtbDVyb2Nrcy5jb20vemgvdHV0b3JpYWxzL2ludGVybmFscy9ob3dicm93c2Vyc3dvcmsv">浏览器工作原理<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9qdWVqaW4uaW0vZW50cnkvNThjNjNjNTA2MWZmNGIwMDVkOWY3YTYy">Hexo源码设计模式<i class="fa fa-external-link-alt"></i></span></p>
 
     </div>
 
@@ -557,7 +559,7 @@
     </span>
     <span title="站点阅读时长">1:10</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl theme-link" data-url="aHR0cHM6Ly9waXNjZXMudGhlbWUtbmV4dC5vcmc=">NexT.Pisces</span> 强力驱动
   </div>
 
         

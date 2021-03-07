@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
   <meta name="google-site-verification" content="WJCLPu5kECTfs2XrfhcTu15AGInPi2xpqoUFQhUwLuc">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -18,7 +20,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"jennyjun.top","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"jennyjun.top","root":"/","scheme":"Pisces","version":"7.8.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="小程序与web开发对比分析注册小程序开发账号 安装开发者工具等 在使用开发工具的过程中 注意 项目名称是唯一的 包括 代码片段 公众号 小游戏   对于初始化的小程序 关注app.json app.js 以及 pages文件夹 app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 配置   添加属性tabBar 可以显示底部固定导航栏：注意list字段中的子项">
@@ -289,7 +291,7 @@
 <li>在使用开发工具的过程中 注意 项目名称是唯一的 包括 代码片段 公众号 小游戏 </li>
 </ol>
 <h3 id="对于初始化的小程序-关注app-json-app-js-以及-pages文件夹"><a href="#对于初始化的小程序-关注app-json-app-js-以及-pages文件夹" class="headerlink" title="对于初始化的小程序 关注app.json app.js 以及 pages文件夹"></a>对于初始化的小程序 关注app.json app.js 以及 pages文件夹</h3><blockquote>
-<p>app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/config.html" target="_blank" rel="noopener">配置</a></p>
+<p>app.json 全局的页面配置文件 ：主要负责定义所有页面的引用路径 和 基本的页面属性 <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJzLndlaXhpbi5xcS5jb20vbWluaXByb2dyYW0vZGV2L2ZyYW1ld29yay9jb25maWcuaHRtbA==">配置<i class="fa fa-external-link-alt"></i></span></p>
 </blockquote>
 <ol>
 <li>添加属性tabBar 可以显示底部固定导航栏：注意list字段中的子项路径（pagePath） 在pages属性中要置顶，必须写在非tabBar页面路径之前 否则tab会显示异常(不显示)</li>
@@ -316,11 +318,11 @@
 </ol>
 <hr>
 <h2 id="与web开发中的html-js-css-对比"><a href="#与web开发中的html-js-css-对比" class="headerlink" title="与web开发中的html js css 对比"></a>与web开发中的html js css 对比</h2><h4 id="由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意"><a href="#由于小程序的界面空间有限且运行环境非浏览器-而是在微信app内置环境中-有以下地方需要注意" class="headerlink" title="由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:"></a>由于小程序的界面空间有限且运行环境非浏览器 而是在微信app内置环境中 有以下地方需要注意:</h4><h4 id="文档内容较全-初学者-第一天可着重阅读以下整理过后的文档"><a href="#文档内容较全-初学者-第一天可着重阅读以下整理过后的文档" class="headerlink" title="文档内容较全 初学者 第一天可着重阅读以下整理过后的文档"></a>文档内容较全 初学者 第一天可着重阅读以下整理过后的文档</h4><ul>
-<li><p><strong>wxml:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/" target="_blank" rel="noopener">小程序页面的结构</a>   <a href="https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html" target="_blank" rel="noopener">页面导航</a>     <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.switchTab.html" target="_blank" rel="noopener">路由api</a> <a href="https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html" target="_blank" rel="noopener">界面交互：例如消息提示框 底部操作菜单等</a></p>
+<li><p><strong>wxml:</strong> <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJzLndlaXhpbi5xcS5jb20vbWluaXByb2dyYW0vZGV2L3JlZmVyZW5jZS93eG1sLw==">小程序页面的结构<i class="fa fa-external-link-alt"></i></span>   <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJzLndlaXhpbi5xcS5jb20vbWluaXByb2dyYW0vZGV2L2NvbXBvbmVudC9uYXZpZ2F0b3IuaHRtbA==">页面导航<i class="fa fa-external-link-alt"></i></span>     <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJzLndlaXhpbi5xcS5jb20vbWluaXByb2dyYW0vZGV2L2FwaS93eC5zd2l0Y2hUYWIuaHRtbA==">路由api<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJzLndlaXhpbi5xcS5jb20vbWluaXByb2dyYW0vZGV2L2FwaS93eC5zaG93VG9hc3QuaHRtbA==">界面交互：例如消息提示框 底部操作菜单等<i class="fa fa-external-link-alt"></i></span></p>
 </li>
-<li><p><strong>.js:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html" target="_blank" rel="noopener">事件</a></p>
+<li><p><strong>.js:</strong> <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJzLndlaXhpbi5xcS5jb20vbWluaXByb2dyYW0vZGV2L2ZyYW1ld29yay92aWV3L3d4bWwvZXZlbnQuaHRtbA==">事件<i class="fa fa-external-link-alt"></i></span></p>
 </li>
-<li><p><strong>wxss:</strong> <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html" target="_blank" rel="noopener">wxss</a></p>
+<li><p><strong>wxss:</strong> <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJzLndlaXhpbi5xcS5jb20vbWluaXByb2dyYW0vZGV2L2ZyYW1ld29yay92aWV3L3d4c3MuaHRtbA==">wxss<i class="fa fa-external-link-alt"></i></span></p>
 </li>
 </ul>
 <!-- ### 页面之间的跳转 -->
@@ -524,7 +526,7 @@
     </span>
     <span title="站点阅读时长">1:10</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl theme-link" data-url="aHR0cHM6Ly9waXNjZXMudGhlbWUtbmV4dC5vcmc=">NexT.Pisces</span> 强力驱动
   </div>
 
         
