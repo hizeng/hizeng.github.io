@@ -291,6 +291,20 @@
   </url>
   
   <url>
+    <loc>https://jennyjun.top/tags/skill/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jennyjun.top/tags/work-point/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jennyjun.top/tags/wechat/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
@@ -305,14 +319,7 @@
   </url>
   
   <url>
-    <loc>https://jennyjun.top/tags/skill/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jennyjun.top/tags/work-point/</loc>
+    <loc>https://jennyjun.top/tags/brain/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -334,13 +341,6 @@
   
   <url>
     <loc>https://jennyjun.top/tags/%E8%A7%82%E7%82%B9/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jennyjun.top/tags/brain/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -377,13 +377,6 @@
   </url>
   
   <url>
-    <loc>https://jennyjun.top/categories/life/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jennyjun.top/categories/point/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
@@ -391,7 +384,7 @@
   </url>
   
   <url>
-    <loc>https://jennyjun.top/categories/computer-theory/</loc>
+    <loc>https://jennyjun.top/categories/life/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -399,6 +392,13 @@
   
   <url>
     <loc>https://jennyjun.top/categories/brain/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jennyjun.top/categories/computer-theory/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
