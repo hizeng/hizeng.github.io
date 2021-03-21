@@ -11,11 +11,8 @@
 <p>我想说：我是一名学生。但是，众多的AB就活生生地参与着你我的生活。</p>
 ]]></content>
       <categories>
-        <category>point</category>
+        <category>生活</category>
       </categories>
-      <tags>
-        <tag>life-point</tag>
-      </tags>
   </entry>
   <entry>
     <title>     潜伏在雷锋身上的幸福</title>
@@ -30,11 +27,8 @@
 <p>潜伏在雷锋身上的幸福是可以寻找的，中国人！</p>
 ]]></content>
       <categories>
-        <category>point</category>
+        <category>生活</category>
       </categories>
-      <tags>
-        <tag>life-point</tag>
-      </tags>
   </entry>
   <entry>
     <title>     macdown的使用方法总结</title>
@@ -47,9 +41,12 @@
 <h2 id="操作："><a href="#操作：" class="headerlink" title="操作："></a>操作：</h2><p>1.每一级段落，需要顶最右边编辑。</p>
 <p>2.同级间换行，需要return键 ，空出一行。</p>
 <p>没完 后续补上……</p>
+<p>​    </p>
+<p>​<br>​<br>​<br>​<br>​    </p>
+<p>​<br>​            </p>
 ]]></content>
       <categories>
-        <category>blog</category>
+        <category>博客</category>
       </categories>
       <tags>
         <tag>blog</tag>
