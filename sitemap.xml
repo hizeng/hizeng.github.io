@@ -284,14 +284,21 @@
   </url>
   
   <url>
-    <loc>https://jennyjun.top/tags/work-point/</loc>
+    <loc>https://jennyjun.top/tags/work-skill/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jennyjun.top/tags/work-skill/</loc>
+    <loc>https://jennyjun.top/tags/skill/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jennyjun.top/tags/work-point/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -306,13 +313,6 @@
   
   <url>
     <loc>https://jennyjun.top/tags/workflow/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jennyjun.top/tags/skill/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

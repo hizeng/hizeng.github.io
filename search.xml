@@ -146,31 +146,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     落地页分析</title>
-    <url>/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90.html</url>
-    <content><![CDATA[<h1 id="关于落地页分析小结-应付版"><a href="#关于落地页分析小结-应付版" class="headerlink" title="关于落地页分析小结 (应付版)"></a>关于落地页分析小结 (应付版)</h1><blockquote>
-<p>针对人群:!1-3年的前端开发工程师 学习的条件：时间！时间！时间！和一个学习连续性<br>以自我的经历为认知：这个阶段的职员，能保证上班时间内完成工作就已经算是 自身能力和身边的同事都是较为出色的<br>自身能力出色 公司项目优秀且盈利 同事又是积极向上 技术过硬 想必 并非这个课程的目标对象<br>然而我觉得 目标对象是： 好学！ 不安于现状！所处的工作环境不理想（工作氛围，自身工作内容）但是能快速完成工作,力求改变 而又 束手无策的 普通程序员 或是 自学中的 在校大学生。（本身工作内容简单，或是公司对职员的定位问题，需要包工头，泥水师傅，和搬砖）</p>
-</blockquote>
-<h2 id="针对这类群体再简单分析一下："><a href="#针对这类群体再简单分析一下：" class="headerlink" title="针对这类群体再简单分析一下："></a>针对这类群体再简单分析一下：</h2><blockquote>
-<p>状况：目前在职程序员的现状（个人单方面见解）有可能是这样： 自我提升空间 很受（工作内容，同事的指引）影响和限制.刚进行业，激情 好奇心的驱使 会使 普通程序员 处于饥饿状态下 有什么 吃什么 导致 消化不良 容易跑遍 而又十分困惑（包括没进入社会的在校大学生）都有个共通点,我应该 “学什么，怎么学，是否工作所需？”</p>
-</blockquote>
-<h2 id="回归本次话题："><a href="#回归本次话题：" class="headerlink" title="回归本次话题："></a>回归本次话题：</h2><ol>
-<li>课程的吸引力度： 内容描叙符合工作所需，</li>
-<li>举一反三提示不足：应该尝试提示列举单元项目的横向性，如除了课程的案例以外的相似实例供参考。<br>（并不是 所有人的悟性和理解能力 都较高，应该方向性引导一下,避免为了完成任务而完成任务）</li>
-<li>我比较喜欢看单元项目的任务拆解分析（文字部分）我觉得 那应该是开发者的思路和开发的步骤 是精华。我会    花多滴时间去揣摩 为何他要这么设计任务，和 步骤。 </li>
-<li>关于请求问题的流程的建议（鉴于试学群的积极性交流问题而提出）：<br>试学群少有问题提出，按道理应该会有疑问（排除学习时间少 和 自身能够 解决大部分问题者）<br>突发奇想 ：因为线上课程，不如弄个老师学员的匿名问答功能 把问题丢到一个池里面 我觉得应该可以提高学员和学员之间，学员和老师之间 的 互动交流  </li>
-<li>市面上估计也应该有同类型的 课程 ，但是 职场上依然存在很多同学付出了时间和金钱 达不到预期， 工作几年以后 技术还是渣渣 ，工作其实也不就是实战啊，但是为何还是会出现不理想的结果 我觉得课程 结合本项目的教学理念 融入  如何教你科学工作 别让落后的开发思维误导   如何识别技术渣渣同事 等等为突破口 哈哈~</li>
-<li>超时提交了 怕耽误  本想写多 写着写着 感觉又有点跑题 就这样吧 ~</li>
-</ol>
-]]></content>
-      <categories>
-        <category>point</category>
-      </categories>
-      <tags>
-        <tag>work-point</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>    页面模板渲染数据</title>
     <url>/2019-03-13-%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B.html</url>
     <content><![CDATA[<h2 id="逻辑混乱-阅读者可忽略"><a href="#逻辑混乱-阅读者可忽略" class="headerlink" title="逻辑混乱 阅读者可忽略"></a>逻辑混乱 阅读者可忽略</h2><h2 id="1-采用nunjucks第三方模板库渲染数据"><a href="#1-采用nunjucks第三方模板库渲染数据" class="headerlink" title="1.采用nunjucks第三方模板库渲染数据"></a>1.采用nunjucks第三方模板库渲染数据</h2><blockquote>
@@ -205,6 +180,237 @@ data:请求所携带的参数；
 <blockquote>
 <p>深化请继续阅读<br>nunjuck.js 模版语法<br>  express.js request respones router 的API</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     Github代码提交和日常协同开发</title>
+    <url>/2019-04-12-%E5%8D%8F%E5%90%8C%E5%BC%80%E5%8F%91.html</url>
+    <content><![CDATA[<h1 id="Github代码提交-和-日常协同开发（远程仓：Github"><a href="#Github代码提交-和-日常协同开发（远程仓：Github" class="headerlink" title="Github代码提交 和 日常协同开发（远程仓：Github)"></a>Github代码提交 和 日常协同开发（远程仓：Github)</h1><h2 id="情况一：新建空仓库-（新建空仓库-不勾选自动生成Readme-md"><a href="#情况一：新建空仓库-（新建空仓库-不勾选自动生成Readme-md" class="headerlink" title="情况一：新建空仓库 （新建空仓库 不勾选自动生成Readme.md)"></a>情况一：新建空仓库 （<strong><em>新建空仓库 不勾选自动生成Readme.md</em></strong>)</h2><p>1.cd项目文件（初始化项目）<br>git init<br>git remote add origin <span class="exturl" data-url="bWFpbHRvOmdpdEBnaXRodWIuY29t">git@github.com<i class="fa fa-external-link-alt"></i></span>:你的账户/仓库名.git<br>git add .<br>git commit -m “nihao”<br>git push -u origin master （首次提交）<br>git push （之后提交）</p>
+<h2 id="情况二：非空仓库（勾选自动生成Readme-md"><a href="#情况二：非空仓库（勾选自动生成Readme-md" class="headerlink" title="情况二：非空仓库（勾选自动生成Readme.md)"></a>情况二：非空仓库（<strong><em>勾选自动生成Readme.md</em></strong>)</h2><blockquote>
+<p>注意不建议按照 情况一操作 因为会遇到问题 （稍后补充解决方法）</p>
+</blockquote>
+<p>1.cd 项目<br>git clone <span class="exturl" data-url="bWFpbHRvOmdpdEBnaXRodWIuY29t">git@github.com<i class="fa fa-external-link-alt"></i></span>:你的账户/仓库名.git<br>2.把本地项目 放进 仓库<br>3.常规操作(不用初始化项目)<br>git add .<br>git commit -m “nihao”<br>git push </p>
+<blockquote>
+<p>结果是 GitHub 的仓库情况是: 你的账户名/仓库名<br>代码仓库code&gt; 项目(你的本地项目名)+ Readme.md<br>这样别人拷贝你的项目是 操作感会欠佳<br>建议的是用情况一的方法在 GitHub上新建空仓库</p>
+</blockquote>
+<h2 id="Git协同开发的常用操作"><a href="#Git协同开发的常用操作" class="headerlink" title="Git协同开发的常用操作"></a>Git协同开发的常用操作</h2><blockquote>
+<p>Git 的分支开发管理 是一个非常实用的开发技能 日后协同工作中 会经常使用 </p>
+</blockquote>
+<ol>
+<li>利用git 客户端操作 使用 ssh 的url 克隆仓库 避免用户密码验证等乱七八糟的错误 一不小心用了https 就会到终端进行操作</li>
+<li>在客户端中 新建分支 和 一键（add . Commit)  和 push</li>
+<li>git checkout master : 切换到主分支 </li>
+<li>git<span class="exturl" data-url="aHR0cHM6Ly9iYWNrbG9nLmNvbS9naXQtdHV0b3JpYWwvY24vc3RlcHVwL3N0ZXB1cDFfMS5odG1s">高阶学习<i class="fa fa-external-link-alt"></i></span></li>
+</ol>
+<h4 id="避免冲突"><a href="#避免冲突" class="headerlink" title="避免冲突"></a>避免冲突</h4><ul>
+<li>更新该分支最新代码，从远程分支仓库拉取 ：GitHub 客户端 操作 branch=》 update master</li>
+</ul>
+<h4 id="解决冲突"><a href="#解决冲突" class="headerlink" title="解决冲突"></a>解决冲突</h4><ul>
+<li>根据提示 找出冲突部分代码 进行修改 再进行合并 客服端会出现 “ xxx form xxx into xxx “ into 后面为主分支</li>
+</ul>
+<h4 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h4><ul>
+<li>这里使用Github 客户端 按照界面进行操作  History  revert This commit</li>
+</ul>
+<blockquote>
+<p>前端开发者（非大神级） 建议专注重点 哪里方便自己使用的工具 就直接用 </p>
+</blockquote>
+<h4 id="日常开发注意事项"><a href="#日常开发注意事项" class="headerlink" title="日常开发注意事项"></a>日常开发注意事项</h4><ul>
+<li><p>提交代码之前 保持代码处于最新状态 从远程仓库更新 （远程仓代表项目开发的主分支）</p>
+</li>
+<li><p>在进行代码操作之前时刻关注 当前所处分支（客户端 看 Current Branch )</p>
+</li>
+<li><p>常用的git 终端命令： </p>
+<ul>
+<li><p>查看当前分支： git  branch </p>
+</li>
+<li><p>查看远程仓库地址 ： git remote -v</p>
+</li>
+<li><p>切换本地项目的主分支： git checkout xxx(分支的名字)</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="补充：commit-m-“提交信息常用规范”"><a href="#补充：commit-m-“提交信息常用规范”" class="headerlink" title="补充：commit - m “提交信息常用规范”"></a>补充：commit - m “提交信息常用规范”</h4><ul>
+<li><p>feat: 新功能,而不是构建脚本的一个新功能</p>
+</li>
+<li><p>fix: 修复缺陷</p>
+</li>
+<li><p>refactor: 重构（即不是新增功能，也不是修改bug的代码变动）</p>
+</li>
+<li><p>chore: 架构配置或工具的变动（即不是新增功能，也不是修改bug的代码变动）</p>
+</li>
+<li><p>docs: 文档的变动</p>
+</li>
+<li><p>test: 测试(如单元测试 不包括定位缺陷的测试)</p>
+</li>
+<li><p>optimize: 优化项目（即不是新增功能，也不是修改bug的代码变动）</p>
+</li>
+<li><p>build: 项目打包</p>
+</li>
+<li><p>revert: 撤回修改</p>
+</li>
+<li><p>merge: 合并分支</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     落地页分析</title>
+    <url>/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90.html</url>
+    <content><![CDATA[<h1 id="关于落地页分析小结-应付版"><a href="#关于落地页分析小结-应付版" class="headerlink" title="关于落地页分析小结 (应付版)"></a>关于落地页分析小结 (应付版)</h1><blockquote>
+<p>针对人群:!1-3年的前端开发工程师 学习的条件：时间！时间！时间！和一个学习连续性<br>以自我的经历为认知：这个阶段的职员，能保证上班时间内完成工作就已经算是 自身能力和身边的同事都是较为出色的<br>自身能力出色 公司项目优秀且盈利 同事又是积极向上 技术过硬 想必 并非这个课程的目标对象<br>然而我觉得 目标对象是： 好学！ 不安于现状！所处的工作环境不理想（工作氛围，自身工作内容）但是能快速完成工作,力求改变 而又 束手无策的 普通程序员 或是 自学中的 在校大学生。（本身工作内容简单，或是公司对职员的定位问题，需要包工头，泥水师傅，和搬砖）</p>
+</blockquote>
+<h2 id="针对这类群体再简单分析一下："><a href="#针对这类群体再简单分析一下：" class="headerlink" title="针对这类群体再简单分析一下："></a>针对这类群体再简单分析一下：</h2><blockquote>
+<p>状况：目前在职程序员的现状（个人单方面见解）有可能是这样： 自我提升空间 很受（工作内容，同事的指引）影响和限制.刚进行业，激情 好奇心的驱使 会使 普通程序员 处于饥饿状态下 有什么 吃什么 导致 消化不良 容易跑遍 而又十分困惑（包括没进入社会的在校大学生）都有个共通点,我应该 “学什么，怎么学，是否工作所需？”</p>
+</blockquote>
+<h2 id="回归本次话题："><a href="#回归本次话题：" class="headerlink" title="回归本次话题："></a>回归本次话题：</h2><ol>
+<li>课程的吸引力度： 内容描叙符合工作所需，</li>
+<li>举一反三提示不足：应该尝试提示列举单元项目的横向性，如除了课程的案例以外的相似实例供参考。<br>（并不是 所有人的悟性和理解能力 都较高，应该方向性引导一下,避免为了完成任务而完成任务）</li>
+<li>我比较喜欢看单元项目的任务拆解分析（文字部分）我觉得 那应该是开发者的思路和开发的步骤 是精华。我会    花多滴时间去揣摩 为何他要这么设计任务，和 步骤。 </li>
+<li>关于请求问题的流程的建议（鉴于试学群的积极性交流问题而提出）：<br>试学群少有问题提出，按道理应该会有疑问（排除学习时间少 和 自身能够 解决大部分问题者）<br>突发奇想 ：因为线上课程，不如弄个老师学员的匿名问答功能 把问题丢到一个池里面 我觉得应该可以提高学员和学员之间，学员和老师之间 的 互动交流  </li>
+<li>市面上估计也应该有同类型的 课程 ，但是 职场上依然存在很多同学付出了时间和金钱 达不到预期， 工作几年以后 技术还是渣渣 ，工作其实也不就是实战啊，但是为何还是会出现不理想的结果 我觉得课程 结合本项目的教学理念 融入  如何教你科学工作 别让落后的开发思维误导   如何识别技术渣渣同事 等等为突破口 哈哈~</li>
+<li>超时提交了 怕耽误  本想写多 写着写着 感觉又有点跑题 就这样吧 ~</li>
+</ol>
+]]></content>
+      <categories>
+        <category>point</category>
+      </categories>
+      <tags>
+        <tag>work-point</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>     Hexo技术博客</title>
+    <url>/2019-04-14-hexo%E5%89%8D%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A1%86%E6%9E%B6.html</url>
+    <content><![CDATA[<h1 id="搭建快速发布文章的技术博客"><a href="#搭建快速发布文章的技术博客" class="headerlink" title="搭建快速发布文章的技术博客"></a>搭建快速发布文章的技术博客</h1><blockquote>
+<p>基于GitHub Page 和 hexo 博客框架 </p>
+</blockquote>
+<h2 id="应用的知识：hexo-Github"><a href="#应用的知识：hexo-Github" class="headerlink" title="应用的知识：hexo + Github"></a>应用的知识：hexo + Github</h2><h3 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a>搭建步骤：</h3><h3 id="Github-github-page"><a href="#Github-github-page" class="headerlink" title="Github:github page"></a>Github:github page</h3><blockquote>
+<p>生成 Github Page </p>
+</blockquote>
+<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo:"></a>hexo:</h3><p><strong>1.安装hexo</strong></p>
+<blockquote>
+<p>npm install -g hexo-cli (全局安装)</p>
+</blockquote>
+<p><strong>2.cd到你的工作目录 （blog是你的hexo项目文件夹名字）</strong></p>
+<blockquote>
+<p> hexo init blog</p>
+</blockquote>
+<p><strong>3.为了简化流程 就直接先更换网站的主题</strong></p>
+<blockquote>
+<p> $ cd blog<br> $ git clone <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpc3NuYW4vaGV4by10aGVtZS1uZXh0">https://github.com/iissnan/hexo-theme-next<i class="fa fa-external-link-alt"></i></span> themes/next 旧版地址<br> $ git clone <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0">https://github.com/theme-next/hexo-theme-next<i class="fa fa-external-link-alt"></i></span> themes/next 新版地址</p>
+</blockquote>
+<blockquote>
+<p>修改next主题样式 ：在主题文件夹next的配置文件scheme字段中修改</p>
+</blockquote>
+<p><strong>4.cd _config.yml 全局配置文件 修改theme属性</strong></p>
+<blockquote>
+<p>  theme:next</p>
+</blockquote>
+<p><strong>5.本地跑起hexo</strong></p>
+<blockquote>
+<p> $ hexo g  打包项目（没上线前可不执行）</p>
+</blockquote>
+<blockquote>
+<p> $ hexo s  启动本地web服务器</p>
+</blockquote>
+<p><strong>6.打开 <span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo0MDAwLw==">http://localhost:4000/<i class="fa fa-external-link-alt"></i></span> 检查是否成功</strong></p>
+<h2 id="推送到Github"><a href="#推送到Github" class="headerlink" title="推送到Github"></a>推送到Github</h2><p><strong>7.修改hexo项目的根目录，根目录，根目录， 下的全局配置文件_config.yml</strong><br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;hizeng&#x2F;hizeng.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br><strong>8.为一键部署做准备 安装git hexo 发布插件</strong></p>
+<blockquote>
+<p>$ npm install hexo-deployer-git –save(<strong><em>页面显示问题</em></strong>save前面是两个-)</p>
+</blockquote>
+<p><strong>9.上线</strong></p>
+<blockquote>
+<p>$ hexo clean 清理缓存<br>$ hexo g     打包项目<br>$ hexo d     一键部署</p>
+</blockquote>
+<p><strong>10.发布文章</strong></p>
+<blockquote>
+<p> 采用md语法编写文章 原因简单易上手操作<br> 由于hexo打包（hexo g) 时候 会编译成 对应的html css js 等线上部署的文章<br> 那么 我们要对文章 和 项目的主题  进行相关的配置</p>
+</blockquote>
+<p><strong>10.1文章</strong></p>
+<blockquote>
+<p>进入根目录的souce文件下的_posts里 新增md文件xxx.md<br>文章最顶部插入以下代码 之后发布都 把这段代码加上<br><strong><em>这是YAML的语法 相关语法可以阅读教程<span class="exturl" data-url="aHR0cDovL3d3dy5ydWFueWlmZW5nLmNvbS9ibG9nLzIwMTYvMDcveWFtbC5odG1s">yaml<i class="fa fa-external-link-alt"></i></span></em></strong></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout:     post                    # 使用的布局（不需要改）</span><br><span class="line">title:      零基础教你搭建技术博客   # 标题 </span><br><span class="line">subtitle:                         #副标题</span><br><span class="line">date:       2019-04-19             # 时间</span><br><span class="line">author:     lishujun                # 作者</span><br><span class="line"> # header-img: img&#x2F;post-bg-2015.jpg    这篇文章标题背景图片</span><br><span class="line">catalog: true                       # 是否归档</span><br><span class="line">categories: skill                   #分类</span><br><span class="line">tags:                                   </span><br><span class="line">     - work-skill                      #标签  </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p><strong>10.2项目主题</strong></p>
+<blockquote>
+<p>进入项目<strong>主题文件themes</strong> 目录下的_confiy.yml 文件 中menu注释部分 按下面的依次打开<br>目的为菜单栏的按钮 添加链接</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line">  archives: &#x2F;archives&#x2F; || archive</span><br></pre></td></tr></table></figure>
+
+<p><strong>10.3日常发布</strong></p>
+<blockquote>
+<p>在_post文件夹中添加xxx.md文章后 只需要执行以下命令<br><strong>记得添加10.2中的代码片段 不然没标题和日期等等信息</strong> </p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g </span><br><span class="line">$ hexo s (本地预览，可不执行)</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>11.0关于域名配置</strong></p>
+<h2 id="购买域名-阿里云"><a href="#购买域名-阿里云" class="headerlink" title="购买域名(阿里云)"></a>购买域名(阿里云)</h2><h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><ol>
+<li><p>$ ping hizeng.github.io 得到一个IP后 记得ctrl+c 退出命令</p>
+</li>
+<li><p>修改你的域名解析记录，添加一个A记录，用得到的IP</p>
+</li>
+<li><p>登录<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20mZ3Q76L+b5YWl6aG555uuJmd0O1NldHRpbmdzJmd0O0N1c3RvbQ==">http://github.com&gt;进入项目&gt;Settings&gt;Custom<i class="fa fa-external-link-alt"></i></span> domain&gt;输入你的域名&gt;Save。</p>
+</li>
+</ol>
+<h2 id="hexo项目中添加-CNAME-文件"><a href="#hexo项目中添加-CNAME-文件" class="headerlink" title="hexo项目中添加 CNAME 文件"></a>hexo项目中添加 CNAME 文件</h2><p><strong>添加你的域名</strong></p>
+<blockquote>
+<p> 因为在下次 hexo d 部署的过程中 会把根目录下的CNAME 覆盖删除了 因为hexo并不会自动生成 CNAME 文件<br> 有两种方法可以解决</p>
+</blockquote>
+<ol>
+<li>我们就需要这个 CNAME 工具hexo-generator-cname，这时会自动在 public 里生成一个 CNAME 文件，把你的域名加进去再部署一下吧！</li>
+<li>在根目录下<strong>sourse</strong>文件中添加 （我采用的是第二种）</li>
+</ol>
+<p><strong>11.1 同一域名下挂载第二hexo博客</strong></p>
+<blockquote>
+<p>在全局配置文件中_config.yml 修改<br>如果您的网站放在子目录中，请将网址设置为”<span class="exturl" data-url="aHR0cDovL3lvdXJzaXRlLmNvbS9jaGlsZA==">http://yoursite.com/child<i class="fa fa-external-link-alt"></i></span> “，将root设置为”/child/“</p>
+</blockquote>
+<h2 id="12-拓展功能"><a href="#12-拓展功能" class="headerlink" title="12.拓展功能"></a>12.拓展功能</h2><p><strong>12.1 添加动画效果</strong></p>
+<blockquote>
+<p>在根目录下操作<br>$ npm install –save hexo-helper-live2d （安装时间比较长）</p>
+</blockquote>
+<blockquote>
+<p>安装模板 在根目录下操作(例子是一只白猫 黑猫是hijiki)</p>
+</blockquote>
+<p>$ npm install live2d-widget-model-tororo</p>
+<blockquote>
+<p>开源作者 提供了10多个 模板 可以在下方 hexo-helper-live-2d 中查阅 对应名字可以在<br>这里阅览<span class="exturl" data-url="aHR0cHM6Ly9odWFqaTgudG9wL3Bvc3QvbGl2ZTJkLXBsdWdpbi0yLjAv">模板<i class="fa fa-external-link-alt"></i></span></p>
+</blockquote>
+<blockquote>
+<p>cd <strong>_config.yml</strong> 添加配置如下</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Live2D</span></span><br><span class="line"><span class="comment">## https://github.com/xiazeyu/live2d-widget.js</span></span><br><span class="line"><span class="comment">## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init</span></span><br><span class="line"><span class="attr">live2d:</span></span><br><span class="line">  <span class="attr">model:</span></span><br><span class="line">    <span class="attr">use:</span> <span class="string">live2d-widget-model-tororo</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">hHeadPos:</span> <span class="number">0.5</span></span><br><span class="line">    <span class="attr">vHeadPos:</span> <span class="number">0.618</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">superSample:</span> <span class="number">2</span></span><br><span class="line">    <span class="attr">width:</span> <span class="number">150</span></span><br><span class="line">    <span class="attr">height:</span> <span class="number">300</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">    <span class="attr">hOffset:</span> <span class="number">0</span></span><br><span class="line">    <span class="attr">vOffset:</span> <span class="number">-20</span></span><br><span class="line">  <span class="attr">mobile:</span></span><br><span class="line">    <span class="attr">show:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">0.5</span></span><br><span class="line">  <span class="attr">react:</span></span><br><span class="line">    <span class="attr">opacityDefault:</span> <span class="number">0.7</span></span><br><span class="line">    <span class="attr">opacityOnHover:</span> <span class="number">0.2</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>12.2 草稿功能</strong></p>
+<p>草稿相当于很多博客都有的“私密文章”功能。使用如下命令创建：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> draft <span class="string">"new draft"</span></span><br></pre></td></tr></table></figure>
+
+<p>会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p>
+<p>如果你希望强行预览草稿，更改配置文件（_config.yml）：<br><code>render_drafts: true</code><br>或者如下方式启动server：<br><code>$ hexo server --drafts</code></p>
+<p>下面这条命令可以把草稿变成文章，或者页面：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="string">`$ hexo publish [layout] &lt;filename&gt;`</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>12.3小结next主题插件</strong></p>
+<blockquote>
+<p>使用插件： 全局安装依赖（npm install –save hexo-helper-live2d ）到 package.json<br>全局配置： 在_config.yml 中根据对应的插件文档 进行配置<br>其他功能大家可以根据 next文档去尝试配置</p>
+</blockquote>
+<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3Mv">hexo文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0Lmlpc3NuYW4uY29tL2dldHRpbmctc3RhcnRlZC5odG1s">nexT主题文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd24uY24v">markdown文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0VZSE4vaGV4by1oZWxwZXItbGl2ZTJkL2Jsb2IvbWFzdGVyL1JFQURNRS56aC1DTi5tZA==">hexo-helper-live-2d<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>延伸拓展</strong><br><span class="exturl" data-url="aHR0cHM6Ly93d3cuaHRtbDVyb2Nrcy5jb20vemgvdHV0b3JpYWxzL2ludGVybmFscy9ob3dicm93c2Vyc3dvcmsv">浏览器工作原理<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9qdWVqaW4uaW0vZW50cnkvNThjNjNjNTA2MWZmNGIwMDVkOWY3YTYy">Hexo源码设计模式<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
         <category>skill</category>
@@ -415,134 +621,6 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
-    <title>     Hexo技术博客</title>
-    <url>/2019-04-14-hexo%E5%89%8D%E7%AB%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A1%86%E6%9E%B6.html</url>
-    <content><![CDATA[<h1 id="搭建快速发布文章的技术博客"><a href="#搭建快速发布文章的技术博客" class="headerlink" title="搭建快速发布文章的技术博客"></a>搭建快速发布文章的技术博客</h1><blockquote>
-<p>基于GitHub Page 和 hexo 博客框架 </p>
-</blockquote>
-<h2 id="应用的知识：hexo-Github"><a href="#应用的知识：hexo-Github" class="headerlink" title="应用的知识：hexo + Github"></a>应用的知识：hexo + Github</h2><h3 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a>搭建步骤：</h3><h3 id="Github-github-page"><a href="#Github-github-page" class="headerlink" title="Github:github page"></a>Github:github page</h3><blockquote>
-<p>生成 Github Page </p>
-</blockquote>
-<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo:"></a>hexo:</h3><p><strong>1.安装hexo</strong></p>
-<blockquote>
-<p>npm install -g hexo-cli (全局安装)</p>
-</blockquote>
-<p><strong>2.cd到你的工作目录 （blog是你的hexo项目文件夹名字）</strong></p>
-<blockquote>
-<p> hexo init blog</p>
-</blockquote>
-<p><strong>3.为了简化流程 就直接先更换网站的主题</strong></p>
-<blockquote>
-<p> $ cd blog<br> $ git clone <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpc3NuYW4vaGV4by10aGVtZS1uZXh0">https://github.com/iissnan/hexo-theme-next<i class="fa fa-external-link-alt"></i></span> themes/next 旧版地址<br> $ git clone <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0">https://github.com/theme-next/hexo-theme-next<i class="fa fa-external-link-alt"></i></span> themes/next 新版地址</p>
-</blockquote>
-<blockquote>
-<p>修改next主题样式 ：在主题文件夹next的配置文件scheme字段中修改</p>
-</blockquote>
-<p><strong>4.cd _config.yml 全局配置文件 修改theme属性</strong></p>
-<blockquote>
-<p>  theme:next</p>
-</blockquote>
-<p><strong>5.本地跑起hexo</strong></p>
-<blockquote>
-<p> $ hexo g  打包项目（没上线前可不执行）</p>
-</blockquote>
-<blockquote>
-<p> $ hexo s  启动本地web服务器</p>
-</blockquote>
-<p><strong>6.打开 <span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo0MDAwLw==">http://localhost:4000/<i class="fa fa-external-link-alt"></i></span> 检查是否成功</strong></p>
-<h2 id="推送到Github"><a href="#推送到Github" class="headerlink" title="推送到Github"></a>推送到Github</h2><p><strong>7.修改hexo项目的根目录，根目录，根目录， 下的全局配置文件_config.yml</strong><br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;hizeng&#x2F;hizeng.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br><strong>8.为一键部署做准备 安装git hexo 发布插件</strong></p>
-<blockquote>
-<p>$ npm install hexo-deployer-git –save(<strong><em>页面显示问题</em></strong>save前面是两个-)</p>
-</blockquote>
-<p><strong>9.上线</strong></p>
-<blockquote>
-<p>$ hexo clean 清理缓存<br>$ hexo g     打包项目<br>$ hexo d     一键部署</p>
-</blockquote>
-<p><strong>10.发布文章</strong></p>
-<blockquote>
-<p> 采用md语法编写文章 原因简单易上手操作<br> 由于hexo打包（hexo g) 时候 会编译成 对应的html css js 等线上部署的文章<br> 那么 我们要对文章 和 项目的主题  进行相关的配置</p>
-</blockquote>
-<p><strong>10.1文章</strong></p>
-<blockquote>
-<p>进入根目录的souce文件下的_posts里 新增md文件xxx.md<br>文章最顶部插入以下代码 之后发布都 把这段代码加上<br><strong><em>这是YAML的语法 相关语法可以阅读教程<span class="exturl" data-url="aHR0cDovL3d3dy5ydWFueWlmZW5nLmNvbS9ibG9nLzIwMTYvMDcveWFtbC5odG1s">yaml<i class="fa fa-external-link-alt"></i></span></em></strong></p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">layout:     post                    # 使用的布局（不需要改）</span><br><span class="line">title:      零基础教你搭建技术博客   # 标题 </span><br><span class="line">subtitle:                         #副标题</span><br><span class="line">date:       2019-04-19             # 时间</span><br><span class="line">author:     lishujun                # 作者</span><br><span class="line"> # header-img: img&#x2F;post-bg-2015.jpg    这篇文章标题背景图片</span><br><span class="line">catalog: true                       # 是否归档</span><br><span class="line">categories: skill                   #分类</span><br><span class="line">tags:                                   </span><br><span class="line">     - work-skill                      #标签  </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p><strong>10.2项目主题</strong></p>
-<blockquote>
-<p>进入项目<strong>主题文件themes</strong> 目录下的_confiy.yml 文件 中menu注释部分 按下面的依次打开<br>目的为菜单栏的按钮 添加链接</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line">  archives: &#x2F;archives&#x2F; || archive</span><br></pre></td></tr></table></figure>
-
-<p><strong>10.3日常发布</strong></p>
-<blockquote>
-<p>在_post文件夹中添加xxx.md文章后 只需要执行以下命令<br><strong>记得添加10.2中的代码片段 不然没标题和日期等等信息</strong> </p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g </span><br><span class="line">$ hexo s (本地预览，可不执行)</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>11.0关于域名配置</strong></p>
-<h2 id="购买域名-阿里云"><a href="#购买域名-阿里云" class="headerlink" title="购买域名(阿里云)"></a>购买域名(阿里云)</h2><h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><ol>
-<li><p>$ ping hizeng.github.io 得到一个IP后 记得ctrl+c 退出命令</p>
-</li>
-<li><p>修改你的域名解析记录，添加一个A记录，用得到的IP</p>
-</li>
-<li><p>登录<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20mZ3Q76L+b5YWl6aG555uuJmd0O1NldHRpbmdzJmd0O0N1c3RvbQ==">http://github.com&gt;进入项目&gt;Settings&gt;Custom<i class="fa fa-external-link-alt"></i></span> domain&gt;输入你的域名&gt;Save。</p>
-</li>
-</ol>
-<h2 id="hexo项目中添加-CNAME-文件"><a href="#hexo项目中添加-CNAME-文件" class="headerlink" title="hexo项目中添加 CNAME 文件"></a>hexo项目中添加 CNAME 文件</h2><p><strong>添加你的域名</strong></p>
-<blockquote>
-<p> 因为在下次 hexo d 部署的过程中 会把根目录下的CNAME 覆盖删除了 因为hexo并不会自动生成 CNAME 文件<br> 有两种方法可以解决</p>
-</blockquote>
-<ol>
-<li>我们就需要这个 CNAME 工具hexo-generator-cname，这时会自动在 public 里生成一个 CNAME 文件，把你的域名加进去再部署一下吧！</li>
-<li>在根目录下<strong>sourse</strong>文件中添加 （我采用的是第二种）</li>
-</ol>
-<p><strong>11.1 同一域名下挂载第二hexo博客</strong></p>
-<blockquote>
-<p>在全局配置文件中_config.yml 修改<br>如果您的网站放在子目录中，请将网址设置为”<span class="exturl" data-url="aHR0cDovL3lvdXJzaXRlLmNvbS9jaGlsZA==">http://yoursite.com/child<i class="fa fa-external-link-alt"></i></span> “，将root设置为”/child/“</p>
-</blockquote>
-<h2 id="12-拓展功能"><a href="#12-拓展功能" class="headerlink" title="12.拓展功能"></a>12.拓展功能</h2><p><strong>12.1 添加动画效果</strong></p>
-<blockquote>
-<p>在根目录下操作<br>$ npm install –save hexo-helper-live2d （安装时间比较长）</p>
-</blockquote>
-<blockquote>
-<p>安装模板 在根目录下操作(例子是一只白猫 黑猫是hijiki)</p>
-</blockquote>
-<p>$ npm install live2d-widget-model-tororo</p>
-<blockquote>
-<p>开源作者 提供了10多个 模板 可以在下方 hexo-helper-live-2d 中查阅 对应名字可以在<br>这里阅览<span class="exturl" data-url="aHR0cHM6Ly9odWFqaTgudG9wL3Bvc3QvbGl2ZTJkLXBsdWdpbi0yLjAv">模板<i class="fa fa-external-link-alt"></i></span></p>
-</blockquote>
-<blockquote>
-<p>cd <strong>_config.yml</strong> 添加配置如下</p>
-</blockquote>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Live2D</span></span><br><span class="line"><span class="comment">## https://github.com/xiazeyu/live2d-widget.js</span></span><br><span class="line"><span class="comment">## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init</span></span><br><span class="line"><span class="attr">live2d:</span></span><br><span class="line">  <span class="attr">model:</span></span><br><span class="line">    <span class="attr">use:</span> <span class="string">live2d-widget-model-tororo</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">hHeadPos:</span> <span class="number">0.5</span></span><br><span class="line">    <span class="attr">vHeadPos:</span> <span class="number">0.618</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">superSample:</span> <span class="number">2</span></span><br><span class="line">    <span class="attr">width:</span> <span class="number">150</span></span><br><span class="line">    <span class="attr">height:</span> <span class="number">300</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">    <span class="attr">hOffset:</span> <span class="number">0</span></span><br><span class="line">    <span class="attr">vOffset:</span> <span class="number">-20</span></span><br><span class="line">  <span class="attr">mobile:</span></span><br><span class="line">    <span class="attr">show:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">0.5</span></span><br><span class="line">  <span class="attr">react:</span></span><br><span class="line">    <span class="attr">opacityDefault:</span> <span class="number">0.7</span></span><br><span class="line">    <span class="attr">opacityOnHover:</span> <span class="number">0.2</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>12.2 草稿功能</strong></p>
-<p>草稿相当于很多博客都有的“私密文章”功能。使用如下命令创建：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> draft <span class="string">"new draft"</span></span><br></pre></td></tr></table></figure>
-
-<p>会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p>
-<p>如果你希望强行预览草稿，更改配置文件（_config.yml）：<br><code>render_drafts: true</code><br>或者如下方式启动server：<br><code>$ hexo server --drafts</code></p>
-<p>下面这条命令可以把草稿变成文章，或者页面：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="string">`$ hexo publish [layout] &lt;filename&gt;`</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>12.3小结next主题插件</strong></p>
-<blockquote>
-<p>使用插件： 全局安装依赖（npm install –save hexo-helper-live2d ）到 package.json<br>全局配置： 在_config.yml 中根据对应的插件文档 进行配置<br>其他功能大家可以根据 next文档去尝试配置</p>
-</blockquote>
-<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3Mv">hexo文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0Lmlpc3NuYW4uY29tL2dldHRpbmctc3RhcnRlZC5odG1s">nexT主题文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd24uY24v">markdown文档<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0VZSE4vaGV4by1oZWxwZXItbGl2ZTJkL2Jsb2IvbWFzdGVyL1JFQURNRS56aC1DTi5tZA==">hexo-helper-live-2d<i class="fa fa-external-link-alt"></i></span></p>
-<p><strong>延伸拓展</strong><br><span class="exturl" data-url="aHR0cHM6Ly93d3cuaHRtbDVyb2Nrcy5jb20vemgvdHV0b3JpYWxzL2ludGVybmFscy9ob3dicm93c2Vyc3dvcmsv">浏览器工作原理<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9qdWVqaW4uaW0vZW50cnkvNThjNjNjNTA2MWZmNGIwMDVkOWY3YTYy">Hexo源码设计模式<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>      编程学习践行建议</title>
     <url>/2020-05-04-%E5%AD%A6%E4%B9%A0%E8%B7%B5%E8%A1%8C%E5%BB%BA%E8%AE%AE.html</url>
     <content><![CDATA[<p>编程与写作很类似，首先都是多学多看，多思考，然后就是多动手实践 <a id="more"></a></p>
@@ -563,84 +641,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>     Github代码提交和日常协同开发</title>
-    <url>/2019-04-12-%E5%8D%8F%E5%90%8C%E5%BC%80%E5%8F%91.html</url>
-    <content><![CDATA[<h1 id="Github代码提交-和-日常协同开发（远程仓：Github"><a href="#Github代码提交-和-日常协同开发（远程仓：Github" class="headerlink" title="Github代码提交 和 日常协同开发（远程仓：Github)"></a>Github代码提交 和 日常协同开发（远程仓：Github)</h1><h2 id="情况一：新建空仓库-（新建空仓库-不勾选自动生成Readme-md"><a href="#情况一：新建空仓库-（新建空仓库-不勾选自动生成Readme-md" class="headerlink" title="情况一：新建空仓库 （新建空仓库 不勾选自动生成Readme.md)"></a>情况一：新建空仓库 （<strong><em>新建空仓库 不勾选自动生成Readme.md</em></strong>)</h2><p>1.cd项目文件（初始化项目）<br>git init<br>git remote add origin <span class="exturl" data-url="bWFpbHRvOmdpdEBnaXRodWIuY29t">git@github.com<i class="fa fa-external-link-alt"></i></span>:你的账户/仓库名.git<br>git add .<br>git commit -m “nihao”<br>git push -u origin master （首次提交）<br>git push （之后提交）</p>
-<h2 id="情况二：非空仓库（勾选自动生成Readme-md"><a href="#情况二：非空仓库（勾选自动生成Readme-md" class="headerlink" title="情况二：非空仓库（勾选自动生成Readme.md)"></a>情况二：非空仓库（<strong><em>勾选自动生成Readme.md</em></strong>)</h2><blockquote>
-<p>注意不建议按照 情况一操作 因为会遇到问题 （稍后补充解决方法）</p>
-</blockquote>
-<p>1.cd 项目<br>git clone <span class="exturl" data-url="bWFpbHRvOmdpdEBnaXRodWIuY29t">git@github.com<i class="fa fa-external-link-alt"></i></span>:你的账户/仓库名.git<br>2.把本地项目 放进 仓库<br>3.常规操作(不用初始化项目)<br>git add .<br>git commit -m “nihao”<br>git push </p>
-<blockquote>
-<p>结果是 GitHub 的仓库情况是: 你的账户名/仓库名<br>代码仓库code&gt; 项目(你的本地项目名)+ Readme.md<br>这样别人拷贝你的项目是 操作感会欠佳<br>建议的是用情况一的方法在 GitHub上新建空仓库</p>
-</blockquote>
-<h2 id="Git协同开发的常用操作"><a href="#Git协同开发的常用操作" class="headerlink" title="Git协同开发的常用操作"></a>Git协同开发的常用操作</h2><blockquote>
-<p>Git 的分支开发管理 是一个非常实用的开发技能 日后协同工作中 会经常使用 </p>
-</blockquote>
-<ol>
-<li>利用git 客户端操作 使用 ssh 的url 克隆仓库 避免用户密码验证等乱七八糟的错误 一不小心用了https 就会到终端进行操作</li>
-<li>在客户端中 新建分支 和 一键（add . Commit)  和 push</li>
-<li>git checkout master : 切换到主分支 </li>
-<li>git<span class="exturl" data-url="aHR0cHM6Ly9iYWNrbG9nLmNvbS9naXQtdHV0b3JpYWwvY24vc3RlcHVwL3N0ZXB1cDFfMS5odG1s">高阶学习<i class="fa fa-external-link-alt"></i></span></li>
-</ol>
-<h4 id="避免冲突"><a href="#避免冲突" class="headerlink" title="避免冲突"></a>避免冲突</h4><ul>
-<li>更新该分支最新代码，从远程分支仓库拉取 ：GitHub 客户端 操作 branch=》 update master</li>
-</ul>
-<h4 id="解决冲突"><a href="#解决冲突" class="headerlink" title="解决冲突"></a>解决冲突</h4><ul>
-<li>根据提示 找出冲突部分代码 进行修改 再进行合并 客服端会出现 “ xxx form xxx into xxx “ into 后面为主分支</li>
-</ul>
-<h4 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h4><ul>
-<li>这里使用Github 客户端 按照界面进行操作  History  revert This commit</li>
-</ul>
-<blockquote>
-<p>前端开发者（非大神级） 建议专注重点 哪里方便自己使用的工具 就直接用 </p>
-</blockquote>
-<h4 id="日常开发注意事项"><a href="#日常开发注意事项" class="headerlink" title="日常开发注意事项"></a>日常开发注意事项</h4><ul>
-<li><p>提交代码之前 保持代码处于最新状态 从远程仓库更新 （远程仓代表项目开发的主分支）</p>
-</li>
-<li><p>在进行代码操作之前时刻关注 当前所处分支（客户端 看 Current Branch )</p>
-</li>
-<li><p>常用的git 终端命令： </p>
-<ul>
-<li><p>查看当前分支： git  branch </p>
-</li>
-<li><p>查看远程仓库地址 ： git remote -v</p>
-</li>
-<li><p>切换本地项目的主分支： git checkout xxx(分支的名字)</p>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="补充：commit-m-“提交信息常用规范”"><a href="#补充：commit-m-“提交信息常用规范”" class="headerlink" title="补充：commit - m “提交信息常用规范”"></a>补充：commit - m “提交信息常用规范”</h4><ul>
-<li><p>feat: 新功能,而不是构建脚本的一个新功能</p>
-</li>
-<li><p>fix: 修复缺陷</p>
-</li>
-<li><p>refactor: 重构（即不是新增功能，也不是修改bug的代码变动）</p>
-</li>
-<li><p>chore: 架构配置或工具的变动（即不是新增功能，也不是修改bug的代码变动）</p>
-</li>
-<li><p>docs: 文档的变动</p>
-</li>
-<li><p>test: 测试(如单元测试 不包括定位缺陷的测试)</p>
-</li>
-<li><p>optimize: 优化项目（即不是新增功能，也不是修改bug的代码变动）</p>
-</li>
-<li><p>build: 项目打包</p>
-</li>
-<li><p>revert: 撤回修改</p>
-</li>
-<li><p>merge: 合并分支</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>skill</tag>
       </tags>
   </entry>
   <entry>
@@ -706,6 +706,36 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>      js理解</title>
+    <url>/2020-05-08-js%E5%8E%9F%E5%9E%8B%E7%90%86%E8%A7%A3.html</url>
+    <content><![CDATA[<blockquote>
+<p>记录是给自己看得，没打算在大平台上推广，否则会非常有压力，结果就导致没有下笔的可能性</p>
+</blockquote>
+<h4 id="js的重点"><a href="#js的重点" class="headerlink" title="js的重点"></a>js的重点</h4><p>核心：原型链</p>
+<p>图表绘制出来的关系通常是非常有助于学习，不过对于这个东西，没理解清楚就看图会越看越乱。</p>
+<p>概念描述：</p>
+<ol>
+<li>去读懂，js的数据类型。</li>
+<li>用函数去窥探</li>
+<li>构造函数，原型，原型对象，constructor,- - proto- -与[[prototype]],实例，实例对象这几个描述就是混乱的根源</li>
+</ol>
+<blockquote>
+<p>抽象一下，链条是不具有数据信息，只是一个链接指向的左右</p>
+</blockquote>
+<p>其实，<strong>构造函数</strong>，是一个函数的名字。 <strong>constructor</strong>是描述构造函数的一个属性，就是一个名字。同理，<strong>原型</strong>也是一个属性，<strong>原型对象</strong>是属性的值是一个对象的意思。</p>
+<p>原型链就看 constructor，原型对象，实例（- - proto- -） 。这三个</p>
+<blockquote>
+<p>要有关系，而且又保证自身不被随意遂改。那肯定要用自身的其他东西去做嫁接。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>egret游戏项目</title>
     <url>/2020-07-08-egret%E6%B8%B8%E6%88%8F%E9%A1%B9%E7%9B%AE%E5%88%86%E6%9E%901.html</url>
     <content><![CDATA[<blockquote>
@@ -731,6 +761,26 @@ data:请求所携带的参数；
 ]]></content>
       <categories>
         <category>skill</category>
+      </categories>
+      <tags>
+        <tag>work-skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>    我想说</title>
+    <url>/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B.html</url>
+    <content><![CDATA[<blockquote>
+<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
+</blockquote>
+<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
+<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
+<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
+<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
+<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
+<p>等待更新……</p>
+]]></content>
+      <categories>
+        <category>life</category>
       </categories>
       <tags>
         <tag>work-skill</tag>
@@ -770,20 +820,68 @@ data:请求所携带的参数；
       </categories>
   </entry>
   <entry>
-    <title>    我想说</title>
-    <url>/2020-09-06-%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9%E7%94%B1%E6%88%91%E8%AF%9D%E4%BA%8B.html</url>
+    <title>    大脑神经认知科学系列002</title>
+    <url>/2020-09-27%E5%A4%A7%E8%84%91%E7%A5%9E%E7%BB%8F%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6%E7%B3%BB%E5%88%97-2.html</url>
     <content><![CDATA[<blockquote>
-<p>碍于这里是写技术总结的地方，所以没有在此由太多频繁的更新。</p>
+<p>本想继续写半小时的1000字文章，但是，有太多事要写，或者说，不知道如何选择写什么。昨晚看到一篇非常有意义关于大脑神经认知科学的文章，这也是自己在今后会特别注重的一个知识领域。所以，便多用了一点时间，对它进行翻译。</p>
 </blockquote>
-<p>折腾了半天，在思考我应该在这里写下点什么，当要敲下文字的时候，脑海里漂浮着很多想法，但是，没有一个是相对清晰的。时间，已经过了12点半了，明天还是要工作，尤其是定下要晨跑的目标。</p>
-<p>记得有次，求职面试，有个同行说看到我的这个技术博客，然后因此而邀约我过去。然后，现场打开我的界面，然后看到的是，任正非的记者采访长文总结。对方，有点不高兴地说，为什么要记录这些东西，这里不是应该你的技术笔记总结么？我当时回答的是，这可能是个人爱好，我会把我喜欢的东西，放在这里，方便自己重复看。至于技术总结，目前为止，写的不多，其实是没有这个习惯，或者说我的技术不太厉害，写出会是错误，误导自己，更甚至会误导阅读的人。</p>
-<p>现在想起，写这样的文字，估计也会得到质问的声音。我想，若果太过于局限自己的思维，是很难能够创造出更有意义，对大众有帮助的东西。</p>
-<p>踏入编程这个行业，已经有了一段时日了。但是，每当看到，比自己的水平高出一个等次，或者几何级别的差距时候，都会有过感叹。</p>
-<p>明显，看这个博客的文章，就能够认证这个差距是怎么产生的。</p>
-<p>等待更新……</p>
+<h4 id="我们人类发明了互联网，我们能够承担其带来的后果吗？"><a href="#我们人类发明了互联网，我们能够承担其带来的后果吗？" class="headerlink" title="我们人类发明了互联网，我们能够承担其带来的后果吗？"></a>我们人类发明了互联网，我们能够承担其带来的后果吗？</h4><p>认知神经学家亚当 · 加扎利说，在我们的基础上，“人类是寻求信息的生物。”这可能就是问题所在。虽然互联网和智能设备给了我们前所未有的途径来获取我们渴望的数据，但我们似乎对这些技术带来的洪水束手无策。</p>
+<p>尼尔森市场研究集团(Nielsen market-research group)最近的一项调查显示，美国人平均每天花在电脑和移动设备上的时间接近4个小时，其中将近四分之一的时间花在社交媒体上。虽然所有这些像素注视的好处很多，但坏处可能是可怕的。在公共场合，网络过滤器产生的泡沫强化了我们的先入之见，放大了我们的愤怒。</p>
+<p>有些时候，拇指敲击屏幕的声音已经取代了晚餐时间的谈话。教授们面对的教室里全是用 app 聊天的僵尸。2017年的一项研究发现，在职的智能手机时间每周给公司造成的生产力损失高达150亿美元。开车时发短信导致每年超过30万起交通事故。每年有数百人因为在发短信的时候撞到东西而住院。随着我们的设备变得越来越智能，越来越有效率，越来越多的连接，它们似乎经常让我们变得更笨，更分心，更分裂。</p>
+<p>越来越多的研究表明，这个难题源于刻在我们 DNA 中的一个特征: 我们无与伦比的对知识的渴望。加州大学旧金山分校的神经科学家亚当 · 加扎利说: “这是一种古老的驱动力，它导致了我们与周围世界互动的各种复杂性。”他也是《分心的思想: 高科技世界中的古代大脑》一书的合著者。</p>
+<p>他与其他专家认为，我们目前的困境涉及我们对信息的巨大需求和我们有限的注意力之间的差距。为了弄清楚我们是如何走到这一步的ーー或许还要找到一条出路ーー理解我们是如何获得大脑的至关重要。</p>
+<h4 id="大脑类比计算机的cup"><a href="#大脑类比计算机的cup" class="headerlink" title="大脑类比计算机的cup"></a>大脑类比计算机的cup</h4><p>西雅图艾伦脑科学研究所的神经科学家克里斯托夫 · 科赫称人类大脑是“已知宇宙中最复杂的物体”我们大脑中的计算机包含大约860亿个处理单元，被称为神经元，它们编织成一个由数百万亿个连接或突触组成的分布式网络。在一生中，它可以存储大约10亿比特的数据: 是国会图书馆信息量的5万倍。它可以创作小说和交响曲，可以计算出如何将宇宙飞船送到太阳系之外，还可以发明电子大脑，这些电子大脑的能力在某些方面超过了它自己。</p>
+<p>然而，这个奇迹的起源却极其卑微。大约700万年前，人类——我们灵长类家族的分支——开始了向直立行走的漫长过渡。两足行走，也就是用两条腿走路，使我们的双手能够自由地制造和操作工具。它还使我们能够走更远的路，这是我们走出非洲森林和热带稀树草原的关键。佛罗里达州立大学(Florida State University)人类学教授、圣达菲高级研究学院(Santa Fe’s School for Advanced Research)专门研究大脑进化的高级学者迪安 · 福尔克(Dean Falk)指出: “如果你观察非人类的灵长类动物，就好像它们的下面还有一双手。”。“当我们的脚变成了负重的工具时，一切都被踢开了ーー没有双关语的意思。”</p>
+<p>这种影响并不是立竿见影的。300多万年前，可能是第一个完全两足人类的南方古猿阿法种的脑壳，只比黑猩猩的大一点点。但是直到智人至少在30万年前出现的时候，脑容量已经翻了三倍。我们的大脑与身体的比例是其他哺乳动物的六倍，而且我们大脑皮层(大脑的外层，负责认知)的神经元比地球上任何其他生物的神经元都密集。</p>
+<p>近年来，科学家已经发现了二十多种基因变化，这些变化可能帮助我们的大脑不仅变得更大，而且具有无可比拟的能力。威斯康星大学麦迪逊分校的古人类学家 John Hawks 说: “这不仅仅是一次质的飞跃。“从新陈代谢调节到神经元形成，再到发育时间，许多适应性因素都在发挥作用。”例如，一段名为 HARE5的基因调控 DNA 片段在黑猩猩和人类之间略有不同; 当杜克大学(Duke University)的一个研究小组将这两种 DNA 片段同时植入小鼠胚胎时，那些获得人类类型的胚胎发育出的大脑要大12% 。与此同时，NOTCH2基因的突变增加了神经干细胞的产量，并延迟了它们向皮层神经元的成熟，这可能是我们的大脑比其他灵长类动物长得更长的部分原因。在许多物种中，FOXP2基因对语言交流至关重要，但在人类和我们最近的类人猿亲戚中，FOXP2基因因两个碱基对而分化。我们的基因突变可以解释为什么我们能说话而黑猩猩不能。</p>
+<p>我们的大脑也受到外部力量的影响，这增加了更聪明的人类遗传基因的几率。专家们争论哪些因素最重要。福尔克假设失去抓握的脚是至关重要的: 当婴儿不再像非人类灵长类动物那样依附在母亲身上时，从远处抚慰他们的需要导致了语言的发展，这彻底改变了我们的神经组织。其他研究人员认为，饮食的变化，如吃肉或烹饪食物，使我们能够以较短的消化道，这释放了更多的能量，传输给我们的大脑。还有一些人认为我们大脑的进化是由于社会复杂性的增加或环境挑战的加剧。</p>
+<p>可以肯定的是，我们的神经硬件是在与今天完全不同的条件下形成的。几千年来，我们不得不时刻警惕危险的掠食者、敌对的氏族、潜在的食物来源和庇护所ーー仅此而已。正如麦吉尔大学的神经系统科学家 Daniel j. Levitin 在他的书《有组织的大脑》中所说: “我们的大脑进化到一次只关注一件事情。”</p>
+<p>我们的数字设备，从设计上来说，使得这几乎不可能。</p>
+<h4 id="科技vs大脑"><a href="#科技vs大脑" class="headerlink" title="科技vs大脑"></a>科技vs大脑</h4><p>大脑中能够让我们制定详细计划并贯彻执行的那部分—- 可以说是让我们成为最具人性的那部分—- 是脑前额叶外皮。这个区域在智人中只比黑猩猩或大猩猩稍大一点，但是它与其他脑区的联系更广泛和复杂。尽管有这个先进的网络，我们的计划能力远远强于我们专注于一个特定任务的能力。</p>
+<p>其中一个原因是，像所有动物一样，我们进化到当我们感觉到危险时立即转移注意力: 可能预示着一个接近的捕食者的折断的树枝，树后的阴影可能预示着一个敌人。我们以目标为导向，或者自上而下的思维活动，在这些自下而上的新奇和显著的力量面前几乎没有机会，这些刺激是意想不到的、突然的或戏剧性的，或者唤起了重要经历的记忆。</p>
+<p>“许多技术设备使用自下而上的刺激来吸引我们的注意力，从我们的目标，如嗡嗡声、振动和闪光，” Gazzaley 说。此外，即使当它们处于静默模式时，我们的设备也以无限的、立即可用的信息吸引着我们。可以随时获取的数据可能是新闻(我们最不喜欢的政客的最新失态)、事实(我们最喜欢的演员的从影记录)、社交(我们自拍得到的赞成票数) ，或者仅仅是纯粹的乐趣(有舵雪橇上的土豚视频)。但是所有这些都激发了我们对知识的渴望。</p>
+<p>这种冲动并不是我们所特有的。在高等灵长类动物中，脑部扫描显示，最初为觅食而开发的神经回路也控制着高级认知行为。即使是猕猴对新信息的反应也和它们对水果或水等原始奖励的反应一样。当动物在丛林中发现一个成熟的芒果，或者在实验室中解决了一个问题时，被称为多巴胺能系统的脑细胞就会活跃起来，产生愉悦感。这些细胞还与帮助获得奖励的大脑回路建立持久的联系。当这些回路被激活时，通过触发积极的感觉，这个系统促进了学习。</p>
+<p>当然，人类比其他任何动物都更贪婪地搜寻数据。而且，像大多数觅食者一样，我们遵循优化搜索的本能策略。研究寻求营养的动物的行为生态学家已经开发出各种模型来预测它们可能的行为过程。其中之一，边际价值定理(MVT) ，适用于在食物被发现的地区的觅食者，与资源贫乏的地区之间。例如，根据一个评估呆在原地的成本和收益的公式，MVT 可以预测松鼠何时会停止在一棵树上采集橡子，转而采集下一棵树上的橡子ーー每分钟采集的坚果数量与旅行所需的时间等等。Gazzaley 认为数字领域也是一个类似的环境，其中的补丁是信息的来源ーー网站、智能手机、电子邮件程序。他相信一个类似 mvt 的公式可能会控制我们的在线搜索: 每个数据补丁提供的报酬递减都是随着时间的推移，当我们用尽那里的可用信息，或者当我们开始担心更好的数据可能在其他地方获得。</p>
+<p>下一个数据补丁的召唤可能会让我们从 Facebook 跳到 Twitter、谷歌(Google)再到 YouTube; 它还会干扰目标的实现——赶上工作截止日期、在课堂上集中注意力、与心爱的人面对面交流。它以两种基本的方式做到了这一点，加扎利说。一种是分心，他将其定义为“我们要么在外部环境中遇到，要么在自己头脑中产生的与目标无关的信息片段”我们试图忽略手机的信号和嗡嗡声(或者我们害怕错过它们所代表的数据) ，结果却发现我们的注意力被这种努力削弱了。</p>
+<p>另一个目标杀手是干扰: 我们从自上而下的活动中休息一下，以满足我们的信息饥渴。这种情况通常被称为多任务处理，听起来好像我们在同时完成几件事情ーー编写季度报告、回复客户电子邮件、密切关注娱乐明星的失态行为、偷看影视剧。事实上，这意味着我们一事无成。</p>
+<p>“在我们想做的和我们实际能够做的之间存在着冲突，”加扎利说。“(我们的注意力)每从一个任务转移到另一个任务上，都有代价。”例如，一项研究发现，IT 工作者在被打断后恢复一个项目平均需要25分钟。除了使效率大打折扣之外，这样的杂耍还会导致高度的压力、挫折和疲劳。</p>
+<p>它还会对工作记忆造成严重破坏，而工作记忆是一种让我们在大脑中保存一些关键数据的功能，这些数据只够我们将它们应用到一项任务中。多项研究表明，“媒体多任务处理”(用于在数字数据源之间切换的科学术语)过载了这个思维空间，使我们不那么专注，更容易出错。例如，2012年，加拿大研究人员发现，笔记本电脑的多任务处理不仅阻碍了用户的课堂学习，也阻碍了坐在附近的学生的课堂学习。重度多任务处理与认知控制能力下降、前扣带皮层冲动性增强和容量减少有关，前扣带皮层是大脑中与错误检测和情绪调节相关的区域。</p>
+<h4 id="我们vs他们"><a href="#我们vs他们" class="headerlink" title="我们vs他们"></a>我们vs他们</h4><p>情绪调节是科技对我们古老大脑的另一个破坏性影响的核心: 部落倾向的加剧。我们的远古祖先生活在小型的游牧群体中，这是人类历史上大部分时期的基本社会单位。古人类学家霍克斯说: “争夺资源和空间的族群并不总是那么和平。”。“我们就是这个过程的产物。”</p>
+<p>如今，许多分析人士认为，部落主义在世界范围内民族主义运动的复苏和美国政治两极分化的急剧加剧中得到了体现，这两种趋势在网络上都有突出表现。2015年发表在《美国政治科学杂志》(American Journal of Political Science)上的一项研究发现，党派归属已经成为共和党人和民主党人身份的一个基本组成部分。社交媒体促使我们公开表达自己的激情和信念，它助长了作者所说的“党派偏好对非政治领域和迄今为止的个人领域的逐渐侵蚀”</p>
+<p>我们天生擅长区分“我们”和“他们”当我们与团队内的成员互动时，多巴胺的释放会给我们带来一阵快感，而团队外的成员可能会引发消极的反应。在网上获得“赞”只会加强这种体验。</p>
+<p>我们退回到部落模式也可能是对网络点燃的数据爆炸的反应。2018年，心理学家托马斯 · 希尔斯在《心理科学展望》杂志上回顾了一系列关于信息增殖的早期研究。他发现，数字媒介极端主义和极化的高涨可能是认知超负荷的反应。他认为，在这场冲击中，我们依靠根深蒂固的偏见来决定哪些数据值得我们关注。其结果是: 群体思维、回音室和阴谋论。希尔斯说: “找到与我已经相信的信息一致的信息，会让我成为内部团队中更好的成员。”。“我可以告诉我的盟友，‘看，这就是我们是正确的证据! ”’</p>
+<p>在某些情况下，对自己部落的偏爱会激发看到另一个部落受苦的欲望。哈佛大学心理学家 Mina Cikara 说: “并不是所有的群体都是一样的。”她研究的是让一个群体从另一个群体的痛苦中获得快乐的因素，这种反应被称为幸灾乐祸。“比如说，美国人对加拿大人的反应，不会像对待伊朗人那样。”她解释说，造成这种恶意的因素是“这个组织在反对我们，他们有能力实施威胁。”例如，当湖人队和火箭队的球迷看到他们的对手球队没有得分，即使是对第三支球队，他们的腹侧纹状体活动增强，这是一个与奖励反应相关的大脑区域。</p>
+<h4 id="现在vs未来"><a href="#现在vs未来" class="headerlink" title="现在vs未来"></a>现在vs未来</h4><p>别指望硅谷的老板们会重新设计他们的盈利产品，以减少对我们老式神经线路的剥削。“妖怪已经从瓶子里跑出来了，”加扎利说。“把它放回去不是一个现实的计划。”</p>
+<p>然而，我们可以进化。希尔斯认为，对抗数字部落主义最可靠的方法就是警惕偏见，拥抱批判性思维，并鼓励其他人也这样做。对于 Gazzaley 来说，他提供了各种各样的策略，让我们的大脑不那么容易受到干扰和干扰，并且改变我们的行为以抵制科技的诱惑(参见“驯服我们的科技”侧栏)。“通过养成更健康的习惯，我们可以改善我们与科技的关系，”他说。“我们是非常适应环境的物种。我想我们会没事的。”</p>
+<p>面对科技的认知超载，人类通过依赖进化形成的偏见来决定什么是值得关注的，英国华威大学的心理学教授 Thomas t. Hills 说。这些倾向可能帮助我们的祖先生存下来，但他们并不总是我们今天的最大利益，希尔斯说。他指出了四种助长数字部落主义的“认知选择”。</p>
+<p><strong>选择信念一致信息</strong></p>
+<p>也被称为确认偏见，它使我们倾向于选择与我们已有想法一致的数据。在史前时期，这可能会让人们把暴风雨视为萨满巫师对天气的控制力的证据ーー这种解释加强了社会凝聚力，即使它是错误的。今天，确认偏差可能会导致更多的后果性错误，比如将寒流视为气候变化是一场骗局的证据。</p>
+<p><strong>选择负面信息</strong></p>
+<p>这种倾向，也被称为消极偏见，促使我们的祖先的大脑优先警惕掠食者，而不是其他类型，威胁性较小的注意力。今天，它可能会让我们把坏消息看得比好消息更重要ーー例如，比起显示整个团体遵纪守法的数据，我们更认真地对待一个团体外成员犯下的一起骇人听闻的罪行。</p>
+<p><strong>选择预测信息</strong></p>
+<p>人们常说的模式识别偏见，帮助我们在混乱中辨别秩序。注意到大型猎物往往在第一场夏季雨后到达热带草原，可能会给早期人类带来进化上的优势。然而，今天，对模式的偏爱可以让我们发现根本不存在的阴谋。</p>
+<p><strong>社交信息的选择</strong></p>
+<p>这种“群体偏见”促使我们在不确定的环境中随大流。回到过去，“如果你部落里的其他人都跑向河流，他们可能有一个很好的理由，”希尔斯说。但是，如果你所在的 Reddit 社区的每个人都说一位著名的政治家正在一家披萨店的地下室经营一个儿童性交易集团，那么，在你下定决心之前，最好先访问一下事实核查网站。</p>
+<h4 id="驯服我们的技术"><a href="#驯服我们的技术" class="headerlink" title="驯服我们的技术"></a>驯服我们的技术</h4><p>神经科学家亚当 · 加扎利提出了两种基本的方法来保护我们的大脑免受科技带来的负面影响: 增强我们的神经回路功能，以及改变我们的日常行为。虽然有些策略可以被任何人掌握，但其他的仍然处于试验阶段。</p>
+<h5 id="抵制诱惑"><a href="#抵制诱惑" class="headerlink" title="抵制诱惑"></a>抵制诱惑</h5><p>这些方法旨在提高我们的大脑忽略干扰和从干扰中恢复的能力。</p>
+<ul>
+<li>教育。研究人员正在开发各种各样的课堂课程，旨在加强认知控制能力——即使在具有挑战性的条件下也能坚持完成任务的能力。</li>
+<li>神经反馈。这项技术于20世纪60年代引入，教导从业者在脑机接口的帮助下控制脑电波。一些小型研究已经将这种方法与注意力和工作记忆的改善联系起来，并成功地用于治疗诸如多动症和焦虑症等疾病。</li>
+<li>越来越多的研究表明，户外活动可以帮助恢复疲惫的大脑。</li>
+<li>认知练习。临床试验表明，一些心理练习，包括专门设计的电子游戏，可以提高注意力和抵抗分心。然而，商业化的“脑力游戏”的有效性证据仍然很粗略。</li>
+<li>多项研究表明，冥想可以提高注意力、记忆力和处理速度。</li>
+<li>大量的研究表明，有氧运动可以提高大脑的灵活性和适应能力。</li>
+</ul>
+<h5 id="日常进化"><a href="#日常进化" class="headerlink" title="日常进化"></a>日常进化</h5><p>这些以证据为基础的行为调整通过限制科技的吸引力和可获得性来减少科技的诱惑。</p>
+<ul>
+<li>在开车的时候，和乘客聊天，听有声读物或者听音乐(这些都比打电话或者发短信少一些干扰)。与朋友、家人和同事设定一个期望: 除非真的有紧急情况，否则在路上不要使用手机。</li>
+<li>在工作的时候，把你自己限制在一个屏幕上，把所有不重要的工作材料放在你的桌子上。决定完成一项任务需要哪些程序或应用程序，并关闭所有其他程序。避免使用标签页; 当你完成一个网站，关闭它。关闭电子邮件，只在指定时间检查电子信件和社交媒体。各种各样的应用程序可以阻止访问网站，防止你作弊。静音你的智能手机; 如果你仍然感觉到拉力，把它移到另一个房间。经常休息以重新启动你的大脑; 去散散步或者只是盯着太空做白日梦。</li>
+<li>和朋友或家人出去玩的时候，要求在场的每个人都关掉手机。如果太多了，可以尝试使用“技术休息” ，允许每个人每15分钟查看一下手机。确定某些区域为无设备区ーー特别是餐桌和卧室。但是，加扎利说，一起看电视或玩电子游戏，实际上可以建立亲密关系。</li>
+</ul>
+<p><strong>以上内容翻译改编自亚当 · 加扎利和拉里 · d · 罗森合著的《心烦意乱: 高科技世界中的古代大脑》</strong></p>
 ]]></content>
       <categories>
-        <category>life</category>
+        <category>brain</category>
       </categories>
       <tags>
         <tag>work-skill</tag>
@@ -883,153 +981,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>brain</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>    大脑神经认知科学系列002</title>
-    <url>/2020-09-27%E5%A4%A7%E8%84%91%E7%A5%9E%E7%BB%8F%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6%E7%B3%BB%E5%88%97-2.html</url>
-    <content><![CDATA[<blockquote>
-<p>本想继续写半小时的1000字文章，但是，有太多事要写，或者说，不知道如何选择写什么。昨晚看到一篇非常有意义关于大脑神经认知科学的文章，这也是自己在今后会特别注重的一个知识领域。所以，便多用了一点时间，对它进行翻译。</p>
-</blockquote>
-<h4 id="我们人类发明了互联网，我们能够承担其带来的后果吗？"><a href="#我们人类发明了互联网，我们能够承担其带来的后果吗？" class="headerlink" title="我们人类发明了互联网，我们能够承担其带来的后果吗？"></a>我们人类发明了互联网，我们能够承担其带来的后果吗？</h4><p>认知神经学家亚当 · 加扎利说，在我们的基础上，“人类是寻求信息的生物。”这可能就是问题所在。虽然互联网和智能设备给了我们前所未有的途径来获取我们渴望的数据，但我们似乎对这些技术带来的洪水束手无策。</p>
-<p>尼尔森市场研究集团(Nielsen market-research group)最近的一项调查显示，美国人平均每天花在电脑和移动设备上的时间接近4个小时，其中将近四分之一的时间花在社交媒体上。虽然所有这些像素注视的好处很多，但坏处可能是可怕的。在公共场合，网络过滤器产生的泡沫强化了我们的先入之见，放大了我们的愤怒。</p>
-<p>有些时候，拇指敲击屏幕的声音已经取代了晚餐时间的谈话。教授们面对的教室里全是用 app 聊天的僵尸。2017年的一项研究发现，在职的智能手机时间每周给公司造成的生产力损失高达150亿美元。开车时发短信导致每年超过30万起交通事故。每年有数百人因为在发短信的时候撞到东西而住院。随着我们的设备变得越来越智能，越来越有效率，越来越多的连接，它们似乎经常让我们变得更笨，更分心，更分裂。</p>
-<p>越来越多的研究表明，这个难题源于刻在我们 DNA 中的一个特征: 我们无与伦比的对知识的渴望。加州大学旧金山分校的神经科学家亚当 · 加扎利说: “这是一种古老的驱动力，它导致了我们与周围世界互动的各种复杂性。”他也是《分心的思想: 高科技世界中的古代大脑》一书的合著者。</p>
-<p>他与其他专家认为，我们目前的困境涉及我们对信息的巨大需求和我们有限的注意力之间的差距。为了弄清楚我们是如何走到这一步的ーー或许还要找到一条出路ーー理解我们是如何获得大脑的至关重要。</p>
-<h4 id="大脑类比计算机的cup"><a href="#大脑类比计算机的cup" class="headerlink" title="大脑类比计算机的cup"></a>大脑类比计算机的cup</h4><p>西雅图艾伦脑科学研究所的神经科学家克里斯托夫 · 科赫称人类大脑是“已知宇宙中最复杂的物体”我们大脑中的计算机包含大约860亿个处理单元，被称为神经元，它们编织成一个由数百万亿个连接或突触组成的分布式网络。在一生中，它可以存储大约10亿比特的数据: 是国会图书馆信息量的5万倍。它可以创作小说和交响曲，可以计算出如何将宇宙飞船送到太阳系之外，还可以发明电子大脑，这些电子大脑的能力在某些方面超过了它自己。</p>
-<p>然而，这个奇迹的起源却极其卑微。大约700万年前，人类——我们灵长类家族的分支——开始了向直立行走的漫长过渡。两足行走，也就是用两条腿走路，使我们的双手能够自由地制造和操作工具。它还使我们能够走更远的路，这是我们走出非洲森林和热带稀树草原的关键。佛罗里达州立大学(Florida State University)人类学教授、圣达菲高级研究学院(Santa Fe’s School for Advanced Research)专门研究大脑进化的高级学者迪安 · 福尔克(Dean Falk)指出: “如果你观察非人类的灵长类动物，就好像它们的下面还有一双手。”。“当我们的脚变成了负重的工具时，一切都被踢开了ーー没有双关语的意思。”</p>
-<p>这种影响并不是立竿见影的。300多万年前，可能是第一个完全两足人类的南方古猿阿法种的脑壳，只比黑猩猩的大一点点。但是直到智人至少在30万年前出现的时候，脑容量已经翻了三倍。我们的大脑与身体的比例是其他哺乳动物的六倍，而且我们大脑皮层(大脑的外层，负责认知)的神经元比地球上任何其他生物的神经元都密集。</p>
-<p>近年来，科学家已经发现了二十多种基因变化，这些变化可能帮助我们的大脑不仅变得更大，而且具有无可比拟的能力。威斯康星大学麦迪逊分校的古人类学家 John Hawks 说: “这不仅仅是一次质的飞跃。“从新陈代谢调节到神经元形成，再到发育时间，许多适应性因素都在发挥作用。”例如，一段名为 HARE5的基因调控 DNA 片段在黑猩猩和人类之间略有不同; 当杜克大学(Duke University)的一个研究小组将这两种 DNA 片段同时植入小鼠胚胎时，那些获得人类类型的胚胎发育出的大脑要大12% 。与此同时，NOTCH2基因的突变增加了神经干细胞的产量，并延迟了它们向皮层神经元的成熟，这可能是我们的大脑比其他灵长类动物长得更长的部分原因。在许多物种中，FOXP2基因对语言交流至关重要，但在人类和我们最近的类人猿亲戚中，FOXP2基因因两个碱基对而分化。我们的基因突变可以解释为什么我们能说话而黑猩猩不能。</p>
-<p>我们的大脑也受到外部力量的影响，这增加了更聪明的人类遗传基因的几率。专家们争论哪些因素最重要。福尔克假设失去抓握的脚是至关重要的: 当婴儿不再像非人类灵长类动物那样依附在母亲身上时，从远处抚慰他们的需要导致了语言的发展，这彻底改变了我们的神经组织。其他研究人员认为，饮食的变化，如吃肉或烹饪食物，使我们能够以较短的消化道，这释放了更多的能量，传输给我们的大脑。还有一些人认为我们大脑的进化是由于社会复杂性的增加或环境挑战的加剧。</p>
-<p>可以肯定的是，我们的神经硬件是在与今天完全不同的条件下形成的。几千年来，我们不得不时刻警惕危险的掠食者、敌对的氏族、潜在的食物来源和庇护所ーー仅此而已。正如麦吉尔大学的神经系统科学家 Daniel j. Levitin 在他的书《有组织的大脑》中所说: “我们的大脑进化到一次只关注一件事情。”</p>
-<p>我们的数字设备，从设计上来说，使得这几乎不可能。</p>
-<h4 id="科技vs大脑"><a href="#科技vs大脑" class="headerlink" title="科技vs大脑"></a>科技vs大脑</h4><p>大脑中能够让我们制定详细计划并贯彻执行的那部分—- 可以说是让我们成为最具人性的那部分—- 是脑前额叶外皮。这个区域在智人中只比黑猩猩或大猩猩稍大一点，但是它与其他脑区的联系更广泛和复杂。尽管有这个先进的网络，我们的计划能力远远强于我们专注于一个特定任务的能力。</p>
-<p>其中一个原因是，像所有动物一样，我们进化到当我们感觉到危险时立即转移注意力: 可能预示着一个接近的捕食者的折断的树枝，树后的阴影可能预示着一个敌人。我们以目标为导向，或者自上而下的思维活动，在这些自下而上的新奇和显著的力量面前几乎没有机会，这些刺激是意想不到的、突然的或戏剧性的，或者唤起了重要经历的记忆。</p>
-<p>“许多技术设备使用自下而上的刺激来吸引我们的注意力，从我们的目标，如嗡嗡声、振动和闪光，” Gazzaley 说。此外，即使当它们处于静默模式时，我们的设备也以无限的、立即可用的信息吸引着我们。可以随时获取的数据可能是新闻(我们最不喜欢的政客的最新失态)、事实(我们最喜欢的演员的从影记录)、社交(我们自拍得到的赞成票数) ，或者仅仅是纯粹的乐趣(有舵雪橇上的土豚视频)。但是所有这些都激发了我们对知识的渴望。</p>
-<p>这种冲动并不是我们所特有的。在高等灵长类动物中，脑部扫描显示，最初为觅食而开发的神经回路也控制着高级认知行为。即使是猕猴对新信息的反应也和它们对水果或水等原始奖励的反应一样。当动物在丛林中发现一个成熟的芒果，或者在实验室中解决了一个问题时，被称为多巴胺能系统的脑细胞就会活跃起来，产生愉悦感。这些细胞还与帮助获得奖励的大脑回路建立持久的联系。当这些回路被激活时，通过触发积极的感觉，这个系统促进了学习。</p>
-<p>当然，人类比其他任何动物都更贪婪地搜寻数据。而且，像大多数觅食者一样，我们遵循优化搜索的本能策略。研究寻求营养的动物的行为生态学家已经开发出各种模型来预测它们可能的行为过程。其中之一，边际价值定理(MVT) ，适用于在食物被发现的地区的觅食者，与资源贫乏的地区之间。例如，根据一个评估呆在原地的成本和收益的公式，MVT 可以预测松鼠何时会停止在一棵树上采集橡子，转而采集下一棵树上的橡子ーー每分钟采集的坚果数量与旅行所需的时间等等。Gazzaley 认为数字领域也是一个类似的环境，其中的补丁是信息的来源ーー网站、智能手机、电子邮件程序。他相信一个类似 mvt 的公式可能会控制我们的在线搜索: 每个数据补丁提供的报酬递减都是随着时间的推移，当我们用尽那里的可用信息，或者当我们开始担心更好的数据可能在其他地方获得。</p>
-<p>下一个数据补丁的召唤可能会让我们从 Facebook 跳到 Twitter、谷歌(Google)再到 YouTube; 它还会干扰目标的实现——赶上工作截止日期、在课堂上集中注意力、与心爱的人面对面交流。它以两种基本的方式做到了这一点，加扎利说。一种是分心，他将其定义为“我们要么在外部环境中遇到，要么在自己头脑中产生的与目标无关的信息片段”我们试图忽略手机的信号和嗡嗡声(或者我们害怕错过它们所代表的数据) ，结果却发现我们的注意力被这种努力削弱了。</p>
-<p>另一个目标杀手是干扰: 我们从自上而下的活动中休息一下，以满足我们的信息饥渴。这种情况通常被称为多任务处理，听起来好像我们在同时完成几件事情ーー编写季度报告、回复客户电子邮件、密切关注娱乐明星的失态行为、偷看影视剧。事实上，这意味着我们一事无成。</p>
-<p>“在我们想做的和我们实际能够做的之间存在着冲突，”加扎利说。“(我们的注意力)每从一个任务转移到另一个任务上，都有代价。”例如，一项研究发现，IT 工作者在被打断后恢复一个项目平均需要25分钟。除了使效率大打折扣之外，这样的杂耍还会导致高度的压力、挫折和疲劳。</p>
-<p>它还会对工作记忆造成严重破坏，而工作记忆是一种让我们在大脑中保存一些关键数据的功能，这些数据只够我们将它们应用到一项任务中。多项研究表明，“媒体多任务处理”(用于在数字数据源之间切换的科学术语)过载了这个思维空间，使我们不那么专注，更容易出错。例如，2012年，加拿大研究人员发现，笔记本电脑的多任务处理不仅阻碍了用户的课堂学习，也阻碍了坐在附近的学生的课堂学习。重度多任务处理与认知控制能力下降、前扣带皮层冲动性增强和容量减少有关，前扣带皮层是大脑中与错误检测和情绪调节相关的区域。</p>
-<h4 id="我们vs他们"><a href="#我们vs他们" class="headerlink" title="我们vs他们"></a>我们vs他们</h4><p>情绪调节是科技对我们古老大脑的另一个破坏性影响的核心: 部落倾向的加剧。我们的远古祖先生活在小型的游牧群体中，这是人类历史上大部分时期的基本社会单位。古人类学家霍克斯说: “争夺资源和空间的族群并不总是那么和平。”。“我们就是这个过程的产物。”</p>
-<p>如今，许多分析人士认为，部落主义在世界范围内民族主义运动的复苏和美国政治两极分化的急剧加剧中得到了体现，这两种趋势在网络上都有突出表现。2015年发表在《美国政治科学杂志》(American Journal of Political Science)上的一项研究发现，党派归属已经成为共和党人和民主党人身份的一个基本组成部分。社交媒体促使我们公开表达自己的激情和信念，它助长了作者所说的“党派偏好对非政治领域和迄今为止的个人领域的逐渐侵蚀”</p>
-<p>我们天生擅长区分“我们”和“他们”当我们与团队内的成员互动时，多巴胺的释放会给我们带来一阵快感，而团队外的成员可能会引发消极的反应。在网上获得“赞”只会加强这种体验。</p>
-<p>我们退回到部落模式也可能是对网络点燃的数据爆炸的反应。2018年，心理学家托马斯 · 希尔斯在《心理科学展望》杂志上回顾了一系列关于信息增殖的早期研究。他发现，数字媒介极端主义和极化的高涨可能是认知超负荷的反应。他认为，在这场冲击中，我们依靠根深蒂固的偏见来决定哪些数据值得我们关注。其结果是: 群体思维、回音室和阴谋论。希尔斯说: “找到与我已经相信的信息一致的信息，会让我成为内部团队中更好的成员。”。“我可以告诉我的盟友，‘看，这就是我们是正确的证据! ”’</p>
-<p>在某些情况下，对自己部落的偏爱会激发看到另一个部落受苦的欲望。哈佛大学心理学家 Mina Cikara 说: “并不是所有的群体都是一样的。”她研究的是让一个群体从另一个群体的痛苦中获得快乐的因素，这种反应被称为幸灾乐祸。“比如说，美国人对加拿大人的反应，不会像对待伊朗人那样。”她解释说，造成这种恶意的因素是“这个组织在反对我们，他们有能力实施威胁。”例如，当湖人队和火箭队的球迷看到他们的对手球队没有得分，即使是对第三支球队，他们的腹侧纹状体活动增强，这是一个与奖励反应相关的大脑区域。</p>
-<h4 id="现在vs未来"><a href="#现在vs未来" class="headerlink" title="现在vs未来"></a>现在vs未来</h4><p>别指望硅谷的老板们会重新设计他们的盈利产品，以减少对我们老式神经线路的剥削。“妖怪已经从瓶子里跑出来了，”加扎利说。“把它放回去不是一个现实的计划。”</p>
-<p>然而，我们可以进化。希尔斯认为，对抗数字部落主义最可靠的方法就是警惕偏见，拥抱批判性思维，并鼓励其他人也这样做。对于 Gazzaley 来说，他提供了各种各样的策略，让我们的大脑不那么容易受到干扰和干扰，并且改变我们的行为以抵制科技的诱惑(参见“驯服我们的科技”侧栏)。“通过养成更健康的习惯，我们可以改善我们与科技的关系，”他说。“我们是非常适应环境的物种。我想我们会没事的。”</p>
-<p>面对科技的认知超载，人类通过依赖进化形成的偏见来决定什么是值得关注的，英国华威大学的心理学教授 Thomas t. Hills 说。这些倾向可能帮助我们的祖先生存下来，但他们并不总是我们今天的最大利益，希尔斯说。他指出了四种助长数字部落主义的“认知选择”。</p>
-<p><strong>选择信念一致信息</strong></p>
-<p>也被称为确认偏见，它使我们倾向于选择与我们已有想法一致的数据。在史前时期，这可能会让人们把暴风雨视为萨满巫师对天气的控制力的证据ーー这种解释加强了社会凝聚力，即使它是错误的。今天，确认偏差可能会导致更多的后果性错误，比如将寒流视为气候变化是一场骗局的证据。</p>
-<p><strong>选择负面信息</strong></p>
-<p>这种倾向，也被称为消极偏见，促使我们的祖先的大脑优先警惕掠食者，而不是其他类型，威胁性较小的注意力。今天，它可能会让我们把坏消息看得比好消息更重要ーー例如，比起显示整个团体遵纪守法的数据，我们更认真地对待一个团体外成员犯下的一起骇人听闻的罪行。</p>
-<p><strong>选择预测信息</strong></p>
-<p>人们常说的模式识别偏见，帮助我们在混乱中辨别秩序。注意到大型猎物往往在第一场夏季雨后到达热带草原，可能会给早期人类带来进化上的优势。然而，今天，对模式的偏爱可以让我们发现根本不存在的阴谋。</p>
-<p><strong>社交信息的选择</strong></p>
-<p>这种“群体偏见”促使我们在不确定的环境中随大流。回到过去，“如果你部落里的其他人都跑向河流，他们可能有一个很好的理由，”希尔斯说。但是，如果你所在的 Reddit 社区的每个人都说一位著名的政治家正在一家披萨店的地下室经营一个儿童性交易集团，那么，在你下定决心之前，最好先访问一下事实核查网站。</p>
-<h4 id="驯服我们的技术"><a href="#驯服我们的技术" class="headerlink" title="驯服我们的技术"></a>驯服我们的技术</h4><p>神经科学家亚当 · 加扎利提出了两种基本的方法来保护我们的大脑免受科技带来的负面影响: 增强我们的神经回路功能，以及改变我们的日常行为。虽然有些策略可以被任何人掌握，但其他的仍然处于试验阶段。</p>
-<h5 id="抵制诱惑"><a href="#抵制诱惑" class="headerlink" title="抵制诱惑"></a>抵制诱惑</h5><p>这些方法旨在提高我们的大脑忽略干扰和从干扰中恢复的能力。</p>
-<ul>
-<li>教育。研究人员正在开发各种各样的课堂课程，旨在加强认知控制能力——即使在具有挑战性的条件下也能坚持完成任务的能力。</li>
-<li>神经反馈。这项技术于20世纪60年代引入，教导从业者在脑机接口的帮助下控制脑电波。一些小型研究已经将这种方法与注意力和工作记忆的改善联系起来，并成功地用于治疗诸如多动症和焦虑症等疾病。</li>
-<li>越来越多的研究表明，户外活动可以帮助恢复疲惫的大脑。</li>
-<li>认知练习。临床试验表明，一些心理练习，包括专门设计的电子游戏，可以提高注意力和抵抗分心。然而，商业化的“脑力游戏”的有效性证据仍然很粗略。</li>
-<li>多项研究表明，冥想可以提高注意力、记忆力和处理速度。</li>
-<li>大量的研究表明，有氧运动可以提高大脑的灵活性和适应能力。</li>
-</ul>
-<h5 id="日常进化"><a href="#日常进化" class="headerlink" title="日常进化"></a>日常进化</h5><p>这些以证据为基础的行为调整通过限制科技的吸引力和可获得性来减少科技的诱惑。</p>
-<ul>
-<li>在开车的时候，和乘客聊天，听有声读物或者听音乐(这些都比打电话或者发短信少一些干扰)。与朋友、家人和同事设定一个期望: 除非真的有紧急情况，否则在路上不要使用手机。</li>
-<li>在工作的时候，把你自己限制在一个屏幕上，把所有不重要的工作材料放在你的桌子上。决定完成一项任务需要哪些程序或应用程序，并关闭所有其他程序。避免使用标签页; 当你完成一个网站，关闭它。关闭电子邮件，只在指定时间检查电子信件和社交媒体。各种各样的应用程序可以阻止访问网站，防止你作弊。静音你的智能手机; 如果你仍然感觉到拉力，把它移到另一个房间。经常休息以重新启动你的大脑; 去散散步或者只是盯着太空做白日梦。</li>
-<li>和朋友或家人出去玩的时候，要求在场的每个人都关掉手机。如果太多了，可以尝试使用“技术休息” ，允许每个人每15分钟查看一下手机。确定某些区域为无设备区ーー特别是餐桌和卧室。但是，加扎利说，一起看电视或玩电子游戏，实际上可以建立亲密关系。</li>
-</ul>
-<p><strong>以上内容翻译改编自亚当 · 加扎利和拉里 · d · 罗森合著的《心烦意乱: 高科技世界中的古代大脑》</strong></p>
-]]></content>
-      <categories>
-        <category>brain</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        睡眠不足，多梦的原因分析和解决方式</title>
-    <url>/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97.html</url>
-    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
-<blockquote>
-<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
-</blockquote>
-<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
-<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
-<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
-<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
-<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
-<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
-<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
-<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
-<blockquote>
-<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
-</blockquote>
-<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
-<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
-<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
-<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
-<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        我的博客</title>
-    <url>/2021-03-04%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2.html</url>
-    <content><![CDATA[<p>自己写下内容需要传播出去吗？</p>
-<p>昨晚凌晨时分看到了一篇文章，内容是说某为少年在读书时期就开始自建网站，通过网站的博文评论和外界保持过一段交流的时光。后来，因为生活，学习，工作等诸多不便因素影响之下，导致停更。直到，最近这位少年，参加了一个名为“十年之约”关于持续维护网站博文更新的活动。</p>
-<p>对此自己也十分感概和激动。</p>
-<p>在公众号也发表过许多文章，但是后来深知自己的目的不太可能实现，从结果上面来看是没有任何交流的评论。那么，就是与自己的初衷完全相反。因此，改为练习自己写作的兴趣。希望可以在半小时内写下1000字的文章。后来，这一目标是达到了，慢慢又开始追求文章的质量。便开始了，漫长的阅读之路。直到现在，这条路，也并不是十分地顺利。原因，无它，多数跟普通的大多数的懒和种种生活工作原因，令到自己沉醉于外界的声音之中，忽略了自己的内心深处的想法。</p>
-<p>虽然，后来没有在其他地方发表，但是依然在坚持写下自己的内心里面的声音，可能目的不是十分明确，又或者是一种减压。在别人眼里，我的行为似乎会是一种浪费时间的表现。从自身实际上来看，这其他对于自己从中获得帮助也并不大。但是，自己是很喜欢和别人交流的想法，一直都没有磨灭。毕竟世界之大，很多事物自己都是没有亲身经历，闻所未闻。短短的人生，如果能够结识很多有趣的人，交流彼此的认知。我相信，人生定必更加有趣。</p>
-<p>有时候，在阅读新闻，和主流平台所传播出来的声音，是杂而乱。当然，是有优质的内容。但是，在海量的信息面前，是非常难获得的。看着看着，就仿佛有种孤独的感觉。也令到自己越来越觉得，我能否实现自己的小小目标。通过一个平台，和有趣的人交流。哪怕，是闲谈几句，或者是经验之谈。能够让自己在学识上有帮扶的，那就是最好不过的一大乐事了。可惜，这一点要做好，仅仅靠谦虚好学，是远远不够的。</p>
-<p>那么，还需要自身的能力，背景，人脉，等等的提升，才会能够引起别人的注视。在提升的过程中，孤独前行的时候依然会消耗着时间。我眼看自己的年龄日渐增长，也令自己感觉到开始慢慢地淹没在人潮之中，按照既定的规律，是会慢慢走向消亡。</p>
-<p>在着急的同时，又有了点对未来的期盼。继续为生存的同时，分掉一部分的勇气，继续向外界发出信息。希望，能收获到外界的一些回响。</p>
-<p>即将迈入黄金十年的阶段，希望十年后，自己回看这篇文章的时候，会是满怀欢喜和喜悦的泪水。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>        回南天的周末</title>
-    <url>/2021-03-06%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E5%91%A8%E6%9C%AB.html</url>
-    <content><![CDATA[<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
-<p>外面的天气是与下图相反的，希望能够将这一天记录为温暖的。</p>
-<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
-<p><strong>在雨天思考了几个问题：</strong></p>
-<p><strong>1.如果在日常生活工作中遇到久久不能解决的问题，就应该要立马换个方法。</strong></p>
-<p>当你设定了一个目标，或者完成一个没遇到过的问题。在解决的过程中，会遇到很多解决问题本身以外的干扰。例如，有很多的方法提供给自己选择，这些方法可能也会过时。我提出一个建议，当遇到这样的场景的时候，接受它，是这样的，面对未知不要带着着急心态。</p>
-<p>但是，这不是解决问题，分析问题的一个很好的办法。如何是好？利用第一原理这个思维是个好的办法。什么是第一原理，可自行去了解。</p>
-<p>回到思考的问题，遇到行不通，是要立马换个方式去解决。这样的思维方式，是应该内化成自己的条件反射。时间是不会停止来等你的。不要认为，这是很少见，我认为这是一个大概率出现在每个人身上的。所以，生命很多时候，就是在这样被消耗着。</p>
-<p>雨下一会就会停，而问题也同样最终消失。有区别的是，问题可能会被解决，也有可能被自己放弃。</p>
-<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去检视一下自身有什么原因是让这样的情况出现的。</strong></p>
-<p>例如，自己在写这篇文章的时候，是很困的。写作的思路是较为之混乱。说明，自己的作息出现了严重的问题。没有正确的睡眠规律导致的问题。所以，对此就要去解决它，让自己的睡眠得到保证，才能避免它的出现。</p>
-<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实的时候，触手无策。</strong></p>
-<p>那天我错过了3次为地铁卡充值的机会。</p>
-<p>当时，我使用余额不足的它，滴进站内后，发现了在线充值系统竟然罕有地出了维护。但是我没有重新出站，补充。最后一次使用的时候，我已经发现了它的余额不足。然后，我进站的时候也没有意识要提前充了才进站。结果在出站补卡的过程耗费了时间，导致了上班迟到。</p>
-<p>这样的生活小片段，说明了我没有确保做某事前的基本条件成立，这是反映了自己一个思维上不够严谨的问题。</p>
-<p>图床刚才是遇到了小问题，以往自己是没有办法去继续下去的，但是之前看了某些书 ，明白到问题是需要拆解分析的，把未知的概念了解之后，一个一个地，一步一步地就很大可能解决掉。</p>
-<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG27985.jpeg" alt="WechatIMG27985"></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1175,6 +1126,85 @@ data:请求所携带的参数；
       </tags>
   </entry>
   <entry>
+    <title>        睡眠不足，多梦的原因分析和解决方式</title>
+    <url>/2020-11-08%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E7%B3%BB%E5%88%97.html</url>
+    <content><![CDATA[<h5 id="睡眠不足，多梦的原因分析和解决方式"><a href="#睡眠不足，多梦的原因分析和解决方式" class="headerlink" title="睡眠不足，多梦的原因分析和解决方式"></a>睡眠不足，多梦的原因分析和解决方式</h5><p>原因：身体缺乏钙元素，和维生素B1</p>
+<blockquote>
+<p>由于钙对人体生理功能起着重要作用，<strong>长期缺钙还会导致免疫力低下、发育不良、四肢无力、精神疲乏、烦躁不安等，甚至引起惊厥、心脏骤停、呼吸衰竭等严重疾病。</strong></p>
+</blockquote>
+<p><strong>深色蔬菜的含钙量仅次于牛奶，比如甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜等。深色菜中，有很多同时是维生素K含量较高的食物，比如西蓝花、甘蓝。维生素K能激活骨钙素，促进钙沉积在骨骼中。</strong></p>
+<p><strong>多摄入大豆及其制品，如豆腐、豆浆、素鸡等。</strong>大豆富含蛋白质、不饱和氨基酸、维生素和异黄酮等，对骨骼颇有益处。因为，骨骼中22%的成分是蛋白质，为钙沉积提供了骨架。当然，豆制品里的含钙量本身就很丰富哦。</p>
+<p><strong>适当吃些虾皮、虾米、海带、紫菜等海产品，</strong>它们含有丰富的钙。但由于它们含盐量较高，也要控制住摄入量哦。此外，<strong>黑木耳、芝麻酱也是美味的高钙食物</strong>，平时也留意多吃些。</p>
+<p>钾能够维持酸碱平衡，防止钙流失。所以，咱们也要多吃高钾食物，比如香蕉、橙子、小米等。</p>
+<p>除了钾，还应适当补充镁含量较高的食物，如紫菜、全麦食品、杏仁、花生等。镁能帮助转运钙，把细胞外的钙转运到细胞内，把血钙搬入骨骼。</p>
+<h4 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h4><h5 id="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"><a href="#甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜" class="headerlink" title="甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜"></a><strong>甘蓝、荠菜、苋菜、小白菜、油菜、茴香、芹菜</strong></h5><h4 id="海产品"><a href="#海产品" class="headerlink" title="海产品"></a>海产品</h4><p><strong>虾皮、虾米、海带、紫菜</strong></p>
+<h4 id="高钾食物"><a href="#高钾食物" class="headerlink" title="高钾食物"></a>高钾食物</h4><p><strong>香蕉、橙子、小米</strong></p>
+<h4 id="高镁食物"><a href="#高镁食物" class="headerlink" title="高镁食物"></a>高镁食物</h4><p><strong>紫菜、全麦食品、杏仁、花生</strong></p>
+<blockquote>
+<p>吃了就能吸收吗？不是的，要想法子让它能有效转化</p>
+</blockquote>
+<p>即使我们摄入了足够的钙，并不能保证就不缺钙了。因为，<strong>钙的吸收受到很多因素的影响</strong>。比如，钙的吸收与年龄有关。老人对钙的吸收能力减弱，很容易缺钙。</p>
+<p>人体对不同食物中的钙吸收率千差万别。比如，牛奶中的钙，大概有30%能被我们吸收。一些草酸含量较高的蔬菜，如菠菜，钙吸收率更低，大约只有5%。另外，食物中的植酸水平，主要是各种谷物、豆类、坚果里的植酸，也会影响我们吸收钙。高脂或高盐饮食使钙在肠道内沉积，不利于吸收；若蛋白质摄入不足，也会影响肠道对钙的吸收。</p>
+<p>维生素D和维生素K能促进钙的吸收。当含量不足时，钙的吸收也会受到影响。维生素D和维生素K都是脂溶性的，所以长期低脂饮食也会影响钙的吸收。另外，合成维生素D需要晒足够的太阳。但很多人户外时间较少，不能合成足量的维生素D，也会出现缺钙，甚至引起佝偻病。<strong>所以，如果补钙的效果不好，要看看是不是缺乏维D了。</strong></p>
+<p>钙流失，是另一个缺钙的重要因素。比如，血糖不稳定时，会促进骨骼中钙分解，造成钙流失。另外，一些药物也会导致钙流失，常常被我们忽视。比如，长期服用某些激素类药物，会加速钙的流失，引起骨质疏松。</p>
+<p><strong>我们若能从食物中摄取足够的钙，同时经常户外活动，应该不会缺钙，一般情况下并不需要额外补钙</strong>.</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>        我的博客</title>
+    <url>/2021-03-04%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2.html</url>
+    <content><![CDATA[<p>自己写下内容需要传播出去吗？</p>
+<p>昨晚凌晨时分看到了一篇文章，内容是说某为少年在读书时期就开始自建网站，通过网站的博文评论和外界保持过一段交流的时光。后来，因为生活，学习，工作等诸多不便因素影响之下，导致停更。直到，最近这位少年，参加了一个名为“十年之约”关于持续维护网站博文更新的活动。</p>
+<p>对此自己也十分感概和激动。</p>
+<p>在公众号也发表过许多文章，但是后来深知自己的目的不太可能实现，从结果上面来看是没有任何交流的评论。那么，就是与自己的初衷完全相反。因此，改为练习自己写作的兴趣。希望可以在半小时内写下1000字的文章。后来，这一目标是达到了，慢慢又开始追求文章的质量。便开始了，漫长的阅读之路。直到现在，这条路，也并不是十分地顺利。原因，无它，多数跟普通的大多数的懒和种种生活工作原因，令到自己沉醉于外界的声音之中，忽略了自己的内心深处的想法。</p>
+<p>虽然，后来没有在其他地方发表，但是依然在坚持写下自己的内心里面的声音，可能目的不是十分明确，又或者是一种减压。在别人眼里，我的行为似乎会是一种浪费时间的表现。从自身实际上来看，这其他对于自己从中获得帮助也并不大。但是，自己是很喜欢和别人交流的想法，一直都没有磨灭。毕竟世界之大，很多事物自己都是没有亲身经历，闻所未闻。短短的人生，如果能够结识很多有趣的人，交流彼此的认知。我相信，人生定必更加有趣。</p>
+<p>有时候，在阅读新闻，和主流平台所传播出来的声音，是杂而乱。当然，是有优质的内容。但是，在海量的信息面前，是非常难获得的。看着看着，就仿佛有种孤独的感觉。也令到自己越来越觉得，我能否实现自己的小小目标。通过一个平台，和有趣的人交流。哪怕，是闲谈几句，或者是经验之谈。能够让自己在学识上有帮扶的，那就是最好不过的一大乐事了。可惜，这一点要做好，仅仅靠谦虚好学，是远远不够的。</p>
+<p>那么，还需要自身的能力，背景，人脉，等等的提升，才会能够引起别人的注视。在提升的过程中，孤独前行的时候依然会消耗着时间。我眼看自己的年龄日渐增长，也令自己感觉到开始慢慢地淹没在人潮之中，按照既定的规律，是会慢慢走向消亡。</p>
+<p>在着急的同时，又有了点对未来的期盼。继续为生存的同时，分掉一部分的勇气，继续向外界发出信息。希望，能收获到外界的一些回响。</p>
+<p>即将迈入黄金十年的阶段，希望十年后，自己回看这篇文章的时候，会是满怀欢喜和喜悦的泪水。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>        回南天的周末</title>
+    <url>/2021-03-06%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E5%91%A8%E6%9C%AB.html</url>
+    <content><![CDATA[<p>自从觉得需要多在这里发表一些内容以来，内心就多了一点期待。期待有人到来，愿意在此留言。</p>
+<p>外面的天气是与下图相反的，希望能够将这一天记录为温暖的。</p>
+<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG163.jpeg" alt="WechatIMG163"></p>
+<p><strong>在雨天思考了几个问题：</strong></p>
+<p><strong>1.如果在日常生活工作中遇到久久不能解决的问题，就应该要立马换个方法。</strong></p>
+<p>当你设定了一个目标，或者完成一个没遇到过的问题。在解决的过程中，会遇到很多解决问题本身以外的干扰。例如，有很多的方法提供给自己选择，这些方法可能也会过时。我提出一个建议，当遇到这样的场景的时候，接受它，是这样的，面对未知不要带着着急心态。</p>
+<p>但是，这不是解决问题，分析问题的一个很好的办法。如何是好？利用第一原理这个思维是个好的办法。什么是第一原理，可自行去了解。</p>
+<p>回到思考的问题，遇到行不通，是要立马换个方式去解决。这样的思维方式，是应该内化成自己的条件反射。时间是不会停止来等你的。不要认为，这是很少见，我认为这是一个大概率出现在每个人身上的。所以，生命很多时候，就是在这样被消耗着。</p>
+<p>雨下一会就会停，而问题也同样最终消失。有区别的是，问题可能会被解决，也有可能被自己放弃。</p>
+<p><strong>2.如果发现一样事物，使自己感到不适的时候，要去检视一下自身有什么原因是让这样的情况出现的。</strong></p>
+<p>例如，自己在写这篇文章的时候，是很困的。写作的思路是较为之混乱。说明，自己的作息出现了严重的问题。没有正确的睡眠规律导致的问题。所以，对此就要去解决它，让自己的睡眠得到保证，才能避免它的出现。</p>
+<p><strong>3.错过了多次改正的机会，就会导致万一的情况变成事实的时候，触手无策。</strong></p>
+<p>那天我错过了3次为地铁卡充值的机会。</p>
+<p>当时，我使用余额不足的它，滴进站内后，发现了在线充值系统竟然罕有地出了维护。但是我没有重新出站，补充。最后一次使用的时候，我已经发现了它的余额不足。然后，我进站的时候也没有意识要提前充了才进站。结果在出站补卡的过程耗费了时间，导致了上班迟到。</p>
+<p>这样的生活小片段，说明了我没有确保做某事前的基本条件成立，这是反映了自己一个思维上不够严谨的问题。</p>
+<p>图床刚才是遇到了小问题，以往自己是没有办法去继续下去的，但是之前看了某些书 ，明白到问题是需要拆解分析的，把未知的概念了解之后，一个一个地，一步一步地就很大可能解决掉。</p>
+<p><img src="https://qiuniu.lookmeseesee.top/WechatIMG27985.jpeg" alt="WechatIMG27985"></p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>      关于笔记</title>
     <url>/%E5%85%B3%E4%BA%8E%E7%AC%94%E8%AE%B0.html</url>
     <content><![CDATA[<p>对于思路笔记的整理记录，一直都没有一个合适的流程。<br>    <a id="more"></a><br>在使用电脑的情况下，要将思路记录下来同时发布到线上的过程，能够尽最大的精简和快捷，<br>对于大三方平台的账号，还没有使用。但是，对于写作的重点，应该是注重于内容的书写，对于阅读方面的考虑，可以不用太过于着重。关键在于内容和发布，发布是方便自己阅读。</p>
@@ -1227,36 +1257,6 @@ data:请求所携带的参数；
       </categories>
       <tags>
         <tag>观点</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>      js理解</title>
-    <url>/2020-05-08-js%E5%8E%9F%E5%9E%8B%E7%90%86%E8%A7%A3.html</url>
-    <content><![CDATA[<blockquote>
-<p>记录是给自己看得，没打算在大平台上推广，否则会非常有压力，结果就导致没有下笔的可能性</p>
-</blockquote>
-<h4 id="js的重点"><a href="#js的重点" class="headerlink" title="js的重点"></a>js的重点</h4><p>核心：原型链</p>
-<p>图表绘制出来的关系通常是非常有助于学习，不过对于这个东西，没理解清楚就看图会越看越乱。</p>
-<p>概念描述：</p>
-<ol>
-<li>去读懂，js的数据类型。</li>
-<li>用函数去窥探</li>
-<li>构造函数，原型，原型对象，constructor,- - proto- -与[[prototype]],实例，实例对象这几个描述就是混乱的根源</li>
-</ol>
-<blockquote>
-<p>抽象一下，链条是不具有数据信息，只是一个链接指向的左右</p>
-</blockquote>
-<p>其实，<strong>构造函数</strong>，是一个函数的名字。 <strong>constructor</strong>是描述构造函数的一个属性，就是一个名字。同理，<strong>原型</strong>也是一个属性，<strong>原型对象</strong>是属性的值是一个对象的意思。</p>
-<p>原型链就看 constructor，原型对象，实例（- - proto- -） 。这三个</p>
-<blockquote>
-<p>要有关系，而且又保证自身不被随意遂改。那肯定要用自身的其他东西去做嫁接。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>skill</category>
-      </categories>
-      <tags>
-        <tag>work-skill</tag>
       </tags>
   </entry>
   <entry>
