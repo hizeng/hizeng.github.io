@@ -1450,4 +1450,55 @@ data:请求所携带的参数；
         <tag>华为</tag>
       </tags>
   </entry>
+  <entry>
+    <title>      flexbox 伸缩布局盒模型</title>
+    <url>/css%E4%BC%B8%E7%BC%A9%E5%B8%83%E5%B1%80%E7%9B%92%E6%A8%A1%E5%9E%8B.html</url>
+    <content><![CDATA[<h1 id="flexbox-伸缩布局盒模型"><a href="#flexbox-伸缩布局盒模型" class="headerlink" title="flexbox 伸缩布局盒模型"></a>flexbox 伸缩布局盒模型</h1><blockquote>
+<p>核心概念</p>
+</blockquote>
+<p><strong>盒模型</strong></p>
+<p><strong>主轴</strong>：打横的</p>
+<p><strong>侧轴</strong>：打竖的</p>
+<p><strong>伸缩容器</strong> ：父级元素</p>
+<p><strong>伸缩项目</strong>：子级元素</p>
+<p><strong>div包住p. div是伸缩容器，p就是伸缩项目</strong></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">div</span><br><span class="line"> p</span><br><span class="line">//div包住p. div是容器，p就是项目</span><br></pre></td></tr></table></figure>
+
+<h3 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h3><ol>
+<li>adjust-content：<strong>水平线上布局项目的方式</strong></li>
+<li>align-items：<strong>垂直方向上布局项目的方式</strong></li>
+<li>flex-direction: <strong>多个项目排列方向</strong>！<strong>方向！</strong>，<strong>子项换向首选</strong></li>
+<li>flex-warp：<strong>是否换行，这个属性好有意思</strong> </li>
+<li>3-4组合成 flex-flow </li>
+<li>align-content <strong>项目多行间距 与1同属性</strong>，<strong>当布局不复杂的时候，设置center就能垂直居中</strong></li>
+<li>align-self 同1属性 ，<strong>多项目里面的1个的针对性操作</strong></li>
+<li>order</li>
+</ol>
+<h3 id="属性值"><a href="#属性值" class="headerlink" title="属性值"></a>属性值</h3><blockquote>
+<p>可以说是调整子项之间的间隔</p>
+</blockquote>
+<p>flex-start  </p>
+<p>center </p>
+<p>flex-end </p>
+<p><strong>space-between （两边尽顶）</strong></p>
+<p><strong>space-around（相比上面，靠近一点）</strong></p>
+<blockquote>
+<p>可以说是调整子项之间的排列方向，顺序</p>
+</blockquote>
+<p>row</p>
+<p>row-reverse</p>
+<p>column 会使1-2作用互换</p>
+<p>column-reverse</p>
+<h3 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h3><p><strong>当使用flex-direction:column /column-reverse 之后 align-items（侧轴）和 adjust-content(主轴) 的属性互换；</strong></p>
+<p><strong>注意设定伸缩容器的固定宽和高</strong>，待验证，但是觉得是必须的。</p>
+<p>⚠️上述是基本的flex的基本用法，但我觉得经以足够，和应付大部分的响应式布局。特别是页面不复杂的时候。对于web开发，或者说一些知识并说是基础的时候，说明它非常重要，失去它将无法开展工作。不要因为不难，或者说没什么技术含量，就觉得自己会很快掌握。你看，没有地基，房子是建不起来的。</p>
+<p>有个网址挺好的，因为断网了，迟下再补充。</p>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
 </search>
