@@ -240,7 +240,28 @@
                 </span>
             </span>
 
-          <br>
+          
+            <span id="/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90.html" class="post-meta-item leancloud_visitors" data-flag-title="     落地页分析" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019-04-12-%E5%AE%9E%E6%88%98%E8%90%BD%E5%9C%B0%E9%A1%B5%E7%9A%84%E5%88%86%E6%9E%90.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -316,6 +337,7 @@
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -536,6 +558,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'fpupK04X0TovxqxBgXa0pk7a-gzGzoHsz',
+      appKey     : '5ffeQdQDuDVEeI0EMpomu4AV',
+      placeholder: "随意输入昵称就可以评论了",
+      avatar     : 'hide',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
