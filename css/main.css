@@ -991,7 +991,7 @@ pre .javascript .function {
   margin: 0;
 }
 .site-subtitle {
-  color: #ddd;
+  color: #fff;
   font-size: 0.9125em;
   margin: 10px 0;
 }
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #de9ee4;
+  background: #c60905;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
