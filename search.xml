@@ -1601,6 +1601,8 @@ box-shadow:  20px 20px 60px #a6b3b9,
 <p>2.在Mac笔记本电脑上安装duet</p>
 <p>3.一条iPad数据线（连接两者）7-11便利店临时买的30蚊数据线</p>
 <p>其余按操作提示即可 </p>
+<h6 id="可能会遇到的问题："><a href="#可能会遇到的问题：" class="headerlink" title="可能会遇到的问题："></a>可能会遇到的问题：</h6><p>插上数据线充电图标不停闪，导致链接不上屏幕。可以使用以下命令</p>
+<p><code>sudo killall -STOP -c usbd</code></p>
 ]]></content>
       <categories>
         <category>life</category>
